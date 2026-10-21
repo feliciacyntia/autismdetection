@@ -1,0 +1,922 @@
+step,SUB_ID,SITE_ID,DX_LABEL,action,column,old_value,new_value,reason
+01_merge,51232,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51233,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51242,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51243,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51244,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51245,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51246,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51247,UCLA_1,ASD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51270,UCLA_1,TD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+01_merge,51310,UCLA_2,TD,DROPPED,,,,Tidak memiliki file sMRI T1w (gugur pada inner join notebook 03)
+02_phenotypic,50118,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50119,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50120,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50121,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50122,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50123,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50124,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50125,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50126,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50127,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50128,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50129,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50130,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50131,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50132,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50133,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50134,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50135,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50136,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50137,OLIN,ASD,FLAGGED,DX_GROUP,,,Inkonsistensi label: ASD (DX_GROUP=1) tetapi DSM_IV_TR=0 (kontrol)
+02_phenotypic,50432,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50433,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50434,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50435,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50437,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50438,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50440,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50441,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50443,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50444,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50447,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50448,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50449,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50456,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50459,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50460,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50461,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50462,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50463,USM,TD,FLAGGED,DX_GROUP,,,Inkonsistensi label: TD (DX_GROUP=2) tetapi ADOS_TOTAL > 0
+02_phenotypic,50030,PITT,TD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50125,OLIN,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50132,OLIN,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50155,OHSU,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50156,OHSU,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50276,UM_1,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50280,UM_1,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50293,UM_1,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50304,UM_1,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50308,UM_1,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50309,UM_1,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50311,UM_1,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50331,UM_1,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50339,UM_1,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50341,UM_1,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50361,UM_1,TD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50366,UM_1,TD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50367,UM_1,TD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50397,UM_2,ASD,MODIFIED,HANDEDNESS_CATEGORY,-9999,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,50432,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50433,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50434,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50435,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50436,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50437,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50438,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50439,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50440,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50441,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50442,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50443,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50444,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50445,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50446,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50447,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50448,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50449,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50450,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50451,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50452,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50453,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50454,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50455,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50456,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50457,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50458,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50459,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50460,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50461,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50462,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50463,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50464,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50465,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50466,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50467,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50468,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50469,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50470,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50471,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50472,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50473,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50474,USM,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50475,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50476,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50477,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50478,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50479,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50480,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50481,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50482,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50483,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50484,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50485,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50486,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50487,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50488,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50489,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50490,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50491,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50492,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50493,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50494,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50495,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50496,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50497,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50498,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50499,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50500,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50501,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50502,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50503,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50504,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50505,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50506,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50507,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50508,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50509,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50510,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50511,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50512,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50513,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50514,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50515,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50516,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50517,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50518,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50519,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50520,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50521,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50522,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50523,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50524,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50525,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50526,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50527,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50528,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50529,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50530,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50531,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50532,USM,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50727,LEUVEN_2,TD,MODIFIED,HANDEDNESS_CATEGORY,L->R,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50785,KKI,TD,MODIFIED,HANDEDNESS_CATEGORY,Mixed,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50792,KKI,ASD,MODIFIED,HANDEDNESS_CATEGORY,Mixed,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50798,KKI,ASD,MODIFIED,HANDEDNESS_CATEGORY,Mixed,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50807,KKI,ASD,MODIFIED,HANDEDNESS_CATEGORY,Mixed,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50816,KKI,TD,MODIFIED,HANDEDNESS_CATEGORY,Mixed,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50817,KKI,TD,MODIFIED,HANDEDNESS_CATEGORY,Mixed,Ambi,Harmonisasi kategori handedness ke R/L/Ambi
+02_phenotypic,50952,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50953,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50954,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50955,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50956,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50957,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50958,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50959,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50960,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50961,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50962,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50964,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50965,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50966,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50967,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50968,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50969,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50970,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50971,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50972,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50973,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50974,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50975,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50976,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50977,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50978,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50979,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50980,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50981,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50982,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50983,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50984,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50985,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50986,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50987,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50988,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50989,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50990,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50991,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50992,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50993,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50994,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50995,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50996,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50997,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50998,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,50999,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51000,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51001,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51002,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51003,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51006,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51007,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51008,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51009,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51010,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51011,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51012,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51013,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51014,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51015,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51016,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51017,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51018,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51019,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51020,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51021,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51023,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51024,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51025,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51027,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51028,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51029,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51030,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51032,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51033,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51034,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51035,NYU,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51036,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51038,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51039,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51040,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51041,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51042,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51044,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51045,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51046,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51047,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51048,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51049,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51050,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51051,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51052,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51053,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51054,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51055,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51056,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51057,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51058,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51060,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51061,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51062,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51063,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51064,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51065,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51066,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51067,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51068,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51069,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51070,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51072,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51073,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51074,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51076,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51077,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51078,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51079,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51080,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51081,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51082,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51083,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51084,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51085,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51086,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51087,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51088,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51089,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51090,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51091,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51093,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51094,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51095,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51096,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51097,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51098,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51099,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51100,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51101,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51102,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51103,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51104,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51105,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51106,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51107,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51108,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51109,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51110,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51111,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51112,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51113,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51114,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51115,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51116,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51117,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51118,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51119,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51120,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51121,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51122,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51124,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51125,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51126,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51127,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51128,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51129,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51130,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51131,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51146,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51147,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51148,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51149,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51150,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51151,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51152,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51153,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51154,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51155,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51156,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51159,NYU,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51330,MAX_MUN,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51331,MAX_MUN,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51473,CALTECH,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51556,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51556,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51557,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51557,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51558,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51558,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51559,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51559,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51560,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51560,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51561,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51561,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51562,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51562,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51563,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51563,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51564,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51564,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51565,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51565,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51566,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51566,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51567,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51567,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51568,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51568,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51569,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51569,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51570,SBL,TD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51570,SBL,TD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51571,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51571,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51572,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51572,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51573,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51574,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51574,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51575,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51575,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51576,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51576,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51577,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51577,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,Ambi,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51578,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,L,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51579,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51580,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51580,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51581,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51582,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51582,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51583,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51584,SBL,ASD,MODIFIED,FIQ,-9999.0,,Nilai khusus -9999 / karakter tidak valid diubah menjadi NaN
+02_phenotypic,51584,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+02_phenotypic,51585,SBL,ASD,MODIFIED,HANDEDNESS_CATEGORY,,R,"Kategori kosong diturunkan dari HANDEDNESS_SCORES (Edinburgh LQ, cutoff +/-40)"
+04_smri_qc_quality,50017,PITT,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50110,OLIN,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50120,OLIN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (noise)"
+04_smri_qc_quality,50122,OLIN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50126,OLIN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50133,OLIN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (noise)"
+04_smri_qc_quality,50136,OLIN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50137,OLIN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (noise)"
+04_smri_qc_quality,50185,SDSU,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,50191,SDSU,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,50192,SDSU,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50197,SDSU,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50207,SDSU,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,50211,SDSU,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50212,SDSU,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (noise); Rating PCP = maybe"
+04_smri_qc_quality,50216,SDSU,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (noise)"
+04_smri_qc_quality,50235,TRINITY,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50242,TRINITY,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50246,TRINITY,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion, large ventricles), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,50277,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)"
+04_smri_qc_quality,50281,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50283,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)"
+04_smri_qc_quality,50288,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe"
+04_smri_qc_quality,50296,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe"
+04_smri_qc_quality,50299,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (bad motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe"
+04_smri_qc_quality,50303,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50305,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50306,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe"
+04_smri_qc_quality,50307,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50309,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe"
+04_smri_qc_quality,50311,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50313,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50316,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe"
+04_smri_qc_quality,50317,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50322,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50323,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe"
+04_smri_qc_quality,50326,UM_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (Motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50371,UM_1,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (motion), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)"
+04_smri_qc_quality,50423,UM_2,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (stripe), rater3=fail (noise)"
+04_smri_qc_quality,50452,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50457,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50458,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50459,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50460,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50461,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50462,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50465,USM,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50489,USM,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (noise); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50511,USM,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50513,USM,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (no anat images); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50517,USM,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (half head); Anisotropi voxel > 1.5"
+04_smri_qc_quality,50560,YALE,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=fail (skull-striping fail), rater3=fail (noise)"
+04_smri_qc_quality,50617,YALE,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=fail (skull-striping fail), rater3=fail (headmotion)"
+04_smri_qc_quality,50618,YALE,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=fail (skull-striping fail; motion), rater3=fail (headmotion)"
+04_smri_qc_quality,50779,KKI,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (quality check)"
+04_smri_qc_quality,50784,KKI,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (less headmotion)"
+04_smri_qc_quality,50785,KKI,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50787,KKI,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (less headmotion)"
+04_smri_qc_quality,50788,KKI,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (less headmotion)"
+04_smri_qc_quality,50789,KKI,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50794,KKI,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50795,KKI,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50806,KKI,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,50815,KKI,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,50825,KKI,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=fail (skull-striping fail), rater3=fail (less headmotion)"
+04_smri_qc_quality,50826,KKI,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; motion artefacts), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51071,NYU,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,51160,STANFORD,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51165,STANFORD,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51166,STANFORD,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51174,STANFORD,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion), rater3=fail (headmotion); Anisotropi voxel > 1.5; Rating PCP = maybe"
+04_smri_qc_quality,51175,STANFORD,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51176,STANFORD,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (motion, large ventricles), rater3=fail (half head); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51186,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51190,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (noise); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51191,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (noise); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51193,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (noise); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51195,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (noise); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51196,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51199,STANFORD,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe"
+04_smri_qc_quality,51209,UCLA_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51213,UCLA_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (Motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51227,UCLA_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51238,UCLA_1,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; Motion), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51258,UCLA_1,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51263,UCLA_1,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (half head); Rating PCP = maybe"
+04_smri_qc_quality,51274,UCLA_1,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,51282,UCLA_1,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,51296,UCLA_2,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=fail (skull-striping fail; Motion bad), rater3=fail (headmotion)"
+04_smri_qc_quality,51312,UCLA_2,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51314,UCLA_2,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51316,UCLA_2,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail;), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51317,UCLA_2,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion)"
+04_smri_qc_quality,51348,MAX_MUN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; motion artefacts), rater3=fail (less headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe"
+04_smri_qc_quality,51352,MAX_MUN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; motion artefacts), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51353,MAX_MUN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail; motion artefacts), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe"
+04_smri_qc_quality,51355,MAX_MUN,ASD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=maybe (skull-striping fail), rater3=fail (headmotion); Rating PCP = maybe"
+04_smri_qc_quality,51358,MAX_MUN,TD,DROPPED,,,,"PCP anat QC fail [raw_quality]: rater2=OK (nan), rater3=fail (headmotion); FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)"
+04_smri_qc_review,50028,PITT,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50029,PITT,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50045,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50046,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50047,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50048,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50049,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50053,PITT,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50054,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50055,PITT,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50059,PITT,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50102,OLIN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50105,OLIN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50111,OLIN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50115,OLIN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50116,OLIN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50146,OHSU,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50166,OHSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50169,OHSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50170,OHSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50171,OHSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50200,SDSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50201,SDSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50217,SDSU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50243,TRINITY,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50257,TRINITY,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50259,TRINITY,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50265,TRINITY,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50272,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe
+04_smri_qc_review,50275,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe
+04_smri_qc_review,50276,UM_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50278,UM_1,ASD,FLAGGED,,,,sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50279,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50280,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50282,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50284,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50285,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50286,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50287,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50289,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50290,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50291,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50292,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50293,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50294,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50295,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50297,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50298,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50300,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50301,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50302,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50304,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50308,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform); Rating PCP = maybe
+04_smri_qc_review,50310,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50312,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50314,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50315,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50318,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50319,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50320,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50321,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50324,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50325,UM_1,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50327,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50328,UM_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50329,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50330,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50331,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50332,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50333,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50334,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50335,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50336,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50337,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50338,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50339,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50340,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50341,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50342,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50343,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50344,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50345,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50346,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50347,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50348,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50349,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50350,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50351,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50352,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50353,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50354,UM_1,TD,FLAGGED,,,,sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50355,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50356,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50357,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50358,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50359,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50360,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50361,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50362,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50363,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50364,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50365,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50366,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50367,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50368,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50369,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50370,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50372,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50373,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50374,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50375,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50376,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50377,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50378,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50379,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50380,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50381,UM_1,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50382,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50383,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50385,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50386,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50387,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50388,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50390,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50391,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50397,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50399,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50402,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50403,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50404,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Anisotropi voxel > 1.5
+04_smri_qc_review,50405,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50406,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50407,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50408,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50410,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50412,UM_2,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50414,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50415,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50416,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50417,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50418,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50421,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50422,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50424,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50425,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,50426,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50428,UM_2,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); sform_code = 0 (orientasi hanya dari qform)
+04_smri_qc_review,50432,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50433,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50434,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50435,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50436,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50437,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50438,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50439,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50440,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50441,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50442,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50443,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50444,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50445,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50446,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50447,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50448,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50449,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50450,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50451,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50453,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50454,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50455,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50456,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50463,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50464,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50466,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50467,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50468,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50469,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50470,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50471,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50472,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50473,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50474,USM,TD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50475,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50476,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50477,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50478,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50479,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50480,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50481,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50482,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50483,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50484,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50485,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50486,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50488,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50490,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50491,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50492,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50493,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50494,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50495,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50496,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50497,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50498,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50499,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50500,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50501,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50502,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50503,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50504,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50505,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50506,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50507,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50508,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50509,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50510,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50512,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50514,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50515,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,50516,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50518,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50519,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50520,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50521,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50522,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50523,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50524,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50525,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50526,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50527,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50528,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50529,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50530,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50531,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50532,USM,ASD,FLAGGED,,,,Anisotropi voxel > 1.5
+04_smri_qc_review,50553,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50554,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50556,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50559,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50562,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50564,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50565,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50566,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50567,YALE,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50570,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50571,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50573,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50574,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50575,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50576,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50577,YALE,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50605,YALE,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50609,YALE,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50610,YALE,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50611,YALE,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50628,YALE,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50643,CMU,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50645,CMU,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50646,CMU,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50650,CMU,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50651,CMU,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50652,CMU,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50654,CMU,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50655,CMU,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50657,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50658,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50660,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50661,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50663,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50664,CMU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50665,CMU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50666,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50667,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50668,CMU,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50694,LEUVEN_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50711,LEUVEN_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50793,KKI,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50802,KKI,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50804,KKI,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50808,KKI,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50810,KKI,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50818,KKI,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50819,KKI,TD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,50964,NYU,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50981,NYU,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,50983,NYU,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51036,NYU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51065,NYU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51070,NYU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51095,NYU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51106,NYU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51133,TRINITY,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51137,TRINITY,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51152,NYU,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51161,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,51162,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51163,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype)
+04_smri_qc_review,51164,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51167,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51168,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51169,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51170,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51171,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,51172,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51173,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51177,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Rating PCP = maybe
+04_smri_qc_review,51178,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51179,STANFORD,ASD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51180,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51181,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51182,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51183,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51184,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51185,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51187,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51188,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51189,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51192,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51194,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51197,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51198,STANFORD,TD,FLAGGED,,,,Anisotropi voxel > 1.5; Intensitas jenuh (voxel = batas maksimum dtype); Rating PCP = maybe
+04_smri_qc_review,51201,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51203,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51212,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51214,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51220,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51221,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51222,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51223,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51228,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51234,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51249,UCLA_1,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51252,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51253,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51254,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51256,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51257,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51259,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51260,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51261,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51267,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51268,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51273,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51277,UCLA_1,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51291,UCLA_2,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51293,UCLA_2,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51294,UCLA_2,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51295,UCLA_2,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51304,UCLA_2,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51306,UCLA_2,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51307,UCLA_2,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51308,UCLA_2,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51311,UCLA_2,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51315,UCLA_2,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51319,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51320,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51324,MAX_MUN,ASD,FLAGGED,,,,PCP rater 2: skull-stripping pipeline PCP gagal (cek ulang skull-stripping saat preprocessing)
+04_smri_qc_review,51326,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51330,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51331,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51334,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51340,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51342,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51344,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51345,MAX_MUN,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe
+04_smri_qc_review,51346,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51347,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51349,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51350,MAX_MUN,ASD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51354,MAX_MUN,ASD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,51356,MAX_MUN,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong)
+04_smri_qc_review,51357,MAX_MUN,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe
+04_smri_qc_review,51359,MAX_MUN,TD,FLAGGED,,,,FOV < 150 mm pada salah satu sumbu (indikasi otak terpotong); Rating PCP = maybe
+04_smri_qc_review,51364,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51373,MAX_MUN,TD,FLAGGED,,,,Rating PCP = maybe
+04_smri_qc_review,51456,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51457,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51458,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51459,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51460,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51461,CALTECH,ASD,FLAGGED,,,,Intensitas negatif; Rating PCP = maybe
+04_smri_qc_review,51462,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51463,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51465,CALTECH,ASD,FLAGGED,,,,Intensitas negatif; Rating PCP = maybe
+04_smri_qc_review,51466,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51467,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51468,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51469,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51471,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51472,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51473,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51474,CALTECH,ASD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51475,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51476,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51477,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51478,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51479,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51480,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51481,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51482,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51483,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51484,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51485,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51486,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51487,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51488,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51489,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51490,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51491,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51492,CALTECH,TD,FLAGGED,,,,Intensitas negatif
+04_smri_qc_review,51493,CALTECH,TD,FLAGGED,,,,Intensitas negatif

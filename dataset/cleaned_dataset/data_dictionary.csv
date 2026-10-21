@@ -1,0 +1,10 @@
+column,description,encoding,dtype,n_missing,missing_pct
+SUB_ID,ID subjek ABIDE I,integer unik,int64,0,0.0
+SITE_ID,Site akuisisi,20 kategori; untuk harmonisasi antar-site & stratified split,object,0,0.0
+DX_GROUP,Label diagnosis (target),"1 = ASD, 0 = TD (kode asli ABIDE: 1 = ASD, 2 = TD)",Int64,0,0.0
+AGE_AT_SCAN,Usia saat pemindaian,"tahun; rentang valid (5, 70)",float64,0,0.0
+SEX,Jenis kelamin,"1 = Laki-laki, 2 = Perempuan",Int64,0,0.0
+FIQ,Full-scale IQ,"rentang valid (40, 160); NaN = tidak tersedia (imputasi saat preprocessing, fit pada data latih)",float64,71,7.07
+HANDEDNESS_CATEGORY,Dominansi tangan,R / L / Ambi; sebagian diturunkan dari Edinburgh LQ (cutoff +/-40); NaN = tidak tersedia,object,14,1.39
+FIQ_missing,Indikator FIQ kosong,"1 = FIQ asli kosong/invalid, 0 = terisi",int64,0,0.0
+smri_path,Path citra T1w (.nii.gz),"relatif terhadap PROJECT_ROOT, pemisah '/'",object,0,0.0

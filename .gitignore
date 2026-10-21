@@ -1,0 +1,6 @@
+dataset/all_anat_T1w/
+dataset/fenotipik/
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
