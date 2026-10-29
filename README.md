@@ -35,8 +35,11 @@ notebook `06_modeling_report.ipynb`, ringkasan `07_ringkasan_insight.ipynb`.
   `repeated_fold_*`, `loso_site`, `loso_eligible`. Split inner (inner_train / inner_val, seed 42): `results/full_v2/splits.json`.
 - **QC**: `data/smri_preproc/qc_report.csv`, `qc_decisions.csv` (11 keputusan: 10 KEEP outlier_z, 50404 volume mask = missing),
   `status.csv`, `meta/` (log per subjek), `audit_full/` (audit konsistensi 1.002 subjek).
-- **Citra hasil preprocessing (853 dev)**: Hugging Face dataset `abide1-smri-preproc-05c` (link diisi setelah upload) —
-  `vol/{SUB_ID}.npy` float32 (1, 96, 112, 96), `mask/`, `nii/`, `xfm/`, `qc_figures/`, `templates/`, `SHA256SUMS`.
+- **Citra hasil preprocessing (853 dev)**: Hugging Face **https://huggingface.co/datasets/feliciacyntia/abide1-smri-prepro**
+  (5,2 GB) — `vol/{SUB_ID}.npy` float32 (1, 96, 112, 96) = input model, `mask/` uint8, `nii/` (volume + mask sebagai
+  NIfTI, isi sama dengan .npy), `mask_native/`, `xfm/` (affine ANTs), `qc_figures/`, `templates/` (MNI152), `SHA256SUMS`.
+  Hugging Face hanya berisi file besar; daftar subjek/label/fold, QC, dan log per subjek ada di repo ini (tanpa duplikat).
+  Unduh: `hf download feliciacyntia/abide1-smri-prepro --repo-type dataset --local-dir C:\ta_local\data\smri_preproc`.
   Letakkan isinya di `C:\ta_local\data\smri_preproc\` (lokasi default kode) atau set env var `TA06_IMAGE_ROOT` ke folder tsb.
 - **Tidak disertakan**: citra mentah ABIDE (unduh sendiri dari ABIDE/INDI setelah menyetujui ketentuannya) dan
   **149 subjek test held-out** (disimpan pemilik TA untuk evaluasi akhir sekali).

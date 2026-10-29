@@ -2,7 +2,7 @@
 
     .venv-model\\Scripts\\python.exe src\\upload_hf.py --stage                      # buat folder staging (hardlink) + verifikasi
     hf auth login                                                                  # sekali, token write
-    .venv-model\\Scripts\\python.exe src\\upload_hf.py --upload --repo-id USER/abide1-smri-preproc-05c
+    .venv-model\\Scripts\\python.exe src\\upload_hf.py --upload --repo-id feliciacyntia/abide1-smri-prepro
 
 Staging: C:\\ta_local\\hf_stage\\abide1-smri-preproc-05c (hardlink -> tidak memakan ruang tambahan; sumber tidak diubah).
 Upload memakai upload_large_folder (bisa dilanjutkan bila terputus: jalankan perintah yang sama lagi).
@@ -22,7 +22,8 @@ SRC = Path(r"C:\ta_local\data\smri_preproc")
 STAGE = Path(r"C:\ta_local\hf_stage\abide1-smri-preproc-05c")
 FP = "682404ae0f5d2624"
 PER_SUBJ = {"vol": ["{s}.npy"], "mask": ["{s}.npy"], "nii": ["{s}.nii.gz", "{s}_mask.nii.gz"],
-            "mask_native": ["{s}_mask_native.nii.gz"], "xfm": ["{s}_0GenericAffine.mat"], "qc_figures": ["{s}.png"], "meta": ["{s}.json"]}
+            "mask_native": ["{s}_mask_native.nii.gz"], "xfm": ["{s}_0GenericAffine.mat"], "qc_figures": ["{s}.png"]}
+# meta/ & metadata tidak diunggah: sudah ada di GitHub (data/folds.csv, data/smri_preproc/) -> tanpa duplikat
 
 
 def link(src, dst):
@@ -53,16 +54,6 @@ def stage():
                 link(f, STAGE / d / f.name)
     for f in (SRC / "templates").iterdir():
         link(f, STAGE / "templates" / f.name)
-    md = STAGE / "metadata"; md.mkdir(parents=True, exist_ok=True)
-    cols = ["SUB_ID", "SITE_ID", "label", "fold_strat", "loso_site", "loso_eligible"]
-    dev[cols].to_csv(md / "subjects_dev.csv", index=False)
-    for name in ("qc_report.csv", "qc_decisions.csv", "status.csv"):
-        t = pd.read_csv(SRC / name)
-        k = "SUB_ID" if "SUB_ID" in t.columns else "subject_id"
-        t[t[k].astype(int).isin(ids)].to_csv(md / name.replace(".csv", "_dev.csv"), index=False)
-    for name in ("preprocess_config.json", "reference_space.json"):
-        shutil.copy2(SRC / name, md / name)
-    shutil.copy2(SRC / "audit_full" / "audit_full.json", md / "audit_full.json")
     shutil.copy2(PROJECT / "src" / "hf_dataset_card.md", STAGE / "README.md")
     # verifikasi: tidak ada subjek test, jumlah file benar
     files = [f for f in STAGE.rglob("*") if f.is_file() and ".cache" not in f.parts]
