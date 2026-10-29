@@ -1,0 +1,3 @@
+SUB_ID,SITE_ID,step,reason,evidence
+50279,UM_1,05a,citra T1w identik (hash voxel sama) tertaut ke dua SUB_ID dengan fenotipik berbeda; pemilik fenotipik yang benar tidak dapat ditentukan,"audit_flags: group_id=50279, smri_voxel_sha256=0fd0c25649564a65…; fenotipik berbeda: AGE_AT_SCAN=[12.2, 11.2]; FIQ=[87.5, 130.5]"
+50286,UM_1,05a,citra T1w identik (hash voxel sama) tertaut ke dua SUB_ID dengan fenotipik berbeda; pemilik fenotipik yang benar tidak dapat ditentukan,"audit_flags: group_id=50279, smri_voxel_sha256=0fd0c25649564a65…; fenotipik berbeda: AGE_AT_SCAN=[12.2, 11.2]; FIQ=[87.5, 130.5]"

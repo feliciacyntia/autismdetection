@@ -1,0 +1,53 @@
+{
+ "run_id": "20261026_154906_subset200",
+ "mode": "subset200",
+ "args": {
+  "mode": "subset200",
+  "resume": true,
+  "dry_run": false,
+  "chunk_size": null,
+  "max_retries": null,
+  "retry_failed": false,
+  "limit": null,
+  "subjects": null,
+  "work_dir": null,
+  "input_root": null,
+  "output_root": "C:\\ta_local",
+  "hdbet_mode": null,
+  "break_stale_lock": false,
+  "clean_work": true
+ },
+ "config_fp": "682404ae0f5d2624",
+ "log": "C:\\ta_local\\data\\smri_preproc\\logs\\run_20261026_154856.log",
+ "n_subjects": 200,
+ "n_todo": 160,
+ "preflight": {
+  "ram_available_gb": 6.54,
+  "min_start_ram_gb": 4.0,
+  "gpu": {
+   "total": 4096.0,
+   "used": 0.0,
+   "free": 3979.0,
+   "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  "disk_work_free_gb": 195.4,
+  "disk_out_free_gb": 195.4,
+  "disk_work_need_gb": 20.8,
+  "disk_out_need_gb": 1.9,
+  "problems": []
+ },
+ "counts": {
+  "ok": 22,
+  "failed": 0,
+  "skipped": 0
+ },
+ "stopped": true,
+ "stop_reason": "stop-file C:\\ta_work\\05c\\STOP",
+ "wall_s": 2335.11182308197,
+ "mean_s_per_ok": 104.67254216020757,
+ "vram_peak_mib": 2684.0,
+ "ram_min_available_gb": 3.2524871826171875,
+ "n_valid_after": 62,
+ "qc_flagged": 0,
+ "finished": "2026-10-26T16:28:01"
+}

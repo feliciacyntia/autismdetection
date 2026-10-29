@@ -4,3 +4,30 @@ dataset/fenotipik/
 venv/
 __pycache__/
 .ipynb_checkpoints/
+.venv-hdbet/
+.venv-model/
+.venv-tabpfn/
+
+# --- data besar -> Hugging Face (lihat README: "Data hasil preprocessing") ---
+data/work/
+data/smri_preproc/vol/
+data/smri_preproc/mask/
+data/smri_preproc/nii/
+data/smri_preproc/mask_native/
+data/smri_preproc/xfm/
+data/smri_preproc/qc_figures/
+data/smri_preproc/templates/
+data/smri_preproc/_superseded/
+data/smri_preproc/repro/
+data/vol/
+data/mask/
+data/templates/
+data/xfm/
+data/qc_figures/
+
+# --- checkpoint model & file sementara ---
+*.pt
+ckpt/
+run.lock
+STOP
+*.tmp

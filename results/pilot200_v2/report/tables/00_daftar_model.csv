@@ -1,0 +1,25 @@
+modalitas,model,kelompok,grup asli,unit run,status,alasan
+Fenotipik,logreg,klasik,CNN/ML klasik,done=5,kandidat terkunci,
+Fenotipik,xgb,klasik,CNN/ML klasik,done=5,diuji – dikeluarkan,di bawah kandidat terpilih menurut inner val
+Fenotipik,mlp_tab,klasik,CNN/ML klasik,done=5,kandidat terkunci,
+Fenotipik,tabm,modern,arsitektur modern,done=5,kandidat terkunci,
+ROI,roi_logreg,klasik,CNN/ML klasik (ROI),done=5,diuji – dikeluarkan,di bawah kandidat terpilih menurut inner val
+ROI,roi_xgb,klasik,CNN/ML klasik (ROI),done=5,diuji – dikeluarkan,di bawah kandidat terpilih menurut inner val
+ROI,roi_tabm,modern,arsitektur modern (ROI),done=5,diuji – dikeluarkan,di bawah kandidat terpilih menurut inner val
+ROI,roi_logreg_cb,klasik,CNN/ML klasik (ROI),done=5,kandidat terkunci,
+ROI,roi_xgb_cb,klasik,CNN/ML klasik (ROI),done=5,diuji – dikeluarkan,di bawah kandidat terpilih menurut inner val
+ROI,roi_tabm_cb,modern,arsitektur modern (ROI),done=5,kandidat terkunci,
+Citra 2.5D,effnet_b0,klasik,pretrained: CNN klasik,done=5,kandidat terkunci,
+Citra 2.5D,resnet18,klasik,pretrained: CNN klasik,done=5,kandidat terkunci,
+Citra 2.5D,scratch2d,dari nol,CNN dari nol,done=5,kandidat terkunci, | hasil v2 TIDAK VALID (bug BN) -> dipakai rerun bugfix BN
+Citra 2.5D,dinov2_lp,foundation,foundation model (frozen),done=5,diuji – dikeluarkan,"AUC inner val terendah (0,45/0,41)"
+Citra 2.5D,dinov2_head,foundation,foundation model (frozen),done=5,diuji – dikeluarkan,"AUC inner val terendah (0,45/0,41)"
+Citra 2.5D,convnextv2_t,modern,pretrained: arsitektur modern,done=5,diuji – dikeluarkan,"AUC inner val 0,463 dan biaya ~5x model lain"
+Citra 3D,scratch3d,dari nol,CNN dari nol,done=5,kandidat terkunci, | hasil v2 TIDAK VALID (bug BN) -> dipakai rerun bugfix BN
+Citra 3D,sfcn_lp,klasik,pretrained: CNN otak (frozen),done=5,diuji – dikeluarkan,"gagal cek kewajaran brain age (r=-0,08; prediksi ~60 th konstan) -> input/bobot tidak cocok; dilaporkan sebagai percobaan gagal, tidak dipakai sampai preprocessing SFCN terverifikasi"
+Citra 3D,sfcn_head,klasik,pretrained: CNN otak (frozen),done=5,diuji – dikeluarkan,"gagal cek kewajaran brain age (r=-0,08; prediksi ~60 th konstan) -> input/bobot tidak cocok; dilaporkan sebagai percobaan gagal, tidak dipakai sampai preprocessing SFCN terverifikasi"
+-,tabpfn_v2,-,-,-,ditunda,opsional (.venv-tabpfn)
+-,dinov3,-,-,-,ditunda,gated
+-,brainiac,-,-,-,ditunda,verifikasi data pretraining
+-,ssl_pretraining,-,-,-,ditunda,perlu izin dosbim
+-,subgroup,-,-,-,ditunda,perlu izin dosbim

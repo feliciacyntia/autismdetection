@@ -1,0 +1,386 @@
+{
+ "config_hash": "560c89845312e371",
+ "config": {
+  "pilot_version": "06-pilot-v2",
+  "seed": 42,
+  "inner_val_frac": 0.2,
+  "preproc_config_fp": "682404ae0f5d2624",
+  "pheno_features": [
+   "AGE_AT_SCAN",
+   "SEX",
+   "FIQ",
+   "volume_mask_ml"
+  ],
+  "missing_max_gap_pp": 10.0,
+  "threshold": 0.5,
+  "bootstrap_n": 2000,
+  "slices": {
+   "fractions": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+   ],
+   "planes": [
+    "sag",
+    "cor",
+    "ax"
+   ],
+   "size": 224,
+   "channels": "3 slice bersebelahan (p-1, p, p+1) sebagai RGB",
+   "intensity": "x01 = clip((z+3)/6, 0, 1) di dalam mask, 0 di luar; lalu normalisasi mean/std ImageNet"
+  },
+  "augment": {
+   "rot_deg": 5.0,
+   "shift_vox": 3.0,
+   "int_scale": 0.1,
+   "int_shift": 0.1
+  },
+  "slice_jitter_vox": 2,
+  "tabular": {
+   "inner_cv_folds": 5,
+   "es_frac": 0.2,
+   "note": "model tabel: OOF inner CV 5-fold pada train luar (untuk seleksi & stacking), model akhir di-fit ulang pada seluruh train luar; ES model iteratif memakai 20% train"
+  },
+  "roi": {
+   "atlas": "Harvard-Oxford cortl+sub maxprob thr25 2mm (FSL) -> grid final 05c",
+   "features": [
+    "mean",
+    "sd"
+   ],
+   "min_voxels": 10,
+   "note": "registrasi afin saja -> volume per region dikeluarkan; fitur = mean & SD intensitas z-score"
+  },
+  "combat": {
+   "tool": "neuroHarmonize learn + apply kustom (diverifikasi identik)",
+   "covariates": [
+    "AGE_AT_SCAN",
+    "SEX"
+   ],
+   "no_diagnosis": true,
+   "min_site_n": 2,
+   "unseen_site": "tidak diharmonisasi & ditandai (berlaku juga untuk LOSO)"
+  },
+  "models": {
+   "logreg": {
+    "kind": "pheno",
+    "group": "CNN/ML klasik",
+    "C": 1.0
+   },
+   "mlp_tab": {
+    "kind": "pheno",
+    "group": "CNN/ML klasik",
+    "hidden": [
+     64,
+     32
+    ],
+    "dropout": 0.2,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "epochs": 400,
+    "patience": 40,
+    "batch": 32
+   },
+   "tabm": {
+    "kind": "pheno",
+    "group": "arsitektur modern",
+    "d_block": 128,
+    "n_blocks": 2,
+    "k": 32,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "epochs": 400,
+    "patience": 40,
+    "batch": 32
+   },
+   "roi_logreg_cb": {
+    "kind": "roi",
+    "base": "logreg",
+    "combat": true,
+    "group": "CNN/ML klasik (ROI)"
+   },
+   "roi_tabm_cb": {
+    "kind": "roi",
+    "base": "tabm",
+    "combat": true,
+    "group": "arsitektur modern (ROI)"
+   },
+   "effnet_b0": {
+    "kind": "2d",
+    "group": "pretrained: CNN klasik",
+    "timm": "efficientnet_b0.ra_in1k",
+    "train_modules": [
+     "blocks.6",
+     "conv_head",
+     "bn2"
+    ],
+    "lp_epochs": 5,
+    "freeze_bn": true,
+    "epochs": 40,
+    "batch": 4,
+    "lr_head": 0.001,
+    "lr_backbone": 3e-05,
+    "wd": 0.0001,
+    "budget_min": 60,
+    "min_epochs": 5,
+    "patience": 10,
+    "smooth": 3,
+    "warmup": 2
+   },
+   "resnet18": {
+    "kind": "2d",
+    "group": "pretrained: CNN klasik",
+    "timm": "resnet18.a1_in1k",
+    "train_modules": [
+     "layer4"
+    ],
+    "lp_epochs": 5,
+    "freeze_bn": true,
+    "epochs": 40,
+    "batch": 4,
+    "lr_head": 0.001,
+    "lr_backbone": 3e-05,
+    "wd": 0.0001,
+    "budget_min": 60,
+    "min_epochs": 5,
+    "patience": 10,
+    "smooth": 3,
+    "warmup": 2
+   },
+   "scratch2d": {
+    "kind": "scratch2d",
+    "group": "CNN dari nol",
+    "channels": [
+     32,
+     64,
+     128,
+     256
+    ],
+    "img_size": 112,
+    "dropout": 0.5,
+    "epochs": 60,
+    "batch": 4,
+    "lr": 0.001,
+    "wd": 0.01,
+    "budget_min": 60,
+    "min_epochs": 5,
+    "patience": 10,
+    "smooth": 3,
+    "warmup": 2,
+    "bn_recal": "inner_train_tanpa_augmentasi"
+   },
+   "scratch3d": {
+    "kind": "scratch3d",
+    "group": "CNN dari nol",
+    "channels": [
+     16,
+     32,
+     64,
+     128,
+     128
+    ],
+    "se_ratio": 8,
+    "dropout": 0.5,
+    "epochs": 60,
+    "batch": 4,
+    "lr": 0.001,
+    "wd": 0.01,
+    "budget_min": 75,
+    "min_epochs": 5,
+    "patience": 10,
+    "smooth": 3,
+    "warmup": 2,
+    "bn_recal": "inner_train_tanpa_augmentasi"
+   }
+  },
+  "sfcn": {
+   "kind": "sfcn",
+   "group": "CNN klasik (pretrained otak)",
+   "weights": "sfcn/run_20190719_00_epoch_best_mae.p",
+   "weights_sha256": "f9197c92486a8dba7fd87bb9f2ecc4f42f7c9628b9150d1b95c8a5ac10721ad3",
+   "frozen": [
+    "conv_0",
+    "conv_1",
+    "conv_2",
+    "conv_3"
+   ],
+   "train_modules": [
+    "conv_4",
+    "conv_5",
+    "head"
+   ],
+   "input": "upsample x2 (trilinear) -> crop MNI 160x192x160 (offset UKB 11,13,11) -> flip sumbu x (RAS->LAS UKB) -> intensitas (z - min_mask) di mask, dibagi rerata volume",
+   "bn": "BatchNorm blok dilatih tetap eval (statistik UKB)",
+   "epochs": 60,
+   "patience": 10,
+   "batch": 8,
+   "lr_head": 0.001,
+   "lr_backbone": 0.0001,
+   "wd": 0.0001,
+   "budget_min": 60
+  },
+  "dinov2": {
+   "kind": "dino",
+   "group": "foundation model",
+   "timm": "vit_small_patch14_dinov2.lvd142m",
+   "img_size": 224,
+   "feature": "concat(CLS, mean patch) = 768-d per slice",
+   "epochs": 300,
+   "patience": 30,
+   "batch": 16,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "budget_min": 30
+  },
+  "modality": {
+   "pheno": [
+    "logreg",
+    "mlp_tab",
+    "tabm"
+   ],
+   "roi": [
+    "roi_logreg_cb",
+    "roi_tabm_cb"
+   ],
+   "img25d": [
+    "effnet_b0",
+    "resnet18",
+    "scratch2d"
+   ],
+   "img3d": [
+    "scratch3d"
+   ]
+  },
+  "fusion": {
+   "scenarios": {
+    "PR": [
+     "pheno",
+     "roi"
+    ],
+    "P25": [
+     "pheno",
+     "img25d"
+    ],
+    "P3": [
+     "pheno",
+     "img3d"
+    ],
+    "PRI": [
+     "pheno",
+     "roi",
+     "img"
+    ]
+   },
+   "pca_dims": 16,
+   "selection": "AUC pooled inner validation lima fold",
+   "note": "stacking pheno+ROI dilatih pada OOF inner CV (160 subjek/fold); dengan citra dilatih pada inner holdout (\u00b132 subjek/fold) karena model citra tidak dilatih ulang per inner fold"
+  },
+  "ensemble": {
+   "top_k": 3,
+   "rule": "rata-rata probabilitas 3 model teratas menurut AUC inner val (semua modalitas)"
+  },
+  "sfcn_sanity_rule": {
+   "min_pred_sd_years": 2.0,
+   "min_abs_r_adult": 0.3,
+   "action": "model SFCN tetap dijalankan & dilaporkan, tetapi dikeluarkan dari seleksi/fusion bila cek kewajaran brain age gagal"
+  },
+  "learned_criterion": "train loss terakhir < 0,98 x epoch 1 DAN (val loss halus terbaik < loss prediksi konstan ATAU AUC inner val di epoch terbaik >= 0,55)",
+  "deferred": {
+   "tabpfn_v2": "opsional (.venv-tabpfn)",
+   "dinov3": "gated",
+   "brainiac": "verifikasi data pretraining",
+   "ssl_pretraining": "perlu izin dosbim",
+   "subgroup": "perlu izin dosbim"
+  },
+  "order": [
+   "logreg",
+   "mlp_tab",
+   "tabm",
+   "cache_roi",
+   "roi_logreg_cb",
+   "roi_tabm_cb",
+   "effnet_b0",
+   "resnet18",
+   "scratch2d",
+   "scratch3d",
+   "EMBCOMBAT",
+   "FUSION",
+   "ENSEMBLE"
+  ],
+  "subset": "all",
+  "data_hashes": {
+   "folds.csv": "48f8e8bf9b8df9b7ce96808dda4f2c450c084ac7de22fad46ff89cfe0fe285b8",
+   "subset_20pct.csv": null,
+   "qc_decisions.csv": "e02e1d02b21b85fdad1b90942630367ea11276ea81cfcf4d8941c7b4143b4a80",
+   "atlas": "84d0b0e0d7a3cbf529d303b6ceda18f5ee31d2b63319113da6aad941c95ddc99"
+  },
+  "versions": {
+   "python": "3.12.3",
+   "numpy": "2.1.1",
+   "pandas": "2.3.1",
+   "scikit-learn": "1.7.0",
+   "torch": "2.5.1+cu121",
+   "torchvision": "0.20.1+cu121",
+   "timm": "1.0.22",
+   "xgboost": "3.4.1",
+   "lightgbm": "4.7.0",
+   "tabm": "0.0.3",
+   "neuroHarmonize": "2.4.5",
+   "neuroCombat": "0.2.12"
+  },
+  "locked_from": {
+   "file": "C:\\ta_local\\results\\pilot200_v2\\locked_config_kandidat.json",
+   "sha256": "f4eed20212e906cb1ad2e67ec46deb640113ff23f1ae4d6e5857dc82bf452fad",
+   "kandidat": [
+    "mlp_tab",
+    "tabm",
+    "logreg",
+    "roi_tabm_cb",
+    "roi_logreg_cb",
+    "resnet18",
+    "effnet_b0",
+    "scratch2d",
+    "scratch3d"
+   ],
+   "fusion": {
+    "utama": "F1_stack_logreg",
+    "pembanding": [
+     "F1_mean_prob",
+     "F2_pca16_logreg"
+    ],
+    "skenario": [
+     "PR",
+     "P25",
+     "P3",
+     "PRI"
+    ]
+   },
+   "threshold": {
+    "dilaporkan": [
+     "0,5 tetap",
+     "Youden dari inner validation"
+    ],
+    "aturan_youden": "Per fold: threshold = argmax(sensitivitas + spesifisitas - 1) pada probabilitas inner validation fold tsb (model tabel: bagian inner_val dari OOF inner CV; model citra/probe: inner holdout; fusion: part inner_cv = cross_val_predict 5-fold pada set latih stacker, atau rerata probabilitas inner anggota); seri -> threshold terdekat 0,5; diterapkan ke test fold yang sama. Prediksi ASD bila p >= threshold. Implementasi: pilot_common.youden_threshold. Tidak pernah memakai data test.",
+    "dikunci": "2026-10-27"
+   },
+   "bugfix": [
+    {
+     "tanggal": "2026-10-27",
+     "model": [
+      "scratch2d",
+      "scratch3d"
+     ],
+     "jenis": "bugfix (bukan tuning)",
+     "masalah": "running stats BatchNorm basi saat eval (overfit test: loss train ~0,02-0,08 tetapi eval 12-17, akurasi 0,5)",
+     "perbaikan": "statistik BN dihitung ulang (rerata kumulatif) dari inner_train tanpa augmentasi sebelum tiap evaluasi dan prediksi akhir (pilot_models.recalibrate_bn); val/test tidak dipakai",
+     "hasil_lama": "pilot200_v2/units/scratch2d|scratch3d ditandai TIDAK VALID (bug BN), tidak dihapus",
+     "rerun": "C:\\ta_local\\results\\pilot200_v2_bnfix"
+    }
+   ]
+  },
+  "budget_scale": 5.0
+ },
+ "created": "2026-10-28T22:49:04"
+}

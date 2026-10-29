@@ -1,0 +1,30 @@
+2026-10-26 12:24:55 | INFO    | 05c 05c-v2.1 | mode=pilot | resume=True | dry_run=False | WORK_DIR=C:\ta_work\05c | input=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR | out=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc
+2026-10-26 12:24:55 | INFO    | HD-BET python=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\python.exe | CLI=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\hd-bet.exe
+2026-10-26 12:25:04 | INFO    | Subjek mode pilot: 20 (dev 20, test 0) | valid (fp 682404ae0f5d2624): 8 | ada checkpoint: 8 | akan diproses: 12
+2026-10-26 12:25:04 | INFO    | Versi: antspyx 0.6.3 | nibabel 5.4.2 | hd-bet 2.0.1 | nnunetv2 2.8.1 | torch 2.5.1+cu121 | bobot HD-BET sha256 d31dc59b4c5f
+2026-10-26 12:25:04 | INFO    | Preflight: RAM 4.36 GiB (min mulai 4.0) | VRAM bebas 3979.0 MiB | disk WORK 182.9/3.4 GB | disk data 182.9/1.1 GB
+2026-10-26 12:27:08 | INFO    | SUB_ID 50267: ok (124 s)
+2026-10-26 12:27:10 | INFO    | Progres 1/12 | ok 1 gagal 0 | chunk 125 s | rata-rata 124 s/subjek | sisa ±23 menit | RAM 4.38→3.88 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:29:15 | INFO    | SUB_ID 50329: ok (126 s)
+2026-10-26 12:29:17 | INFO    | Progres 2/12 | ok 2 gagal 0 | chunk 127 s | rata-rata 125 s/subjek | sisa ±21 menit | RAM 3.88→4.31 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:31:06 | INFO    | SUB_ID 50422: ok (109 s)
+2026-10-26 12:31:07 | INFO    | Progres 3/12 | ok 3 gagal 0 | chunk 111 s | rata-rata 121 s/subjek | sisa ±18 menit | RAM 4.31→4.55 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:34:14 | INFO    | SUB_ID 50492: ok (187 s)
+2026-10-26 12:34:16 | INFO    | Progres 4/12 | ok 4 gagal 0 | chunk 188 s | rata-rata 137 s/subjek | sisa ±18 menit | RAM 4.55→4.45 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:36:17 | INFO    | SUB_ID 50605: ok (122 s)
+2026-10-26 12:36:19 | INFO    | Progres 5/12 | ok 5 gagal 0 | chunk 123 s | rata-rata 135 s/subjek | sisa ±16 menit | RAM 4.45→4.39 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:38:23 | INFO    | SUB_ID 50699: ok (125 s)
+2026-10-26 12:38:25 | INFO    | Progres 6/12 | ok 6 gagal 0 | chunk 126 s | rata-rata 133 s/subjek | sisa ±13 menit | RAM 4.39→4.28 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:40:37 | INFO    | SUB_ID 50745: ok (132 s)
+2026-10-26 12:40:38 | INFO    | Progres 7/12 | ok 7 gagal 0 | chunk 133 s | rata-rata 133 s/subjek | sisa ±11 menit | RAM 4.28→4.00 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:42:40 | INFO    | SUB_ID 50811: ok (122 s)
+2026-10-26 12:42:42 | INFO    | Progres 8/12 | ok 8 gagal 0 | chunk 124 s | rata-rata 132 s/subjek | sisa ±9 menit | RAM 4.00→4.13 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:44:35 | INFO    | SUB_ID 51275: ok (113 s)
+2026-10-26 12:44:37 | INFO    | Progres 9/12 | ok 9 gagal 0 | chunk 115 s | rata-rata 130 s/subjek | sisa ±7 menit | RAM 4.13→4.06 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:46:28 | INFO    | SUB_ID 51308: ok (112 s)
+2026-10-26 12:46:30 | INFO    | Progres 10/12 | ok 10 gagal 0 | chunk 113 s | rata-rata 128 s/subjek | sisa ±4 menit | RAM 4.06→4.11 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:48:17 | INFO    | SUB_ID 51351: ok (108 s)
+2026-10-26 12:48:18 | INFO    | Progres 11/12 | ok 11 gagal 0 | chunk 109 s | rata-rata 127 s/subjek | sisa ±2 menit | RAM 4.11→3.98 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:50:14 | INFO    | SUB_ID 51473: ok (116 s)
+2026-10-26 12:50:15 | INFO    | Progres 12/12 | ok 12 gagal 0 | chunk 117 s | rata-rata 126 s/subjek | sisa ±0 menit | RAM 3.98→3.98 GiB | VRAM dipakai 0 MiB
+2026-10-26 12:50:17 | INFO    | RINGKASAN run ini: success 12 | failed 0 | skipped 0 | flagged (semua output valid) 0 | total 25.2 menit | valid 20/20 | tuntas

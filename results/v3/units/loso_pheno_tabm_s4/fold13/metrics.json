@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 55,
+  "balanced_accuracy": 0.573252688172043,
+  "f1_macro": 0.535629854778791,
+  "auc": 0.614247311827957,
+  "sensitivity": 0.3548387096774194,
+  "specificity": 0.7916666666666666
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "UCLA_1",
+  "seed": 4055,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

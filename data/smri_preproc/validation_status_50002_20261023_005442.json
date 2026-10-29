@@ -1,0 +1,72 @@
+{
+ "SUB_ID": 50002,
+ "started": "2026-10-23T00:54:42",
+ "status": "error",
+ "log": "C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\data\\smri_preproc\\logs\\validate_50002_20261023_005442.log",
+ "work_dir": "C:\\ta_work\\05c",
+ "torch_main": {
+  "version": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_version": "12.1",
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "torch_venv": {
+  "version": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_version": "12.1",
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "gpu_start": {
+  "total": 4096.0,
+  "used": 0.0,
+  "free": 3979.0,
+  "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "preflight": {
+  "ram_available_gb": 7.36,
+  "min_start_ram_gb": 4.0,
+  "gpu": {
+   "total": 4096.0,
+   "used": 0.0,
+   "free": 3979.0,
+   "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  "disk_work_free_gb": 186.8,
+  "disk_out_free_gb": 186.8,
+  "disk_work_need_gb": 2.1,
+  "disk_out_need_gb": 1.0,
+  "problems": []
+ },
+ "devices": {
+  "reorient": "CPU (nibabel)",
+  "n4": "CPU (ANTs/ITK; tidak ada implementasi GPU)",
+  "hdbet_runner": "cuda (torch, venv)",
+  "hdbet_cli": "cuda (torch, venv)",
+  "registration": "CPU (ANTs; tidak ada implementasi GPU)",
+  "resample_intensity_crop": "CPU (ANTs/numpy)"
+ },
+ "config_fp": "189594aa076d87d4",
+ "versions": {
+  "antspyx": "0.6.3",
+  "nibabel": "5.4.2",
+  "numpy": "2.1.1",
+  "nilearn": "0.13.1",
+  "hdbet_venv": {
+   "hd-bet": "2.0.1",
+   "nnunetv2": "2.8.1",
+   "SimpleITK": "2.5.6",
+   "numpy": "2.1.1",
+   "torch": "2.5.1+cu121",
+   "torch_cuda_build": "12.1",
+   "cuda_available": true,
+   "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+   "params_dir": "C:\\Users\\Lenovo\\hd-bet_params\\release_2.0.0",
+   "params_url": "https://zenodo.org/records/14445620/files/release_v1.5.0.zip?download=1"
+  }
+ },
+ "hdbet_weights_sha256": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52",
+ "error": "MemoryGuardError: HD-BET dihentikan: RAM tersedia 1.34 GiB < 1.5 GiB.",
+ "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\src\\validate_05c.py\", line 93, in <module>\n    res = sp.validate_runner_vs_cli(cfg, fp, space, SID)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\src\\smri_preprocessing.py\", line 1193, in validate_runner_vs_cli\n    run_info = run_hdbet(cfg, vdir / \"in\", vdir / \"runner\", mode=\"runner\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\src\\smri_preprocessing.py\", line 857, in run_hdbet\n    raise MemoryGuardError(f\"HD-BET dihentikan: RAM tersedia {killed:.2f} GiB < {cfg.min_free_ram_gb} GiB.\")\nsmri_preprocessing.MemoryGuardError: HD-BET dihentikan: RAM tersedia 1.34 GiB < 1.5 GiB.\n",
+ "cuda_errors": [],
+ "finished": "2026-10-23T00:56:33"
+}

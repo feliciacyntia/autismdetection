@@ -1,0 +1,26 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.6438223938223938,
+  "f1_macro": 0.6441558441558441,
+  "auc": 0.6542256542256543,
+  "sensitivity": 0.5714285714285714,
+  "specificity": 0.7162162162162162
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.559810907097835,
+  "f1_macro": 0.5483295259851514,
+  "auc": 0.5782406138668128,
+  "sensitivity": 0.3780487804878049,
+  "specificity": 0.7415730337078652
+ },
+ "info": {
+  "seconds": 14.69367504119873,
+  "base": "tabm",
+  "combat": false,
+  "n_features_out": 6,
+  "combat_unseen_inner": 0,
+  "combat_unseen_test": 0
+ }
+}

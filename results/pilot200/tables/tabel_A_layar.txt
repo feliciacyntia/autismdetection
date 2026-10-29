@@ -1,0 +1,22 @@
+
+====================================================================================================
+TABEL A — FENOTIPIK (test per fold mean±SD; pooled OOF + 95% CI bootstrap 2000x)
+★ = terbaik menurut AUC pooled inner validation lima fold (aturan seleksi, bukan skor test)
+====================================================================================================
+   model status terbaik  AUC inner val BA (mean±SD) F1m (mean±SD) AUC (mean±SD) Sens (mean±SD) Spes (mean±SD)   BA pooled [95% CI]  AUC pooled [95% CI]
+majority   done                  0.500  0.500±0.000   0.344±0.015   0.500±0.000    0.000±0.000    1.000±0.000 0.500 [0.500, 0.500] 0.500 [0.500, 0.500]
+  logreg   done                  0.493  0.584±0.088   0.582±0.090   0.577±0.084    0.557±0.143    0.611±0.106 0.584 [0.515, 0.649] 0.580 [0.497, 0.659]
+     xgb   done       ★          0.553  0.534±0.084   0.509±0.104   0.550±0.108    0.497±0.183    0.571±0.275 0.523 [0.457, 0.594] 0.537 [0.461, 0.616]
+ mlp_tab   done                  0.528  0.535±0.043   0.495±0.102   0.579±0.060    0.551±0.262    0.519±0.301 0.536 [0.461, 0.605] 0.569 [0.483, 0.648]
+    tabm   done                  0.533  0.535±0.081   0.528±0.080   0.563±0.055    0.528±0.182    0.541±0.139 0.535 [0.464, 0.602] 0.535 [0.450, 0.615]
+
+Missing per fitur per grup (%):
+       feature  missing_pct_ASD  missing_pct_TD  gap_pp  used
+   AGE_AT_SCAN             0.00            0.00    0.00  True
+           SEX             0.00            0.00    0.00  True
+           FIQ             5.26            7.62    2.36  True
+volume_mask_ml             1.05            0.00    1.05  True
+
+Tidak ada model dengan BA pooled > 0.75 (tidak ada tanda leakage dari angka ini).
+Catatan: pilot n=200 (±40 subjek test per fold) -> CI lebar; peringkat hanya indikasi.
+====================================================================================================

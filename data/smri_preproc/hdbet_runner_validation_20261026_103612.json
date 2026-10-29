@@ -1,0 +1,62 @@
+{
+ "SUB_ID": 50002,
+ "cli_source": "salinan terverifikasi dari C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\data\\work\\hdbet_validation\\cli\\50002_bet.nii.gz",
+ "shape_equal": true,
+ "affine_max_diff": 0.0,
+ "dice": 1.0,
+ "mask_bitwise_identical": true,
+ "n_voxel_diff": 0,
+ "vol_shape_equal": true,
+ "vol_max_abs_diff": 0.0,
+ "vol_corr": 1.0,
+ "vol_bitwise_identical": true,
+ "runner": {
+  "seconds": 64.27994418144226,
+  "vram_peak_mib": 3030.0,
+  "ram_min_available_gb": 3.4306716918945312,
+  "runner": {
+   "n_inputs": 1,
+   "n_masks": 1,
+   "missing": [],
+   "model_load_seconds": 5.2999982833862305,
+   "predict_seconds": 49.837846755981445,
+   "tta": true,
+   "device": "cuda",
+   "np_preprocessing": 1,
+   "np_export": 1,
+   "sequential": true
+  }
+ },
+ "passed": true,
+ "xfm_params_max_abs_diff": 0.0,
+ "final_affine": [
+  [
+   2.0,
+   0.0,
+   0.0,
+   -96.0
+  ],
+  [
+   0.0,
+   2.0,
+   0.0,
+   -128.0
+  ],
+  [
+   0.0,
+   0.0,
+   2.0,
+   -72.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "cuda_errors_runner": [
+  "HDBET_RUNNER_SUMMARY {\"n_inputs\": 1, \"n_masks\": 1, \"missing\": [], \"model_load_seconds\": 5.2999982833862305, \"predict_seconds\": 49.837846755981445, \"tta\": true, \"device\": \"cuda\", \"np_preprocessing\": 1, \"np_export\": 1, \"sequential\": true}"
+ ],
+ "cuda_errors_cli": []
+}

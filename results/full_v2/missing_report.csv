@@ -1,0 +1,5 @@
+feature,missing_pct_ASD,missing_pct_TD,gap_pp,used
+AGE_AT_SCAN,0.0,0.0,0.0,True
+SEX,0.0,0.0,0.0,True
+FIQ,6.78,7.25,0.47,True
+volume_mask_ml,0.25,0.0,0.25,True

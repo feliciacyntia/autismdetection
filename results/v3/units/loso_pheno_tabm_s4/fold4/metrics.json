@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 30,
+  "balanced_accuracy": 0.4570135746606335,
+  "f1_macro": 0.4570135746606335,
+  "auc": 0.44796380090497734,
+  "sensitivity": 0.38461538461538464,
+  "specificity": 0.5294117647058824
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "LEUVEN_2",
+  "seed": 4046,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

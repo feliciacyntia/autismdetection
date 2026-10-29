@@ -1,0 +1,31 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.5689212328767124,
+  "f1_macro": 0.5685154540116373,
+  "auc": 0.579195205479452,
+  "sensitivity": 0.5625,
+  "specificity": 0.5753424657534246
+ },
+ "test": {
+  "n": 170,
+  "balanced_accuracy": 0.5676728334956183,
+  "f1_macro": 0.5646606914212549,
+  "auc": 0.6012658227848101,
+  "sensitivity": 0.4430379746835443,
+  "specificity": 0.6923076923076923
+ },
+ "info": {
+  "feat": "roi",
+  "model": "tabpfn",
+  "seed": 45,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 0,
+  "tabpfn": {
+   "tabpfn": "2.2.1",
+   "torch": "2.5.1+cu121",
+   "device": "cuda"
+  }
+ }
+}

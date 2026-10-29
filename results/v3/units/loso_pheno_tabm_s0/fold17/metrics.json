@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 45,
+  "balanced_accuracy": 0.6462450592885376,
+  "f1_macro": 0.6428571428571428,
+  "auc": 0.6442687747035574,
+  "sensitivity": 0.7272727272727273,
+  "specificity": 0.5652173913043478
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "YALE",
+  "seed": 59,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

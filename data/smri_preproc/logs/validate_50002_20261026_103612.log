@@ -1,0 +1,16 @@
+2026-10-26 10:36:28 | INFO    | torch_main: {'version': '2.5.1+cu121', 'cuda_available': True, 'cuda_version': '12.1', 'device': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-26 10:36:34 | INFO    | torch_venv: {'version': '2.5.1+cu121', 'cuda_available': True, 'cuda_version': '12.1', 'device': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-26 10:36:34 | INFO    | nvidia-smi awal: {'total': 4096.0, 'used': 0.0, 'free': 3979.0, 'name': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-26 10:36:34 | INFO    | Preflight: RAM 5.95 GiB (min 4.0) | VRAM bebas 3979.0 MiB | masalah: -
+2026-10-26 10:36:50 | INFO    | fp 189594aa076d87d4 | hd-bet 2.0.1 | torch(venv) 2.5.1+cu121 | tta=True | device=cuda | np 1/1
+2026-10-26 10:40:58 | INFO    | CEK dice>=0.999                LULUS
+2026-10-26 10:40:58 | INFO    | CEK mask_shape_equal           LULUS
+2026-10-26 10:40:58 | INFO    | CEK mask_affine_equal(<1e-4)   LULUS
+2026-10-26 10:40:58 | INFO    | CEK vol_shape_equal            LULUS
+2026-10-26 10:40:58 | INFO    | CEK max_abs_diff<=0.001        LULUS
+2026-10-26 10:40:58 | INFO    | CEK corr>=0.9999               LULUS
+2026-10-26 10:40:58 | INFO    | Dice 1.000000 | identik bitwise True | voxel beda 0 | affine mask max diff 0.00e+00 | max|Δ| vol 0.000e+00 | korelasi 1.00000000 | xfm max diff 0.000e+00 | sumber CLI: salinan terverifikasi dari C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\work\hdbet_validation\cli\50002_bet.nii.gz
+2026-10-26 10:40:58 | INFO    | Runner: {'seconds': 64.27994418144226, 'vram_peak_mib': 3030.0, 'ram_min_available_gb': 3.4306716918945312, 'runner': {'n_inputs': 1, 'n_masks': 1, 'missing': [], 'model_load_seconds': 5.2999982833862305, 'predict_seconds': 49.837846755981445, 'tta': True, 'device': 'cuda', 'np_preprocessing': 1, 'np_export': 1, 'sequential': True}}
+2026-10-26 10:40:58 | INFO    | Error CUDA runner: ['HDBET_RUNNER_SUMMARY {"n_inputs": 1, "n_masks": 1, "missing": [], "model_load_seconds": 5.2999982833862305, "predict_seconds": 49.837846755981445, "tta": true, "device": "cuda", "np_preprocessing": 1, "np_export": 1, "sequential": true}'] | CLI: -
+2026-10-26 10:40:58 | INFO    | STATUS: PASSED
+2026-10-26 10:40:58 | INFO    | Status: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\validation_status_50002_20261026_103612.json | Log: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\logs\validate_50002_20261026_103612.log

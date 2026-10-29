@@ -1,0 +1,5 @@
+2026-10-26 12:13:46 | INFO    | 05c 05c-v2.1 | mode=pilot | resume=True | dry_run=False | WORK_DIR=C:\ta_work\05c | input=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR | out=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc
+2026-10-26 12:13:46 | INFO    | HD-BET python=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\python.exe | CLI=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\hd-bet.exe
+2026-10-26 12:13:59 | INFO    | Subjek mode pilot: 2 (dev 2, test 0) | valid (fp 682404ae0f5d2624): 0 | ada checkpoint: 0 | akan diproses: 2
+2026-10-26 12:13:59 | INFO    | Versi: antspyx 0.6.3 | nibabel 5.4.2 | hd-bet 2.0.1 | nnunetv2 2.8.1 | torch 2.5.1+cu121 | bobot HD-BET sha256 d31dc59b4c5f
+2026-10-26 12:13:59 | INFO    | Preflight: RAM 4.87 GiB (min mulai 4.0) | VRAM bebas 3979.0 MiB | disk WORK 183.4/2.2 GB | disk data 183.4/1.0 GB

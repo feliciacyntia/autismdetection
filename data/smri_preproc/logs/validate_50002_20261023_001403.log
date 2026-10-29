@@ -1,0 +1,5 @@
+2026-10-23 00:14:07 | INFO    | torch 2.5.1+cu121 | cuda_available=True | CUDA 12.1 | NVIDIA GeForce RTX 3050 Laptop GPU
+2026-10-23 00:14:07 | INFO    | nvidia-smi awal: {'total': 4096.0, 'used': 0.0, 'free': 3979.0, 'name': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:14:07 | INFO    | Preflight: RAM 3.69 GiB (min 4.0) | VRAM bebas 3979.0 MiB | masalah: ['RAM tersedia 3.69 GiB < 4.0 GiB (tutup aplikasi lain, jeda OneDrive)']
+2026-10-23 00:14:07 | ERROR   | Preflight gagal; validasi tidak dijalankan.
+2026-10-23 00:14:07 | INFO    | Status: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\validation_status_50002.json | Log: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\logs\validate_50002_20261023_001403.log

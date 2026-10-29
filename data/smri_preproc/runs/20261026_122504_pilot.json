@@ -1,0 +1,53 @@
+{
+ "run_id": "20261026_122504_pilot",
+ "mode": "pilot",
+ "args": {
+  "mode": "pilot",
+  "resume": true,
+  "dry_run": false,
+  "chunk_size": null,
+  "max_retries": null,
+  "retry_failed": false,
+  "limit": null,
+  "subjects": null,
+  "work_dir": null,
+  "input_root": null,
+  "output_root": null,
+  "hdbet_mode": null,
+  "break_stale_lock": false,
+  "clean_work": false
+ },
+ "config_fp": "682404ae0f5d2624",
+ "log": "C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\data\\smri_preproc\\logs\\run_20261026_122455.log",
+ "n_subjects": 20,
+ "n_todo": 12,
+ "preflight": {
+  "ram_available_gb": 4.36,
+  "min_start_ram_gb": 4.0,
+  "gpu": {
+   "total": 4096.0,
+   "used": 0.0,
+   "free": 3979.0,
+   "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  "disk_work_free_gb": 182.9,
+  "disk_out_free_gb": 182.9,
+  "disk_work_need_gb": 3.4,
+  "disk_out_need_gb": 1.1,
+  "problems": []
+ },
+ "counts": {
+  "ok": 12,
+  "failed": 0,
+  "skipped": 0
+ },
+ "stopped": false,
+ "stop_reason": null,
+ "wall_s": 1512.1986362934113,
+ "mean_s_per_ok": 124.55262045065562,
+ "vram_peak_mib": 2684.0,
+ "ram_min_available_gb": 2.5123748779296875,
+ "n_valid_after": 20,
+ "qc_flagged": 0,
+ "finished": "2026-10-26T12:50:17"
+}

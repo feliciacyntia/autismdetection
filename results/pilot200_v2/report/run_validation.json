@@ -1,0 +1,41 @@
+{
+ "dibuat": "2026-10-27 10:37:46",
+ "result_dir": "C:\\ta_local\\results\\pilot200_v2",
+ "subset": "pilot200",
+ "config_hash": "27c4fa66930f2ece",
+ "status": "complete",
+ "unit": {
+  "done": 168
+ },
+ "fold_selesai": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "jumlah_fold": 5,
+ "jumlah_eksperimen": 53,
+ "eksperimen_belum_ada": [],
+ "oof_valid": true,
+ "reload_cocok": true,
+ "threshold": 0.5,
+ "n_subjek": 200,
+ "rerun_bugfix_bn": {
+  "dir": "C:\\ta_local\\results\\pilot200_v2_bnfix",
+  "model_selesai": [
+   "scratch2d",
+   "scratch3d"
+  ],
+  "config_hash": "84888081837812d7",
+  "hasil_lama_tidak_valid": [
+   "scratch2d [lama: bug BN]",
+   "scratch3d [lama: bug BN]"
+  ]
+ },
+ "threshold_dilaporkan": [
+  "0,5 tetap",
+  "Youden dari inner validation (per fold)"
+ ],
+ "research_result": false
+}

@@ -1,0 +1,15 @@
+2026-10-23 00:02:38 | INFO    | Input: C:\ta_work\05c\validation\50002\wd_cli | mask cli==runner (sha): True | CPU 16 logis / 8 fisik | ITK env induk: 16
+2026-10-23 00:02:40 | INFO    | Mulai A1_default (ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=tidak diset) | RAM 5.44 GiB
+2026-10-23 00:02:56 | INFO    | A1_default selesai: registrasi 7.1 s, wall 16.0 s, thread OS maks 53, CPU/wall 5.29, seed di argumen ['42'], xfm sha f89d82ffe4a5, vol sha ba420dc39ce4
+2026-10-23 00:02:56 | INFO    | Mulai A2_default (ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=tidak diset) | RAM 5.44 GiB
+2026-10-23 00:03:13 | INFO    | A2_default selesai: registrasi 8.2 s, wall 17.0 s, thread OS maks 53, CPU/wall 6.01, seed di argumen ['42'], xfm sha 3665b8874584, vol sha b72eba3f6e4e
+2026-10-23 00:03:13 | INFO    | Mulai B1_thread1 (ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1) | RAM 5.47 GiB
+2026-10-23 00:04:18 | INFO    | B1_thread1 selesai: registrasi 55.2 s, wall 64.3 s, thread OS maks 39, CPU/wall 0.92, seed di argumen ['42'], xfm sha 00402b244aa8, vol sha 66cb0661d6da
+2026-10-23 00:04:18 | INFO    | Mulai B2_thread1 (ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1) | RAM 5.62 GiB
+2026-10-23 00:05:21 | INFO    | B2_thread1 selesai: registrasi 54.7 s, wall 63.6 s, thread OS maks 39, CPU/wall 0.92, seed di argumen ['42'], xfm sha 00402b244aa8, vol sha 66cb0661d6da
+2026-10-23 00:05:22 | INFO    | A1_default vs A2_default: xfm identik False | xfm max diff 4.706e-02 (matriks 2.826e-03, translasi 4.706e-02 mm) | vol identik False | max|Δ| 2.686e+00 | korelasi 0.97450270 | Dice mask akhir 0.996336
+2026-10-23 00:05:22 | INFO    | B1_thread1 vs B2_thread1: xfm identik True | xfm max diff 0.000e+00 (matriks 0.000e+00, translasi 0.000e+00 mm) | vol identik True | max|Δ| 0.000e+00 | korelasi 1.00000000 | Dice mask akhir 1.000000
+2026-10-23 00:05:22 | INFO    | A1_default vs B1_thread1: xfm identik False | xfm max diff 3.303e-02 (matriks 1.941e-03, translasi 3.303e-02 mm) | vol identik False | max|Δ| 2.686e+00 | korelasi 0.98335809 | Dice mask akhir 0.997605
+2026-10-23 00:05:22 | INFO    | A2_default vs B2_thread1: xfm identik False | xfm max diff 4.883e-02 (matriks 8.847e-04, translasi 4.883e-02 mm) | vol identik False | max|Δ| 2.685e+00 | korelasi 0.99057837 | Dice mask akhir 0.998619
+2026-10-23 00:05:22 | INFO    | KESIMPULAN: deterministik thread default = False | deterministik thread=1 = True
+2026-10-23 00:05:22 | INFO    | Hasil: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\diag_registration_50002_20261023_000238.json | Log: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\logs\diag_reg_50002_20261023_000238.log

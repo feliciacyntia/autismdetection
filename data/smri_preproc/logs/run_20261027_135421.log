@@ -1,0 +1,29 @@
+2026-10-27 13:54:21 | INFO    | 05c 05c-v2.1 | mode=all | resume=True | dry_run=False | WORK_DIR=C:\ta_work\05c | input=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR | out=C:\ta_local\data\smri_preproc
+2026-10-27 13:54:21 | INFO    | HD-BET python=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\python.exe | CLI=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\hd-bet.exe
+2026-10-27 13:55:01 | INFO    | Subjek mode all: 1002 (dev 853, test 149) | valid (fp 682404ae0f5d2624): 200 | ada checkpoint: 0 | akan diproses: 802
+2026-10-27 13:55:01 | INFO    | Versi: antspyx 0.6.3 | nibabel 5.4.2 | hd-bet 2.0.1 | nnunetv2 2.8.1 | torch 2.5.1+cu121 | bobot HD-BET sha256 d31dc59b4c5f
+2026-10-27 13:55:01 | INFO    | Preflight: RAM 5.02 GiB (min mulai 4.0) | VRAM bebas 3979.0 MiB | disk WORK 190.9/96.0 GB | disk data 190.9/5.7 GB
+2026-10-27 13:55:01 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 13:57:44 | INFO    | SUB_ID 50003: ok (163 s)
+2026-10-27 13:57:46 | INFO    | Progres 1/802 | ok 1 gagal 0 | chunk 165 s | rata-rata 163 s/subjek | sisa ±2180 menit | RAM 5.04→6.73 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:00:24 | INFO    | SUB_ID 50005: ok (158 s)
+2026-10-27 14:00:25 | INFO    | Progres 2/802 | ok 2 gagal 0 | chunk 160 s | rata-rata 161 s/subjek | sisa ±2152 menit | RAM 6.73→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:03:11 | INFO    | SUB_ID 50007: ok (166 s)
+2026-10-27 14:03:13 | INFO    | Progres 3/802 | ok 3 gagal 0 | chunk 167 s | rata-rata 163 s/subjek | sisa ±2176 menit | RAM 6.74→6.91 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:05:58 | INFO    | SUB_ID 50008: ok (165 s)
+2026-10-27 14:05:59 | INFO    | Progres 4/802 | ok 4 gagal 0 | chunk 166 s | rata-rata 164 s/subjek | sisa ±2183 menit | RAM 6.91→6.80 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:08:45 | INFO    | SUB_ID 50009: ok (165 s)
+2026-10-27 14:08:46 | INFO    | Progres 5/802 | ok 5 gagal 0 | chunk 167 s | rata-rata 165 s/subjek | sisa ±2188 menit | RAM 6.80→6.66 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:11:28 | INFO    | SUB_ID 50011: ok (162 s)
+2026-10-27 14:11:30 | INFO    | Progres 6/802 | ok 6 gagal 0 | chunk 164 s | rata-rata 165 s/subjek | sisa ±2183 menit | RAM 6.66→7.62 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:15:02 | INFO    | SUB_ID 50012: ok (212 s)
+2026-10-27 14:15:04 | INFO    | Progres 7/802 | ok 7 gagal 0 | chunk 214 s | rata-rata 172 s/subjek | sisa ±2274 menit | RAM 7.62→6.87 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:18:54 | INFO    | SUB_ID 50014: ok (230 s)
+2026-10-27 14:18:55 | INFO    | Progres 8/802 | ok 8 gagal 0 | chunk 231 s | rata-rata 179 s/subjek | sisa ±2370 menit | RAM 6.87→6.83 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:22:52 | INFO    | SUB_ID 50015: ok (236 s)
+2026-10-27 14:22:53 | INFO    | Progres 9/802 | ok 9 gagal 0 | chunk 238 s | rata-rata 186 s/subjek | sisa ±2453 menit | RAM 6.82→6.50 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:28:11 | INFO    | SUB_ID 50016: ok (317 s)
+2026-10-27 14:28:12 | INFO    | Progres 10/802 | ok 10 gagal 0 | chunk 319 s | rata-rata 199 s/subjek | sisa ±2626 menit | RAM 6.50→7.36 GiB | VRAM dipakai 0 MiB
+2026-10-27 14:28:12 | WARNING | Stop-file ditemukan: berhenti setelah langkah yang sedang berjalan selesai.
+2026-10-27 14:28:23 | INFO    | RINGKASAN run ini: success 10 | failed 0 | skipped 0 | flagged (semua output valid) 1 | total 33.3 menit | valid 210/1002 | dihentikan (stop-file C:\ta_work\05c\STOP)
+2026-10-27 14:28:23 | INFO    | Auto-sleep Windows dikembalikan normal.

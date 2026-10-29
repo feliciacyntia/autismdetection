@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 48,
+  "balanced_accuracy": 0.6278260869565218,
+  "f1_macro": 0.6243478260869566,
+  "auc": 0.591304347826087,
+  "sensitivity": 0.56,
+  "specificity": 0.6956521739130435
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "PITT",
+  "seed": 3051,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

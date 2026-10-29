@@ -1,0 +1,215 @@
+{
+ "pipeline_version": "05c-v2.1",
+ "config_fp": "682404ae0f5d2624",
+ "fingerprint_payload": {
+  "pipeline_version": "05c-v2.1",
+  "method": {
+   "target_axcodes": [
+    "R",
+    "A",
+    "S"
+   ],
+   "hdbet_input_axcodes": [
+    "L",
+    "A",
+    "S"
+   ],
+   "hdbet_device": "cuda",
+   "hdbet_tta": true,
+   "hdbet_deterministic": true,
+   "clip_negative_before_n4": true,
+   "n4_params": {
+    "shrink_factor": 4,
+    "convergence": {
+     "iters": [
+      50,
+      50,
+      50,
+      50
+     ],
+     "tol": 1e-07
+    }
+   },
+   "reg_transform": "Affine",
+   "ants_random_seed": 42,
+   "reg_threads": 1,
+   "template_res_reg_mm": 1,
+   "target_res_mm": 2,
+   "mask_interp": "nearestNeighbor",
+   "mask_threshold": 0.5,
+   "clip_percentiles": [
+    0.5,
+    99.5
+   ],
+   "target_shape": [
+    96,
+    112,
+    96
+   ],
+   "crop_margin_vox": 2
+  },
+  "crop": [
+   [
+    1,
+    97
+   ],
+   [
+    3,
+    115
+   ],
+   [
+    0,
+    95
+   ]
+  ],
+  "pad": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "versions": {
+   "antspyx": "0.6.3",
+   "nibabel": "5.4.2",
+   "numpy": "2.1.1",
+   "nilearn": "0.13.1",
+   "venv_hd-bet": "2.0.1",
+   "venv_nnunetv2": "2.8.1",
+   "venv_torch": "2.5.1+cu121",
+   "venv_SimpleITK": "2.5.6"
+  },
+  "hdbet_weights_sha256": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52",
+  "templates": {
+   "1mm": "62286d77a3ae3742f559f0a37fffbf7fcae1fa4a24812eda9c15e7156909c729",
+   "2mm": "ca85b9307491a7dac12ada2ce45304f2c8e8a7c36409330920dccb088685f4d2"
+  }
+ },
+ "config": {
+  "project_root": "C:\\ta_local",
+  "input_root": "C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR",
+  "hdbet_python": null,
+  "hdbet_cli": null,
+  "work_dir": "C:\\ta_work\\05c",
+  "out_subdir": "data/smri_preproc",
+  "seed": 42,
+  "target_axcodes": [
+   "R",
+   "A",
+   "S"
+  ],
+  "hdbet_input_axcodes": [
+   "L",
+   "A",
+   "S"
+  ],
+  "hdbet_device": "cuda",
+  "hdbet_tta": true,
+  "hdbet_deterministic": true,
+  "clip_negative_before_n4": true,
+  "n4_params": {
+   "shrink_factor": 4,
+   "convergence": {
+    "iters": [
+     50,
+     50,
+     50,
+     50
+    ],
+    "tol": 1e-07
+   }
+  },
+  "reg_transform": "Affine",
+  "ants_random_seed": 42,
+  "reg_threads": 1,
+  "template_res_reg_mm": 1,
+  "target_res_mm": 2,
+  "mask_interp": "nearestNeighbor",
+  "mask_threshold": 0.5,
+  "clip_percentiles": [
+   0.5,
+   99.5
+  ],
+  "target_shape": [
+   96,
+   112,
+   96
+  ],
+  "crop_margin_vox": 2,
+  "hdbet_mode": "runner",
+  "hdbet_np_preprocessing": 1,
+  "hdbet_np_export": 1,
+  "hdbet_sequential": true,
+  "chunk_size": 1,
+  "save_nifti": true,
+  "max_retries": 2,
+  "keep_work_files": false,
+  "save_qc_figure": true,
+  "min_free_ram_gb": 1.5,
+  "min_start_ram_gb": 4.0,
+  "min_free_vram_mib": 3300.0,
+  "work_mb_per_subject": 120.0,
+  "out_mb_per_subject": 6.0,
+  "min_free_disk_gb": 2.0,
+  "mask_ratio_range": [
+   0.8,
+   1.25
+  ],
+  "brain_ml_range": [
+   800.0,
+   2100.0
+  ],
+  "reg_det_range": [
+   0.5,
+   2.0
+  ],
+  "min_ncc_template": 0.3,
+  "outlier_z": 3.0,
+  "min_n_global_z": 20,
+  "min_n_site_z": 15,
+  "validation_dice_min": 0.999,
+  "validation_max_abs_diff": 0.001,
+  "validation_min_corr": 0.9999,
+  "repro_dice_min": 0.999,
+  "repro_max_abs_diff": 0.0001,
+  "skullstrip_tool": "HD-BET"
+ },
+ "env": {
+  "python": "3.12.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "antspyx": "0.6.3",
+  "nibabel": "5.4.2",
+  "numpy": "2.1.1",
+  "nilearn": "0.13.1",
+  "scipy": "1.15.3",
+  "pandas": "2.3.1",
+  "psutil": "6.1.0",
+  "matplotlib": "3.10.3",
+  "hdbet_venv": {
+   "hd-bet": "2.0.1",
+   "nnunetv2": "2.8.1",
+   "SimpleITK": "2.5.6",
+   "numpy": "2.1.1",
+   "torch": "2.5.1+cu121",
+   "torch_cuda_build": "12.1",
+   "cuda_available": true,
+   "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+   "params_dir": "C:\\Users\\Lenovo\\hd-bet_params\\release_2.0.0",
+   "params_url": "https://zenodo.org/records/14445620/files/release_v1.5.0.zip?download=1"
+  },
+  "hdbet_weights": {
+   "path": "C:\\Users\\Lenovo\\hd-bet_params\\release_2.0.0\\fold_all\\checkpoint_final.pth",
+   "size": 123562058,
+   "sha256": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52"
+  }
+ },
+ "seed": 42,
+ "updated": "2026-10-27T14:57:16"
+}

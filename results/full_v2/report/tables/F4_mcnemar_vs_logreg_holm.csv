@@ -1,0 +1,43 @@
+threshold,model,BA model,BA LogReg,ΔBA,hanya LogReg benar,hanya model benar,p McNemar (eksak),p Holm,"signifikan (Holm < 0,05)"
+"0,5",mlp_tab,0.585,0.574,0.011,71,86,0.2638,1.0,tidak
+"0,5",tabm,0.595,0.574,0.022,90,113,0.1224,1.0,tidak
+"0,5",roi_logreg_cb,0.571,0.574,-0.002,213,212,1.0,1.0,tidak
+"0,5",roi_tabm_cb,0.597,0.574,0.024,191,212,0.3191,1.0,tidak
+"0,5",effnet_b0,0.571,0.574,-0.002,210,207,0.922,1.0,tidak
+"0,5",resnet18,0.491,0.574,-0.082,244,170,0.0003,0.0068,ya
+"0,5",scratch2d,0.521,0.574,-0.053,233,187,0.028,0.3918,tidak
+"0,5",scratch3d,0.556,0.574,-0.018,227,207,0.3618,1.0,tidak
+"0,5",PR · F1_stack_logreg,0.624,0.574,0.05,87,133,0.0023,0.0398,ya
+"0,5",PR · F1_mean_prob,0.633,0.574,0.06,94,147,0.0008,0.0152,ya
+"0,5",PR · F2_pca16_logreg,0.617,0.574,0.043,106,143,0.0223,0.335,tidak
+"0,5",P25 · F1_stack_logreg,0.599,0.574,0.026,97,124,0.0801,0.9608,tidak
+"0,5",P25 · F1_mean_prob,0.614,0.574,0.04,95,133,0.0141,0.2255,tidak
+"0,5",P25 · F2_pca16_logreg,0.586,0.574,0.013,135,145,0.5908,1.0,tidak
+"0,5",P3 · F1_stack_logreg,0.599,0.574,0.025,82,107,0.0806,0.9608,tidak
+"0,5",P3 · F1_mean_prob,0.605,0.574,0.031,82,112,0.0371,0.4818,tidak
+"0,5",P3 · F2_pca16_logreg,0.572,0.574,-0.002,127,126,1.0,1.0,tidak
+"0,5",PRI · F1_stack_logreg,0.62,0.574,0.046,76,120,0.0021,0.0369,ya
+"0,5",PRI · F1_mean_prob,0.636,0.574,0.062,102,157,0.0008,0.0152,ya
+"0,5",PRI · F2_pca16_logreg,0.56,0.574,-0.014,171,160,0.5826,1.0,tidak
+"0,5",ENS · ENS_mean_top3,0.584,0.574,0.011,54,67,0.2753,1.0,tidak
+Youden (inner),mlp_tab,0.588,0.563,0.025,106,127,0.19,1.0,tidak
+Youden (inner),tabm,0.589,0.563,0.026,102,123,0.1823,1.0,tidak
+Youden (inner),roi_logreg_cb,0.559,0.563,-0.004,227,216,0.6348,1.0,tidak
+Youden (inner),roi_tabm_cb,0.583,0.563,0.02,179,194,0.4686,1.0,tidak
+Youden (inner),effnet_b0,0.548,0.563,-0.015,202,185,0.4161,1.0,tidak
+Youden (inner),resnet18,0.544,0.563,-0.019,183,163,0.307,1.0,tidak
+Youden (inner),scratch2d,0.511,0.563,-0.052,220,167,0.0081,0.13,tidak
+Youden (inner),scratch3d,0.543,0.563,-0.02,230,209,0.3398,1.0,tidak
+Youden (inner),PR · F1_stack_logreg,0.609,0.563,0.046,94,127,0.0311,0.4668,tidak
+Youden (inner),PR · F1_mean_prob,0.636,0.563,0.073,106,162,0.0008,0.015,ya
+Youden (inner),PR · F2_pca16_logreg,0.629,0.563,0.066,96,151,0.0006,0.0118,ya
+Youden (inner),P25 · F1_stack_logreg,0.608,0.563,0.045,142,175,0.0721,0.9376,tidak
+Youden (inner),P25 · F1_mean_prob,0.616,0.563,0.053,103,147,0.0064,0.1092,tidak
+Youden (inner),P25 · F2_pca16_logreg,0.57,0.563,0.007,149,154,0.8183,1.0,tidak
+Youden (inner),P3 · F1_stack_logreg,0.611,0.563,0.048,120,154,0.046,0.644,tidak
+Youden (inner),P3 · F1_mean_prob,0.606,0.563,0.043,127,157,0.0851,1.0,tidak
+Youden (inner),P3 · F2_pca16_logreg,0.565,0.563,0.002,136,134,0.9515,1.0,tidak
+Youden (inner),PRI · F1_stack_logreg,0.621,0.563,0.058,96,142,0.0034,0.0621,tidak
+Youden (inner),PRI · F1_mean_prob,0.632,0.563,0.068,109,163,0.0013,0.0241,ya
+Youden (inner),PRI · F2_pca16_logreg,0.558,0.563,-0.005,194,186,0.7196,1.0,tidak
+Youden (inner),ENS · ENS_mean_top3,0.59,0.563,0.026,90,106,0.2839,1.0,tidak

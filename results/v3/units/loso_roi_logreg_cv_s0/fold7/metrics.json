@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 24,
+  "balanced_accuracy": 0.5594405594405594,
+  "f1_macro": 0.53125,
+  "auc": 0.6923076923076923,
+  "sensitivity": 0.2727272727272727,
+  "specificity": 0.8461538461538461
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "OHSU",
+  "seed": 49,
+  "hp": {},
+  "C": [
+   0.00316
+  ],
+  "combat_unseen": 24
+ }
+}

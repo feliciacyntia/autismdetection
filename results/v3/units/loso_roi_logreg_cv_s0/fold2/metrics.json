@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 37,
+  "balanced_accuracy": 0.4782608695652174,
+  "f1_macro": 0.3728813559322034,
+  "auc": 0.593167701863354,
+  "sensitivity": 0.0,
+  "specificity": 0.9565217391304348
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "KKI",
+  "seed": 44,
+  "hp": {},
+  "C": [
+   0.001
+  ],
+  "combat_unseen": 37
+ }
+}

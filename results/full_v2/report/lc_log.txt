@@ -1,0 +1,119 @@
+C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\analysis_full_v2.py:343: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  done = pd.concat([done, pd.DataFrame(new)], ignore_index=True)
+LC frac 0.20 rep 0 fold 0 | n latih 137 | AUC logreg=0.608 mlp_tab=0.604 tabm=0.616 roi_logreg_cb=0.494 roi_tabm_cb=0.468 PR_F1_stack=0.608 | 11 s
+LC frac 0.20 rep 0 fold 1 | n latih 137 | AUC logreg=0.559 mlp_tab=0.593 tabm=0.635 roi_logreg_cb=0.453 roi_tabm_cb=0.512 PR_F1_stack=0.594 | 24 s
+LC frac 0.20 rep 0 fold 2 | n latih 137 | AUC logreg=0.571 mlp_tab=0.590 tabm=0.594 roi_logreg_cb=0.521 roi_tabm_cb=0.589 PR_F1_stack=0.606 | 34 s
+LC frac 0.20 rep 0 fold 3 | n latih 137 | AUC logreg=0.596 mlp_tab=0.652 tabm=0.617 roi_logreg_cb=0.552 roi_tabm_cb=0.556 PR_F1_stack=0.654 | 44 s
+LC frac 0.20 rep 0 fold 4 | n latih 137 | AUC logreg=0.636 mlp_tab=0.628 tabm=0.627 roi_logreg_cb=0.521 roi_tabm_cb=0.575 PR_F1_stack=0.605 | 54 s
+LC frac 0.20 rep 1 fold 0 | n latih 137 | AUC logreg=0.598 mlp_tab=0.653 tabm=0.613 roi_logreg_cb=0.545 roi_tabm_cb=0.569 PR_F1_stack=0.594 | 67 s
+LC frac 0.20 rep 1 fold 1 | n latih 137 | AUC logreg=0.570 mlp_tab=0.573 tabm=0.592 roi_logreg_cb=0.471 roi_tabm_cb=0.472 PR_F1_stack=0.574 | 77 s
+LC frac 0.20 rep 1 fold 2 | n latih 137 | AUC logreg=0.588 mlp_tab=0.599 tabm=0.622 roi_logreg_cb=0.532 roi_tabm_cb=0.569 PR_F1_stack=0.604 | 87 s
+LC frac 0.20 rep 1 fold 3 | n latih 137 | AUC logreg=0.644 mlp_tab=0.584 tabm=0.642 roi_logreg_cb=0.542 roi_tabm_cb=0.640 PR_F1_stack=0.450 | 97 s
+LC frac 0.20 rep 1 fold 4 | n latih 137 | AUC logreg=0.596 mlp_tab=0.590 tabm=0.616 roi_logreg_cb=0.616 roi_tabm_cb=0.613 PR_F1_stack=0.587 | 106 s
+LC frac 0.20 rep 2 fold 0 | n latih 137 | AUC logreg=0.601 mlp_tab=0.608 tabm=0.604 roi_logreg_cb=0.616 roi_tabm_cb=0.569 PR_F1_stack=0.607 | 118 s
+LC frac 0.20 rep 2 fold 1 | n latih 137 | AUC logreg=0.559 mlp_tab=0.583 tabm=0.581 roi_logreg_cb=0.470 roi_tabm_cb=0.540 PR_F1_stack=0.594 | 129 s
+LC frac 0.20 rep 2 fold 2 | n latih 137 | AUC logreg=0.550 mlp_tab=0.555 tabm=0.573 roi_logreg_cb=0.500 roi_tabm_cb=0.561 PR_F1_stack=0.553 | 138 s
+LC frac 0.20 rep 2 fold 3 | n latih 137 | AUC logreg=0.507 mlp_tab=0.560 tabm=0.551 roi_logreg_cb=0.610 roi_tabm_cb=0.561 PR_F1_stack=0.579 | 147 s
+LC frac 0.20 rep 2 fold 4 | n latih 137 | AUC logreg=0.549 mlp_tab=0.574 tabm=0.564 roi_logreg_cb=0.572 roi_tabm_cb=0.585 PR_F1_stack=0.597 | 155 s
+LC frac 0.35 rep 0 fold 0 | n latih 239 | AUC logreg=0.681 mlp_tab=0.646 tabm=0.658 roi_logreg_cb=0.638 roi_tabm_cb=0.608 PR_F1_stack=0.676 | 171 s
+LC frac 0.35 rep 0 fold 1 | n latih 239 | AUC logreg=0.576 mlp_tab=0.587 tabm=0.581 roi_logreg_cb=0.500 roi_tabm_cb=0.553 PR_F1_stack=0.549 | 185 s
+LC frac 0.35 rep 0 fold 2 | n latih 239 | AUC logreg=0.578 mlp_tab=0.600 tabm=0.598 roi_logreg_cb=0.572 roi_tabm_cb=0.603 PR_F1_stack=0.638 | 201 s
+LC frac 0.35 rep 0 fold 3 | n latih 239 | AUC logreg=0.580 mlp_tab=0.581 tabm=0.564 roi_logreg_cb=0.497 roi_tabm_cb=0.627 PR_F1_stack=0.624 | 214 s
+LC frac 0.35 rep 0 fold 4 | n latih 239 | AUC logreg=0.625 mlp_tab=0.609 tabm=0.601 roi_logreg_cb=0.574 roi_tabm_cb=0.586 PR_F1_stack=0.611 | 234 s
+LC frac 0.35 rep 1 fold 0 | n latih 239 | AUC logreg=0.629 mlp_tab=0.683 tabm=0.653 roi_logreg_cb=0.584 roi_tabm_cb=0.560 PR_F1_stack=0.609 | 247 s
+LC frac 0.35 rep 1 fold 1 | n latih 239 | AUC logreg=0.573 mlp_tab=0.583 tabm=0.591 roi_logreg_cb=0.538 roi_tabm_cb=0.534 PR_F1_stack=0.592 | 263 s
+LC frac 0.35 rep 1 fold 2 | n latih 239 | AUC logreg=0.565 mlp_tab=0.597 tabm=0.581 roi_logreg_cb=0.622 roi_tabm_cb=0.625 PR_F1_stack=0.641 | 277 s
+LC frac 0.35 rep 1 fold 3 | n latih 239 | AUC logreg=0.533 mlp_tab=0.539 tabm=0.544 roi_logreg_cb=0.522 roi_tabm_cb=0.606 PR_F1_stack=0.590 | 291 s
+LC frac 0.35 rep 1 fold 4 | n latih 239 | AUC logreg=0.609 mlp_tab=0.611 tabm=0.601 roi_logreg_cb=0.501 roi_tabm_cb=0.553 PR_F1_stack=0.588 | 305 s
+LC frac 0.35 rep 2 fold 0 | n latih 239 | AUC logreg=0.537 mlp_tab=0.557 tabm=0.560 roi_logreg_cb=0.515 roi_tabm_cb=0.574 PR_F1_stack=0.562 | 319 s
+LC frac 0.35 rep 2 fold 1 | n latih 239 | AUC logreg=0.577 mlp_tab=0.643 tabm=0.657 roi_logreg_cb=0.576 roi_tabm_cb=0.539 PR_F1_stack=0.628 | 336 s
+LC frac 0.35 rep 2 fold 2 | n latih 239 | AUC logreg=0.569 mlp_tab=0.583 tabm=0.592 roi_logreg_cb=0.568 roi_tabm_cb=0.604 PR_F1_stack=0.619 | 350 s
+LC frac 0.35 rep 2 fold 3 | n latih 239 | AUC logreg=0.619 mlp_tab=0.627 tabm=0.631 roi_logreg_cb=0.528 roi_tabm_cb=0.553 PR_F1_stack=0.638 | 363 s
+LC frac 0.35 rep 2 fold 4 | n latih 239 | AUC logreg=0.621 mlp_tab=0.635 tabm=0.640 roi_logreg_cb=0.568 roi_tabm_cb=0.593 PR_F1_stack=0.654 | 377 s
+LC frac 0.50 rep 0 fold 0 | n latih 340 | AUC logreg=0.663 mlp_tab=0.696 tabm=0.675 roi_logreg_cb=0.578 roi_tabm_cb=0.603 PR_F1_stack=0.703 | 399 s
+LC frac 0.50 rep 0 fold 1 | n latih 340 | AUC logreg=0.570 mlp_tab=0.621 tabm=0.595 roi_logreg_cb=0.523 roi_tabm_cb=0.532 PR_F1_stack=0.620 | 419 s
+LC frac 0.50 rep 0 fold 2 | n latih 341 | AUC logreg=0.570 mlp_tab=0.574 tabm=0.587 roi_logreg_cb=0.620 roi_tabm_cb=0.672 PR_F1_stack=0.602 | 439 s
+LC frac 0.50 rep 0 fold 3 | n latih 342 | AUC logreg=0.608 mlp_tab=0.645 tabm=0.639 roi_logreg_cb=0.589 roi_tabm_cb=0.632 PR_F1_stack=0.694 | 459 s
+LC frac 0.50 rep 0 fold 4 | n latih 342 | AUC logreg=0.630 mlp_tab=0.613 tabm=0.589 roi_logreg_cb=0.571 roi_tabm_cb=0.595 PR_F1_stack=0.662 | 481 s
+LC frac 0.50 rep 1 fold 0 | n latih 340 | AUC logreg=0.566 mlp_tab=0.611 tabm=0.620 roi_logreg_cb=0.579 roi_tabm_cb=0.608 PR_F1_stack=0.642 | 500 s
+LC frac 0.50 rep 1 fold 1 | n latih 340 | AUC logreg=0.568 mlp_tab=0.622 tabm=0.625 roi_logreg_cb=0.553 roi_tabm_cb=0.552 PR_F1_stack=0.631 | 520 s
+LC frac 0.50 rep 1 fold 2 | n latih 341 | AUC logreg=0.562 mlp_tab=0.569 tabm=0.552 roi_logreg_cb=0.540 roi_tabm_cb=0.597 PR_F1_stack=0.588 | 540 s
+LC frac 0.50 rep 1 fold 3 | n latih 342 | AUC logreg=0.614 mlp_tab=0.658 tabm=0.690 roi_logreg_cb=0.650 roi_tabm_cb=0.691 PR_F1_stack=0.730 | 562 s
+LC frac 0.50 rep 1 fold 4 | n latih 342 | AUC logreg=0.628 mlp_tab=0.663 tabm=0.651 roi_logreg_cb=0.624 roi_tabm_cb=0.620 PR_F1_stack=0.679 | 583 s
+LC frac 0.50 rep 2 fold 0 | n latih 340 | AUC logreg=0.670 mlp_tab=0.626 tabm=0.629 roi_logreg_cb=0.547 roi_tabm_cb=0.616 PR_F1_stack=0.680 | 602 s
+LC frac 0.50 rep 2 fold 1 | n latih 340 | AUC logreg=0.564 mlp_tab=0.580 tabm=0.578 roi_logreg_cb=0.553 roi_tabm_cb=0.541 PR_F1_stack=0.586 | 629 s
+LC frac 0.50 rep 2 fold 2 | n latih 341 | AUC logreg=0.567 mlp_tab=0.563 tabm=0.573 roi_logreg_cb=0.638 roi_tabm_cb=0.653 PR_F1_stack=0.572 | 647 s
+LC frac 0.50 rep 2 fold 3 | n latih 342 | AUC logreg=0.580 mlp_tab=0.605 tabm=0.601 roi_logreg_cb=0.557 roi_tabm_cb=0.630 PR_F1_stack=0.660 | 668 s
+LC frac 0.50 rep 2 fold 4 | n latih 342 | AUC logreg=0.625 mlp_tab=0.613 tabm=0.611 roi_logreg_cb=0.590 roi_tabm_cb=0.622 PR_F1_stack=0.648 | 687 s
+LC frac 0.65 rep 0 fold 0 | n latih 443 | AUC logreg=0.645 mlp_tab=0.675 tabm=0.668 roi_logreg_cb=0.466 roi_tabm_cb=0.568 PR_F1_stack=0.678 | 711 s
+LC frac 0.65 rep 0 fold 1 | n latih 443 | AUC logreg=0.568 mlp_tab=0.591 tabm=0.583 roi_logreg_cb=0.563 roi_tabm_cb=0.524 PR_F1_stack=0.575 | 737 s
+LC frac 0.65 rep 0 fold 2 | n latih 443 | AUC logreg=0.551 mlp_tab=0.602 tabm=0.610 roi_logreg_cb=0.617 roi_tabm_cb=0.659 PR_F1_stack=0.663 | 773 s
+LC frac 0.65 rep 0 fold 3 | n latih 444 | AUC logreg=0.607 mlp_tab=0.672 tabm=0.673 roi_logreg_cb=0.627 roi_tabm_cb=0.648 PR_F1_stack=0.719 | 800 s
+LC frac 0.65 rep 0 fold 4 | n latih 444 | AUC logreg=0.615 mlp_tab=0.594 tabm=0.607 roi_logreg_cb=0.611 roi_tabm_cb=0.630 PR_F1_stack=0.656 | 831 s
+LC frac 0.65 rep 1 fold 0 | n latih 443 | AUC logreg=0.644 mlp_tab=0.677 tabm=0.668 roi_logreg_cb=0.617 roi_tabm_cb=0.633 PR_F1_stack=0.704 | 863 s
+LC frac 0.65 rep 1 fold 1 | n latih 443 | AUC logreg=0.570 mlp_tab=0.598 tabm=0.609 roi_logreg_cb=0.546 roi_tabm_cb=0.534 PR_F1_stack=0.592 | 890 s
+LC frac 0.65 rep 1 fold 2 | n latih 443 | AUC logreg=0.577 mlp_tab=0.613 tabm=0.620 roi_logreg_cb=0.567 roi_tabm_cb=0.638 PR_F1_stack=0.670 | 927 s
+LC frac 0.65 rep 1 fold 3 | n latih 444 | AUC logreg=0.579 mlp_tab=0.638 tabm=0.650 roi_logreg_cb=0.564 roi_tabm_cb=0.608 PR_F1_stack=0.657 | 964 s
+LC frac 0.65 rep 1 fold 4 | n latih 444 | AUC logreg=0.618 mlp_tab=0.603 tabm=0.610 roi_logreg_cb=0.573 roi_tabm_cb=0.628 PR_F1_stack=0.642 | 995 s
+LC frac 0.65 rep 2 fold 0 | n latih 443 | AUC logreg=0.632 mlp_tab=0.610 tabm=0.629 roi_logreg_cb=0.575 roi_tabm_cb=0.629 PR_F1_stack=0.664 | 1030 s
+LC frac 0.65 rep 2 fold 1 | n latih 443 | AUC logreg=0.572 mlp_tab=0.591 tabm=0.581 roi_logreg_cb=0.510 roi_tabm_cb=0.542 PR_F1_stack=0.557 | 1061 s
+LC frac 0.65 rep 2 fold 2 | n latih 443 | AUC logreg=0.570 mlp_tab=0.585 tabm=0.585 roi_logreg_cb=0.646 roi_tabm_cb=0.676 PR_F1_stack=0.635 | 1093 s
+LC frac 0.65 rep 2 fold 3 | n latih 444 | AUC logreg=0.588 mlp_tab=0.686 tabm=0.640 roi_logreg_cb=0.562 roi_tabm_cb=0.642 PR_F1_stack=0.738 | 1125 s
+LC frac 0.65 rep 2 fold 4 | n latih 444 | AUC logreg=0.609 mlp_tab=0.604 tabm=0.604 roi_logreg_cb=0.602 roi_tabm_cb=0.598 PR_F1_stack=0.618 | 1156 s
+LC frac 0.80 rep 0 fold 0 | n latih 545 | AUC logreg=0.630 mlp_tab=0.629 tabm=0.637 roi_logreg_cb=0.640 roi_tabm_cb=0.652 PR_F1_stack=0.705 | 1200 s
+LC frac 0.80 rep 0 fold 1 | n latih 545 | AUC logreg=0.568 mlp_tab=0.604 tabm=0.628 roi_logreg_cb=0.539 roi_tabm_cb=0.564 PR_F1_stack=0.612 | 1245 s
+LC frac 0.80 rep 0 fold 2 | n latih 545 | AUC logreg=0.579 mlp_tab=0.598 tabm=0.582 roi_logreg_cb=0.594 roi_tabm_cb=0.662 PR_F1_stack=0.667 | 1293 s
+LC frac 0.80 rep 0 fold 3 | n latih 546 | AUC logreg=0.586 mlp_tab=0.609 tabm=0.637 roi_logreg_cb=0.540 roi_tabm_cb=0.578 PR_F1_stack=0.623 | 1337 s
+LC frac 0.80 rep 0 fold 4 | n latih 546 | AUC logreg=0.628 mlp_tab=0.613 tabm=0.620 roi_logreg_cb=0.620 roi_tabm_cb=0.645 PR_F1_stack=0.659 | 1378 s
+LC frac 0.80 rep 1 fold 0 | n latih 545 | AUC logreg=0.655 mlp_tab=0.678 tabm=0.682 roi_logreg_cb=0.563 roi_tabm_cb=0.644 PR_F1_stack=0.721 | 1424 s
+LC frac 0.80 rep 1 fold 1 | n latih 545 | AUC logreg=0.570 mlp_tab=0.617 tabm=0.649 roi_logreg_cb=0.577 roi_tabm_cb=0.575 PR_F1_stack=0.634 | 1473 s
+LC frac 0.80 rep 1 fold 2 | n latih 545 | AUC logreg=0.571 mlp_tab=0.581 tabm=0.581 roi_logreg_cb=0.572 roi_tabm_cb=0.670 PR_F1_stack=0.699 | 1526 s
+LC frac 0.80 rep 1 fold 3 | n latih 546 | AUC logreg=0.577 mlp_tab=0.598 tabm=0.594 roi_logreg_cb=0.572 roi_tabm_cb=0.594 PR_F1_stack=0.607 | 1569 s
+LC frac 0.80 rep 1 fold 4 | n latih 546 | AUC logreg=0.629 mlp_tab=0.624 tabm=0.627 roi_logreg_cb=0.609 roi_tabm_cb=0.614 PR_F1_stack=0.638 | 1615 s
+LC frac 0.80 rep 2 fold 0 | n latih 545 | AUC logreg=0.651 mlp_tab=0.660 tabm=0.667 roi_logreg_cb=0.617 roi_tabm_cb=0.628 PR_F1_stack=0.695 | 1657 s
+LC frac 0.80 rep 2 fold 1 | n latih 545 | AUC logreg=0.574 mlp_tab=0.606 tabm=0.604 roi_logreg_cb=0.521 roi_tabm_cb=0.537 PR_F1_stack=0.595 | 1706 s
+LC frac 0.80 rep 2 fold 2 | n latih 545 | AUC logreg=0.574 mlp_tab=0.599 tabm=0.596 roi_logreg_cb=0.611 roi_tabm_cb=0.653 PR_F1_stack=0.663 | 1747 s
+LC frac 0.80 rep 2 fold 3 | n latih 546 | AUC logreg=0.594 mlp_tab=0.663 tabm=0.669 roi_logreg_cb=0.622 roi_tabm_cb=0.611 PR_F1_stack=0.693 | 1797 s
+LC frac 0.80 rep 2 fold 4 | n latih 546 | AUC logreg=0.628 mlp_tab=0.615 tabm=0.609 roi_logreg_cb=0.609 roi_tabm_cb=0.619 PR_F1_stack=0.663 | 1835 s
+LC frac 1.00 rep 0 fold 0 | n latih 682 | AUC logreg=0.641 mlp_tab=0.648 tabm=0.671 roi_logreg_cb=0.607 roi_tabm_cb=0.675 PR_F1_stack=0.726 | 1884 s
+LC frac 1.00 rep 0 fold 1 | n latih 682 | AUC logreg=0.572 mlp_tab=0.609 tabm=0.643 roi_logreg_cb=0.549 roi_tabm_cb=0.547 PR_F1_stack=0.606 | 1930 s
+LC frac 1.00 rep 0 fold 2 | n latih 682 | AUC logreg=0.575 mlp_tab=0.601 tabm=0.578 roi_logreg_cb=0.654 roi_tabm_cb=0.662 PR_F1_stack=0.651 | 1978 s
+LC frac 1.00 rep 0 fold 3 | n latih 683 | AUC logreg=0.581 mlp_tab=0.624 tabm=0.649 roi_logreg_cb=0.604 roi_tabm_cb=0.626 PR_F1_stack=0.686 | 2031 s
+LC frac 1.00 rep 0 fold 4 | n latih 683 | AUC logreg=0.627 mlp_tab=0.629 tabm=0.621 roi_logreg_cb=0.624 roi_tabm_cb=0.625 PR_F1_stack=0.676 | 2082 s
+        model  frac  n_latih  auc_mean  auc_sd  ba_mean  ba_sd  f1_mean
+  PR_F1_stack  0.20    137.0     0.587   0.016    0.560  0.012    0.553
+  PR_F1_stack  0.35    239.0     0.615   0.016    0.580  0.018    0.574
+  PR_F1_stack  0.50    341.0     0.646   0.045    0.607  0.027    0.602
+  PR_F1_stack  0.65    443.4     0.651   0.049    0.610  0.037    0.605
+  PR_F1_stack  0.80    545.4     0.658   0.035    0.616  0.036    0.613
+  PR_F1_stack  1.00    682.4     0.669   0.044    0.625  0.039    0.621
+       logreg  0.20    137.0     0.582   0.016    0.562  0.021    0.559
+       logreg  0.35    239.0     0.591   0.023    0.570  0.007    0.569
+       logreg  0.50    341.0     0.599   0.032    0.567  0.022    0.565
+       logreg  0.65    443.4     0.596   0.031    0.572  0.016    0.571
+       logreg  0.80    545.4     0.601   0.034    0.577  0.022    0.575
+       logreg  1.00    682.4     0.599   0.032    0.574  0.020    0.573
+      mlp_tab  0.20    137.0     0.596   0.016    0.567  0.017    0.551
+      mlp_tab  0.35    239.0     0.606   0.019    0.575  0.014    0.571
+      mlp_tab  0.50    341.0     0.617   0.030    0.587  0.018    0.581
+      mlp_tab  0.65    443.4     0.623   0.034    0.592  0.022    0.586
+      mlp_tab  0.80    545.4     0.620   0.023    0.585  0.020    0.581
+      mlp_tab  1.00    682.4     0.622   0.018    0.585  0.014    0.580
+roi_logreg_cb  0.20    137.0     0.534   0.044    0.523  0.032    0.518
+roi_logreg_cb  0.35    239.0     0.554   0.029    0.535  0.025    0.533
+roi_logreg_cb  0.50    341.0     0.581   0.025    0.554  0.023    0.552
+roi_logreg_cb  0.65    443.4     0.576   0.029    0.551  0.025    0.548
+roi_logreg_cb  0.80    545.4     0.587   0.027    0.554  0.016    0.551
+roi_logreg_cb  1.00    682.4     0.608   0.038    0.573  0.034    0.570
+  roi_tabm_cb  0.20    137.0     0.559   0.036    0.542  0.023    0.513
+  roi_tabm_cb  0.35    239.0     0.581   0.026    0.556  0.023    0.549
+  roi_tabm_cb  0.50    341.0     0.611   0.043    0.582  0.029    0.578
+  roi_tabm_cb  0.65    443.4     0.611   0.047    0.560  0.040    0.538
+  roi_tabm_cb  0.80    545.4     0.616   0.041    0.572  0.040    0.564
+  roi_tabm_cb  1.00    682.4     0.627   0.050    0.600  0.041    0.596
+         tabm  0.20    137.0     0.603   0.005    0.566  0.013    0.560
+         tabm  0.35    239.0     0.604   0.018    0.580  0.014    0.576
+         tabm  0.50    341.0     0.614   0.030    0.591  0.016    0.589
+         tabm  0.65    443.4     0.622   0.030    0.587  0.021    0.576
+         tabm  0.80    545.4     0.625   0.027    0.591  0.014    0.587
+         tabm  1.00    682.4     0.633   0.035    0.595  0.030    0.591

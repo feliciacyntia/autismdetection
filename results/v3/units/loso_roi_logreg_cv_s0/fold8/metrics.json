@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 25,
+  "balanced_accuracy": 0.5993589743589745,
+  "f1_macro": 0.5993589743589745,
+  "auc": 0.596153846153846,
+  "sensitivity": 0.5833333333333334,
+  "specificity": 0.6153846153846154
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "OLIN",
+  "seed": 50,
+  "hp": {},
+  "C": [
+   0.001
+  ],
+  "combat_unseen": 25
+ }
+}

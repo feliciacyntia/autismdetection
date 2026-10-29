@@ -1,0 +1,235 @@
+{
+ "config_hash_pilot_v2": "27c4fa66930f2ece",
+ "dikunci": "2026-10-27",
+ "kandidat_data_penuh": {
+  "pheno": [
+   "mlp_tab",
+   "tabm",
+   "logreg"
+  ],
+  "roi": [
+   "roi_tabm_cb",
+   "roi_logreg_cb"
+  ],
+  "img25d_pretrained": [
+   "resnet18",
+   "effnet_b0"
+  ],
+  "img25d_dari_nol": [
+   "scratch2d"
+  ],
+  "img3d_dari_nol": [
+   "scratch3d"
+  ]
+ },
+ "aturan_kandidat": "Peringkat AUC pooled inner val (bukan skor test); 2-3 teratas per modalitas; LogReg selalu disertakan sebagai baseline. Kelompok pretrained vs dari nol masing-masing diwakili. Seleksi via inner val tidak stabil pada n=200.",
+ "dikeluarkan": {
+  "sfcn_lp/sfcn_head": "gagal cek kewajaran brain age (r=-0,08; prediksi ~60 th konstan) -> input/bobot tidak cocok; dilaporkan sebagai percobaan gagal, tidak dipakai sampai preprocessing SFCN terverifikasi",
+  "dinov2_lp/dinov2_head": "AUC inner val terendah (0,45/0,41)",
+  "convnextv2_t": "AUC inner val 0,463 dan biaya ~5x model lain",
+  "xgb (pheno), roi_xgb(_cb), roi_*_tanpa_ComBat": "di bawah kandidat terpilih menurut inner val"
+ },
+ "combat": {
+  "roi": "ya (inner val lebih baik untuk logreg & tabm)",
+  "embedding_citra": "ablasi saja",
+  "situs_tak_terlihat (LOSO)": "tidak diharmonisasi, ditandai"
+ },
+ "fusion": {
+  "utama": "F1_stack_logreg",
+  "pembanding": [
+   "F1_mean_prob",
+   "F2_pca16_logreg"
+  ],
+  "skenario": [
+   "PR",
+   "P25",
+   "P3",
+   "PRI"
+  ]
+ },
+ "ensemble": "ENS_mean_top3 (pembanding)",
+ "hyperparameter": {
+  "mlp_tab": {
+   "kind": "pheno",
+   "group": "CNN/ML klasik",
+   "hidden": [
+    64,
+    32
+   ],
+   "dropout": 0.2,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "tabm": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "logreg": {
+   "kind": "pheno",
+   "group": "CNN/ML klasik",
+   "C": 1.0
+  },
+  "roi_tabm_cb": {
+   "kind": "roi",
+   "base": "tabm",
+   "combat": true,
+   "group": "arsitektur modern (ROI)"
+  },
+  "roi_logreg_cb": {
+   "kind": "roi",
+   "base": "logreg",
+   "combat": true,
+   "group": "CNN/ML klasik (ROI)"
+  },
+  "resnet18": {
+   "kind": "2d",
+   "group": "pretrained: CNN klasik",
+   "timm": "resnet18.a1_in1k",
+   "train_modules": [
+    "layer4"
+   ],
+   "lp_epochs": 5,
+   "freeze_bn": true,
+   "epochs": 40,
+   "batch": 4,
+   "lr_head": 0.001,
+   "lr_backbone": 3e-05,
+   "wd": 0.0001,
+   "budget_min": 60,
+   "min_epochs": 5,
+   "patience": 10,
+   "smooth": 3,
+   "warmup": 2
+  },
+  "effnet_b0": {
+   "kind": "2d",
+   "group": "pretrained: CNN klasik",
+   "timm": "efficientnet_b0.ra_in1k",
+   "train_modules": [
+    "blocks.6",
+    "conv_head",
+    "bn2"
+   ],
+   "lp_epochs": 5,
+   "freeze_bn": true,
+   "epochs": 40,
+   "batch": 4,
+   "lr_head": 0.001,
+   "lr_backbone": 3e-05,
+   "wd": 0.0001,
+   "budget_min": 60,
+   "min_epochs": 5,
+   "patience": 10,
+   "smooth": 3,
+   "warmup": 2
+  },
+  "scratch2d": {
+   "kind": "scratch2d",
+   "group": "CNN dari nol",
+   "channels": [
+    32,
+    64,
+    128,
+    256
+   ],
+   "img_size": 112,
+   "dropout": 0.5,
+   "epochs": 60,
+   "batch": 4,
+   "lr": 0.001,
+   "wd": 0.01,
+   "budget_min": 60,
+   "min_epochs": 5,
+   "patience": 10,
+   "smooth": 3,
+   "warmup": 2,
+   "bn_recal": "inner_train_tanpa_augmentasi"
+  },
+  "scratch3d": {
+   "kind": "scratch3d",
+   "group": "CNN dari nol",
+   "channels": [
+    16,
+    32,
+    64,
+    128,
+    128
+   ],
+   "se_ratio": 8,
+   "dropout": 0.5,
+   "epochs": 60,
+   "batch": 4,
+   "lr": 0.001,
+   "wd": 0.01,
+   "budget_min": 75,
+   "min_epochs": 5,
+   "patience": 10,
+   "smooth": 3,
+   "warmup": 2,
+   "bn_recal": "inner_train_tanpa_augmentasi"
+  }
+ },
+ "training_citra_v2": {
+  "slices": {
+   "fractions": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+   ],
+   "planes": [
+    "sag",
+    "cor",
+    "ax"
+   ],
+   "size": 224,
+   "channels": "3 slice bersebelahan (p-1, p, p+1) sebagai RGB",
+   "intensity": "x01 = clip((z+3)/6, 0, 1) di dalam mask, 0 di luar; lalu normalisasi mean/std ImageNet"
+  },
+  "augment": {
+   "rot_deg": 5.0,
+   "shift_vox": 3.0,
+   "int_scale": 0.1,
+   "int_shift": 0.1
+  },
+  "slice_jitter_vox": 2,
+  "learned_criterion": "train loss terakhir < 0,98 x epoch 1 DAN (val loss halus terbaik < loss prediksi konstan ATAU AUC inner val di epoch terbaik >= 0,55)"
+ },
+ "catatan": "data penuh: inner CV penuh; preprocessing 05c fingerprint 682404ae0f5d2624; folds.csv tidak berubah",
+ "threshold": {
+  "dilaporkan": [
+   "0,5 tetap",
+   "Youden dari inner validation"
+  ],
+  "aturan_youden": "Per fold: threshold = argmax(sensitivitas + spesifisitas - 1) pada probabilitas inner validation fold tsb (model tabel: bagian inner_val dari OOF inner CV; model citra/probe: inner holdout; fusion: part inner_cv = cross_val_predict 5-fold pada set latih stacker, atau rerata probabilitas inner anggota); seri -> threshold terdekat 0,5; diterapkan ke test fold yang sama. Prediksi ASD bila p >= threshold. Implementasi: pilot_common.youden_threshold. Tidak pernah memakai data test.",
+  "dikunci": "2026-10-27"
+ },
+ "bugfix": [
+  {
+   "tanggal": "2026-10-27",
+   "model": [
+    "scratch2d",
+    "scratch3d"
+   ],
+   "jenis": "bugfix (bukan tuning)",
+   "masalah": "running stats BatchNorm basi saat eval (overfit test: loss train ~0,02-0,08 tetapi eval 12-17, akurasi 0,5)",
+   "perbaikan": "statistik BN dihitung ulang (rerata kumulatif) dari inner_train tanpa augmentasi sebelum tiap evaluasi dan prediksi akhir (pilot_models.recalibrate_bn); val/test tidak dipakai",
+   "hasil_lama": "pilot200_v2/units/scratch2d|scratch3d ditandai TIDAK VALID (bug BN), tidak dihapus",
+   "rerun": "C:\\ta_local\\results\\pilot200_v2_bnfix"
+  }
+ ],
+ "config_hash_data_penuh_baru": "c4604617137949cc"
+}

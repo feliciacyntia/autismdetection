@@ -1,0 +1,50 @@
+{
+ "SUB_ID": 50002,
+ "status": "ok",
+ "failed_step": null,
+ "error": null,
+ "started": "2026-10-22T13:42:52",
+ "n_negative_clipped": 0,
+ "native_shape_ras": [
+  176,
+  256,
+  256
+ ],
+ "native_voxel_mm": [
+  1.0500000715255737,
+  1.05078125,
+  1.05078125
+ ],
+ "orig_axcodes": "LAS",
+ "time_reorient": 0.8436706066131592,
+ "time_n4": 18.246360778808594,
+ "time_skullstrip": 277.1935908794403,
+ "hdbet_chunk_seconds": 277.1935908794403,
+ "hdbet_chunk_n": 1,
+ "vram_peak_mib": 3030.0,
+ "vram_baseline_mib": 0.0,
+ "brain_volume_native_ml": 1576.833194238782,
+ "time_skullstrip_post": 0.662945032119751,
+ "time_registration": 11.609415054321289,
+ "time_resample": 0.39182329177856445,
+ "clip_low": 34.26334476470947,
+ "clip_high": 200.07791175842289,
+ "zscore_mean": 136.98310410583073,
+ "zscore_std": 38.24598359272477,
+ "time_intensity": 0.03708934783935547,
+ "time_crop_save": 0.020934343338012695,
+ "final_shape": [
+  1,
+  96,
+  112,
+  96
+ ],
+ "vol_min": -2.6857659816741943,
+ "vol_max": 1.6497106552124023,
+ "vol_mean": 2.0104742315396607e-09,
+ "vol_std": 0.4859066903591156,
+ "vol_mean_in_mask": -3.0053501909321767e-09,
+ "vol_std_in_mask": 1.0,
+ "mask_voxels": 243706,
+ "time_total": 309.00582933425903
+}

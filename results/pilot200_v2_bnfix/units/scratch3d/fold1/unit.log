@@ -1,0 +1,14 @@
+2026-10-27 09:55:26 | INFO    | === Unit 7/10: scratch3d:1 ===
+2026-10-27 09:55:35 | INFO    | scratch3d:1 | epoch 1/60 | 9.5 s | train 0.7139 | val 0.7092 (halus 0.7092) | AUC val 0.551 | best 1 | VRAM 1021 MiB
+2026-10-27 09:55:45 | INFO    | scratch3d:1 | epoch 2/60 | 9.5 s | train 0.7072 | val 0.7696 (halus 0.7394) | AUC val 0.434 | best 1 | VRAM 1021 MiB
+2026-10-27 09:55:54 | INFO    | scratch3d:1 | epoch 3/60 | 9.4 s | train 0.7150 | val 0.7062 (halus 0.7283) | AUC val 0.574 | best 1 | VRAM 1021 MiB
+2026-10-27 09:56:04 | INFO    | scratch3d:1 | epoch 4/60 | 9.5 s | train 0.7175 | val 0.7070 (halus 0.7276) | AUC val 0.724 | best 1 | VRAM 1021 MiB
+2026-10-27 09:56:13 | INFO    | scratch3d:1 | epoch 5/60 | 9.4 s | train 0.7122 | val 0.7281 (halus 0.7138) | AUC val 0.467 | best 1 | VRAM 1021 MiB
+2026-10-27 09:56:23 | INFO    | scratch3d:1 | epoch 6/60 | 9.5 s | train 0.7046 | val 0.7309 (halus 0.7220) | AUC val 0.349 | best 1 | VRAM 1021 MiB
+2026-10-27 09:56:33 | INFO    | scratch3d:1 | epoch 7/60 | 9.5 s | train 0.7077 | val 0.7327 (halus 0.7306) | AUC val 0.294 | best 1 | VRAM 1021 MiB
+2026-10-27 09:56:42 | INFO    | scratch3d:1 | epoch 8/60 | 9.4 s | train 0.7089 | val 0.7210 (halus 0.7282) | AUC val 0.335 | best 1 | VRAM 1021 MiB
+2026-10-27 09:56:52 | INFO    | scratch3d:1 | epoch 9/60 | 9.5 s | train 0.7061 | val 0.7375 (halus 0.7304) | AUC val 0.312 | best 1 | VRAM 1021 MiB
+2026-10-27 09:57:01 | INFO    | scratch3d:1 | epoch 10/60 | 9.5 s | train 0.7110 | val 0.7221 (halus 0.7269) | AUC val 0.294 | best 1 | VRAM 1021 MiB
+2026-10-27 09:57:11 | INFO    | scratch3d:1 | epoch 11/60 | 9.4 s | train 0.7202 | val 0.7439 (halus 0.7345) | AUC val 0.301 | best 1 | VRAM 1021 MiB
+2026-10-27 09:57:15 | INFO    | scratch3d:1: sudah belajar = False (train 0.714->0.720 | val halus terbaik 0.7092 vs konstan 0.7093 | AUC val 0.551)
+2026-10-27 09:57:16 | INFO    | Unit scratch3d:1 selesai (done) | progres 7/10 unit selesai | 11.2 menit sejak mulai

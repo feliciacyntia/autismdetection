@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 32,
+  "balanced_accuracy": 0.59375,
+  "f1_macro": 0.539313399778516,
+  "auc": 0.72265625,
+  "sensitivity": 0.9375,
+  "specificity": 0.25
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "CALTECH",
+  "seed": 42,
+  "hp": {},
+  "C": [
+   0.001
+  ],
+  "combat_unseen": 32
+ }
+}

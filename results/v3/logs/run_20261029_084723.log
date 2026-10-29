@@ -1,0 +1,8 @@
+2026-10-29 08:47:23 | INFO    | v3 tabel | hasil C:\ta_local\results\v3 | config_hash 4521259311445664 | sha256 config 4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54
+2026-10-29 08:47:23 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-29 08:47:31 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-29 08:47:31 | INFO    | E1+E3: 180 unit, 0 sudah selesai, 180 dijalankan
+2026-10-29 08:47:42 | INFO    | [1/180] e1_pheno_logreg_cv_s0:0 selesai 10.5 s | 0.2 menit berjalan | sisa ±31 menit
+2026-10-29 08:47:42 | WARNING | Stop-file ditemukan: berhenti setelah langkah yang sedang berjalan selesai.
+2026-10-29 08:47:42 | WARNING | Berhenti rapi sebelum e1_pheno_logreg_cv_s0:1 (stop-file C:\ta_local\results\v3\STOP); lanjutkan dengan --resume.
+2026-10-29 08:47:42 | INFO    | Auto-sleep Windows dikembalikan normal.

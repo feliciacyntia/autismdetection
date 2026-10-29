@@ -1,0 +1,14 @@
+{
+ "best_params": {
+  "d_block": 128,
+  "n_blocks": 3,
+  "dropout": 0.0673112055009725,
+  "lr": 0.0012500235605503334,
+  "wd": 0.0001350683699850626
+ },
+ "best_inner_auc": 0.649058322163797,
+ "n_trials": 30,
+ "fold": 2,
+ "feat": "pheno",
+ "model": "tabm"
+}

@@ -1,0 +1,49 @@
+{
+ "dibuat": "2026-10-27 10:36:34",
+ "python": "3.12.3",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "versi_library": {
+  "numpy": "2.1.1",
+  "pandas": "2.3.1",
+  "scipy": "1.15.3",
+  "scikit-learn": "1.7.0",
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "timm": "1.0.22",
+  "xgboost": "3.4.1",
+  "lightgbm": "4.7.0",
+  "tabm": "0.0.3",
+  "neuroHarmonize": "2.4.5",
+  "neuroCombat": "0.2.12",
+  "nibabel": "5.4.2",
+  "matplotlib": "3.10.3"
+ },
+ "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "cuda": "12.1",
+ "cudnn": 90100,
+ "config_hash_runner": "27c4fa66930f2ece",
+ "config_hash_dibuat": "2026-10-27T02:39:32",
+ "config_hash_dihitung_ulang_sekarang": "84888081837812d7",
+ "preproc_fingerprint": "682404ae0f5d2624",
+ "sha256_folds_csv": "48f8e8bf9b8df9b7ce96808dda4f2c450c084ac7de22fad46ff89cfe0fe285b8",
+ "sha256_subset_20pct_csv": "da48e17a11ad2a63b81fa997f364d3715a5da1e8955cb4b021da3e71e61b24b0",
+ "sha256_tercatat_saat_run": {
+  "folds.csv": "48f8e8bf9b8df9b7ce96808dda4f2c450c084ac7de22fad46ff89cfe0fe285b8",
+  "subset_20pct.csv": "da48e17a11ad2a63b81fa997f364d3715a5da1e8955cb4b021da3e71e61b24b0",
+  "qc_decisions.csv": "d0b3b4026234502f3071243729f1e9358246430a1c3b68787428b9ebea25deb0",
+  "atlas": "84d0b0e0d7a3cbf529d303b6ceda18f5ee31d2b63319113da6aad941c95ddc99"
+ },
+ "threshold": 0.5,
+ "preproc_status_counts": [
+  {
+   "config_hash": "682404ae0f5d2624",
+   "status": "flagged",
+   "n": "1"
+  },
+  {
+   "config_hash": "682404ae0f5d2624",
+   "status": "success",
+   "n": "199"
+  }
+ ]
+}

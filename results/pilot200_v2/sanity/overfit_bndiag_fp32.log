@@ -1,0 +1,27 @@
+=== overfit 16 subjek | 2026-10-27 07:47 | label ASD=8 TD=8 | AMP=False | epoch 100
+scratch2d     ep   1 | train 0.8312 | eval 0.6976 acc 0.50
+scratch2d     ep  10 | train 0.5994 | eval 1.5557 acc 0.50
+scratch2d     ep  20 | train 0.3986 | eval 2.4692 acc 0.50
+scratch2d     ep  30 | train 0.2955 | eval 9.8996 acc 0.50
+scratch2d     ep  40 | train 0.3603 | eval 3.3135 acc 0.50
+scratch2d     ep  50 | train 0.0789 | eval 6.0161 acc 0.50
+scratch2d     ep  60 | train 0.0168 | eval 0.0182 acc 1.00
+scratch2d     ep  70 | train 0.2815 | eval 23.0586 acc 0.50
+scratch2d     ep  80 | train 0.0533 | eval 8.4052 acc 0.50
+scratch2d     ep  90 | train 0.3514 | eval 20.4811 acc 0.50
+scratch2d     ep 100 | train 0.0262 | eval 3.5620 acc 0.50
+    BN diag scratch2d: eval statistik batch loss 0.6838 acc 0.56 | eval setelah kalibrasi ulang running stats loss 0.0011 acc 1.00
+--> scratch2d: train ep1 0.8312 -> akhir 0.0262 | eval loss 3.5620 acc 0.50 | GAGAL | 1.2 menit
+scratch3d     ep   1 | train 0.7195 | eval 0.6950 acc 0.50
+scratch3d     ep  10 | train 0.6414 | eval 0.8312 acc 0.50
+scratch3d     ep  20 | train 0.4976 | eval 6.3087 acc 0.50
+scratch3d     ep  30 | train 0.3987 | eval 9.6235 acc 0.50
+scratch3d     ep  40 | train 0.3586 | eval 1.2753 acc 0.50
+scratch3d     ep  50 | train 0.0390 | eval 0.2151 acc 0.94
+scratch3d     ep  60 | train 0.0240 | eval 0.0073 acc 1.00
+scratch3d     ep  70 | train 0.9665 | eval 0.6908 acc 0.81
+scratch3d     ep  80 | train 0.0138 | eval 0.0152 acc 1.00
+scratch3d     ep  90 | train 0.2857 | eval 1.8226 acc 0.50
+scratch3d     ep 100 | train 0.0388 | eval 15.3311 acc 0.50
+    BN diag scratch3d: eval statistik batch loss 1.3516 acc 0.50 | eval setelah kalibrasi ulang running stats loss 0.0018 acc 1.00
+--> scratch3d: train ep1 0.7195 -> akhir 0.0388 | eval loss 15.3311 acc 0.50 | GAGAL | 3.7 menit

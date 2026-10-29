@@ -1,0 +1,12 @@
+2026-10-26 10:53:44 | INFO    | 05c 05c-v2.1 | mode=pilot | resume=False | dry_run=False | WORK_DIR=C:\ta_work\05c | input=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR | out=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc
+2026-10-26 10:53:44 | INFO    | HD-BET python=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\python.exe | CLI=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\hd-bet.exe
+2026-10-26 10:53:55 | INFO    | Subjek mode pilot: 3 (dev 3, test 0) | valid (fp d21d49b87afd8c11): 0 | ada checkpoint: 0 | akan diproses: 3
+2026-10-26 10:53:55 | INFO    | Versi: antspyx 0.6.3 | nibabel 5.4.2 | hd-bet 2.0.1 | nnunetv2 2.8.1 | torch 2.5.1+cu121 | bobot HD-BET sha256 d31dc59b4c5f
+2026-10-26 10:53:55 | INFO    | Preflight: RAM 6.57 GiB (min mulai 4.0) | VRAM bebas 3979.0 MiB | disk WORK 182.1/2.4 GB | disk data 182.1/1.0 GB
+2026-10-26 10:56:30 | INFO    | SUB_ID 50214: ok (155 s)
+2026-10-26 10:56:32 | INFO    | Progres 1/3 | ok 1 gagal 0 | chunk 157 s | rata-rata 155 s/subjek | sisa ±5 menit | RAM 6.60→6.49 GiB | VRAM dipakai 0 MiB
+2026-10-26 10:59:04 | INFO    | SUB_ID 51184: ok (152 s)
+2026-10-26 10:59:05 | INFO    | Progres 2/3 | ok 2 gagal 0 | chunk 153 s | rata-rata 154 s/subjek | sisa ±3 menit | RAM 6.49→6.38 GiB | VRAM dipakai 0 MiB
+2026-10-26 11:01:40 | INFO    | SUB_ID 51578: ok (155 s)
+2026-10-26 11:01:42 | INFO    | Progres 3/3 | ok 3 gagal 0 | chunk 157 s | rata-rata 155 s/subjek | sisa ±0 menit | RAM 6.38→6.28 GiB | VRAM dipakai 0 MiB
+2026-10-26 11:01:43 | INFO    | RINGKASAN run ini: success 3 | failed 0 | skipped 0 | flagged (semua output valid) 3 | total 7.8 menit | valid 3/3 | tuntas
