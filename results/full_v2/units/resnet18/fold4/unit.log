@@ -1,0 +1,33 @@
+2026-10-29 00:06:15 | INFO    | === Unit 36/91: resnet18:4 ===
+2026-10-29 00:06:27 | INFO    | resnet18:4 | epoch 1/40 | 12.1 s | train 0.7522 | val 0.7610 (halus 0.7610) | AUC val 0.574 | best 1 | VRAM 336 MiB
+2026-10-29 00:06:40 | INFO    | resnet18:4 | epoch 2/40 | 12.1 s | train 0.7591 | val 0.7463 (halus 0.7537) | AUC val 0.546 | best 2 | VRAM 336 MiB
+2026-10-29 00:06:52 | INFO    | resnet18:4 | epoch 3/40 | 12.1 s | train 0.7523 | val 0.7466 (halus 0.7513) | AUC val 0.532 | best 3 | VRAM 336 MiB
+2026-10-29 00:07:04 | INFO    | resnet18:4 | epoch 4/40 | 12.1 s | train 0.7489 | val 0.7466 (halus 0.7465) | AUC val 0.509 | best 4 | VRAM 336 MiB
+2026-10-29 00:07:16 | INFO    | resnet18:4 | epoch 5/40 | 12.1 s | train 0.7502 | val 0.7465 (halus 0.7466) | AUC val 0.522 | best 4 | VRAM 336 MiB
+2026-10-29 00:07:31 | INFO    | resnet18:4 | epoch 6/40 | 14.7 s | train 0.7471 | val 0.7468 (halus 0.7466) | AUC val 0.552 | best 4 | VRAM 448 MiB
+2026-10-29 00:07:46 | INFO    | resnet18:4 | epoch 7/40 | 14.7 s | train 0.7484 | val 0.7473 (halus 0.7469) | AUC val 0.560 | best 4 | VRAM 448 MiB
+2026-10-29 00:08:01 | INFO    | resnet18:4 | epoch 8/40 | 14.7 s | train 0.7495 | val 0.7474 (halus 0.7472) | AUC val 0.557 | best 4 | VRAM 448 MiB
+2026-10-29 00:08:15 | INFO    | resnet18:4 | epoch 9/40 | 14.7 s | train 0.7485 | val 0.7463 (halus 0.7470) | AUC val 0.554 | best 4 | VRAM 448 MiB
+2026-10-29 00:08:30 | INFO    | resnet18:4 | epoch 10/40 | 14.7 s | train 0.7489 | val 0.7464 (halus 0.7467) | AUC val 0.568 | best 4 | VRAM 448 MiB
+2026-10-29 00:08:45 | INFO    | resnet18:4 | epoch 11/40 | 14.7 s | train 0.7481 | val 0.7461 (halus 0.7462) | AUC val 0.551 | best 11 | VRAM 448 MiB
+2026-10-29 00:09:00 | INFO    | resnet18:4 | epoch 12/40 | 14.7 s | train 0.7493 | val 0.7463 (halus 0.7463) | AUC val 0.555 | best 11 | VRAM 448 MiB
+2026-10-29 00:09:15 | INFO    | resnet18:4 | epoch 13/40 | 14.7 s | train 0.7464 | val 0.7466 (halus 0.7463) | AUC val 0.557 | best 11 | VRAM 448 MiB
+2026-10-29 00:09:30 | INFO    | resnet18:4 | epoch 14/40 | 14.7 s | train 0.7482 | val 0.7461 (halus 0.7463) | AUC val 0.554 | best 11 | VRAM 448 MiB
+2026-10-29 00:09:44 | INFO    | resnet18:4 | epoch 15/40 | 14.7 s | train 0.7485 | val 0.7459 (halus 0.7462) | AUC val 0.560 | best 15 | VRAM 448 MiB
+2026-10-29 00:09:59 | INFO    | resnet18:4 | epoch 16/40 | 14.7 s | train 0.7474 | val 0.7459 (halus 0.7459) | AUC val 0.560 | best 16 | VRAM 448 MiB
+2026-10-29 00:10:14 | INFO    | resnet18:4 | epoch 17/40 | 14.7 s | train 0.7461 | val 0.7456 (halus 0.7458) | AUC val 0.562 | best 17 | VRAM 448 MiB
+2026-10-29 00:10:29 | INFO    | resnet18:4 | epoch 18/40 | 14.7 s | train 0.7471 | val 0.7452 (halus 0.7455) | AUC val 0.568 | best 18 | VRAM 448 MiB
+2026-10-29 00:10:44 | INFO    | resnet18:4 | epoch 19/40 | 14.7 s | train 0.7456 | val 0.7449 (halus 0.7452) | AUC val 0.569 | best 19 | VRAM 448 MiB
+2026-10-29 00:10:59 | INFO    | resnet18:4 | epoch 20/40 | 14.7 s | train 0.7439 | val 0.7433 (halus 0.7445) | AUC val 0.571 | best 20 | VRAM 448 MiB
+2026-10-29 00:11:13 | INFO    | resnet18:4 | epoch 21/40 | 14.7 s | train 0.7452 | val 0.7466 (halus 0.7450) | AUC val 0.571 | best 20 | VRAM 448 MiB
+2026-10-29 00:11:28 | INFO    | resnet18:4 | epoch 22/40 | 14.7 s | train 0.7418 | val 0.7443 (halus 0.7448) | AUC val 0.572 | best 20 | VRAM 448 MiB
+2026-10-29 00:11:43 | INFO    | resnet18:4 | epoch 23/40 | 14.7 s | train 0.7310 | val 0.7887 (halus 0.7599) | AUC val 0.569 | best 20 | VRAM 448 MiB
+2026-10-29 00:11:58 | INFO    | resnet18:4 | epoch 24/40 | 14.7 s | train 0.7321 | val 0.7379 (halus 0.7570) | AUC val 0.576 | best 20 | VRAM 448 MiB
+2026-10-29 00:12:13 | INFO    | resnet18:4 | epoch 25/40 | 14.7 s | train 0.7248 | val 0.7964 (halus 0.7743) | AUC val 0.576 | best 20 | VRAM 448 MiB
+2026-10-29 00:12:27 | INFO    | resnet18:4 | epoch 26/40 | 14.7 s | train 0.7191 | val 0.7967 (halus 0.7770) | AUC val 0.579 | best 20 | VRAM 448 MiB
+2026-10-29 00:12:42 | INFO    | resnet18:4 | epoch 27/40 | 14.7 s | train 0.7171 | val 0.7785 (halus 0.7905) | AUC val 0.582 | best 20 | VRAM 448 MiB
+2026-10-29 00:12:57 | INFO    | resnet18:4 | epoch 28/40 | 14.7 s | train 0.7148 | val 0.8082 (halus 0.7945) | AUC val 0.584 | best 20 | VRAM 448 MiB
+2026-10-29 00:13:12 | INFO    | resnet18:4 | epoch 29/40 | 14.7 s | train 0.7110 | val 0.8030 (halus 0.7966) | AUC val 0.585 | best 20 | VRAM 448 MiB
+2026-10-29 00:13:27 | INFO    | resnet18:4 | epoch 30/40 | 14.7 s | train 0.7156 | val 0.8217 (halus 0.8110) | AUC val 0.583 | best 20 | VRAM 448 MiB
+2026-10-29 00:13:39 | INFO    | resnet18:4: sudah belajar = True (train 0.752->0.716 | val halus terbaik 0.7445 vs konstan 0.7492 | AUC val 0.571)
+2026-10-29 00:13:39 | INFO    | Unit resnet18:4 selesai (done) | progres 36/91 unit selesai | 84.5 menit sejak mulai

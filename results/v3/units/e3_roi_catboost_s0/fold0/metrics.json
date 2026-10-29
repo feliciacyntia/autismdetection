@@ -1,0 +1,32 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.5993150684931507,
+  "f1_macro": 0.598109517601043,
+  "auc": 0.6003852739726028,
+  "sensitivity": 0.5,
+  "specificity": 0.6986301369863014
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.6934235976789168,
+  "f1_macro": 0.6896764252696457,
+  "auc": 0.7210555402044764,
+  "sensitivity": 0.7272727272727273,
+  "specificity": 0.6595744680851063
+ },
+ "info": {
+  "feat": "roi",
+  "model": "catboost",
+  "seed": 42,
+  "hp": {
+   "iterations": 1494,
+   "depth": 4,
+   "learning_rate": 0.029827910507528376,
+   "l2_leaf_reg": 5.482794254481128,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

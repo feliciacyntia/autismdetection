@@ -1,0 +1,28 @@
+2026-10-29 00:43:52 | INFO    | === Unit 41/91: scratch2d:4 ===
+2026-10-29 00:44:10 | INFO    | scratch2d:4 | epoch 1/60 | 17.7 s | train 0.7538 | val 0.7625 (halus 0.7625) | AUC val 0.448 | best 1 | VRAM 511 MiB
+2026-10-29 00:44:28 | INFO    | scratch2d:4 | epoch 2/60 | 17.7 s | train 0.7648 | val 0.7486 (halus 0.7556) | AUC val 0.493 | best 2 | VRAM 511 MiB
+2026-10-29 00:44:46 | INFO    | scratch2d:4 | epoch 3/60 | 17.7 s | train 0.7520 | val 0.7486 (halus 0.7532) | AUC val 0.515 | best 3 | VRAM 511 MiB
+2026-10-29 00:45:04 | INFO    | scratch2d:4 | epoch 4/60 | 17.7 s | train 0.7527 | val 0.7471 (halus 0.7481) | AUC val 0.529 | best 4 | VRAM 511 MiB
+2026-10-29 00:45:21 | INFO    | scratch2d:4 | epoch 5/60 | 17.8 s | train 0.7478 | val 0.7464 (halus 0.7474) | AUC val 0.506 | best 5 | VRAM 511 MiB
+2026-10-29 00:45:39 | INFO    | scratch2d:4 | epoch 6/60 | 17.8 s | train 0.7494 | val 0.7450 (halus 0.7462) | AUC val 0.538 | best 6 | VRAM 511 MiB
+2026-10-29 00:45:57 | INFO    | scratch2d:4 | epoch 7/60 | 17.8 s | train 0.7503 | val 0.7487 (halus 0.7467) | AUC val 0.515 | best 6 | VRAM 511 MiB
+2026-10-29 00:46:15 | INFO    | scratch2d:4 | epoch 8/60 | 17.7 s | train 0.7508 | val 0.7525 (halus 0.7487) | AUC val 0.493 | best 6 | VRAM 511 MiB
+2026-10-29 00:46:32 | INFO    | scratch2d:4 | epoch 9/60 | 17.6 s | train 0.7523 | val 0.7468 (halus 0.7493) | AUC val 0.514 | best 6 | VRAM 511 MiB
+2026-10-29 00:46:50 | INFO    | scratch2d:4 | epoch 10/60 | 17.7 s | train 0.7483 | val 0.7466 (halus 0.7486) | AUC val 0.516 | best 6 | VRAM 511 MiB
+2026-10-29 00:47:08 | INFO    | scratch2d:4 | epoch 11/60 | 17.7 s | train 0.7497 | val 0.7464 (halus 0.7466) | AUC val 0.507 | best 6 | VRAM 511 MiB
+2026-10-29 00:47:26 | INFO    | scratch2d:4 | epoch 12/60 | 17.8 s | train 0.7512 | val 0.7483 (halus 0.7471) | AUC val 0.546 | best 6 | VRAM 511 MiB
+2026-10-29 00:47:44 | INFO    | scratch2d:4 | epoch 13/60 | 17.8 s | train 0.7466 | val 0.7459 (halus 0.7469) | AUC val 0.530 | best 6 | VRAM 511 MiB
+2026-10-29 00:48:02 | INFO    | scratch2d:4 | epoch 14/60 | 17.8 s | train 0.7513 | val 0.7463 (halus 0.7468) | AUC val 0.513 | best 6 | VRAM 511 MiB
+2026-10-29 00:48:19 | INFO    | scratch2d:4 | epoch 15/60 | 17.7 s | train 0.7486 | val 0.7463 (halus 0.7461) | AUC val 0.507 | best 15 | VRAM 511 MiB
+2026-10-29 00:48:37 | INFO    | scratch2d:4 | epoch 16/60 | 17.7 s | train 0.7485 | val 0.7465 (halus 0.7463) | AUC val 0.515 | best 15 | VRAM 511 MiB
+2026-10-29 00:48:55 | INFO    | scratch2d:4 | epoch 17/60 | 17.7 s | train 0.7473 | val 0.7462 (halus 0.7463) | AUC val 0.509 | best 15 | VRAM 511 MiB
+2026-10-29 00:49:13 | INFO    | scratch2d:4 | epoch 18/60 | 17.8 s | train 0.7461 | val 0.7550 (halus 0.7492) | AUC val 0.490 | best 15 | VRAM 511 MiB
+2026-10-29 00:49:30 | INFO    | scratch2d:4 | epoch 19/60 | 17.7 s | train 0.7516 | val 0.7467 (halus 0.7493) | AUC val 0.483 | best 15 | VRAM 511 MiB
+2026-10-29 00:49:48 | INFO    | scratch2d:4 | epoch 20/60 | 17.7 s | train 0.7474 | val 0.7462 (halus 0.7493) | AUC val 0.505 | best 15 | VRAM 511 MiB
+2026-10-29 00:50:06 | INFO    | scratch2d:4 | epoch 21/60 | 17.8 s | train 0.7480 | val 0.7467 (halus 0.7466) | AUC val 0.474 | best 15 | VRAM 511 MiB
+2026-10-29 00:50:24 | INFO    | scratch2d:4 | epoch 22/60 | 17.8 s | train 0.7479 | val 0.7468 (halus 0.7466) | AUC val 0.482 | best 15 | VRAM 511 MiB
+2026-10-29 00:50:42 | INFO    | scratch2d:4 | epoch 23/60 | 17.8 s | train 0.7483 | val 0.7462 (halus 0.7466) | AUC val 0.497 | best 15 | VRAM 511 MiB
+2026-10-29 00:51:00 | INFO    | scratch2d:4 | epoch 24/60 | 17.8 s | train 0.7483 | val 0.7462 (halus 0.7464) | AUC val 0.503 | best 15 | VRAM 511 MiB
+2026-10-29 00:51:17 | INFO    | scratch2d:4 | epoch 25/60 | 17.8 s | train 0.7464 | val 0.7514 (halus 0.7479) | AUC val 0.522 | best 15 | VRAM 511 MiB
+2026-10-29 00:51:27 | INFO    | scratch2d:4: sudah belajar = False (train 0.754->0.746 | val halus terbaik 0.7461 vs konstan 0.7492 | AUC val 0.507)
+2026-10-29 00:51:27 | INFO    | Unit scratch2d:4 selesai (done) | progres 41/91 unit selesai | 122.3 menit sejak mulai

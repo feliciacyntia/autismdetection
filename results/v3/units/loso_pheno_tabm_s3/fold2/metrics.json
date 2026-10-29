@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 37,
+  "balanced_accuracy": 0.7049689440993789,
+  "f1_macro": 0.6946736684171042,
+  "auc": 0.7360248447204969,
+  "sensitivity": 0.7142857142857143,
+  "specificity": 0.6956521739130435
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "KKI",
+  "seed": 3044,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

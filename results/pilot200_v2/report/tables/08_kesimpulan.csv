@@ -1,0 +1,5 @@
+Penyebab / pertanyaan,Bukti dari pilot,Implikasi
+Sinyal diagnosis di fitur memang kecil,"Diagnosis menjelaskan ±0.38 % variansi fitur ROI (site ±42 %); |d| median 0.12; 8.1 % fitur p < 0,05.",Batas atas akurasi dari fitur intensitas ROI rendah; perlu fitur yang lebih sensitif (morfometri: volume/ketebalan).
+Efek site mendominasi,Variansi karena site ±109× variansi karena diagnosis.,Harmonisasi (ComBat) wajib; evaluasi lintas site (LOSO) perlu untuk klaim generalisasi.
+Apakah menambah data membantu?,Fenotipik (LogReg): AUC 0.555 ± 0.034 (25 %) → 0.564 (100 %); ROI + ComBat (LogReg): AUC 0.533 ± 0.038 (25 %) → 0.546 (100 %),Kurva DATAR dalam batas noise pada rentang 40–160 subjek → menambah data saja kemungkinan hanya memberi kenaikan kecil untuk fitur ini; pengungkit utama adalah fitur yang lebih informatif. Tetap perlu dicek di data penuh.
+Apakah sinyal sekarang nyata?,Fenotipik (LogReg): p = 0.0448; ROI + ComBat (LogReg): p = 0.2537,"p < 0,05 → sinyal nyata walau kecil; p ≥ 0,05 → pada n = 200 belum bisa dibedakan dari kebetulan."

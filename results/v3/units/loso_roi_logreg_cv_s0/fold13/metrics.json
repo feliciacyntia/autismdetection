@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 55,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.3037974683544304,
+  "auc": 0.5793010752688172,
+  "sensitivity": 0.0,
+  "specificity": 1.0
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "UCLA_1",
+  "seed": 55,
+  "hp": {},
+  "C": [
+   0.000316
+  ],
+  "combat_unseen": 55
+ }
+}

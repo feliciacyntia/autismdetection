@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 48,
+  "balanced_accuracy": 0.5991304347826087,
+  "f1_macro": 0.5955654101995566,
+  "auc": 0.7408695652173913,
+  "sensitivity": 0.72,
+  "specificity": 0.4782608695652174
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "PITT",
+  "seed": 51,
+  "hp": {},
+  "C": [
+   0.00316
+  ],
+  "combat_unseen": 48
+ }
+}

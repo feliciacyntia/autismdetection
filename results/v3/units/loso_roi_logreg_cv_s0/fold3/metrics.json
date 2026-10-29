@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 25,
+  "balanced_accuracy": 0.5448717948717949,
+  "f1_macro": 0.47619047619047616,
+  "auc": 0.7564102564102564,
+  "sensitivity": 0.16666666666666666,
+  "specificity": 0.9230769230769231
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "LEUVEN_1",
+  "seed": 45,
+  "hp": {},
+  "C": [
+   0.001
+  ],
+  "combat_unseen": 25
+ }
+}

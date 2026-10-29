@@ -1,0 +1,45 @@
+model,threshold,tn,fp,fn,tp,n
+logreg,"0,5",267,188,175,223,853
+logreg,Youden (inner),317,138,227,171,853
+mlp_tab,"0,5",314,141,207,191,853
+mlp_tab,Youden (inner),328,127,217,181,853
+tabm,"0,5",313,142,198,200,853
+tabm,Youden (inner),321,134,210,188,853
+roi_logreg_cb,"0,5",273,182,182,216,853
+roi_logreg_cb,Youden (inner),255,200,176,222,853
+roi_tabm_cb,"0,5",283,172,170,228,853
+roi_tabm_cb,Youden (inner),312,143,207,191,853
+effnet_b0,"0,5",257,198,168,230,853
+effnet_b0,Youden (inner),275,180,202,196,853
+resnet18,"0,5",200,255,182,216,853
+resnet18,Youden (inner),281,174,211,187,853
+scratch2d,"0,5",235,220,189,209,853
+scratch2d,Youden (inner),223,232,186,212,853
+scratch3d,"0,5",222,233,150,248,853
+scratch3d,Youden (inner),279,176,210,188,853
+PR · F1_stack_logreg,"0,5",316,139,178,220,853
+PR · F1_stack_logreg,Youden (inner),287,168,164,234,853
+PR · F1_mean_prob,"0,5",311,144,166,232,853
+PR · F1_mean_prob,Youden (inner),303,152,157,241,853
+PR · F2_pca16_logreg,"0,5",289,166,160,238,853
+PR · F2_pca16_logreg,Youden (inner),336,119,191,207,853
+P25 · F1_stack_logreg,"0,5",319,136,200,198,853
+P25 · F1_stack_logreg,Youden (inner),293,162,170,228,853
+P25 · F1_mean_prob,"0,5",314,141,184,214,853
+P25 · F1_mean_prob,Youden (inner),330,125,196,202,853
+P25 · F2_pca16_logreg,"0,5",265,190,163,235,853
+P25 · F2_pca16_logreg,Youden (inner),313,142,218,180,853
+P3 · F1_stack_logreg,"0,5",307,148,190,208,853
+P3 · F1_stack_logreg,Youden (inner),284,171,160,238,853
+P3 · F1_mean_prob,"0,5",308,147,186,212,853
+P3 · F1_mean_prob,Youden (inner),282,173,162,236,853
+P3 · F2_pca16_logreg,"0,5",270,185,179,219,853
+P3 · F2_pca16_logreg,Youden (inner),291,164,203,195,853
+PRI · F1_stack_logreg,"0,5",323,132,187,211,853
+PRI · F1_stack_logreg,Youden (inner),318,137,182,216,853
+PRI · F1_mean_prob,"0,5",309,146,162,236,853
+PRI · F1_mean_prob,Youden (inner),313,142,169,229,853
+PRI · F2_pca16_logreg,"0,5",267,188,186,212,853
+PRI · F2_pca16_logreg,Youden (inner),286,169,204,194,853
+ENS · ENS_mean_top3,"0,5",303,152,198,200,853
+ENS · ENS_mean_top3,Youden (inner),277,178,171,227,853

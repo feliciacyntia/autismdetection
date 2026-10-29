@@ -1,0 +1,13 @@
+{
+ "best_params": {
+  "depth": 6,
+  "learning_rate": 0.03253384096416505,
+  "l2_leaf_reg": 3.515137375015841,
+  "iterations": 865
+ },
+ "best_inner_auc": 0.6091299987941331,
+ "n_trials": 30,
+ "fold": 4,
+ "feat": "pheno",
+ "model": "catboost"
+}

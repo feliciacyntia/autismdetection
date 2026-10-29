@@ -1,0 +1,29 @@
+2026-10-29 00:24:27 | INFO    | === Unit 38/91: scratch2d:1 ===
+2026-10-29 00:24:45 | INFO    | scratch2d:1 | epoch 1/60 | 17.8 s | train 0.7478 | val 0.7348 (halus 0.7348) | AUC val 0.501 | best 1 | VRAM 511 MiB
+2026-10-29 00:25:03 | INFO    | scratch2d:1 | epoch 2/60 | 17.8 s | train 0.7445 | val 0.7346 (halus 0.7347) | AUC val 0.480 | best 2 | VRAM 511 MiB
+2026-10-29 00:25:21 | INFO    | scratch2d:1 | epoch 3/60 | 17.7 s | train 0.7397 | val 0.7322 (halus 0.7339) | AUC val 0.557 | best 3 | VRAM 511 MiB
+2026-10-29 00:25:38 | INFO    | scratch2d:1 | epoch 4/60 | 17.7 s | train 0.7409 | val 0.7331 (halus 0.7333) | AUC val 0.479 | best 4 | VRAM 511 MiB
+2026-10-29 00:25:56 | INFO    | scratch2d:1 | epoch 5/60 | 17.7 s | train 0.7397 | val 0.7341 (halus 0.7332) | AUC val 0.536 | best 5 | VRAM 511 MiB
+2026-10-29 00:26:14 | INFO    | scratch2d:1 | epoch 6/60 | 17.9 s | train 0.7383 | val 0.7324 (halus 0.7332) | AUC val 0.485 | best 5 | VRAM 511 MiB
+2026-10-29 00:26:32 | INFO    | scratch2d:1 | epoch 7/60 | 17.8 s | train 0.7362 | val 0.7326 (halus 0.7330) | AUC val 0.498 | best 7 | VRAM 511 MiB
+2026-10-29 00:26:50 | INFO    | scratch2d:1 | epoch 8/60 | 17.8 s | train 0.7363 | val 0.7348 (halus 0.7333) | AUC val 0.487 | best 7 | VRAM 511 MiB
+2026-10-29 00:27:08 | INFO    | scratch2d:1 | epoch 9/60 | 17.8 s | train 0.7372 | val 0.7324 (halus 0.7332) | AUC val 0.494 | best 7 | VRAM 511 MiB
+2026-10-29 00:27:26 | INFO    | scratch2d:1 | epoch 10/60 | 17.8 s | train 0.7352 | val 0.7330 (halus 0.7334) | AUC val 0.484 | best 7 | VRAM 511 MiB
+2026-10-29 00:27:43 | INFO    | scratch2d:1 | epoch 11/60 | 17.8 s | train 0.7357 | val 0.7338 (halus 0.7330) | AUC val 0.487 | best 7 | VRAM 511 MiB
+2026-10-29 00:28:01 | INFO    | scratch2d:1 | epoch 12/60 | 17.9 s | train 0.7359 | val 0.7359 (halus 0.7342) | AUC val 0.489 | best 7 | VRAM 511 MiB
+2026-10-29 00:28:19 | INFO    | scratch2d:1 | epoch 13/60 | 17.8 s | train 0.7398 | val 0.7341 (halus 0.7346) | AUC val 0.448 | best 7 | VRAM 511 MiB
+2026-10-29 00:28:37 | INFO    | scratch2d:1 | epoch 14/60 | 17.8 s | train 0.7339 | val 0.7322 (halus 0.7341) | AUC val 0.465 | best 7 | VRAM 511 MiB
+2026-10-29 00:28:55 | INFO    | scratch2d:1 | epoch 15/60 | 17.8 s | train 0.7365 | val 0.7323 (halus 0.7329) | AUC val 0.521 | best 15 | VRAM 511 MiB
+2026-10-29 00:29:13 | INFO    | scratch2d:1 | epoch 16/60 | 17.8 s | train 0.7336 | val 0.7322 (halus 0.7322) | AUC val 0.516 | best 16 | VRAM 511 MiB
+2026-10-29 00:29:30 | INFO    | scratch2d:1 | epoch 17/60 | 17.6 s | train 0.7356 | val 0.7326 (halus 0.7324) | AUC val 0.481 | best 16 | VRAM 511 MiB
+2026-10-29 00:29:48 | INFO    | scratch2d:1 | epoch 18/60 | 17.6 s | train 0.7349 | val 0.7329 (halus 0.7325) | AUC val 0.480 | best 16 | VRAM 511 MiB
+2026-10-29 00:30:06 | INFO    | scratch2d:1 | epoch 19/60 | 17.6 s | train 0.7332 | val 0.7324 (halus 0.7326) | AUC val 0.483 | best 16 | VRAM 511 MiB
+2026-10-29 00:30:24 | INFO    | scratch2d:1 | epoch 20/60 | 17.7 s | train 0.7338 | val 0.7323 (halus 0.7325) | AUC val 0.427 | best 16 | VRAM 511 MiB
+2026-10-29 00:30:41 | INFO    | scratch2d:1 | epoch 21/60 | 17.7 s | train 0.7352 | val 0.7328 (halus 0.7325) | AUC val 0.478 | best 16 | VRAM 511 MiB
+2026-10-29 00:30:59 | INFO    | scratch2d:1 | epoch 22/60 | 17.6 s | train 0.7322 | val 0.7336 (halus 0.7329) | AUC val 0.454 | best 16 | VRAM 511 MiB
+2026-10-29 00:31:17 | INFO    | scratch2d:1 | epoch 23/60 | 17.7 s | train 0.7348 | val 0.7321 (halus 0.7328) | AUC val 0.525 | best 16 | VRAM 511 MiB
+2026-10-29 00:31:34 | INFO    | scratch2d:1 | epoch 24/60 | 17.6 s | train 0.7352 | val 0.7317 (halus 0.7325) | AUC val 0.487 | best 16 | VRAM 511 MiB
+2026-10-29 00:31:52 | INFO    | scratch2d:1 | epoch 25/60 | 17.6 s | train 0.7330 | val 0.7329 (halus 0.7322) | AUC val 0.509 | best 16 | VRAM 511 MiB
+2026-10-29 00:32:10 | INFO    | scratch2d:1 | epoch 26/60 | 17.6 s | train 0.7397 | val 0.7332 (halus 0.7326) | AUC val 0.482 | best 16 | VRAM 511 MiB
+2026-10-29 00:32:19 | INFO    | scratch2d:1: sudah belajar = False (train 0.748->0.740 | val halus terbaik 0.7322 vs konstan 0.7334 | AUC val 0.516)
+2026-10-29 00:32:19 | INFO    | Unit scratch2d:1 selesai (done) | progres 38/91 unit selesai | 103.1 menit sejak mulai

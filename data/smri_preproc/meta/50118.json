@@ -1,0 +1,102 @@
+{
+ "SUB_ID": 50118,
+ "status": "ok",
+ "started": "2026-10-26T12:19:07",
+ "skullstrip_tool": "HD-BET",
+ "tool": {
+  "tool": "HD-BET",
+  "version": "2.0.1",
+  "nnunetv2": "2.8.1",
+  "torch": "2.5.1+cu121",
+  "weights_sha256": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52",
+  "device": "cuda"
+ },
+ "cached_reorient": true,
+ "last_stage": "finalize",
+ "cached_n4": true,
+ "cached_skullstrip": true,
+ "time_mask_ras": 0.5072758197784424,
+ "time_registration": 61.11366415023804,
+ "time_resample": 0.25670599937438965,
+ "time_intensity": 0.032566070556640625,
+ "vol_nii_sha256": "c3b2cf84a9c2434bdda911aa3cee56d118f97ad24e39139f5852bacd181dc7ff",
+ "mask_nii_sha256": "eae4c1eaa8ca2c78b919c0296aed47de1a3fdea364396c8a679b36e26d056f84",
+ "time_crop_save": 0.09407639503479004,
+ "clip_low": 35.238084144592285,
+ "clip_high": 239.41533340454103,
+ "zscore_mean_raw": 153.53605270372265,
+ "zscore_std_raw": 49.02904447768119,
+ "final_shape": [
+  1,
+  96,
+  112,
+  96
+ ],
+ "vol_min": -2.412814140319824,
+ "vol_max": 1.7516001462936401,
+ "vol_mean_in_mask": -5.117179124880522e-09,
+ "vol_std_in_mask": 1.0,
+ "mask_voxels": 238550,
+ "mask_ratio_template": 1.013489113117366,
+ "vol_sha256": "5953e053701f85c0dd7d924ef5a89569836021d9c0628a70f561d4cfccee2ee7",
+ "mask_sha256": "383a7aa9798d0b7f11b22d3527c350f8baea83aebd6d52b49bdce85efddd7c48",
+ "reg_det": 0.8791452890121331,
+ "reg_scale_min": 0.9131062223736156,
+ "reg_scale_max": 1.0336596763901233,
+ "brain_volume_native_ml": 1677.858,
+ "config_fp": "682404ae0f5d2624",
+ "pipeline_version": "05c-v2.1",
+ "finished": "2026-10-26T12:20:11",
+ "duration_s": 63.8461549282074,
+ "ram_min_available_gb": 4.581993103027344,
+ "main_peak_rss_gb": 0.5363006591796875,
+ "marker_reorient": {
+  "step": "reorient",
+  "fp": "682404ae0f5d2624",
+  "input_sig": {
+   "source": {
+    "path": "C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\dataset\\all_anat_T1w\\sub-0050118_T1w.nii.gz",
+    "size": 6376005,
+    "mtime_ns": 1778827036000000000
+   }
+  },
+  "outputs": {
+   "ras.nii.gz": 8667489
+  },
+  "done": "2026-10-26T12:14:00",
+  "orig_axcodes": "LAS",
+  "orig_shape": [
+   208,
+   256,
+   176
+  ],
+  "orig_voxel_mm": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "n_negative_clipped": 0,
+  "ras_shape": [
+   208,
+   256,
+   176
+  ]
+ },
+ "marker_n4": {
+  "step": "n4",
+  "fp": "682404ae0f5d2624",
+  "input_sig": {
+   "ras": {
+    "name": "ras.nii.gz",
+    "size": 8667489,
+    "mtime_ns": 1792991640343739100
+   }
+  },
+  "outputs": {
+   "n4.nii.gz": 18284891,
+   "hdbet_in.nii.gz": 18459078
+  },
+  "done": "2026-10-26T12:14:19",
+  "affine_max_diff_vs_ras": 0.0
+ }
+}

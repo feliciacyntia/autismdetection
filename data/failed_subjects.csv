@@ -1,0 +1,301 @@
+SUB_ID,failed_step,error,timestamp
+50013,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50149,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50213,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50279,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50286,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50330,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50422,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:52
+50490,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+50603,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+50651,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+50699,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+50745,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+50812,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51061,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51185,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51277,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51309,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51354,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51472,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53
+51577,skullstrip,"HD-BET gagal (kode 1):
+ges\nnunetv2\preprocessing\preprocessors\default_preprocessor.py"", line 135, in run_case
+    data, data_properties = rw.read_images(image_files)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Lib\site-packages\nnunetv2\imageio\simpleitk_reader_writer.py"", line 112, in read_images
+    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Lenovo\AppData\Roaming\Python\Python312\site-packages\numpy\_core\shape_base.py"", line 291, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32
+
+ 12%|█▎        | 1/8 [00:01<00:11,  1.68s/it]
+ 25%|██▌       | 2/8 [00:04<00:14,  2.48s/it]
+ 38%",2026-10-22T14:02:53

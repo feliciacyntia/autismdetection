@@ -1,0 +1,38 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.594285102739726,
+  "f1_macro": 0.5912190963341859,
+  "auc": 0.6211472602739726,
+  "sensitivity": 0.640625,
+  "specificity": 0.547945205479452
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.5704614534401768,
+  "f1_macro": 0.5390512865394714,
+  "auc": 0.6387123514783088,
+  "sensitivity": 0.7792207792207793,
+  "specificity": 0.3617021276595745
+ },
+ "info": {
+  "feat": "roi",
+  "model": "tabm",
+  "seed": 3042,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

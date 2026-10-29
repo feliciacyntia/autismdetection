@@ -1,0 +1,13 @@
+{
+ "best_params": {
+  "depth": 5,
+  "learning_rate": 0.02757597576829462,
+  "l2_leaf_reg": 1.9484413617431382,
+  "iterations": 912
+ },
+ "best_inner_auc": 0.603930686809603,
+ "n_trials": 30,
+ "fold": 3,
+ "feat": "roi",
+ "model": "catboost"
+}

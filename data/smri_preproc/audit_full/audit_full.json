@@ -1,0 +1,144 @@
+{
+ "1_fingerprint": {
+  "status.csv": {
+   "682404ae0f5d2624": 1002
+  },
+  "qc_report.csv": {
+   "682404ae0f5d2624": 1002
+  },
+  "meta/*.json": {
+   "682404ae0f5d2624": 1002
+  },
+  "subjek_di_status": 1002,
+  "subjek_folds": 1002
+ },
+ "2_versi_tool": {
+  "kombinasi_tool_per_subjek": {
+   "{\"device\": \"cuda\", \"nnunetv2\": \"2.8.1\", \"tool\": \"HD-BET\", \"torch\": \"2.5.1+cu121\", \"version\": \"2.0.1\", \"weights_sha256\": \"d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52\"}": 1002
+  },
+  "pipeline_version": {
+   "05c-v2.1": 1002
+  },
+  "versi_di_fingerprint": {
+   "antspyx": "0.6.3",
+   "nibabel": "5.4.2",
+   "numpy": "2.1.1",
+   "nilearn": "0.13.1",
+   "venv_hd-bet": "2.0.1",
+   "venv_nnunetv2": "2.8.1",
+   "venv_torch": "2.5.1+cu121",
+   "venv_SimpleITK": "2.5.6"
+  },
+  "hdbet_weights_fingerprint": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52",
+  "template_sha_sekarang": {
+   "1mm": "62286d77a3ae3742f559f0a37fffbf7fcae1fa4a24812eda9c15e7156909c729",
+   "2mm": "ca85b9307491a7dac12ada2ce45304f2c8e8a7c36409330920dccb088685f4d2"
+  },
+  "template_sha_fingerprint": {
+   "1mm": "62286d77a3ae3742f559f0a37fffbf7fcae1fa4a24812eda9c15e7156909c729",
+   "2mm": "ca85b9307491a7dac12ada2ce45304f2c8e8a7c36409330920dccb088685f4d2"
+  },
+  "env_per_run (antspyx/nibabel/numpy/...)": {}
+ },
+ "3_validitas_output": {
+  "subjek_dicek": 1002,
+  "gagal": [],
+  "npy_shape_ok": 1002,
+  "nii_shape_ok": 1002,
+  "mask_biner": 1002,
+  "mask_tidak_kosong": 1002,
+  "luar_mask_nol": 1002,
+  "finite": 1002,
+  "npy_sama_nii": 1002,
+  "montase_ada": 1002
+ },
+ "4_qc_pilot_vs_baru": {
+  "n_pilot": 200,
+  "n_baru": 802,
+  "metrik_beda_holm": []
+ },
+ "4b_flag_qc": {
+  "semua": [
+   {
+    "SUB_ID": 50009,
+    "SITE_ID": "PITT",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 50118,
+    "SITE_ID": "OLIN",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 50345,
+    "SITE_ID": "UM_1",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 50404,
+    "SITE_ID": "UM_2",
+    "flag_reasons": "reg_det"
+   },
+   {
+    "SUB_ID": 50482,
+    "SITE_ID": "USM",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 50708,
+    "SITE_ID": "LEUVEN_1",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 50955,
+    "SITE_ID": "NYU",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 51220,
+    "SITE_ID": "UCLA_1",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 51324,
+    "SITE_ID": "MAX_MUN",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 51461,
+    "SITE_ID": "CALTECH",
+    "flag_reasons": "outlier_z"
+   },
+   {
+    "SUB_ID": 51581,
+    "SITE_ID": "SBL",
+    "flag_reasons": "outlier_z"
+   }
+  ],
+  "flag_baru_belum_diputuskan": []
+ },
+ "6_header": {
+  "flag_voxel_vs_site_mode": 74,
+  "flag_fov_janggal (seperti 50404)": [
+   {
+    "SUB_ID": "50404",
+    "SITE_ID": "UM_2",
+    "voxel_mm": "(0.86, 0.86, 1.4)",
+    "matrix": "(106, 256, 256)",
+    "fov_mm": "(148, 220, 220)",
+    "fov_mode_same_matrix": "(148, 256, 256)"
+   }
+  ],
+  "sama_dengan_cek_sebelumnya": true
+ },
+ "7_test_heldout": {
+  "n_test": 149,
+  "file_dicek": 2265,
+  "file_berisi_subjek_test": {}
+ },
+ "ringkasan": {
+  "lulus": true,
+  "masalah": [],
+  "detik": 82
+ }
+}

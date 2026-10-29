@@ -1,0 +1,22 @@
+2026-10-29 01:28:03 | INFO    | === Unit 43/91: scratch3d:1 ===
+2026-10-29 01:28:43 | INFO    | scratch3d:1 | epoch 1/60 | 39.4 s | train 0.7353 | val 0.7318 (halus 0.7318) | AUC val 0.533 | best 1 | VRAM 1021 MiB
+2026-10-29 01:29:22 | INFO    | scratch3d:1 | epoch 2/60 | 39.2 s | train 0.7367 | val 0.7322 (halus 0.7320) | AUC val 0.470 | best 1 | VRAM 1021 MiB
+2026-10-29 01:30:02 | INFO    | scratch3d:1 | epoch 3/60 | 39.4 s | train 0.7354 | val 0.7340 (halus 0.7326) | AUC val 0.499 | best 1 | VRAM 1021 MiB
+2026-10-29 01:30:41 | INFO    | scratch3d:1 | epoch 4/60 | 39.1 s | train 0.7329 | val 0.7350 (halus 0.7337) | AUC val 0.506 | best 1 | VRAM 1021 MiB
+2026-10-29 01:31:20 | INFO    | scratch3d:1 | epoch 5/60 | 39.1 s | train 0.7346 | val 0.7328 (halus 0.7339) | AUC val 0.549 | best 1 | VRAM 1021 MiB
+2026-10-29 01:31:59 | INFO    | scratch3d:1 | epoch 6/60 | 39.0 s | train 0.7393 | val 0.7336 (halus 0.7338) | AUC val 0.487 | best 1 | VRAM 1021 MiB
+2026-10-29 01:32:38 | INFO    | scratch3d:1 | epoch 7/60 | 38.9 s | train 0.7335 | val 0.7322 (halus 0.7328) | AUC val 0.515 | best 1 | VRAM 1021 MiB
+2026-10-29 01:33:17 | INFO    | scratch3d:1 | epoch 8/60 | 38.9 s | train 0.7322 | val 0.7321 (halus 0.7326) | AUC val 0.517 | best 1 | VRAM 1021 MiB
+2026-10-29 01:33:56 | INFO    | scratch3d:1 | epoch 9/60 | 39.0 s | train 0.7347 | val 0.7303 (halus 0.7315) | AUC val 0.531 | best 9 | VRAM 1021 MiB
+2026-10-29 01:34:35 | INFO    | scratch3d:1 | epoch 10/60 | 38.9 s | train 0.7340 | val 0.7333 (halus 0.7319) | AUC val 0.504 | best 9 | VRAM 1021 MiB
+2026-10-29 01:35:14 | INFO    | scratch3d:1 | epoch 11/60 | 38.8 s | train 0.7354 | val 0.7310 (halus 0.7316) | AUC val 0.537 | best 9 | VRAM 1021 MiB
+2026-10-29 01:35:53 | INFO    | scratch3d:1 | epoch 12/60 | 38.9 s | train 0.7338 | val 0.7327 (halus 0.7324) | AUC val 0.448 | best 9 | VRAM 1021 MiB
+2026-10-29 01:36:32 | INFO    | scratch3d:1 | epoch 13/60 | 38.8 s | train 0.7342 | val 0.7331 (halus 0.7323) | AUC val 0.435 | best 9 | VRAM 1021 MiB
+2026-10-29 01:37:11 | INFO    | scratch3d:1 | epoch 14/60 | 38.8 s | train 0.7338 | val 0.7327 (halus 0.7328) | AUC val 0.473 | best 9 | VRAM 1021 MiB
+2026-10-29 01:37:49 | INFO    | scratch3d:1 | epoch 15/60 | 38.8 s | train 0.7341 | val 0.7331 (halus 0.7330) | AUC val 0.478 | best 9 | VRAM 1021 MiB
+2026-10-29 01:38:28 | INFO    | scratch3d:1 | epoch 16/60 | 38.8 s | train 0.7327 | val 0.7332 (halus 0.7330) | AUC val 0.484 | best 9 | VRAM 1021 MiB
+2026-10-29 01:39:07 | INFO    | scratch3d:1 | epoch 17/60 | 38.9 s | train 0.7351 | val 0.7332 (halus 0.7332) | AUC val 0.490 | best 9 | VRAM 1021 MiB
+2026-10-29 01:39:46 | INFO    | scratch3d:1 | epoch 18/60 | 38.8 s | train 0.7332 | val 0.7330 (halus 0.7331) | AUC val 0.490 | best 9 | VRAM 1021 MiB
+2026-10-29 01:40:25 | INFO    | scratch3d:1 | epoch 19/60 | 38.8 s | train 0.7333 | val 0.7328 (halus 0.7330) | AUC val 0.493 | best 9 | VRAM 1021 MiB
+2026-10-29 01:40:45 | INFO    | scratch3d:1: sudah belajar = False (train 0.735->0.733 | val halus terbaik 0.7315 vs konstan 0.7334 | AUC val 0.531)
+2026-10-29 01:40:45 | INFO    | Unit scratch3d:1 selesai (done) | progres 43/91 unit selesai | 171.6 menit sejak mulai

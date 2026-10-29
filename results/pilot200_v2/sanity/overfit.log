@@ -1,0 +1,85 @@
+=== overfit 16 subjek | 2026-10-27 07:37 | label ASD=8 TD=8 | AMP=True | epoch 100
+effnet_b0     ep   1 | train 0.9165 | eval 0.8643 acc 0.50
+effnet_b0     ep  10 | train 0.6610 | eval 0.6435 acc 0.56
+effnet_b0     ep  20 | train 0.2971 | eval 0.2601 acc 0.88
+effnet_b0     ep  30 | train 0.0545 | eval 0.0324 acc 1.00
+effnet_b0     ep  40 | train 0.0103 | eval 0.0093 acc 1.00
+effnet_b0     ep  50 | train 0.0055 | eval 0.0053 acc 1.00
+effnet_b0     ep  60 | train 0.0030 | eval 0.0029 acc 1.00
+effnet_b0     ep  70 | train 0.0021 | eval 0.0020 acc 1.00
+effnet_b0     ep  80 | train 0.0015 | eval 0.0015 acc 1.00
+effnet_b0     ep  90 | train 0.0012 | eval 0.0011 acc 1.00
+effnet_b0     ep 100 | train 0.0009 | eval 0.0009 acc 1.00
+--> effnet_b0: train ep1 0.9165 -> akhir 0.0009 | eval loss 0.0009 acc 1.00 | LULUS | 0.8 menit
+resnet18      ep   1 | train 0.7693 | eval 0.7207 acc 0.50
+resnet18      ep  10 | train 0.6784 | eval 0.6742 acc 0.69
+resnet18      ep  20 | train 0.5816 | eval 0.5518 acc 0.88
+resnet18      ep  30 | train 0.1371 | eval 0.1112 acc 1.00
+resnet18      ep  40 | train 0.0189 | eval 0.0120 acc 1.00
+resnet18      ep  50 | train 0.0052 | eval 0.0049 acc 1.00
+resnet18      ep  60 | train 0.0030 | eval 0.0029 acc 1.00
+resnet18      ep  70 | train 0.0021 | eval 0.0020 acc 1.00
+resnet18      ep  80 | train 0.0015 | eval 0.0015 acc 1.00
+resnet18      ep  90 | train 0.0011 | eval 0.0011 acc 1.00
+resnet18      ep 100 | train 0.0009 | eval 0.0009 acc 1.00
+--> resnet18: train ep1 0.7693 -> akhir 0.0009 | eval loss 0.0009 acc 1.00 | LULUS | 0.6 menit
+scratch2d     ep   1 | train 0.8316 | eval 0.6980 acc 0.50
+scratch2d     ep  10 | train 0.6059 | eval 0.8724 acc 0.50
+scratch2d     ep  20 | train 0.4247 | eval 1.4410 acc 0.56
+scratch2d     ep  30 | train 0.3591 | eval 7.1948 acc 0.50
+scratch2d     ep  40 | train 0.5237 | eval 1.1858 acc 0.50
+scratch2d     ep  50 | train 0.2204 | eval 20.0508 acc 0.50
+scratch2d     ep  60 | train 0.1324 | eval 3.2667 acc 0.50
+scratch2d     ep  70 | train 0.3175 | eval 7.1675 acc 0.50
+scratch2d     ep  80 | train 0.0194 | eval 12.2500 acc 0.50
+scratch2d     ep  90 | train 0.2881 | eval 11.8203 acc 0.50
+scratch2d     ep 100 | train 0.0774 | eval 17.7246 acc 0.50
+--> scratch2d: train ep1 0.8316 -> akhir 0.0774 | eval loss 17.7246 acc 0.50 | GAGAL | 0.6 menit
+convnextv2_t  ep   1 | train 0.7958 | eval 0.7161 acc 0.50
+convnextv2_t  ep  10 | train 0.5821 | eval 0.5361 acc 0.81
+convnextv2_t  ep  20 | train 0.2180 | eval 0.1761 acc 1.00
+convnextv2_t  ep  30 | train 0.0302 | eval 0.0256 acc 1.00
+convnextv2_t  ep  40 | train 0.0092 | eval 0.0087 acc 1.00
+convnextv2_t  ep  50 | train 0.0046 | eval 0.0044 acc 1.00
+convnextv2_t  ep  60 | train 0.0028 | eval 0.0027 acc 1.00
+convnextv2_t  ep  70 | train 0.0019 | eval 0.0018 acc 1.00
+convnextv2_t  ep  80 | train 0.0014 | eval 0.0013 acc 1.00
+convnextv2_t  ep  90 | train 0.0010 | eval 0.0010 acc 1.00
+convnextv2_t  ep 100 | train 0.0008 | eval 0.0008 acc 1.00
+--> convnextv2_t: train ep1 0.7958 -> akhir 0.0008 | eval loss 0.0008 acc 1.00 | LULUS | 3.2 menit
+scratch3d     ep   1 | train 0.7194 | eval 0.6952 acc 0.50
+scratch3d     ep  10 | train 0.5622 | eval 1.1353 acc 0.50
+scratch3d     ep  20 | train 0.5018 | eval 1.3143 acc 0.50
+scratch3d     ep  30 | train 0.2181 | eval 2.2941 acc 0.50
+scratch3d     ep  40 | train 0.4456 | eval 0.0191 acc 1.00
+scratch3d     ep  50 | train 0.1785 | eval 3.0318 acc 0.50
+scratch3d     ep  60 | train 0.0126 | eval 1.4532 acc 0.50
+scratch3d     ep  70 | train 0.6380 | eval 6.2916 acc 0.56
+scratch3d     ep  80 | train 0.0576 | eval 14.1367 acc 0.50
+scratch3d     ep  90 | train 0.2946 | eval 0.0621 acc 1.00
+scratch3d     ep 100 | train 0.0239 | eval 12.2109 acc 0.50
+--> scratch3d: train ep1 0.7194 -> akhir 0.0239 | eval loss 12.2109 acc 0.50 | GAGAL | 1.7 menit
+sfcn_head     ep   1 | train 0.6868 | eval 0.6630 acc 0.62
+sfcn_head     ep  10 | train 0.5502 | eval 0.5406 acc 0.75
+sfcn_head     ep  20 | train 0.4569 | eval 0.4478 acc 0.75
+sfcn_head     ep  30 | train 0.3673 | eval 0.3585 acc 0.88
+sfcn_head     ep  40 | train 0.2834 | eval 0.2757 acc 0.88
+sfcn_head     ep  50 | train 0.2133 | eval 0.2071 acc 0.94
+sfcn_head     ep  60 | train 0.1588 | eval 0.1540 acc 1.00
+sfcn_head     ep  70 | train 0.1168 | eval 0.1132 acc 1.00
+sfcn_head     ep  80 | train 0.0847 | eval 0.0820 acc 1.00
+sfcn_head     ep  90 | train 0.0610 | eval 0.0590 acc 1.00
+sfcn_head     ep 100 | train 0.0443 | eval 0.0430 acc 1.00
+--> sfcn_head: train ep1 0.6868 -> akhir 0.0443 | eval loss 0.0430 acc 1.00 | LULUS | 0.0 menit
+dinov2_head   ep   1 | train 0.6857 | eval 0.4683 acc 0.94
+dinov2_head   ep  10 | train 0.0350 | eval 0.0257 acc 1.00
+dinov2_head   ep  20 | train 0.0027 | eval 0.0022 acc 1.00
+dinov2_head   ep  30 | train 0.0007 | eval 0.0006 acc 1.00
+dinov2_head   ep  40 | train 0.0004 | eval 0.0003 acc 1.00
+dinov2_head   ep  50 | train 0.0003 | eval 0.0003 acc 1.00
+dinov2_head   ep  60 | train 0.0002 | eval 0.0002 acc 1.00
+dinov2_head   ep  70 | train 0.0002 | eval 0.0002 acc 1.00
+dinov2_head   ep  80 | train 0.0002 | eval 0.0002 acc 1.00
+dinov2_head   ep  90 | train 0.0002 | eval 0.0002 acc 1.00
+dinov2_head   ep 100 | train 0.0002 | eval 0.0002 acc 1.00
+--> dinov2_head: train ep1 0.6857 -> akhir 0.0002 | eval loss 0.0002 acc 1.00 | LULUS | 0.0 menit

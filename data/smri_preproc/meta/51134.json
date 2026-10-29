@@ -1,0 +1,109 @@
+{
+ "SUB_ID": 51134,
+ "status": "ok",
+ "started": "2026-10-28T11:56:08",
+ "skullstrip_tool": "HD-BET",
+ "tool": {
+  "tool": "HD-BET",
+  "version": "2.0.1",
+  "nnunetv2": "2.8.1",
+  "torch": "2.5.1+cu121",
+  "weights_sha256": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52",
+  "device": "cuda"
+ },
+ "time_reorient": 0.6877007484436035,
+ "last_stage": "finalize",
+ "time_n4": 17.862416982650757,
+ "time_skullstrip": 36.02176332473755,
+ "hdbet": {
+  "mode": "runner",
+  "seconds": 36.02176332473755,
+  "vram_peak_mib": 2664.0,
+  "ram_min_available_gb": 6.166278839111328,
+  "tree_rss_peak_gb": 1.35
+ },
+ "time_mask_ras": 0.825927734375,
+ "time_registration": 72.71706318855286,
+ "time_resample": 0.3028266429901123,
+ "time_intensity": 0.017618417739868164,
+ "vol_nii_sha256": "025b50ee73b80792c8b848d7cd8a0f5df2855b711d43a6e36b028d8f1cf746a0",
+ "mask_nii_sha256": "307d597f8eb2a6910ff171eb8e206e1f593f5dd03b0ce03ffde6e3c12239e198",
+ "time_crop_save": 0.11930131912231445,
+ "clip_low": 50.56033710479736,
+ "clip_high": 336.80315155029297,
+ "zscore_mean_raw": 232.8117811317855,
+ "zscore_std_raw": 67.71877760048987,
+ "final_shape": [
+  1,
+  96,
+  112,
+  96
+ ],
+ "vol_min": -2.691298484802246,
+ "vol_max": 1.5356357097625732,
+ "vol_mean_in_mask": -1.994580278719127e-09,
+ "vol_std_in_mask": 0.9999999403953552,
+ "mask_voxels": 244804,
+ "mask_ratio_template": 1.0400594795539033,
+ "vol_sha256": "8f5ede2c9d47fd1d7cf4339d3c4e192d29a9a52947ed2039e890758e7097c0c1",
+ "mask_sha256": "dd12bb881fb183e2dcfa8d23d30b09fdbc1ea112c555f79ec6f008781b72f212",
+ "reg_det": 0.7031757055176653,
+ "reg_scale_min": 0.8529472775916876,
+ "reg_scale_max": 0.9251268420957219,
+ "brain_volume_native_ml": 1377.125,
+ "config_fp": "682404ae0f5d2624",
+ "pipeline_version": "05c-v2.1",
+ "finished": "2026-10-28T11:58:19",
+ "duration_s": 130.790043592453,
+ "ram_min_available_gb": 7.591094970703125,
+ "main_peak_rss_gb": 2.2581443786621094,
+ "marker_reorient": {
+  "step": "reorient",
+  "fp": "682404ae0f5d2624",
+  "input_sig": {
+   "source": {
+    "path": "C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\dataset\\all_anat_T1w\\sub-0051134_T1w.nii.gz",
+    "size": 4505809,
+    "mtime_ns": 1778827713000000000
+   }
+  },
+  "outputs": {
+   "ras.nii.gz": 6005192
+  },
+  "done": "2026-10-28T11:56:09",
+  "orig_axcodes": "LAS",
+  "orig_shape": [
+   160,
+   256,
+   256
+  ],
+  "orig_voxel_mm": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "n_negative_clipped": 0,
+  "ras_shape": [
+   160,
+   256,
+   256
+  ]
+ },
+ "marker_n4": {
+  "step": "n4",
+  "fp": "682404ae0f5d2624",
+  "input_sig": {
+   "ras": {
+    "name": "ras.nii.gz",
+    "size": 6005192,
+    "mtime_ns": 1793163369230477500
+   }
+  },
+  "outputs": {
+   "n4.nii.gz": 12269493,
+   "hdbet_in.nii.gz": 12541130
+  },
+  "done": "2026-10-28T11:56:27",
+  "affine_max_diff_vs_ras": 5.960464477539063e-08
+ }
+}

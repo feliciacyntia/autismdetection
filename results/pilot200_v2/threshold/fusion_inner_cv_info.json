@@ -1,0 +1,6 @@
+{
+ "dibuat": "2026-10-27 09:33",
+ "baris": 4020,
+ "asal": "run_fusion_v2 (versi yang menyimpan part=inner_cv) dijalankan ulang pada SALINAN pilot200_v2 tanpa checkpoint; prediksi test terverifikasi identik (max|d| = 0) dengan units/fusion_* asli, yang tidak diubah.",
+ "isi": "probabilitas inner untuk threshold Youden: F1_stack_logreg & F2 = cross_val_predict 5-fold (seed = fold) pada set latih stacker; F1_mean_prob & ENS = rerata probabilitas inner anggota. Tidak memakai data test."
+}

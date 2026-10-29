@@ -1,0 +1,140 @@
+{
+ "SUB_ID": 50002,
+ "started": "2026-10-22T23:56:59",
+ "status": "failed_threshold",
+ "log": "C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\data\\smri_preproc\\logs\\validate_50002_20261022_235659.log",
+ "work_dir": "C:\\ta_work\\05c",
+ "torch_main": {
+  "version": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_version": "12.1",
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "gpu_start": {
+  "total": 4096.0,
+  "used": 0.0,
+  "free": 3979.0,
+  "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "preflight": {
+  "ram_available_gb": 4.26,
+  "min_start_ram_gb": 4.0,
+  "gpu": {
+   "total": 4096.0,
+   "used": 0.0,
+   "free": 3979.0,
+   "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  "disk_work_free_gb": 186.7,
+  "disk_out_free_gb": 186.7,
+  "disk_work_need_gb": 2.1,
+  "disk_out_need_gb": 1.0,
+  "problems": []
+ },
+ "devices": {
+  "reorient": "CPU (nibabel)",
+  "n4": "CPU (ANTs/ITK; tidak ada implementasi GPU)",
+  "hdbet_runner": "cuda (torch, venv)",
+  "hdbet_cli": "cuda (torch, venv)",
+  "registration": "CPU (ANTs; tidak ada implementasi GPU)",
+  "resample_intensity_crop": "CPU (ANTs/numpy)"
+ },
+ "config_fp": "7592ab420c1c2de9",
+ "versions": {
+  "antspyx": "0.6.3",
+  "nibabel": "5.4.2",
+  "numpy": "2.1.1",
+  "nilearn": "0.13.1",
+  "hdbet_venv": {
+   "hd-bet": "2.0.1",
+   "nnunetv2": "2.8.1",
+   "SimpleITK": "2.5.6",
+   "numpy": "2.1.1",
+   "torch": "2.5.1+cu121",
+   "torch_cuda_build": "12.1",
+   "cuda_available": true,
+   "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+   "params_dir": "C:\\Users\\Lenovo\\hd-bet_params\\release_2.0.0",
+   "params_url": "https://zenodo.org/records/14445620/files/release_v1.5.0.zip?download=1"
+  }
+ },
+ "hdbet_weights_sha256": "d31dc59b4c5fe0028070901870c44c0b526f48c507ce50804941344356df7b52",
+ "seconds_total": 96.6,
+ "metrics": {
+  "SUB_ID": 50002,
+  "cli_source": "salinan terverifikasi dari C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\data\\work\\hdbet_validation\\cli\\50002_bet.nii.gz",
+  "shape_equal": true,
+  "affine_max_diff": 0.0,
+  "dice": 1.0,
+  "mask_bitwise_identical": true,
+  "n_voxel_diff": 0,
+  "vol_shape_equal": true,
+  "vol_max_abs_diff": 2.6836318969726562,
+  "vol_corr": 0.9915485223318544,
+  "vol_bitwise_identical": false,
+  "runner": {
+   "seconds": 59.33330035209656,
+   "vram_peak_mib": 3030.0,
+   "ram_min_available_gb": 2.4477462768554688,
+   "runner": {
+    "n_inputs": 1,
+    "n_masks": 1,
+    "missing": [],
+    "model_load_seconds": 3.827815294265747,
+    "predict_seconds": 48.9223198890686,
+    "tta": true,
+    "device": "cuda",
+    "np_preprocessing": 1,
+    "np_export": 1
+   }
+  },
+  "passed": false,
+  "xfm_params_max_abs_diff": 0.03691577911376953,
+  "final_affine": [
+   [
+    2.0,
+    0.0,
+    0.0,
+    -96.0
+   ],
+   [
+    0.0,
+    2.0,
+    0.0,
+    -128.0
+   ],
+   [
+    0.0,
+    0.0,
+    2.0,
+    -72.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "cuda_errors_runner": [
+   "HDBET_RUNNER_SUMMARY {\"n_inputs\": 1, \"n_masks\": 1, \"missing\": [], \"model_load_seconds\": 3.827815294265747, \"predict_seconds\": 48.9223198890686, \"tta\": true, \"device\": \"cuda\", \"np_preprocessing\": 1, \"np_export\": 1}"
+  ],
+  "cuda_errors_cli": []
+ },
+ "checks": {
+  "dice>=0.999": true,
+  "mask_shape_equal": true,
+  "mask_affine_equal(<1e-4)": true,
+  "vol_shape_equal": true,
+  "max_abs_diff<=0.001": false,
+  "corr>=0.9999": false
+ },
+ "passed": false,
+ "gpu_end": {
+  "total": 4096.0,
+  "used": 0.0,
+  "free": 3979.0,
+  "name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "finished": "2026-10-22T23:58:45"
+}

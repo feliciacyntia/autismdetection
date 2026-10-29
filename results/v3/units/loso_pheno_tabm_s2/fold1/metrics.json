@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 23,
+  "balanced_accuracy": 0.6136363636363636,
+  "f1_macro": 0.6057142857142856,
+  "auc": 0.5909090909090909,
+  "sensitivity": 0.5,
+  "specificity": 0.7272727272727273
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "CMU",
+  "seed": 2043,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 39,
+  "balanced_accuracy": 0.503968253968254,
+  "f1_macro": 0.4701086956521739,
+  "auc": 0.5820105820105821,
+  "sensitivity": 0.7222222222222222,
+  "specificity": 0.2857142857142857
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "site": "TRINITY",
+  "seed": 3054,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

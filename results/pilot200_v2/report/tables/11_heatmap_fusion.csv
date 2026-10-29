@@ -1,0 +1,6 @@
+skenario,ENS_mean_top3,F1_mean_prob,F1_stack_logreg,F2_pca16_logreg
+PR,,0.619,0.604,0.594
+P25,,0.577,0.539,0.509
+P3,,0.573,0.539,0.498
+PRI,,0.613,0.587,0.576
+ENS,0.556,,,

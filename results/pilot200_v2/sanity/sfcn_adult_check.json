@@ -1,0 +1,36 @@
+{
+ "tanggal": "2026-10-27 07:52",
+ "n": 67,
+ "usia_min": 18.0,
+ "usia_median": 23.0,
+ "usia_max": 46.0,
+ "rentang_model": [
+  42,
+  82
+ ],
+ "n_usia_ge_42": 1,
+ "aturan": {
+  "min_pred_sd_years": 2.0,
+  "min_abs_r_adult": 0.3,
+  "action": "model SFCN tetap dijalankan & dilaporkan, tetapi dikeluarkan dari seleksi/fusion bila cek kewajaran brain age gagal"
+ },
+ "menit": 0.2840405543645223,
+ "pipeline": {
+  "pred_mean": 59.89087614372595,
+  "pred_sd": 0.6074808076012171,
+  "pmax_median": 0.05009130761027336,
+  "pearson_r": -0.13163747284743432,
+  "pearson_p": 0.28830341592548187,
+  "spearman_r": -0.16554064769384005,
+  "mae": 34.75486718850207
+ },
+ "bn_input": {
+  "pred_mean": 54.87181928264561,
+  "pred_sd": 1.4225336839037452,
+  "pmax_median": 0.10299220681190491,
+  "pearson_r": 0.34150867894455267,
+  "pearson_p": 0.004679113879905978,
+  "spearman_r": 0.13186967196927912,
+  "mae": 29.73581032742173
+ }
+}

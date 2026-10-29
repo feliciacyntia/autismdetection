@@ -1,0 +1,2 @@
+2026-10-29 08:50:22 | INFO    | v3 tabel | hasil C:\ta_local\results\v3 | config_hash 4521259311445664 | sha256 config 4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54
+2026-10-29 08:50:22 | ERROR   | Sudah ada hasil di C:\ta_local\results\v3. Gunakan --resume (tidak ada yang ditimpa).

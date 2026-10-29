@@ -1,0 +1,10 @@
+{
+ "best_params": {
+  "C": 0.0013444752661702
+ },
+ "best_inner_auc": 0.6278552302978812,
+ "n_trials": 30,
+ "fold": 1,
+ "feat": "roi",
+ "model": "logreg"
+}

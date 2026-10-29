@@ -1,0 +1,28 @@
+# Dependensi preprocessing sMRI (05c) untuk Kaggle Notebook (Linux, GPU).
+# Versi = yang dipakai di laptop (Windows) saat validasi lokal. Versi masuk sidik jari konfigurasi,
+# jadi output Kaggle punya sidik jari sendiri dan validasi runner vs CLI 50002 wajib diulang di Kaggle.
+#
+# torch TIDAK dipasang dari file ini: pakai torch bawaan image Kaggle (build CUDA cocok dengan driver).
+# Lokal: torch 2.5.1+cu121. Versi torch Kaggle dicatat otomatis di preprocess_config.json / status validasi.
+#
+# Instal: pip install -r requirements-kaggle.txt   (lalu restart kernel bila numpy berganti versi)
+
+# pipeline (src/smri_preprocessing.py)
+antspyx==0.6.3
+nibabel==5.4.2
+nilearn==0.13.1
+numpy==2.1.1
+pandas==2.3.1
+scipy==1.15.3
+psutil==6.1.0
+matplotlib==3.10.3
+
+# HD-BET (src/hdbet_runner.py) dan dependensi nnU-Net yang terpasang di .venv-hdbet lokal
+hd-bet==2.0.1
+nnunetv2==2.8.1
+SimpleITK==2.5.6
+acvl_utils==0.2.6
+batchgenerators==0.25.5
+batchgeneratorsv2==0.3.6
+dynamic_network_architectures==0.4.4
+scikit-image==0.26.0

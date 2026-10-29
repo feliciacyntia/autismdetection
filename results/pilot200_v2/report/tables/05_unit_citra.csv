@@ -1,0 +1,12 @@
+model,kelompok,fold done,status hasil,sudah belajar,epoch dijalankan (per fold),epoch terbaik (per fold),waktu total (menit),VRAM puncak (MiB)
+effnet_b0,klasik,5,valid,1/5,"27,14,11,12,19","17,4,1,2,9",5.3,457.0
+resnet18,klasik,5,valid,1/5,"12,23,11,11,15","2,13,1,1,5",4.2,457.0
+scratch2d [lama: bug BN],dari nol,5,TIDAK VALID (bug BN),1/5,"25,11,21,21,27","15,1,11,11,17",6.5,511.0
+dinov2_lp,foundation,5,valid,n/a (probe LogReg pada fitur beku),,,,
+dinov2_head,foundation,5,valid,0/5,"13,11,12,11,12","3,1,2,1,2",0.0,19.0
+convnextv2_t,modern,5,valid,1/5,"24,18,12,19,14","14,8,2,9,4",24.6,672.0
+scratch3d [lama: bug BN],dari nol,5,TIDAK VALID (bug BN),0/5,"20,15,13,22,33","10,5,3,12,23",14.5,1022.0
+sfcn_lp,klasik,5,valid,n/a (probe LogReg pada fitur beku),,,,
+sfcn_head,klasik,5,valid,4/5,"14,11,11,14,22","4,1,1,4,12",0.0,17.0
+scratch2d,dari nol,5,bugfix BN (rerun),1/5,"18,23,21,11,11","8,13,11,1,1",5.8,510.0
+scratch3d,dari nol,5,bugfix BN (rerun),0/5,"20,11,17,11,11","10,1,7,1,1",11.0,1021.0

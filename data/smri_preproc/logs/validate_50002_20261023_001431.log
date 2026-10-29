@@ -1,0 +1,18 @@
+2026-10-23 00:14:36 | INFO    | torch_main: {'version': '2.5.1+cu121', 'cuda_available': True, 'cuda_version': '12.1', 'device': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:14:39 | INFO    | torch_venv: {'version': '2.5.1+cu121', 'cuda_available': True, 'cuda_version': '12.1', 'device': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:14:39 | INFO    | nvidia-smi awal: {'total': 4096.0, 'used': 0.0, 'free': 3979.0, 'name': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:14:39 | INFO    | Preflight: RAM 4.84 GiB (min 4.0) | VRAM bebas 3979.0 MiB | masalah: -
+2026-10-23 00:14:45 | INFO    | fp 189594aa076d87d4 | hd-bet 2.0.1 | torch(venv) 2.5.1+cu121 | tta=True | device=cuda | np 1/1
+2026-10-23 00:15:26 | ERROR   | Validasi berhenti karena error: MemoryGuardError: HD-BET dihentikan: RAM tersedia 1.49 GiB < 1.5 GiB.
+2026-10-23 00:15:26 | ERROR   | Traceback (most recent call last):
+  File "C:\Users\Lenovo\AppData\Local\Temp\claude\c--Users-Lenovo-OneDrive-Documents-TUGAS-AKHIR\805c6e4e-9d7e-42d3-9a88-14bdb494c306\scratchpad\validate_05c.py", line 92, in <module>
+    res = sp.validate_runner_vs_cli(cfg, fp, space, SID)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\smri_preprocessing.py", line 1163, in validate_runner_vs_cli
+    run_info = run_hdbet(cfg, vdir / "in", vdir / "runner", mode="runner")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\smri_preprocessing.py", line 827, in run_hdbet
+    raise MemoryGuardError(f"HD-BET dihentikan: RAM tersedia {killed:.2f} GiB < {cfg.min_free_ram_gb} GiB.")
+smri_preprocessing.MemoryGuardError: HD-BET dihentikan: RAM tersedia 1.49 GiB < 1.5 GiB.
+
+2026-10-23 00:15:26 | INFO    | Status: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\validation_status_50002.json | Log: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\logs\validate_50002_20261023_001431.log

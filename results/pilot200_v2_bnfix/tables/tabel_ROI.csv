@@ -1,0 +1,7 @@
+model,basis,ComBat,status
+roi_logreg,logreg,tidak,belum ada
+roi_xgb,xgb,tidak,belum ada
+roi_tabm,tabm,tidak,belum ada
+roi_logreg_cb,logreg,ya,belum ada
+roi_xgb_cb,xgb,ya,belum ada
+roi_tabm_cb,tabm,ya,belum ada

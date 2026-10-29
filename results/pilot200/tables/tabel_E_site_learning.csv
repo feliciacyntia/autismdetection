@@ -1,0 +1,6 @@
+embedding,BA prediksi SITE_ID (test),peluang acak,n situs
+effnet_b0,0.586,0.05,20
+resnet18,0.48,0.05,20
+dinov2_s,0.625,0.05,20
+convnextv2_t,0.518,0.05,20
+sfcn,0.303,0.05,20

@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 39,
+  "balanced_accuracy": 0.45238095238095233,
+  "f1_macro": 0.4484848484848485,
+  "auc": 0.5079365079365079,
+  "sensitivity": 0.3333333333333333,
+  "specificity": 0.5714285714285714
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "TRINITY",
+  "seed": 54,
+  "hp": {},
+  "C": [
+   0.001
+  ],
+  "combat_unseen": 39
+ }
+}

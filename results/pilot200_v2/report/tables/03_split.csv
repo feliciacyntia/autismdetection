@@ -1,0 +1,16 @@
+fold,partisi,n,ASD,TD
+0,inner_train,127,60,67
+0,inner_val,32,15,17
+0,test,41,20,21
+1,inner_train,129,63,66
+1,inner_val,33,16,17
+1,test,38,16,22
+2,inner_train,127,60,67
+2,inner_val,32,15,17
+2,test,41,20,21
+3,inner_train,125,60,65
+3,inner_val,32,15,17
+3,test,43,20,23
+4,inner_train,130,61,69
+4,inner_val,33,15,18
+4,test,37,19,18

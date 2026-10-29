@@ -1,0 +1,10 @@
+model,kelompok,status,AUC inner val,BA fold,BA pooled [95% CI],F1m fold,F1m pooled [95% CI],AUC fold,AUC pooled [95% CI],Sens fold,Sens pooled [95% CI],Spes fold,Spes pooled [95% CI],params latih/total,VRAM puncak (MiB),s/epoch,waktu (menit),epoch terbaik (median),sudah belajar
+effnet_b0,pretrained: CNN klasik,belum ada,,,,,,,,,,,,,,,,,
+resnet18,pretrained: CNN klasik,belum ada,,,,,,,,,,,,,,,,,
+scratch2d,CNN dari nol,,0.516,0.524 ± 0.040,"0.516 [0.448, 0.589]",0.398 ± 0.115,"0.515 [0.445, 0.587]",0.559 ± 0.031,"0.516 [0.430, 0.597]",0.469 ± 0.489,"0.442 [0.341, 0.545]",0.579 ± 0.487,"0.590 [0.495, 0.688]",1206241/1206241,510.0,4.2,5.8,8.0,1/5
+dinov2_lp,foundation model (frozen),belum ada,,,,,,,,,,,,,,,,,
+dinov2_head,foundation model (frozen),belum ada,,,,,,,,,,,,,,,,,
+convnextv2_t,pretrained: arsitektur modern,belum ada,,,,,,,,,,,,,,,,,
+scratch3d,CNN dari nol,,0.531,0.464 ± 0.049,"0.449 [0.387, 0.517]",0.407 ± 0.048,"0.443 [0.378, 0.511]",0.472 ± 0.043,"0.461 [0.384, 0.539]",0.349 ± 0.346,"0.326 [0.238, 0.423]",0.579 ± 0.261,"0.571 [0.477, 0.664]",1791121/1791121,1021.0,9.4,11.0,1.0,0/5
+sfcn_lp,pretrained: CNN otak (frozen),belum ada,,,,,,,,,,,,,,,,,
+sfcn_head,pretrained: CNN otak (frozen),belum ada,,,,,,,,,,,,,,,,,

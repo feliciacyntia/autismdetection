@@ -1,0 +1,13 @@
+{
+ "subset": "all",
+ "unit": null,
+ "unit_index": 91,
+ "units_total": 91,
+ "units_done": 91,
+ "epoch": null,
+ "last_message": "run selesai",
+ "updated": "2026-10-29T02:28:59",
+ "max_epochs": 60,
+ "epoch_s": 39.0,
+ "eta_unit_min": 25.3
+}

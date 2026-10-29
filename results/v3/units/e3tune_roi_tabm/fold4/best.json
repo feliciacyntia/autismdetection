@@ -1,0 +1,14 @@
+{
+ "best_params": {
+  "d_block": 64,
+  "n_blocks": 3,
+  "dropout": 0.15737514293079663,
+  "lr": 0.0008516559402547085,
+  "wd": 0.00020581848693525595
+ },
+ "best_inner_auc": 0.6332994844390286,
+ "n_trials": 30,
+ "fold": 4,
+ "feat": "roi",
+ "model": "tabm"
+}

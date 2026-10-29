@@ -1,0 +1,38 @@
+2026-10-28 22:53:23 | INFO    | === Unit 27/91: effnet_b0:0 ===
+2026-10-28 22:53:28 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-28 22:53:33 | INFO    | Volume dimuat ke RAM: 853 subjek (5.1 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-28 22:53:55 | INFO    | effnet_b0:0 | epoch 1/40 | 20.1 s | train 0.7488 | val 0.7486 (halus 0.7486) | AUC val 0.485 | best 1 | VRAM 423 MiB
+2026-10-28 22:53:55 | INFO    | ESTIMASI effnet_b0: ±20.1 s/epoch -> maks ±67 menit untuk 5 fold
+2026-10-28 22:54:10 | INFO    | effnet_b0:0 | epoch 2/40 | 14.8 s | train 0.7513 | val 0.7318 (halus 0.7402) | AUC val 0.541 | best 2 | VRAM 423 MiB
+2026-10-28 22:54:25 | INFO    | effnet_b0:0 | epoch 3/40 | 14.9 s | train 0.7343 | val 0.7459 (halus 0.7421) | AUC val 0.508 | best 2 | VRAM 423 MiB
+2026-10-28 22:54:40 | INFO    | effnet_b0:0 | epoch 4/40 | 14.8 s | train 0.7404 | val 0.7359 (halus 0.7379) | AUC val 0.553 | best 4 | VRAM 423 MiB
+2026-10-28 22:54:55 | INFO    | effnet_b0:0 | epoch 5/40 | 14.8 s | train 0.7384 | val 0.7322 (halus 0.7380) | AUC val 0.529 | best 4 | VRAM 423 MiB
+2026-10-28 22:55:11 | INFO    | effnet_b0:0 | epoch 6/40 | 15.8 s | train 0.7349 | val 0.7321 (halus 0.7334) | AUC val 0.521 | best 6 | VRAM 439 MiB
+2026-10-28 22:55:27 | INFO    | effnet_b0:0 | epoch 7/40 | 15.9 s | train 0.7348 | val 0.7317 (halus 0.7320) | AUC val 0.521 | best 7 | VRAM 439 MiB
+2026-10-28 22:55:43 | INFO    | effnet_b0:0 | epoch 8/40 | 16.0 s | train 0.7348 | val 0.7338 (halus 0.7325) | AUC val 0.537 | best 7 | VRAM 439 MiB
+2026-10-28 22:55:59 | INFO    | effnet_b0:0 | epoch 9/40 | 16.0 s | train 0.7329 | val 0.7342 (halus 0.7332) | AUC val 0.509 | best 7 | VRAM 439 MiB
+2026-10-28 22:56:15 | INFO    | effnet_b0:0 | epoch 10/40 | 16.0 s | train 0.7359 | val 0.7424 (halus 0.7368) | AUC val 0.518 | best 7 | VRAM 439 MiB
+2026-10-28 22:56:31 | INFO    | effnet_b0:0 | epoch 11/40 | 16.0 s | train 0.7338 | val 0.7308 (halus 0.7358) | AUC val 0.531 | best 7 | VRAM 439 MiB
+2026-10-28 22:56:47 | INFO    | effnet_b0:0 | epoch 12/40 | 16.1 s | train 0.7327 | val 0.7301 (halus 0.7344) | AUC val 0.531 | best 7 | VRAM 439 MiB
+2026-10-28 22:57:04 | INFO    | effnet_b0:0 | epoch 13/40 | 16.2 s | train 0.7278 | val 0.7303 (halus 0.7304) | AUC val 0.520 | best 13 | VRAM 439 MiB
+2026-10-28 22:57:20 | INFO    | effnet_b0:0 | epoch 14/40 | 16.2 s | train 0.7255 | val 0.7632 (halus 0.7412) | AUC val 0.518 | best 13 | VRAM 439 MiB
+2026-10-28 22:57:36 | INFO    | effnet_b0:0 | epoch 15/40 | 16.2 s | train 0.7251 | val 0.7285 (halus 0.7407) | AUC val 0.531 | best 13 | VRAM 439 MiB
+2026-10-28 22:57:53 | INFO    | effnet_b0:0 | epoch 16/40 | 16.1 s | train 0.7151 | val 0.7601 (halus 0.7506) | AUC val 0.525 | best 13 | VRAM 439 MiB
+2026-10-28 22:58:09 | INFO    | effnet_b0:0 | epoch 17/40 | 16.1 s | train 0.7201 | val 0.7307 (halus 0.7398) | AUC val 0.542 | best 13 | VRAM 439 MiB
+2026-10-28 22:58:25 | INFO    | effnet_b0:0 | epoch 18/40 | 16.1 s | train 0.7162 | val 0.7540 (halus 0.7482) | AUC val 0.521 | best 13 | VRAM 439 MiB
+2026-10-28 22:58:41 | INFO    | effnet_b0:0 | epoch 19/40 | 16.2 s | train 0.7140 | val 0.7551 (halus 0.7466) | AUC val 0.524 | best 13 | VRAM 439 MiB
+2026-10-28 22:58:57 | INFO    | effnet_b0:0 | epoch 20/40 | 16.2 s | train 0.7060 | val 0.7260 (halus 0.7450) | AUC val 0.552 | best 13 | VRAM 439 MiB
+2026-10-28 22:59:14 | INFO    | effnet_b0:0 | epoch 21/40 | 16.1 s | train 0.7142 | val 0.7234 (halus 0.7348) | AUC val 0.565 | best 13 | VRAM 439 MiB
+2026-10-28 22:59:30 | INFO    | effnet_b0:0 | epoch 22/40 | 16.1 s | train 0.7101 | val 0.7236 (halus 0.7243) | AUC val 0.558 | best 22 | VRAM 439 MiB
+2026-10-28 22:59:46 | INFO    | effnet_b0:0 | epoch 23/40 | 16.0 s | train 0.7020 | val 0.7308 (halus 0.7259) | AUC val 0.547 | best 22 | VRAM 439 MiB
+2026-10-28 23:00:02 | INFO    | effnet_b0:0 | epoch 24/40 | 16.1 s | train 0.7061 | val 0.7425 (halus 0.7323) | AUC val 0.521 | best 22 | VRAM 439 MiB
+2026-10-28 23:00:18 | INFO    | effnet_b0:0 | epoch 25/40 | 16.0 s | train 0.6793 | val 0.7521 (halus 0.7418) | AUC val 0.545 | best 22 | VRAM 439 MiB
+2026-10-28 23:00:34 | INFO    | effnet_b0:0 | epoch 26/40 | 16.0 s | train 0.6967 | val 0.7460 (halus 0.7469) | AUC val 0.531 | best 22 | VRAM 439 MiB
+2026-10-28 23:00:50 | INFO    | effnet_b0:0 | epoch 27/40 | 16.1 s | train 0.6934 | val 0.7336 (halus 0.7439) | AUC val 0.558 | best 22 | VRAM 439 MiB
+2026-10-28 23:01:07 | INFO    | effnet_b0:0 | epoch 28/40 | 16.1 s | train 0.6766 | val 0.7605 (halus 0.7467) | AUC val 0.551 | best 22 | VRAM 439 MiB
+2026-10-28 23:01:23 | INFO    | effnet_b0:0 | epoch 29/40 | 16.1 s | train 0.6864 | val 0.7511 (halus 0.7484) | AUC val 0.553 | best 22 | VRAM 439 MiB
+2026-10-28 23:01:39 | INFO    | effnet_b0:0 | epoch 30/40 | 16.1 s | train 0.6789 | val 0.7692 (halus 0.7603) | AUC val 0.539 | best 22 | VRAM 439 MiB
+2026-10-28 23:01:55 | INFO    | effnet_b0:0 | epoch 31/40 | 16.2 s | train 0.6696 | val 0.7449 (halus 0.7551) | AUC val 0.544 | best 22 | VRAM 439 MiB
+2026-10-28 23:02:11 | INFO    | effnet_b0:0 | epoch 32/40 | 16.1 s | train 0.6742 | val 0.7628 (halus 0.7589) | AUC val 0.543 | best 22 | VRAM 439 MiB
+2026-10-28 23:02:28 | INFO    | effnet_b0:0: sudah belajar = True (train 0.749->0.674 | val halus terbaik 0.7243 vs konstan 0.7334 | AUC val 0.558)
+2026-10-28 23:02:28 | INFO    | Unit effnet_b0:0 selesai (done) | progres 27/91 unit selesai | 13.3 menit sejak mulai

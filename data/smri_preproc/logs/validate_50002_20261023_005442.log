@@ -1,0 +1,19 @@
+2026-10-23 00:54:47 | INFO    | torch_main: {'version': '2.5.1+cu121', 'cuda_available': True, 'cuda_version': '12.1', 'device': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:54:50 | INFO    | torch_venv: {'version': '2.5.1+cu121', 'cuda_available': True, 'cuda_version': '12.1', 'device': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:54:50 | INFO    | nvidia-smi awal: {'total': 4096.0, 'used': 0.0, 'free': 3979.0, 'name': 'NVIDIA GeForce RTX 3050 Laptop GPU'}
+2026-10-23 00:54:50 | INFO    | Preflight: RAM 7.36 GiB (min 4.0) | VRAM bebas 3979.0 MiB | masalah: -
+2026-10-23 00:54:56 | INFO    | fp 189594aa076d87d4 | hd-bet 2.0.1 | torch(venv) 2.5.1+cu121 | tta=True | device=cuda | np 1/1
+2026-10-23 00:56:33 | WARNING | HD-BET dihentikan (pohon proses): {'pid': 17540, 'children': [30724, 17484], 'alive_after': []}
+2026-10-23 00:56:33 | ERROR   | Validasi berhenti karena error: MemoryGuardError: HD-BET dihentikan: RAM tersedia 1.34 GiB < 1.5 GiB.
+2026-10-23 00:56:33 | ERROR   | Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\validate_05c.py", line 93, in <module>
+    res = sp.validate_runner_vs_cli(cfg, fp, space, SID)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\smri_preprocessing.py", line 1193, in validate_runner_vs_cli
+    run_info = run_hdbet(cfg, vdir / "in", vdir / "runner", mode="runner")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\smri_preprocessing.py", line 857, in run_hdbet
+    raise MemoryGuardError(f"HD-BET dihentikan: RAM tersedia {killed:.2f} GiB < {cfg.min_free_ram_gb} GiB.")
+smri_preprocessing.MemoryGuardError: HD-BET dihentikan: RAM tersedia 1.34 GiB < 1.5 GiB.
+
+2026-10-23 00:56:33 | INFO    | Status: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\validation_status_50002_20261023_005442.json | Log: C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\data\smri_preproc\logs\validate_50002_20261023_005442.log

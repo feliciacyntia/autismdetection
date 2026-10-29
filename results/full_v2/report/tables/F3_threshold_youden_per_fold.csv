@@ -1,0 +1,111 @@
+model,fold,threshold_youden
+logreg,0,0.4926
+logreg,1,0.4822
+logreg,2,0.5611
+logreg,3,0.5439
+logreg,4,0.6235
+mlp_tab,0,0.5804
+mlp_tab,1,0.5361
+mlp_tab,2,0.4704
+mlp_tab,3,0.4907
+mlp_tab,4,0.5184
+tabm,0,0.5261
+tabm,1,0.4748
+tabm,2,0.5752
+tabm,3,0.4959
+tabm,4,0.515
+roi_logreg_cb,0,0.7625
+roi_logreg_cb,1,0.0735
+roi_logreg_cb,2,0.9048
+roi_logreg_cb,3,0.8018
+roi_logreg_cb,4,0.0572
+roi_tabm_cb,0,0.5417
+roi_tabm_cb,1,0.5128
+roi_tabm_cb,2,0.5055
+roi_tabm_cb,3,0.5025
+roi_tabm_cb,4,0.5552
+effnet_b0,0,0.52
+effnet_b0,1,0.4876
+effnet_b0,2,0.5368
+effnet_b0,3,0.541
+effnet_b0,4,0.5197
+resnet18,0,0.5076
+resnet18,1,0.5086
+resnet18,2,0.4849
+resnet18,3,0.5509
+resnet18,4,0.5042
+scratch2d,0,0.4982
+scratch2d,1,0.4901
+scratch2d,2,0.4988
+scratch2d,3,0.5282
+scratch2d,4,0.5052
+scratch3d,0,0.5058
+scratch3d,1,0.5208
+scratch3d,2,0.5211
+scratch3d,3,0.512
+scratch3d,4,0.4313
+PR · F1_stack_logreg,0,0.4626
+PR · F1_stack_logreg,1,0.4564
+PR · F1_stack_logreg,2,0.4702
+PR · F1_stack_logreg,3,0.4738
+PR · F1_stack_logreg,4,0.5445
+PR · F1_mean_prob,0,0.5069
+PR · F1_mean_prob,1,0.5035
+PR · F1_mean_prob,2,0.4829
+PR · F1_mean_prob,3,0.4962
+PR · F1_mean_prob,4,0.4891
+PR · F2_pca16_logreg,0,0.5416
+PR · F2_pca16_logreg,1,0.5362
+PR · F2_pca16_logreg,2,0.5168
+PR · F2_pca16_logreg,3,0.6025
+PR · F2_pca16_logreg,4,0.5489
+P25 · F1_stack_logreg,0,0.5735
+P25 · F1_stack_logreg,1,0.4536
+P25 · F1_stack_logreg,2,0.4813
+P25 · F1_stack_logreg,3,0.4806
+P25 · F1_stack_logreg,4,0.4303
+P25 · F1_mean_prob,0,0.5029
+P25 · F1_mean_prob,1,0.5186
+P25 · F1_mean_prob,2,0.5061
+P25 · F1_mean_prob,3,0.5141
+P25 · F1_mean_prob,4,0.4931
+P25 · F2_pca16_logreg,0,0.6707
+P25 · F2_pca16_logreg,1,0.5384
+P25 · F2_pca16_logreg,2,0.7395
+P25 · F2_pca16_logreg,3,0.5445
+P25 · F2_pca16_logreg,4,0.4496
+P3 · F1_stack_logreg,0,0.4958
+P3 · F1_stack_logreg,1,0.5183
+P3 · F1_stack_logreg,2,0.4699
+P3 · F1_stack_logreg,3,0.5022
+P3 · F1_stack_logreg,4,0.4305
+P3 · F1_mean_prob,0,0.5054
+P3 · F1_mean_prob,1,0.5046
+P3 · F1_mean_prob,2,0.4971
+P3 · F1_mean_prob,3,0.4965
+P3 · F1_mean_prob,4,0.4571
+P3 · F2_pca16_logreg,0,0.5588
+P3 · F2_pca16_logreg,1,0.4749
+P3 · F2_pca16_logreg,2,0.6216
+P3 · F2_pca16_logreg,3,0.4814
+P3 · F2_pca16_logreg,4,0.4944
+PRI · F1_stack_logreg,0,0.5409
+PRI · F1_stack_logreg,1,0.5109
+PRI · F1_stack_logreg,2,0.4784
+PRI · F1_stack_logreg,3,0.499
+PRI · F1_stack_logreg,4,0.4673
+PRI · F1_mean_prob,0,0.4942
+PRI · F1_mean_prob,1,0.5232
+PRI · F1_mean_prob,2,0.4894
+PRI · F1_mean_prob,3,0.4906
+PRI · F1_mean_prob,4,0.5167
+PRI · F2_pca16_logreg,0,0.5108
+PRI · F2_pca16_logreg,1,0.9002
+PRI · F2_pca16_logreg,2,0.3031
+PRI · F2_pca16_logreg,3,0.5389
+PRI · F2_pca16_logreg,4,0.4738
+ENS · ENS_mean_top3,0,0.4886
+ENS · ENS_mean_top3,1,0.4535
+ENS · ENS_mean_top3,2,0.5067
+ENS · ENS_mean_top3,3,0.4842
+ENS · ENS_mean_top3,4,0.4767

@@ -1,0 +1,7 @@
+model,versi,overfit test,sudah belajar,AUC inner val,"BA @0,5 [95% CI]","AUC @0,5 [95% CI]","F1m @0,5 [95% CI]",uji Δ (CI 95% berpasangan)
+scratch2d,lama (bug BN),"GAGAL (eval loss 17.725, acc 0.50)",1/5,0.495,"0.511 [0.442, 0.576]","0.502 [0.421, 0.582]","0.498 [0.424, 0.567]",
+scratch2d,bugfix BN,"lulus (eval loss 0.032, acc 1.00)",1/5,0.516,"0.516 [0.448, 0.589]","0.516 [0.430, 0.597]","0.515 [0.445, 0.587]",
+scratch2d,Δ (bugfix − lama),,,,"+0.006 [-0.116, +0.132]","+0.015 [-0.136, +0.157]","+0.017 [-0.110, +0.147]","BA: tidak signifikan, AUC: tidak signifikan, F1m: tidak signifikan"
+scratch3d,lama (bug BN),"GAGAL (eval loss 12.211, acc 0.50)",0/5,0.491,"0.489 [0.422, 0.556]","0.480 [0.402, 0.564]","0.486 [0.415, 0.552]",
+scratch3d,bugfix BN,"lulus (eval loss 0.002, acc 1.00)",0/5,0.531,"0.449 [0.387, 0.517]","0.461 [0.384, 0.539]","0.443 [0.378, 0.511]",
+scratch3d,Δ (bugfix − lama),,,,"-0.041 [-0.125, +0.045]","-0.019 [-0.107, +0.068]","-0.042 [-0.128, +0.044]","BA: tidak signifikan, AUC: tidak signifikan, F1m: tidak signifikan"

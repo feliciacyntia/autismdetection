@@ -1,0 +1,29 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 155,
+  "balanced_accuracy": 0.6057496607869742,
+  "f1_macro": 0.5761285708275485,
+  "auc": 0.621438263229308,
+  "sensitivity": 0.7910447761194029,
+  "specificity": 0.42045454545454547
+ },
+ "info": {
+  "feat": "roi",
+  "model": "logreg_cv",
+  "site": "NYU",
+  "seed": 48,
+  "hp": {},
+  "C": [
+   0.001
+  ],
+  "combat_unseen": 155
+ }
+}

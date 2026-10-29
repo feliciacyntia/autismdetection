@@ -1,0 +1,21 @@
+{
+ "SUB_ID": 51185,
+ "status": "failed",
+ "failed_step": "skullstrip",
+ "error": "HD-BET gagal (kode 1):\nges\\nnunetv2\\preprocessing\\preprocessors\\default_preprocessor.py\", line 135, in run_case\n    data, data_properties = rw.read_images(image_files)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\OneDrive\\Documents\\TUGAS AKHIR\\.venv-hdbet\\Lib\\site-packages\\nnunetv2\\imageio\\simpleitk_reader_writer.py\", line 112, in read_images\n    return np.vstack(images, dtype=np.float32, casting='unsafe'), dict\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python312\\site-packages\\numpy\\_core\\shape_base.py\", line 291, in vstack\n    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 37.5 MiB for an array with shape (1, 256, 240, 160) and data type float32\n\n 12%|\u2588\u258e        | 1/8 [00:01<00:11,  1.68s/it]\n 25%|\u2588\u2588\u258c       | 2/8 [00:04<00:14,  2.48s/it]\n 38%",
+ "started": "2026-10-22T13:56:02",
+ "n_negative_clipped": 0,
+ "native_shape_ras": [
+  256,
+  132,
+  256
+ ],
+ "native_voxel_mm": [
+  0.8593999743461609,
+  1.5000015497207642,
+  0.8593999743461609
+ ],
+ "orig_axcodes": "LAS",
+ "time_reorient": 0.7097113132476807,
+ "time_n4": 22.455962419509888
+}

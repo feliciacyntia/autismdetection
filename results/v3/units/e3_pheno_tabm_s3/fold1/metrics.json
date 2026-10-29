@@ -1,0 +1,38 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.564105308219178,
+  "f1_macro": 0.5633878895910982,
+  "auc": 0.573416095890411,
+  "sensitivity": 0.484375,
+  "specificity": 0.6438356164383562
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.5978170765404808,
+  "f1_macro": 0.5973925571915522,
+  "auc": 0.6460348162475822,
+  "sensitivity": 0.4935064935064935,
+  "specificity": 0.7021276595744681
+ },
+ "info": {
+  "feat": "pheno",
+  "model": "tabm",
+  "seed": 3043,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 256,
+   "n_blocks": 1,
+   "k": 32,
+   "dropout": 0.13510506462535096,
+   "lr": 0.0014194869173324795,
+   "wd": 1.267321501942223e-05,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

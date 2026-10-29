@@ -1,0 +1,284 @@
+2026-10-26 16:51:07 | INFO    | 05c 05c-v2.1 | mode=subset200 | resume=True | dry_run=False | WORK_DIR=C:\ta_work\05c | input=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR | out=C:\ta_local\data\smri_preproc
+2026-10-26 16:51:07 | INFO    | HD-BET python=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\python.exe | CLI=C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\.venv-hdbet\Scripts\hd-bet.exe
+2026-10-26 16:51:24 | INFO    | Subjek mode subset200: 200 (dev 200, test 0) | valid (fp 682404ae0f5d2624): 62 | ada checkpoint: 20 | akan diproses: 138
+2026-10-26 16:51:24 | INFO    | Versi: antspyx 0.6.3 | nibabel 5.4.2 | hd-bet 2.0.1 | nnunetv2 2.8.1 | torch 2.5.1+cu121 | bobot HD-BET sha256 d31dc59b4c5f
+2026-10-26 16:51:24 | INFO    | Preflight: RAM 6.97 GiB (min mulai 4.0) | VRAM bebas 3979.0 MiB | disk WORK 195.1/18.2 GB | disk data 195.1/1.8 GB
+2026-10-26 16:51:24 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-26 16:53:22 | INFO    | SUB_ID 50353: ok (117 s)
+2026-10-26 16:53:23 | INFO    | Progres 1/138 | ok 1 gagal 0 | chunk 118 s | rata-rata 117 s/subjek | sisa ±267 menit | RAM 7.00→7.19 GiB | VRAM dipakai 0 MiB
+2026-10-26 16:55:19 | INFO    | SUB_ID 50355: ok (116 s)
+2026-10-26 16:55:20 | INFO    | Progres 2/138 | ok 2 gagal 0 | chunk 117 s | rata-rata 117 s/subjek | sisa ±265 menit | RAM 7.19→7.07 GiB | VRAM dipakai 0 MiB
+2026-10-26 16:57:30 | INFO    | SUB_ID 50368: ok (129 s)
+2026-10-26 16:57:31 | INFO    | Progres 3/138 | ok 3 gagal 0 | chunk 131 s | rata-rata 122 s/subjek | sisa ±274 menit | RAM 7.07→7.12 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:00:01 | INFO    | SUB_ID 50377: ok (149 s)
+2026-10-26 17:00:02 | INFO    | Progres 4/138 | ok 4 gagal 0 | chunk 151 s | rata-rata 129 s/subjek | sisa ±288 menit | RAM 7.12→7.20 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:02:10 | INFO    | SUB_ID 50379: ok (128 s)
+2026-10-26 17:02:11 | INFO    | Progres 5/138 | ok 5 gagal 0 | chunk 129 s | rata-rata 129 s/subjek | sisa ±286 menit | RAM 7.20→7.38 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:04:17 | INFO    | SUB_ID 50380: ok (125 s)
+2026-10-26 17:04:18 | INFO    | Progres 6/138 | ok 6 gagal 0 | chunk 127 s | rata-rata 129 s/subjek | sisa ±283 menit | RAM 7.37→7.33 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:06:21 | INFO    | SUB_ID 50381: ok (123 s)
+2026-10-26 17:06:23 | INFO    | Progres 7/138 | ok 7 gagal 0 | chunk 124 s | rata-rata 128 s/subjek | sisa ±280 menit | RAM 7.32→7.37 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:08:15 | INFO    | SUB_ID 50404: ok (112 s)
+2026-10-26 17:08:16 | INFO    | Progres 8/138 | ok 8 gagal 0 | chunk 114 s | rata-rata 126 s/subjek | sisa ±274 menit | RAM 7.37→7.35 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:10:16 | INFO    | SUB_ID 50410: ok (120 s)
+2026-10-26 17:10:17 | INFO    | Progres 9/138 | ok 9 gagal 0 | chunk 121 s | rata-rata 126 s/subjek | sisa ±270 menit | RAM 7.34→7.33 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:12:11 | INFO    | SUB_ID 50412: ok (114 s)
+2026-10-26 17:12:13 | INFO    | Progres 10/138 | ok 10 gagal 0 | chunk 115 s | rata-rata 125 s/subjek | sisa ±266 menit | RAM 7.32→7.32 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:14:15 | INFO    | SUB_ID 50415: ok (122 s)
+2026-10-26 17:14:16 | INFO    | Progres 11/138 | ok 11 gagal 0 | chunk 124 s | rata-rata 125 s/subjek | sisa ±264 menit | RAM 7.32→7.35 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:16:21 | INFO    | SUB_ID 50418: ok (124 s)
+2026-10-26 17:16:22 | INFO    | Progres 12/138 | ok 12 gagal 0 | chunk 126 s | rata-rata 125 s/subjek | sisa ±262 menit | RAM 7.35→7.44 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:18:14 | INFO    | SUB_ID 50426: ok (111 s)
+2026-10-26 17:18:15 | INFO    | Progres 13/138 | ok 13 gagal 0 | chunk 113 s | rata-rata 124 s/subjek | sisa ±258 menit | RAM 7.44→7.36 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:21:33 | INFO    | SUB_ID 50434: ok (198 s)
+2026-10-26 17:21:34 | INFO    | Progres 14/138 | ok 14 gagal 0 | chunk 199 s | rata-rata 129 s/subjek | sisa ±267 menit | RAM 7.35→7.38 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:25:00 | INFO    | SUB_ID 50438: ok (206 s)
+2026-10-26 17:25:02 | INFO    | Progres 15/138 | ok 15 gagal 0 | chunk 208 s | rata-rata 134 s/subjek | sisa ±275 menit | RAM 7.38→7.33 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:28:40 | INFO    | SUB_ID 50450: ok (218 s)
+2026-10-26 17:28:41 | INFO    | Progres 16/138 | ok 16 gagal 0 | chunk 219 s | rata-rata 140 s/subjek | sisa ±284 menit | RAM 7.33→7.26 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:32:12 | INFO    | SUB_ID 50455: ok (211 s)
+2026-10-26 17:32:14 | INFO    | Progres 17/138 | ok 17 gagal 0 | chunk 213 s | rata-rata 144 s/subjek | sisa ±290 menit | RAM 7.25→7.32 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:35:46 | INFO    | SUB_ID 50464: ok (212 s)
+2026-10-26 17:35:47 | INFO    | Progres 18/138 | ok 18 gagal 0 | chunk 214 s | rata-rata 148 s/subjek | sisa ±296 menit | RAM 7.32→7.33 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:39:12 | INFO    | SUB_ID 50466: ok (205 s)
+2026-10-26 17:39:13 | INFO    | Progres 19/138 | ok 19 gagal 0 | chunk 206 s | rata-rata 151 s/subjek | sisa ±299 menit | RAM 7.33→7.33 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:42:34 | INFO    | SUB_ID 50473: ok (200 s)
+2026-10-26 17:42:35 | INFO    | Progres 20/138 | ok 20 gagal 0 | chunk 202 s | rata-rata 153 s/subjek | sisa ±302 menit | RAM 7.33→7.32 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:46:04 | INFO    | SUB_ID 50486: ok (209 s)
+2026-10-26 17:46:06 | INFO    | Progres 21/138 | ok 21 gagal 0 | chunk 210 s | rata-rata 156 s/subjek | sisa ±305 menit | RAM 7.31→7.10 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:49:39 | INFO    | SUB_ID 50491: ok (213 s)
+2026-10-26 17:49:40 | INFO    | Progres 22/138 | ok 22 gagal 0 | chunk 214 s | rata-rata 159 s/subjek | sisa ±307 menit | RAM 7.10→7.12 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:52:58 | INFO    | SUB_ID 50497: ok (198 s)
+2026-10-26 17:53:00 | INFO    | Progres 23/138 | ok 23 gagal 0 | chunk 199 s | rata-rata 161 s/subjek | sisa ±308 menit | RAM 7.12→7.13 GiB | VRAM dipakai 0 MiB
+2026-10-26 17:56:31 | INFO    | SUB_ID 50499: ok (211 s)
+2026-10-26 17:56:32 | INFO    | Progres 24/138 | ok 24 gagal 0 | chunk 212 s | rata-rata 163 s/subjek | sisa ±309 menit | RAM 7.13→7.18 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:00:01 | INFO    | SUB_ID 50506: ok (208 s)
+2026-10-26 18:00:02 | INFO    | Progres 25/138 | ok 25 gagal 0 | chunk 210 s | rata-rata 165 s/subjek | sisa ±310 menit | RAM 7.18→7.02 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:03:26 | INFO    | SUB_ID 50515: ok (204 s)
+2026-10-26 18:03:27 | INFO    | Progres 26/138 | ok 26 gagal 0 | chunk 205 s | rata-rata 166 s/subjek | sisa ±310 menit | RAM 7.02→7.12 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:06:53 | INFO    | SUB_ID 50521: ok (206 s)
+2026-10-26 18:06:55 | INFO    | Progres 27/138 | ok 27 gagal 0 | chunk 207 s | rata-rata 168 s/subjek | sisa ±310 menit | RAM 7.12→7.06 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:10:19 | INFO    | SUB_ID 50527: ok (205 s)
+2026-10-26 18:10:21 | INFO    | Progres 28/138 | ok 28 gagal 0 | chunk 206 s | rata-rata 169 s/subjek | sisa ±310 menit | RAM 7.06→7.05 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:13:47 | INFO    | SUB_ID 50528: ok (206 s)
+2026-10-26 18:13:48 | INFO    | Progres 29/138 | ok 29 gagal 0 | chunk 208 s | rata-rata 170 s/subjek | sisa ±310 menit | RAM 7.05→7.10 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:17:15 | INFO    | SUB_ID 50532: ok (206 s)
+2026-10-26 18:17:16 | INFO    | Progres 30/138 | ok 30 gagal 0 | chunk 208 s | rata-rata 172 s/subjek | sisa ±309 menit | RAM 7.10→7.11 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:19:25 | INFO    | SUB_ID 50551: ok (129 s)
+2026-10-26 18:19:27 | INFO    | Progres 31/138 | ok 31 gagal 0 | chunk 131 s | rata-rata 170 s/subjek | sisa ±304 menit | RAM 7.11→7.09 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:21:40 | INFO    | SUB_ID 50564: ok (133 s)
+2026-10-26 18:21:41 | INFO    | Progres 32/138 | ok 32 gagal 0 | chunk 134 s | rata-rata 169 s/subjek | sisa ±299 menit | RAM 7.09→7.09 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:24:01 | INFO    | SUB_ID 50567: ok (140 s)
+2026-10-26 18:24:03 | INFO    | Progres 33/138 | ok 33 gagal 0 | chunk 142 s | rata-rata 168 s/subjek | sisa ±295 menit | RAM 7.08→7.04 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:26:19 | INFO    | SUB_ID 50568: ok (136 s)
+2026-10-26 18:26:20 | INFO    | Progres 34/138 | ok 34 gagal 0 | chunk 137 s | rata-rata 167 s/subjek | sisa ±290 menit | RAM 7.04→6.90 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:29:51 | INFO    | SUB_ID 50572: ok (211 s)
+2026-10-26 18:29:52 | INFO    | Progres 35/138 | ok 35 gagal 0 | chunk 212 s | rata-rata 169 s/subjek | sisa ±290 menit | RAM 6.90→7.00 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:32:58 | INFO    | SUB_ID 50602: ok (186 s)
+2026-10-26 18:33:00 | INFO    | Progres 36/138 | ok 36 gagal 0 | chunk 187 s | rata-rata 169 s/subjek | sisa ±288 menit | RAM 7.00→7.07 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:35:41 | INFO    | SUB_ID 50611: ok (161 s)
+2026-10-26 18:35:42 | INFO    | Progres 37/138 | ok 37 gagal 0 | chunk 163 s | rata-rata 169 s/subjek | sisa ±285 menit | RAM 7.07→7.03 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:38:55 | INFO    | SUB_ID 50612: ok (192 s)
+2026-10-26 18:38:56 | INFO    | Progres 38/138 | ok 38 gagal 0 | chunk 193 s | rata-rata 170 s/subjek | sisa ±283 menit | RAM 7.02→7.03 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:41:55 | INFO    | SUB_ID 50626: ok (179 s)
+2026-10-26 18:41:57 | INFO    | Progres 39/138 | ok 39 gagal 0 | chunk 181 s | rata-rata 170 s/subjek | sisa ±281 menit | RAM 7.03→7.15 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:43:49 | INFO    | SUB_ID 50650: ok (112 s)
+2026-10-26 18:43:50 | INFO    | Progres 40/138 | ok 40 gagal 0 | chunk 113 s | rata-rata 169 s/subjek | sisa ±275 menit | RAM 7.15→7.11 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:48:12 | INFO    | SUB_ID 50655: ok (261 s)
+2026-10-26 18:48:13 | INFO    | Progres 41/138 | ok 41 gagal 0 | chunk 263 s | rata-rata 171 s/subjek | sisa ±276 menit | RAM 7.11→7.17 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:52:33 | INFO    | SUB_ID 50660: ok (260 s)
+2026-10-26 18:52:35 | INFO    | Progres 42/138 | ok 42 gagal 0 | chunk 261 s | rata-rata 173 s/subjek | sisa ±277 menit | RAM 7.17→7.13 GiB | VRAM dipakai 0 MiB
+2026-10-26 18:57:06 | INFO    | SUB_ID 50663: ok (271 s)
+2026-10-26 18:57:07 | INFO    | Progres 43/138 | ok 43 gagal 0 | chunk 273 s | rata-rata 175 s/subjek | sisa ±278 menit | RAM 7.13→7.03 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:02:18 | INFO    | SUB_ID 50683: ok (310 s)
+2026-10-26 19:02:19 | INFO    | Progres 44/138 | ok 44 gagal 0 | chunk 312 s | rata-rata 178 s/subjek | sisa ±280 menit | RAM 7.02→7.09 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:07:07 | INFO    | SUB_ID 50686: ok (287 s)
+2026-10-26 19:07:08 | INFO    | Progres 45/138 | ok 45 gagal 0 | chunk 289 s | rata-rata 181 s/subjek | sisa ±280 menit | RAM 7.09→7.11 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:14:01 | INFO    | SUB_ID 50689: ok (413 s)
+2026-10-26 19:14:03 | INFO    | Progres 46/138 | ok 46 gagal 0 | chunk 415 s | rata-rata 186 s/subjek | sisa ±285 menit | RAM 7.10→7.15 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:20:53 | INFO    | SUB_ID 50700: ok (409 s)
+2026-10-26 19:20:54 | INFO    | Progres 47/138 | ok 47 gagal 0 | chunk 411 s | rata-rata 191 s/subjek | sisa ±289 menit | RAM 7.15→7.14 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:27:51 | INFO    | SUB_ID 50710: ok (416 s)
+2026-10-26 19:27:52 | INFO    | Progres 48/138 | ok 48 gagal 0 | chunk 418 s | rata-rata 196 s/subjek | sisa ±293 menit | RAM 7.14→7.13 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:34:41 | INFO    | SUB_ID 50732: ok (408 s)
+2026-10-26 19:34:42 | INFO    | Progres 49/138 | ok 49 gagal 0 | chunk 410 s | rata-rata 200 s/subjek | sisa ±297 menit | RAM 7.13→7.16 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:41:39 | INFO    | SUB_ID 50733: ok (416 s)
+2026-10-26 19:41:40 | INFO    | Progres 50/138 | ok 50 gagal 0 | chunk 418 s | rata-rata 204 s/subjek | sisa ±300 menit | RAM 7.15→7.12 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:48:10 | INFO    | SUB_ID 50736: ok (390 s)
+2026-10-26 19:48:12 | INFO    | Progres 51/138 | ok 51 gagal 0 | chunk 391 s | rata-rata 208 s/subjek | sisa ±302 menit | RAM 7.12→7.03 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:50:50 | INFO    | SUB_ID 50739: ok (158 s)
+2026-10-26 19:50:51 | INFO    | Progres 52/138 | ok 52 gagal 0 | chunk 159 s | rata-rata 207 s/subjek | sisa ±297 menit | RAM 7.03→6.95 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:52:58 | INFO    | SUB_ID 50743: ok (126 s)
+2026-10-26 19:52:59 | INFO    | Progres 53/138 | ok 53 gagal 0 | chunk 128 s | rata-rata 206 s/subjek | sisa ±291 menit | RAM 6.95→7.01 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:55:07 | INFO    | SUB_ID 50749: ok (127 s)
+2026-10-26 19:55:08 | INFO    | Progres 54/138 | ok 54 gagal 0 | chunk 129 s | rata-rata 204 s/subjek | sisa ±286 menit | RAM 7.01→7.02 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:56:56 | INFO    | SUB_ID 50781: ok (108 s)
+2026-10-26 19:56:57 | INFO    | Progres 55/138 | ok 55 gagal 0 | chunk 109 s | rata-rata 202 s/subjek | sisa ±280 menit | RAM 7.02→6.91 GiB | VRAM dipakai 0 MiB
+2026-10-26 19:59:18 | INFO    | SUB_ID 50791: ok (140 s)
+2026-10-26 19:59:18 | INFO    | Progres 56/138 | ok 56 gagal 0 | chunk 141 s | rata-rata 201 s/subjek | sisa ±275 menit | RAM 6.91→7.15 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:01:06 | INFO    | SUB_ID 50799: ok (108 s)
+2026-10-26 20:01:08 | INFO    | Progres 57/138 | ok 57 gagal 0 | chunk 109 s | rata-rata 200 s/subjek | sisa ±270 menit | RAM 7.15→6.87 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:02:49 | INFO    | SUB_ID 50802: ok (101 s)
+2026-10-26 20:02:50 | INFO    | Progres 58/138 | ok 58 gagal 0 | chunk 102 s | rata-rata 198 s/subjek | sisa ±264 menit | RAM 6.87→6.55 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:04:29 | INFO    | SUB_ID 50808: ok (99 s)
+2026-10-26 20:04:31 | INFO    | Progres 59/138 | ok 59 gagal 0 | chunk 100 s | rata-rata 196 s/subjek | sisa ±259 menit | RAM 6.55→6.51 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:06:01 | INFO    | SUB_ID 50813: ok (90 s)
+2026-10-26 20:06:02 | INFO    | Progres 60/138 | ok 60 gagal 0 | chunk 91 s | rata-rata 195 s/subjek | sisa ±253 menit | RAM 6.51→6.69 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:07:47 | INFO    | SUB_ID 50819: ok (105 s)
+2026-10-26 20:07:49 | INFO    | Progres 61/138 | ok 61 gagal 0 | chunk 107 s | rata-rata 193 s/subjek | sisa ±248 menit | RAM 6.69→6.71 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:09:41 | INFO    | SUB_ID 50953: ok (112 s)
+2026-10-26 20:09:42 | INFO    | Progres 62/138 | ok 62 gagal 0 | chunk 113 s | rata-rata 192 s/subjek | sisa ±243 menit | RAM 6.71→6.71 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:11:23 | INFO    | SUB_ID 50957: ok (101 s)
+2026-10-26 20:11:24 | INFO    | Progres 63/138 | ok 63 gagal 0 | chunk 102 s | rata-rata 190 s/subjek | sisa ±238 menit | RAM 6.71→6.75 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:13:18 | INFO    | SUB_ID 50965: ok (114 s)
+2026-10-26 20:13:20 | INFO    | Progres 64/138 | ok 64 gagal 0 | chunk 115 s | rata-rata 189 s/subjek | sisa ±233 menit | RAM 6.75→6.77 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:15:13 | INFO    | SUB_ID 50975: ok (113 s)
+2026-10-26 20:15:14 | INFO    | Progres 65/138 | ok 65 gagal 0 | chunk 114 s | rata-rata 188 s/subjek | sisa ±229 menit | RAM 6.77→6.77 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:16:49 | INFO    | SUB_ID 50982: ok (95 s)
+2026-10-26 20:16:50 | INFO    | Progres 66/138 | ok 66 gagal 0 | chunk 96 s | rata-rata 187 s/subjek | sisa ±224 menit | RAM 6.77→6.79 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:18:37 | INFO    | SUB_ID 50983: ok (107 s)
+2026-10-26 20:18:38 | INFO    | Progres 67/138 | ok 67 gagal 0 | chunk 108 s | rata-rata 186 s/subjek | sisa ±220 menit | RAM 6.78→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:20:22 | INFO    | SUB_ID 50985: ok (104 s)
+2026-10-26 20:20:24 | INFO    | Progres 68/138 | ok 68 gagal 0 | chunk 105 s | rata-rata 184 s/subjek | sisa ±215 menit | RAM 6.74→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:21:59 | INFO    | SUB_ID 50992: ok (95 s)
+2026-10-26 20:22:00 | INFO    | Progres 69/138 | ok 69 gagal 0 | chunk 96 s | rata-rata 183 s/subjek | sisa ±211 menit | RAM 6.74→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:23:47 | INFO    | SUB_ID 51001: ok (107 s)
+2026-10-26 20:23:48 | INFO    | Progres 70/138 | ok 70 gagal 0 | chunk 108 s | rata-rata 182 s/subjek | sisa ±206 menit | RAM 6.74→6.75 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:25:24 | INFO    | SUB_ID 51007: ok (96 s)
+2026-10-26 20:25:25 | INFO    | Progres 71/138 | ok 71 gagal 0 | chunk 97 s | rata-rata 181 s/subjek | sisa ±202 menit | RAM 6.75→6.72 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:27:10 | INFO    | SUB_ID 51011: ok (104 s)
+2026-10-26 20:27:11 | INFO    | Progres 72/138 | ok 72 gagal 0 | chunk 106 s | rata-rata 180 s/subjek | sisa ±198 menit | RAM 6.72→6.71 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:28:52 | INFO    | SUB_ID 51019: ok (101 s)
+2026-10-26 20:28:53 | INFO    | Progres 73/138 | ok 73 gagal 0 | chunk 103 s | rata-rata 179 s/subjek | sisa ±194 menit | RAM 6.71→6.76 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:30:32 | INFO    | SUB_ID 51023: ok (98 s)
+2026-10-26 20:30:33 | INFO    | Progres 74/138 | ok 74 gagal 0 | chunk 100 s | rata-rata 178 s/subjek | sisa ±190 menit | RAM 6.75→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:32:25 | INFO    | SUB_ID 51027: ok (111 s)
+2026-10-26 20:32:26 | INFO    | Progres 75/138 | ok 75 gagal 0 | chunk 113 s | rata-rata 177 s/subjek | sisa ±186 menit | RAM 6.74→6.77 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:34:14 | INFO    | SUB_ID 51029: ok (108 s)
+2026-10-26 20:34:16 | INFO    | Progres 76/138 | ok 76 gagal 0 | chunk 110 s | rata-rata 176 s/subjek | sisa ±182 menit | RAM 6.77→6.72 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:35:58 | INFO    | SUB_ID 51033: ok (102 s)
+2026-10-26 20:35:59 | INFO    | Progres 77/138 | ok 77 gagal 0 | chunk 104 s | rata-rata 175 s/subjek | sisa ±178 menit | RAM 6.72→6.75 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:37:57 | INFO    | SUB_ID 51036: ok (117 s)
+2026-10-26 20:37:57 | INFO    | Progres 78/138 | ok 78 gagal 0 | chunk 118 s | rata-rata 174 s/subjek | sisa ±174 menit | RAM 6.75→6.73 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:39:41 | INFO    | SUB_ID 51038: ok (104 s)
+2026-10-26 20:39:42 | INFO    | Progres 79/138 | ok 79 gagal 0 | chunk 105 s | rata-rata 173 s/subjek | sisa ±170 menit | RAM 6.73→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:41:19 | INFO    | SUB_ID 51041: ok (97 s)
+2026-10-26 20:41:20 | INFO    | Progres 80/138 | ok 80 gagal 0 | chunk 98 s | rata-rata 172 s/subjek | sisa ±167 menit | RAM 6.74→6.78 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:42:59 | INFO    | SUB_ID 51062: ok (98 s)
+2026-10-26 20:43:00 | INFO    | Progres 81/138 | ok 81 gagal 0 | chunk 100 s | rata-rata 172 s/subjek | sisa ±163 menit | RAM 6.78→6.77 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:44:48 | INFO    | SUB_ID 51064: ok (108 s)
+2026-10-26 20:44:50 | INFO    | Progres 82/138 | ok 82 gagal 0 | chunk 109 s | rata-rata 171 s/subjek | sisa ±159 menit | RAM 6.77→6.72 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:46:33 | INFO    | SUB_ID 51069: ok (103 s)
+2026-10-26 20:46:34 | INFO    | Progres 83/138 | ok 83 gagal 0 | chunk 104 s | rata-rata 170 s/subjek | sisa ±156 menit | RAM 6.72→6.82 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:48:04 | INFO    | SUB_ID 51078: ok (90 s)
+2026-10-26 20:48:05 | INFO    | Progres 84/138 | ok 84 gagal 0 | chunk 91 s | rata-rata 169 s/subjek | sisa ±152 menit | RAM 6.82→6.78 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:49:56 | INFO    | SUB_ID 51079: ok (111 s)
+2026-10-26 20:49:57 | INFO    | Progres 85/138 | ok 85 gagal 0 | chunk 112 s | rata-rata 168 s/subjek | sisa ±149 menit | RAM 6.77→6.84 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:51:49 | INFO    | SUB_ID 51082: ok (112 s)
+2026-10-26 20:51:51 | INFO    | Progres 86/138 | ok 86 gagal 0 | chunk 114 s | rata-rata 168 s/subjek | sisa ±145 menit | RAM 6.84→6.79 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:53:40 | INFO    | SUB_ID 51086: ok (110 s)
+2026-10-26 20:53:42 | INFO    | Progres 87/138 | ok 87 gagal 0 | chunk 111 s | rata-rata 167 s/subjek | sisa ±142 menit | RAM 6.79→6.85 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:55:23 | INFO    | SUB_ID 51091: ok (102 s)
+2026-10-26 20:55:25 | INFO    | Progres 88/138 | ok 88 gagal 0 | chunk 103 s | rata-rata 166 s/subjek | sisa ±139 menit | RAM 6.85→6.80 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:57:09 | INFO    | SUB_ID 51093: ok (104 s)
+2026-10-26 20:57:10 | INFO    | Progres 89/138 | ok 89 gagal 0 | chunk 105 s | rata-rata 166 s/subjek | sisa ±135 menit | RAM 6.80→6.82 GiB | VRAM dipakai 0 MiB
+2026-10-26 20:58:58 | INFO    | SUB_ID 51096: ok (108 s)
+2026-10-26 20:58:59 | INFO    | Progres 90/138 | ok 90 gagal 0 | chunk 109 s | rata-rata 165 s/subjek | sisa ±132 menit | RAM 6.82→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:00:50 | INFO    | SUB_ID 51099: ok (111 s)
+2026-10-26 21:00:51 | INFO    | Progres 91/138 | ok 91 gagal 0 | chunk 113 s | rata-rata 164 s/subjek | sisa ±129 menit | RAM 6.74→6.84 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:02:41 | INFO    | SUB_ID 51107: ok (109 s)
+2026-10-26 21:02:42 | INFO    | Progres 92/138 | ok 92 gagal 0 | chunk 111 s | rata-rata 164 s/subjek | sisa ±126 menit | RAM 6.84→6.78 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:04:23 | INFO    | SUB_ID 51112: ok (100 s)
+2026-10-26 21:04:24 | INFO    | Progres 93/138 | ok 93 gagal 0 | chunk 101 s | rata-rata 163 s/subjek | sisa ±122 menit | RAM 6.78→6.96 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:06:03 | INFO    | SUB_ID 51120: ok (100 s)
+2026-10-26 21:06:05 | INFO    | Progres 94/138 | ok 94 gagal 0 | chunk 101 s | rata-rata 163 s/subjek | sisa ±119 menit | RAM 6.96→6.96 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:07:52 | INFO    | SUB_ID 51127: ok (107 s)
+2026-10-26 21:07:53 | INFO    | Progres 95/138 | ok 95 gagal 0 | chunk 109 s | rata-rata 162 s/subjek | sisa ±116 menit | RAM 6.96→6.97 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:09:28 | INFO    | SUB_ID 51140: ok (94 s)
+2026-10-26 21:09:29 | INFO    | Progres 96/138 | ok 96 gagal 0 | chunk 96 s | rata-rata 161 s/subjek | sisa ±113 menit | RAM 6.97→6.97 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:11:22 | INFO    | SUB_ID 51146: ok (113 s)
+2026-10-26 21:11:23 | INFO    | Progres 97/138 | ok 97 gagal 0 | chunk 114 s | rata-rata 161 s/subjek | sisa ±110 menit | RAM 6.97→6.99 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:13:06 | INFO    | SUB_ID 51149: ok (103 s)
+2026-10-26 21:13:07 | INFO    | Progres 98/138 | ok 98 gagal 0 | chunk 104 s | rata-rata 160 s/subjek | sisa ±107 menit | RAM 6.99→6.98 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:14:50 | INFO    | SUB_ID 51167: ok (103 s)
+2026-10-26 21:14:52 | INFO    | Progres 99/138 | ok 99 gagal 0 | chunk 104 s | rata-rata 160 s/subjek | sisa ±104 menit | RAM 6.98→6.93 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:16:33 | INFO    | SUB_ID 51178: ok (102 s)
+2026-10-26 21:16:35 | INFO    | Progres 100/138 | ok 100 gagal 0 | chunk 103 s | rata-rata 159 s/subjek | sisa ±101 menit | RAM 6.93→6.93 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:18:16 | INFO    | SUB_ID 51179: ok (101 s)
+2026-10-26 21:18:17 | INFO    | Progres 101/138 | ok 101 gagal 0 | chunk 102 s | rata-rata 159 s/subjek | sisa ±98 menit | RAM 6.93→6.92 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:19:59 | INFO    | SUB_ID 51198: ok (102 s)
+2026-10-26 21:20:01 | INFO    | Progres 102/138 | ok 102 gagal 0 | chunk 104 s | rata-rata 158 s/subjek | sisa ±95 menit | RAM 6.92→6.94 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:21:48 | INFO    | SUB_ID 51201: ok (107 s)
+2026-10-26 21:21:49 | INFO    | Progres 103/138 | ok 103 gagal 0 | chunk 109 s | rata-rata 158 s/subjek | sisa ±92 menit | RAM 6.94→6.94 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:23:34 | INFO    | SUB_ID 51208: ok (104 s)
+2026-10-26 21:23:35 | INFO    | Progres 104/138 | ok 104 gagal 0 | chunk 106 s | rata-rata 157 s/subjek | sisa ±89 menit | RAM 6.94→6.96 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:25:25 | INFO    | SUB_ID 51218: ok (110 s)
+2026-10-26 21:25:26 | INFO    | Progres 105/138 | ok 105 gagal 0 | chunk 111 s | rata-rata 157 s/subjek | sisa ±86 menit | RAM 6.96→6.94 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:27:10 | INFO    | SUB_ID 51226: ok (104 s)
+2026-10-26 21:27:11 | INFO    | Progres 106/138 | ok 106 gagal 0 | chunk 105 s | rata-rata 156 s/subjek | sisa ±83 menit | RAM 6.94→6.90 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:28:53 | INFO    | SUB_ID 51235: ok (102 s)
+2026-10-26 21:28:54 | INFO    | Progres 107/138 | ok 107 gagal 0 | chunk 103 s | rata-rata 156 s/subjek | sisa ±80 menit | RAM 6.90→6.92 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:30:46 | INFO    | SUB_ID 51239: ok (112 s)
+2026-10-26 21:30:48 | INFO    | Progres 108/138 | ok 108 gagal 0 | chunk 113 s | rata-rata 155 s/subjek | sisa ±78 menit | RAM 6.92→6.95 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:32:32 | INFO    | SUB_ID 51241: ok (104 s)
+2026-10-26 21:32:33 | INFO    | Progres 109/138 | ok 109 gagal 0 | chunk 105 s | rata-rata 155 s/subjek | sisa ±75 menit | RAM 6.95→6.94 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:34:27 | INFO    | SUB_ID 51250: ok (114 s)
+2026-10-26 21:34:28 | INFO    | Progres 110/138 | ok 110 gagal 0 | chunk 115 s | rata-rata 154 s/subjek | sisa ±72 menit | RAM 6.94→6.89 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:36:13 | INFO    | SUB_ID 51259: ok (105 s)
+2026-10-26 21:36:14 | INFO    | Progres 111/138 | ok 111 gagal 0 | chunk 106 s | rata-rata 154 s/subjek | sisa ±69 menit | RAM 6.89→6.92 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:38:21 | INFO    | SUB_ID 51260: ok (126 s)
+2026-10-26 21:38:22 | INFO    | Progres 112/138 | ok 112 gagal 0 | chunk 128 s | rata-rata 154 s/subjek | sisa ±67 menit | RAM 6.92→6.91 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:40:34 | INFO    | SUB_ID 51262: ok (132 s)
+2026-10-26 21:40:36 | INFO    | Progres 113/138 | ok 113 gagal 0 | chunk 134 s | rata-rata 154 s/subjek | sisa ±64 menit | RAM 6.91→6.97 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:42:48 | INFO    | SUB_ID 51269: ok (132 s)
+2026-10-26 21:42:50 | INFO    | Progres 114/138 | ok 114 gagal 0 | chunk 134 s | rata-rata 153 s/subjek | sisa ±61 menit | RAM 6.97→6.98 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:45:17 | INFO    | SUB_ID 51297: ok (147 s)
+2026-10-26 21:45:18 | INFO    | Progres 115/138 | ok 115 gagal 0 | chunk 149 s | rata-rata 153 s/subjek | sisa ±59 menit | RAM 6.98→6.98 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:47:33 | INFO    | SUB_ID 51300: ok (135 s)
+2026-10-26 21:47:35 | INFO    | Progres 116/138 | ok 116 gagal 0 | chunk 136 s | rata-rata 153 s/subjek | sisa ±56 menit | RAM 6.98→6.96 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:49:52 | INFO    | SUB_ID 51311: ok (138 s)
+2026-10-26 21:49:54 | INFO    | Progres 117/138 | ok 117 gagal 0 | chunk 139 s | rata-rata 153 s/subjek | sisa ±54 menit | RAM 6.96→6.95 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:51:51 | INFO    | SUB_ID 51318: ok (117 s)
+2026-10-26 21:51:52 | INFO    | Progres 118/138 | ok 118 gagal 0 | chunk 118 s | rata-rata 153 s/subjek | sisa ±51 menit | RAM 6.95→6.96 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:54:09 | INFO    | SUB_ID 51320: ok (137 s)
+2026-10-26 21:54:10 | INFO    | Progres 119/138 | ok 119 gagal 0 | chunk 138 s | rata-rata 153 s/subjek | sisa ±48 menit | RAM 6.96→6.96 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:56:10 | INFO    | SUB_ID 51323: ok (120 s)
+2026-10-26 21:56:12 | INFO    | Progres 120/138 | ok 120 gagal 0 | chunk 122 s | rata-rata 152 s/subjek | sisa ±46 menit | RAM 6.96→6.95 GiB | VRAM dipakai 0 MiB
+2026-10-26 21:58:27 | INFO    | SUB_ID 51335: ok (135 s)
+2026-10-26 21:58:28 | INFO    | Progres 121/138 | ok 121 gagal 0 | chunk 136 s | rata-rata 152 s/subjek | sisa ±43 menit | RAM 6.95→6.82 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:00:36 | INFO    | SUB_ID 51338: ok (128 s)
+2026-10-26 22:00:37 | INFO    | Progres 122/138 | ok 122 gagal 0 | chunk 129 s | rata-rata 152 s/subjek | sisa ±41 menit | RAM 6.82→6.82 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:02:49 | INFO    | SUB_ID 51361: ok (132 s)
+2026-10-26 22:02:50 | INFO    | Progres 123/138 | ok 123 gagal 0 | chunk 133 s | rata-rata 152 s/subjek | sisa ±38 menit | RAM 6.82→6.82 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:04:51 | INFO    | SUB_ID 51368: ok (121 s)
+2026-10-26 22:04:53 | INFO    | Progres 124/138 | ok 124 gagal 0 | chunk 122 s | rata-rata 152 s/subjek | sisa ±35 menit | RAM 6.82→6.82 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:06:51 | INFO    | SUB_ID 51369: ok (119 s)
+2026-10-26 22:06:53 | INFO    | Progres 125/138 | ok 125 gagal 0 | chunk 120 s | rata-rata 151 s/subjek | sisa ±33 menit | RAM 6.82→6.76 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:08:55 | INFO    | SUB_ID 51373: ok (122 s)
+2026-10-26 22:08:56 | INFO    | Progres 126/138 | ok 126 gagal 0 | chunk 124 s | rata-rata 151 s/subjek | sisa ±30 menit | RAM 6.76→6.77 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:11:24 | INFO    | SUB_ID 51461: ok (148 s)
+2026-10-26 22:11:26 | INFO    | Progres 127/138 | ok 127 gagal 0 | chunk 149 s | rata-rata 151 s/subjek | sisa ±28 menit | RAM 6.77→6.75 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:13:34 | INFO    | SUB_ID 51468: ok (128 s)
+2026-10-26 22:13:35 | INFO    | Progres 128/138 | ok 128 gagal 0 | chunk 129 s | rata-rata 151 s/subjek | sisa ±25 menit | RAM 6.75→6.73 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:15:39 | INFO    | SUB_ID 51470: ok (124 s)
+2026-10-26 22:15:40 | INFO    | Progres 129/138 | ok 129 gagal 0 | chunk 125 s | rata-rata 151 s/subjek | sisa ±23 menit | RAM 6.73→6.71 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:17:57 | INFO    | SUB_ID 51483: ok (136 s)
+2026-10-26 22:17:58 | INFO    | Progres 130/138 | ok 130 gagal 0 | chunk 138 s | rata-rata 151 s/subjek | sisa ±20 menit | RAM 6.71→6.66 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:20:11 | INFO    | SUB_ID 51485: ok (133 s)
+2026-10-26 22:20:13 | INFO    | Progres 131/138 | ok 131 gagal 0 | chunk 134 s | rata-rata 151 s/subjek | sisa ±18 menit | RAM 6.66→6.78 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:22:14 | INFO    | SUB_ID 51486: ok (122 s)
+2026-10-26 22:22:16 | INFO    | Progres 132/138 | ok 132 gagal 0 | chunk 123 s | rata-rata 150 s/subjek | sisa ±15 menit | RAM 6.78→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:24:28 | INFO    | SUB_ID 51488: ok (132 s)
+2026-10-26 22:24:29 | INFO    | Progres 133/138 | ok 133 gagal 0 | chunk 134 s | rata-rata 150 s/subjek | sisa ±13 menit | RAM 6.74→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:26:40 | INFO    | SUB_ID 51562: ok (131 s)
+2026-10-26 22:26:42 | INFO    | Progres 134/138 | ok 134 gagal 0 | chunk 132 s | rata-rata 150 s/subjek | sisa ±10 menit | RAM 6.74→6.68 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:28:59 | INFO    | SUB_ID 51563: ok (137 s)
+2026-10-26 22:29:00 | INFO    | Progres 135/138 | ok 135 gagal 0 | chunk 138 s | rata-rata 150 s/subjek | sisa ±8 menit | RAM 6.68→6.65 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:31:17 | INFO    | SUB_ID 51565: ok (137 s)
+2026-10-26 22:31:19 | INFO    | Progres 136/138 | ok 136 gagal 0 | chunk 139 s | rata-rata 150 s/subjek | sisa ±5 menit | RAM 6.65→6.74 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:33:20 | INFO    | SUB_ID 51575: ok (121 s)
+2026-10-26 22:33:22 | INFO    | Progres 137/138 | ok 137 gagal 0 | chunk 123 s | rata-rata 150 s/subjek | sisa ±2 menit | RAM 6.74→6.73 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:35:38 | INFO    | SUB_ID 51585: ok (136 s)
+2026-10-26 22:35:39 | INFO    | Progres 138/138 | ok 138 gagal 0 | chunk 137 s | rata-rata 150 s/subjek | sisa ±0 menit | RAM 6.73→6.76 GiB | VRAM dipakai 0 MiB
+2026-10-26 22:35:49 | INFO    | RINGKASAN run ini: success 138 | failed 0 | skipped 0 | flagged (semua output valid) 1 | total 344.4 menit | valid 200/200 | tuntas
+2026-10-26 22:35:49 | INFO    | Auto-sleep Windows dikembalikan normal.
