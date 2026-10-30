@@ -36,7 +36,7 @@ in the GitHub repo. Every subject was produced by the same fingerprint; a full c
 | `xfm/` | `{SUB_ID}_0GenericAffine.mat` | ANTs affine (native → MNI) |
 | `qc_figures/` | `{SUB_ID}.png` | QC montage |
 | `templates/` | — | MNI152 2009 templates used (from nilearn) |
-| `repro/` | 4 dev subjects | reproducibility check: subjects re-run from scratch, outputs bitwise identical to the main run (`repro_*.json`) |
+| `repro/` | 4 dev subjects | reproducibility check: subjects re-run from scratch; `repro_*.json` records the hash comparison (outputs bitwise identical to the main run, so the identical re-run files are not duplicated here — only logs/meta) |
 | `_superseded/d21d49b87afd8c11/` | 3 dev subjects | outputs of an older config (HD-BET non-deterministic) that was replaced — kept for the record, **do not use** |
 
 `SHA256SUMS` lists a checksum for every file. This repo holds **only the large image files**; everything small lives in

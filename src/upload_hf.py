@@ -54,13 +54,23 @@ def stage():
                 link(f, STAGE / d / f.name)
     for f in (SRC / "templates").iterdir():
         link(f, STAGE / "templates" / f.name)
-    # bukti uji reproducibility & output config lama (HD-BET non-deterministik): hanya subjek dev
+    # bukti uji reproducibility & output config lama (HD-BET non-deterministik): hanya subjek dev, dan hanya file yang
+    # isinya belum ada (output repro identik byte-per-byte dengan output utama -> cukup laporan repro_*.json, tanpa duplikat)
+    have = {hashlib.sha256(f.read_bytes()).hexdigest() for d in list(PER_SUBJ) + ["templates"] for f in (STAGE / d).iterdir()}
     for sub in ("repro", "_superseded"):
-        for f in (SRC / sub).rglob("*"):
+        for d in [STAGE / sub]:
+            if d.exists():
+                shutil.rmtree(d)                     # staging = hardlink; sumber tidak tersentuh
+        for f in sorted((SRC / sub).rglob("*")):
             r = f.relative_to(SRC)
-            if f.is_file() and not any(p.split("_")[0].split(".")[0].isdigit() and int(p.split("_")[0].split(".")[0]) in test_ids
-                                       for p in [x.replace("repro_", "") for x in r.parts]):
-                link(f, STAGE / r)
+            if not f.is_file() or any(p.split("_")[0].split(".")[0].isdigit() and int(p.split("_")[0].split(".")[0]) in test_ids
+                                      for p in [x.replace("repro_", "") for x in r.parts]):
+                continue
+            h = hashlib.sha256(f.read_bytes()).hexdigest()
+            if h in have:
+                continue
+            have.add(h)
+            link(f, STAGE / r)
     shutil.copy2(PROJECT / "src" / "hf_dataset_card.md", STAGE / "README.md")
     # verifikasi: tidak ada subjek test, jumlah file benar
     files = [f for f in STAGE.rglob("*") if f.is_file() and ".cache" not in f.parts]
