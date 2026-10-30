@@ -59,7 +59,7 @@ pip install huggingface_hub
 hf download feliciacyntia/abide1-smri-prepro --repo-type dataset --local-dir data\smri_preproc
 # 1b) OPSIONAL (6,8 GB): checkpoint model .pt, cache embedding .npy, atlas ROI -> langsung masuk ke results\ dan pretrained\
 #     perlu hanya untuk memuat model yang sudah dilatih / ekstrak embedding / hitung ulang fitur ROI
-hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" "pretrained/*"
+hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" --include "pretrained/*"
 # 2) environment modeling (Python 3.12.3, GPU CUDA 12.1) — lihat komentar di requirements-model.txt untuk TabPFN
 python -m venv .venv-model
 .\.venv-model\Scripts\pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121

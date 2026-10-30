@@ -1,7 +1,7 @@
 """Unggah file biner hasil modeling ke Hugging Face (repo model): checkpoint .pt, cache embedding .npy, atlas ROI.
 Struktur sama dengan repo GitHub (results/..., pretrained/...), jadi bisa diunduh langsung ke root repo:
 
-    hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" "pretrained/*"
+    hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" --include "pretrained/*"
 
     .venv-model\\Scripts\\python.exe src\\upload_hf_results.py --stage
     .venv-model\\Scripts\\python.exe src\\upload_hf_results.py --upload --repo-id feliciacyntia/abide1-asd-results

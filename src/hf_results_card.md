@@ -14,7 +14,7 @@ Binary outputs of the modelling runs of the bachelor-thesis project **https://gi
 straight into the cloned repo root:
 
 ```bash
-hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" "pretrained/*"
+hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" --include "pretrained/*"
 ```
 
 | path | content |
