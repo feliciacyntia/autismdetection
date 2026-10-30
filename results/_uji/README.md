@@ -12,3 +12,7 @@ Disimpan sebagai catatan bahwa runner diuji (semua percobaan dicatat). **Angka d
 | `v3_test` | uji runner v3 tabel: fold 0, seed 0, 3 trial Optuna, LOSO + uji STOP/resume |
 
 Checkpoint `.pt` dan cache embedding `.npy` run uji tidak disertakan.
+
+**Tanpa duplikat:** 155 file run uji yang isinya identik byte-per-byte dengan file di run asli (`results/pilot200*`) atau
+dengan run uji lain dihapus dari repo; yang tersisa hanya file unik (log, status, config, prediksi yang berbeda).
+Salinan lengkap tetap ada di komputer pemilik TA (`C:\ta_local\results`).
