@@ -1,0 +1,33 @@
+2026-10-27 00:50:45 | INFO    | === Unit 41/57: dinov2_s:3 ===
+2026-10-27 00:50:45 | INFO    | dinov2_s:3 | epoch 1/300 | 0.0 s | val loss 0.7198 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:45 | INFO    | dinov2_s:3 | epoch 2/300 | 0.0 s | val loss 0.7218 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:45 | INFO    | dinov2_s:3 | epoch 3/300 | 0.0 s | val loss 0.7249 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:45 | INFO    | dinov2_s:3 | epoch 4/300 | 0.0 s | val loss 0.7333 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:45 | INFO    | dinov2_s:3 | epoch 5/300 | 0.0 s | val loss 0.7228 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 6/300 | 0.0 s | val loss 0.7233 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 7/300 | 0.0 s | val loss 0.7241 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 8/300 | 0.0 s | val loss 0.7273 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 9/300 | 0.0 s | val loss 0.7261 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 10/300 | 0.0 s | val loss 0.7288 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 11/300 | 0.0 s | val loss 0.7290 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 12/300 | 0.0 s | val loss 0.7301 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 13/300 | 0.0 s | val loss 0.7298 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 14/300 | 0.0 s | val loss 0.7307 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 15/300 | 0.0 s | val loss 0.7341 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 16/300 | 0.0 s | val loss 0.7358 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 17/300 | 0.0 s | val loss 0.7347 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 18/300 | 0.0 s | val loss 0.7384 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 19/300 | 0.0 s | val loss 0.7472 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 20/300 | 0.0 s | val loss 0.7500 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:46 | INFO    | dinov2_s:3 | epoch 21/300 | 0.0 s | val loss 0.7847 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 22/300 | 0.0 s | val loss 0.7910 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 23/300 | 0.0 s | val loss 0.7493 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 24/300 | 0.0 s | val loss 0.7513 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 25/300 | 0.0 s | val loss 0.7606 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 26/300 | 0.0 s | val loss 0.7666 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 27/300 | 0.0 s | val loss 0.8006 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 28/300 | 0.0 s | val loss 0.7810 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 29/300 | 0.0 s | val loss 0.7889 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 30/300 | 0.0 s | val loss 0.8126 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | dinov2_s:3 | epoch 31/300 | 0.0 s | val loss 0.7692 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:50:47 | INFO    | Unit dinov2_s:3 selesai (done) | progres 41/57 unit selesai | 8.6 menit sejak mulai

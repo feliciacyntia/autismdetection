@@ -1,0 +1,14 @@
+2026-10-27 02:51:47 | INFO    | === Unit 60/168: resnet18:3 ===
+2026-10-27 02:51:51 | INFO    | resnet18:3 | epoch 1/40 | 2.9 s | train 0.7238 | val 0.7188 (halus 0.7188) | AUC val 0.620 | best 1 | VRAM 327 MiB
+2026-10-27 02:51:54 | INFO    | resnet18:3 | epoch 2/40 | 2.9 s | train 0.7301 | val 0.7202 (halus 0.7195) | AUC val 0.584 | best 1 | VRAM 327 MiB
+2026-10-27 02:51:57 | INFO    | resnet18:3 | epoch 3/40 | 3.1 s | train 0.7476 | val 0.7197 (halus 0.7196) | AUC val 0.655 | best 1 | VRAM 327 MiB
+2026-10-27 02:52:00 | INFO    | resnet18:3 | epoch 4/40 | 3.2 s | train 0.7314 | val 0.7198 (halus 0.7199) | AUC val 0.549 | best 1 | VRAM 327 MiB
+2026-10-27 02:52:04 | INFO    | resnet18:3 | epoch 5/40 | 3.0 s | train 0.7284 | val 0.7206 (halus 0.7200) | AUC val 0.486 | best 1 | VRAM 327 MiB
+2026-10-27 02:52:07 | INFO    | resnet18:3 | epoch 6/40 | 3.6 s | train 0.7270 | val 0.7212 (halus 0.7205) | AUC val 0.484 | best 1 | VRAM 440 MiB
+2026-10-27 02:52:11 | INFO    | resnet18:3 | epoch 7/40 | 3.7 s | train 0.7215 | val 0.7210 (halus 0.7209) | AUC val 0.502 | best 1 | VRAM 440 MiB
+2026-10-27 02:52:15 | INFO    | resnet18:3 | epoch 8/40 | 3.8 s | train 0.7302 | val 0.7206 (halus 0.7209) | AUC val 0.461 | best 1 | VRAM 440 MiB
+2026-10-27 02:52:19 | INFO    | resnet18:3 | epoch 9/40 | 3.8 s | train 0.7264 | val 0.7230 (halus 0.7215) | AUC val 0.463 | best 1 | VRAM 440 MiB
+2026-10-27 02:52:23 | INFO    | resnet18:3 | epoch 10/40 | 3.6 s | train 0.7286 | val 0.7207 (halus 0.7214) | AUC val 0.443 | best 1 | VRAM 440 MiB
+2026-10-27 02:52:27 | INFO    | resnet18:3 | epoch 11/40 | 3.6 s | train 0.7242 | val 0.7217 (halus 0.7218) | AUC val 0.416 | best 1 | VRAM 440 MiB
+2026-10-27 02:52:30 | INFO    | resnet18:3: sudah belajar = False (train 0.724->0.724 | val halus terbaik 0.7188 vs konstan 0.7201 | AUC val 0.620)
+2026-10-27 02:52:30 | INFO    | Unit resnet18:3 selesai (done) | progres 60/168 unit selesai | 12.9 menit sejak mulai

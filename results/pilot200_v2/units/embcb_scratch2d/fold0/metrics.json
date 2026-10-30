@@ -1,0 +1,30 @@
+{
+ "test": {
+  "combat": {
+   "n": 41,
+   "balanced_accuracy": 0.4845238095238095,
+   "f1_macro": 0.4765957446808511,
+   "auc": 0.5095238095238095,
+   "sensitivity": 0.35,
+   "specificity": 0.6190476190476191
+  },
+  "raw": {
+   "n": 41,
+   "balanced_accuracy": 0.3821428571428572,
+   "f1_macro": 0.30976430976430974,
+   "auc": 0.4142857142857143,
+   "sensitivity": 0.05,
+   "specificity": 0.7142857142857143
+  }
+ },
+ "site_ba_test": {
+  "raw": 0.5723684210526315,
+  "combat": 0.1600877192982456
+ },
+ "unseen": {
+  "inner_train": 1,
+  "inner_val": 3,
+  "test": 0
+ },
+ "n_sites_test": 19
+}

@@ -1,0 +1,18 @@
+2026-10-27 00:25:42 | INFO    | 06 06-pilot-v1 | subset pilot200 | hasil C:\ta_local\results\_resume_test | config_hash 1797fe5bf1d67157-ep4
+2026-10-27 00:25:42 | WARNING | Lock basi (PID 8116 sudah mati) diganti otomatis.
+2026-10-27 00:25:43 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 00:25:45 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 00:25:45 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:25:45 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:25:45 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 00:25:45 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 00:25:51 | WARNING | Unit berstatus running dari run sebelumnya (crash/putus): ['effnet_b0:0'] -> dilanjutkan dari checkpoint.
+2026-10-27 00:25:51 | INFO    | === Unit 1/1: effnet_b0:0 ===
+2026-10-27 00:25:58 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 00:26:01 | INFO    | Volume dimuat ke RAM: 200 subjek (3.6 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:26:07 | INFO    | Resume dari checkpoint epoch 2 (best epoch 2, val loss 0.7298)
+2026-10-27 00:26:33 | INFO    | effnet_b0:0 | epoch 3/4 | 26.3 s | val loss 0.7320 | best epoch 2 | VRAM puncak 483 MiB
+2026-10-27 00:26:53 | INFO    | effnet_b0:0 | epoch 4/4 | 19.1 s | val loss 0.7327 | best epoch 2 | VRAM puncak 483 MiB
+2026-10-27 00:27:10 | INFO    | Unit effnet_b0:0 selesai (done) | progres 1/1 unit selesai | 1.3 menit sejak mulai
+2026-10-27 00:27:10 | INFO    | RINGKASAN: 1/1 unit done | 1.3 menit | selesai
+2026-10-27 00:27:10 | INFO    | Auto-sleep Windows dikembalikan normal.

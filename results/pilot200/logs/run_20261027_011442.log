@@ -1,0 +1,19 @@
+2026-10-27 01:14:42 | INFO    | 06 06-pilot-v1 | subset pilot200 | hasil C:\ta_local\results\pilot200 | config_hash 1797fe5bf1d67157
+2026-10-27 01:14:43 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 01:14:43 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 01:14:43 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 01:14:43 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 01:14:43 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 01:14:43 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 01:14:47 | INFO    | === Unit 43/57: fusion_S4:0 ===
+2026-10-27 01:14:49 | INFO    | Unit fusion_S4:0 selesai (done) | progres 43/57 unit selesai | 0.0 menit sejak mulai
+2026-10-27 01:14:49 | INFO    | === Unit 44/57: fusion_S4:1 ===
+2026-10-27 01:14:50 | INFO    | Unit fusion_S4:1 selesai (done) | progres 44/57 unit selesai | 0.0 menit sejak mulai
+2026-10-27 01:14:50 | INFO    | === Unit 45/57: fusion_S4:2 ===
+2026-10-27 01:14:50 | INFO    | Unit fusion_S4:2 selesai (done) | progres 45/57 unit selesai | 0.1 menit sejak mulai
+2026-10-27 01:14:50 | INFO    | === Unit 46/57: fusion_S4:3 ===
+2026-10-27 01:14:51 | INFO    | Unit fusion_S4:3 selesai (done) | progres 46/57 unit selesai | 0.1 menit sejak mulai
+2026-10-27 01:14:51 | INFO    | === Unit 47/57: fusion_S4:4 ===
+2026-10-27 01:14:51 | INFO    | Unit fusion_S4:4 selesai (done) | progres 47/57 unit selesai | 0.1 menit sejak mulai
+2026-10-27 01:14:53 | INFO    | RINGKASAN: 57/57 unit done | 0.1 menit | selesai
+2026-10-27 01:14:53 | INFO    | Auto-sleep Windows dikembalikan normal.

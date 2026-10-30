@@ -1,0 +1,12 @@
+2026-10-27 00:24:20 | INFO    | 06 06-pilot-v1 | subset pilot200 | hasil C:\ta_local\results\_resume_test | config_hash 1797fe5bf1d67157-ep4
+2026-10-27 00:24:20 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 00:24:22 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 00:24:22 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:24:22 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:24:22 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 00:24:22 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 00:24:26 | INFO    | === Unit 1/1: effnet_b0:0 ===
+2026-10-27 00:24:35 | INFO    | Volume dimuat ke RAM: 200 subjek (2.9 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:25:03 | INFO    | effnet_b0:0 | epoch 1/4 | 24.3 s | val loss 0.7327 | best epoch 1 | VRAM puncak 482 MiB
+2026-10-27 00:25:03 | INFO    | ESTIMASI effnet_b0: ±24.3 s/epoch -> maks ±8 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:25:23 | INFO    | effnet_b0:0 | epoch 2/4 | 19.2 s | val loss 0.7298 | best epoch 2 | VRAM puncak 482 MiB

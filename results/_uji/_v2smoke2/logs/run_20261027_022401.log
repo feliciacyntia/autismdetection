@@ -1,0 +1,214 @@
+2026-10-27 02:24:01 | INFO    | 06 06-pilot-v2 | subset pilot200 | hasil C:\ta_local\results\_v2smoke2 | config_hash 27c4fa66930f2ece-ep2
+2026-10-27 02:24:01 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 02:24:01 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 02:24:01 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 02:24:01 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 02:24:01 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 02:24:01 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 02:24:05 | INFO    | === Unit 1/88: logreg:0 ===
+2026-10-27 02:24:06 | INFO    | Unit logreg:0 selesai (done) | progres 1/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:06 | INFO    | === Unit 2/88: logreg:1 ===
+2026-10-27 02:24:06 | INFO    | Unit logreg:1 selesai (done) | progres 2/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:06 | INFO    | === Unit 3/88: logreg:2 ===
+2026-10-27 02:24:06 | INFO    | Unit logreg:2 selesai (done) | progres 3/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:06 | INFO    | === Unit 4/88: logreg:3 ===
+2026-10-27 02:24:06 | INFO    | Unit logreg:3 selesai (done) | progres 4/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:06 | INFO    | === Unit 5/88: logreg:4 ===
+2026-10-27 02:24:06 | INFO    | Unit logreg:4 selesai (done) | progres 5/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:06 | INFO    | === Unit 6/88: xgb:0 ===
+2026-10-27 02:24:07 | INFO    | Unit xgb:0 selesai (done) | progres 6/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:07 | INFO    | === Unit 7/88: xgb:1 ===
+2026-10-27 02:24:07 | INFO    | Unit xgb:1 selesai (done) | progres 7/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:07 | INFO    | === Unit 8/88: xgb:2 ===
+2026-10-27 02:24:08 | INFO    | Unit xgb:2 selesai (done) | progres 8/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:08 | INFO    | === Unit 9/88: xgb:3 ===
+2026-10-27 02:24:08 | INFO    | Unit xgb:3 selesai (done) | progres 9/88 unit selesai | 0.0 menit sejak mulai
+2026-10-27 02:24:08 | INFO    | === Unit 10/88: xgb:4 ===
+2026-10-27 02:24:09 | INFO    | Unit xgb:4 selesai (done) | progres 10/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:09 | INFO    | === Unit 11/88: mlp_tab:0 ===
+2026-10-27 02:24:10 | INFO    | Unit mlp_tab:0 selesai (done) | progres 11/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:10 | INFO    | === Unit 12/88: mlp_tab:1 ===
+2026-10-27 02:24:10 | INFO    | Unit mlp_tab:1 selesai (done) | progres 12/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:10 | INFO    | === Unit 13/88: mlp_tab:2 ===
+2026-10-27 02:24:11 | INFO    | Unit mlp_tab:2 selesai (done) | progres 13/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:11 | INFO    | === Unit 14/88: mlp_tab:3 ===
+2026-10-27 02:24:11 | INFO    | Unit mlp_tab:3 selesai (done) | progres 14/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:11 | INFO    | === Unit 15/88: mlp_tab:4 ===
+2026-10-27 02:24:11 | INFO    | Unit mlp_tab:4 selesai (done) | progres 15/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:11 | INFO    | === Unit 16/88: tabm:0 ===
+2026-10-27 02:24:11 | INFO    | Unit tabm:0 selesai (done) | progres 16/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:12 | INFO    | === Unit 17/88: tabm:1 ===
+2026-10-27 02:24:12 | INFO    | Unit tabm:1 selesai (done) | progres 17/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:12 | INFO    | === Unit 18/88: tabm:2 ===
+2026-10-27 02:24:12 | INFO    | Unit tabm:2 selesai (done) | progres 18/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:12 | INFO    | === Unit 19/88: tabm:3 ===
+2026-10-27 02:24:13 | INFO    | Unit tabm:3 selesai (done) | progres 19/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:24:13 | INFO    | === Unit 20/88: tabm:4 ===
+2026-10-27 02:24:13 | INFO    | Unit tabm:4 selesai (done) | progres 20/88 unit selesai | 0.1 menit sejak mulai
+2026-10-27 02:25:45 | INFO    | Tabel A disimpan | lanjut ke ROI & citra.
+2026-10-27 02:25:45 | INFO    | === Unit 21/88: cache_roi ===
+2026-10-27 02:25:50 | INFO    | Fitur ROI: 200 subjek x 222 fitur | NaN 0.0000
+2026-10-27 02:25:50 | INFO    | Unit cache_roi selesai (done) | progres 21/88 unit selesai | 1.7 menit sejak mulai
+2026-10-27 02:25:50 | INFO    | === Unit 22/88: roi_logreg:0 ===
+2026-10-27 02:25:50 | INFO    | Unit roi_logreg:0 selesai (done) | progres 22/88 unit selesai | 1.7 menit sejak mulai
+2026-10-27 02:25:50 | INFO    | === Unit 23/88: roi_logreg:1 ===
+2026-10-27 02:25:50 | INFO    | Unit roi_logreg:1 selesai (done) | progres 23/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:50 | INFO    | === Unit 24/88: roi_logreg:2 ===
+2026-10-27 02:25:51 | INFO    | Unit roi_logreg:2 selesai (done) | progres 24/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:51 | INFO    | === Unit 25/88: roi_logreg:3 ===
+2026-10-27 02:25:51 | INFO    | Unit roi_logreg:3 selesai (done) | progres 25/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:51 | INFO    | === Unit 26/88: roi_logreg:4 ===
+2026-10-27 02:25:51 | INFO    | Unit roi_logreg:4 selesai (done) | progres 26/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:51 | INFO    | === Unit 27/88: roi_logreg_cb:0 ===
+2026-10-27 02:25:51 | INFO    | Unit roi_logreg_cb:0 selesai (done) | progres 27/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:51 | INFO    | === Unit 28/88: roi_logreg_cb:1 ===
+2026-10-27 02:25:52 | INFO    | Unit roi_logreg_cb:1 selesai (done) | progres 28/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:52 | INFO    | === Unit 29/88: roi_logreg_cb:2 ===
+2026-10-27 02:25:52 | INFO    | Unit roi_logreg_cb:2 selesai (done) | progres 29/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:52 | INFO    | === Unit 30/88: roi_logreg_cb:3 ===
+2026-10-27 02:25:52 | INFO    | Unit roi_logreg_cb:3 selesai (done) | progres 30/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:52 | INFO    | === Unit 31/88: roi_logreg_cb:4 ===
+2026-10-27 02:25:52 | INFO    | Unit roi_logreg_cb:4 selesai (done) | progres 31/88 unit selesai | 1.8 menit sejak mulai
+2026-10-27 02:25:52 | INFO    | === Unit 32/88: scratch3d:0 ===
+2026-10-27 02:25:54 | INFO    | Volume dimuat ke RAM: 200 subjek (1.3 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 02:26:05 | INFO    | scratch3d:0 | epoch 1/2 | 10.0 s | train 0.7429 | val 0.7315 (halus 0.7315) | AUC val 0.482 | best 1 | VRAM 1021 MiB
+2026-10-27 02:26:05 | INFO    | ESTIMASI scratch3d: ±10.0 s/epoch -> maks ±2 menit untuk 5 fold
+2026-10-27 02:26:13 | INFO    | scratch3d:0 | epoch 2/2 | 7.0 s | train 0.7369 | val 0.7342 (halus 0.7329) | AUC val 0.588 | best 1 | VRAM 1021 MiB
+2026-10-27 02:26:15 | INFO    | scratch3d:0: sudah belajar = False (train 0.743->0.737 | val halus terbaik 0.7315 vs konstan 0.7322 | AUC val 0.482)
+2026-10-27 02:26:15 | INFO    | Unit scratch3d:0 selesai (done) | progres 32/88 unit selesai | 2.2 menit sejak mulai
+2026-10-27 02:26:15 | INFO    | === Unit 33/88: scratch3d:1 ===
+2026-10-27 02:26:23 | INFO    | scratch3d:1 | epoch 1/2 | 7.3 s | train 0.7139 | val 0.7132 (halus 0.7132) | AUC val 0.331 | best 1 | VRAM 1021 MiB
+2026-10-27 02:26:30 | INFO    | scratch3d:1 | epoch 2/2 | 7.3 s | train 0.7072 | val 3.6996 (halus 2.2064) | AUC val 0.379 | best 1 | VRAM 1020 MiB
+2026-10-27 02:26:33 | INFO    | scratch3d:1: sudah belajar = False (train 0.714->0.707 | val halus terbaik 0.7132 vs konstan 0.7093 | AUC val 0.331)
+2026-10-27 02:26:33 | INFO    | Unit scratch3d:1 selesai (done) | progres 33/88 unit selesai | 2.5 menit sejak mulai
+2026-10-27 02:26:33 | INFO    | === Unit 34/88: scratch3d:2 ===
+2026-10-27 02:26:41 | INFO    | scratch3d:2 | epoch 1/2 | 7.3 s | train 0.7389 | val 0.7387 (halus 0.7387) | AUC val 0.406 | best 1 | VRAM 1021 MiB
+2026-10-27 02:26:48 | INFO    | scratch3d:2 | epoch 2/2 | 7.3 s | train 0.7315 | val 0.7321 (halus 0.7354) | AUC val 0.380 | best 2 | VRAM 1020 MiB
+2026-10-27 02:26:51 | INFO    | scratch3d:2: sudah belajar = False (train 0.739->0.731 | val halus terbaik 0.7354 vs konstan 0.7322 | AUC val 0.380)
+2026-10-27 02:26:51 | INFO    | Unit scratch3d:2 selesai (done) | progres 34/88 unit selesai | 2.8 menit sejak mulai
+2026-10-27 02:26:51 | INFO    | === Unit 35/88: scratch3d:3 ===
+2026-10-27 02:26:58 | INFO    | scratch3d:3 | epoch 1/2 | 7.2 s | train 0.7213 | val 0.7750 (halus 0.7750) | AUC val 0.545 | best 1 | VRAM 1021 MiB
+2026-10-27 02:27:06 | INFO    | scratch3d:3 | epoch 2/2 | 7.2 s | train 0.7269 | val 0.7235 (halus 0.7493) | AUC val 0.586 | best 2 | VRAM 1020 MiB
+2026-10-27 02:27:08 | INFO    | scratch3d:3: sudah belajar = False (train 0.721->0.727 | val halus terbaik 0.7493 vs konstan 0.7201 | AUC val 0.586)
+2026-10-27 02:27:08 | INFO    | Unit scratch3d:3 selesai (done) | progres 35/88 unit selesai | 3.1 menit sejak mulai
+2026-10-27 02:27:09 | INFO    | === Unit 36/88: scratch3d:4 ===
+2026-10-27 02:27:16 | INFO    | scratch3d:4 | epoch 1/2 | 7.6 s | train 0.7416 | val 0.7424 (halus 0.7424) | AUC val 0.665 | best 1 | VRAM 1021 MiB
+2026-10-27 02:27:24 | INFO    | scratch3d:4 | epoch 2/2 | 7.5 s | train 0.7367 | val 0.8024 (halus 0.7724) | AUC val 0.352 | best 1 | VRAM 1020 MiB
+2026-10-27 02:27:27 | INFO    | scratch3d:4: sudah belajar = False (train 0.742->0.737 | val halus terbaik 0.7424 vs konstan 0.7345 | AUC val 0.665)
+2026-10-27 02:27:27 | INFO    | Unit scratch3d:4 selesai (done) | progres 36/88 unit selesai | 3.4 menit sejak mulai
+2026-10-27 02:27:27 | INFO    | === Unit 37/88: cache_sfcn64 ===
+2026-10-27 02:27:30 | INFO    | Cache sfcn64: 50/200
+2026-10-27 02:27:33 | INFO    | Cache sfcn64: 100/200
+2026-10-27 02:27:36 | INFO    | Cache sfcn64: 150/200
+2026-10-27 02:27:39 | INFO    | Cache sfcn64: 200/200
+2026-10-27 02:27:39 | INFO    | Cek kewajaran SFCN (brain age vs AGE_AT_SCAN, tanpa label diagnosis): {'semua': {'n': 200, 'pearson_r': -0.08423642831872784, 'spearman_r': -0.06193895433768998}, 'usia>=18': {'n': 67, 'pearson_r': -0.13139805108403535, 'spearman_r': -0.16470236614053146}}
+2026-10-27 02:27:39 | INFO    | Unit cache_sfcn64 selesai (done) | progres 37/88 unit selesai | 3.6 menit sejak mulai
+2026-10-27 02:27:39 | INFO    | === Unit 38/88: sfcn_lp:0 ===
+2026-10-27 02:27:40 | INFO    | Unit sfcn_lp:0 selesai (done) | progres 38/88 unit selesai | 3.6 menit sejak mulai
+2026-10-27 02:27:40 | INFO    | === Unit 39/88: sfcn_lp:1 ===
+2026-10-27 02:27:40 | INFO    | Unit sfcn_lp:1 selesai (done) | progres 39/88 unit selesai | 3.6 menit sejak mulai
+2026-10-27 02:27:40 | INFO    | === Unit 40/88: sfcn_lp:2 ===
+2026-10-27 02:27:40 | INFO    | Unit sfcn_lp:2 selesai (done) | progres 40/88 unit selesai | 3.6 menit sejak mulai
+2026-10-27 02:27:40 | INFO    | === Unit 41/88: sfcn_lp:3 ===
+2026-10-27 02:27:40 | INFO    | Unit sfcn_lp:3 selesai (done) | progres 41/88 unit selesai | 3.6 menit sejak mulai
+2026-10-27 02:27:40 | INFO    | === Unit 42/88: sfcn_lp:4 ===
+2026-10-27 02:27:40 | INFO    | Unit sfcn_lp:4 selesai (done) | progres 42/88 unit selesai | 3.6 menit sejak mulai
+2026-10-27 02:27:40 | INFO    | === Unit 43/88: cache_dino768 ===
+2026-10-27 02:27:42 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 02:27:45 | INFO    | Cache dino768: 50/200
+2026-10-27 02:27:47 | INFO    | Cache dino768: 100/200
+2026-10-27 02:27:49 | INFO    | Cache dino768: 150/200
+2026-10-27 02:27:52 | INFO    | Cache dino768: 200/200
+2026-10-27 02:27:52 | INFO    | Unit cache_dino768 selesai (done) | progres 43/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:52 | INFO    | === Unit 44/88: dinov2_lp:0 ===
+2026-10-27 02:27:53 | INFO    | Unit dinov2_lp:0 selesai (done) | progres 44/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:53 | INFO    | === Unit 45/88: dinov2_lp:1 ===
+2026-10-27 02:27:53 | INFO    | Unit dinov2_lp:1 selesai (done) | progres 45/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:53 | INFO    | === Unit 46/88: dinov2_lp:2 ===
+2026-10-27 02:27:54 | INFO    | Unit dinov2_lp:2 selesai (done) | progres 46/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:54 | INFO    | === Unit 47/88: dinov2_lp:3 ===
+2026-10-27 02:27:54 | INFO    | Unit dinov2_lp:3 selesai (done) | progres 47/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:54 | INFO    | === Unit 48/88: dinov2_lp:4 ===
+2026-10-27 02:27:54 | INFO    | Unit dinov2_lp:4 selesai (done) | progres 48/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:54 | INFO    | === Unit 49/88: embcb_dinov2_lp:0 ===
+2026-10-27 02:27:55 | INFO    | Unit embcb_dinov2_lp:0 selesai (done) | progres 49/88 unit selesai | 3.8 menit sejak mulai
+2026-10-27 02:27:55 | INFO    | === Unit 50/88: embcb_dinov2_lp:1 ===
+2026-10-27 02:27:57 | INFO    | Unit embcb_dinov2_lp:1 selesai (done) | progres 50/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:27:57 | INFO    | === Unit 51/88: embcb_dinov2_lp:2 ===
+2026-10-27 02:27:58 | INFO    | Unit embcb_dinov2_lp:2 selesai (done) | progres 51/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:27:58 | INFO    | === Unit 52/88: embcb_dinov2_lp:3 ===
+2026-10-27 02:27:59 | INFO    | Unit embcb_dinov2_lp:3 selesai (done) | progres 52/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:28:00 | INFO    | === Unit 53/88: embcb_dinov2_lp:4 ===
+2026-10-27 02:28:01 | INFO    | Unit embcb_dinov2_lp:4 selesai (done) | progres 53/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:28:01 | INFO    | === Unit 54/88: embcb_scratch3d:0 ===
+2026-10-27 02:28:01 | INFO    | Unit embcb_scratch3d:0 selesai (done) | progres 54/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:28:01 | INFO    | === Unit 55/88: embcb_scratch3d:1 ===
+2026-10-27 02:28:02 | INFO    | Unit embcb_scratch3d:1 selesai (done) | progres 55/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:28:02 | INFO    | === Unit 56/88: embcb_scratch3d:2 ===
+2026-10-27 02:28:02 | INFO    | Unit embcb_scratch3d:2 selesai (done) | progres 56/88 unit selesai | 3.9 menit sejak mulai
+2026-10-27 02:28:02 | INFO    | === Unit 57/88: embcb_scratch3d:3 ===
+2026-10-27 02:28:02 | INFO    | Unit embcb_scratch3d:3 selesai (done) | progres 57/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:02 | INFO    | === Unit 58/88: embcb_scratch3d:4 ===
+2026-10-27 02:28:03 | INFO    | Unit embcb_scratch3d:4 selesai (done) | progres 58/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:03 | INFO    | === Unit 59/88: embcb_sfcn_lp:0 ===
+2026-10-27 02:28:03 | INFO    | Unit embcb_sfcn_lp:0 selesai (done) | progres 59/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:03 | INFO    | === Unit 60/88: embcb_sfcn_lp:1 ===
+2026-10-27 02:28:03 | INFO    | Unit embcb_sfcn_lp:1 selesai (done) | progres 60/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:03 | INFO    | === Unit 61/88: embcb_sfcn_lp:2 ===
+2026-10-27 02:28:03 | INFO    | Unit embcb_sfcn_lp:2 selesai (done) | progres 61/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:03 | INFO    | === Unit 62/88: embcb_sfcn_lp:3 ===
+2026-10-27 02:28:04 | INFO    | Unit embcb_sfcn_lp:3 selesai (done) | progres 62/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:04 | INFO    | === Unit 63/88: embcb_sfcn_lp:4 ===
+2026-10-27 02:28:04 | INFO    | Unit embcb_sfcn_lp:4 selesai (done) | progres 63/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:04 | INFO    | === Unit 64/88: fusion_PR:0 ===
+2026-10-27 02:28:04 | INFO    | Unit fusion_PR:0 selesai (done) | progres 64/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:04 | INFO    | === Unit 65/88: fusion_PR:1 ===
+2026-10-27 02:28:04 | INFO    | Unit fusion_PR:1 selesai (done) | progres 65/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:04 | INFO    | === Unit 66/88: fusion_PR:2 ===
+2026-10-27 02:28:05 | INFO    | Unit fusion_PR:2 selesai (done) | progres 66/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:05 | INFO    | === Unit 67/88: fusion_PR:3 ===
+2026-10-27 02:28:05 | INFO    | Unit fusion_PR:3 selesai (done) | progres 67/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:05 | INFO    | === Unit 68/88: fusion_PR:4 ===
+2026-10-27 02:28:05 | INFO    | Unit fusion_PR:4 selesai (done) | progres 68/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:05 | INFO    | === Unit 69/88: fusion_P25:0 ===
+2026-10-27 02:28:05 | INFO    | Unit fusion_P25:0 selesai (done) | progres 69/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:05 | INFO    | === Unit 70/88: fusion_P25:1 ===
+2026-10-27 02:28:06 | INFO    | Unit fusion_P25:1 selesai (done) | progres 70/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:06 | INFO    | === Unit 71/88: fusion_P25:2 ===
+2026-10-27 02:28:06 | INFO    | Unit fusion_P25:2 selesai (done) | progres 71/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:06 | INFO    | === Unit 72/88: fusion_P25:3 ===
+2026-10-27 02:28:06 | INFO    | Unit fusion_P25:3 selesai (done) | progres 72/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:06 | INFO    | === Unit 73/88: fusion_P25:4 ===
+2026-10-27 02:28:06 | INFO    | Unit fusion_P25:4 selesai (done) | progres 73/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:06 | INFO    | === Unit 74/88: fusion_P3:0 ===
+2026-10-27 02:28:06 | INFO    | Unit fusion_P3:0 selesai (done) | progres 74/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:06 | INFO    | === Unit 75/88: fusion_P3:1 ===
+2026-10-27 02:28:07 | INFO    | Unit fusion_P3:1 selesai (done) | progres 75/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:07 | INFO    | === Unit 76/88: fusion_P3:2 ===
+2026-10-27 02:28:07 | INFO    | Unit fusion_P3:2 selesai (done) | progres 76/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:07 | INFO    | === Unit 77/88: fusion_P3:3 ===
+2026-10-27 02:28:07 | INFO    | Unit fusion_P3:3 selesai (done) | progres 77/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:07 | INFO    | === Unit 78/88: fusion_P3:4 ===
+2026-10-27 02:28:07 | INFO    | Unit fusion_P3:4 selesai (done) | progres 78/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:07 | INFO    | === Unit 79/88: fusion_PRI:0 ===
+2026-10-27 02:28:08 | INFO    | Unit fusion_PRI:0 selesai (done) | progres 79/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:08 | INFO    | === Unit 80/88: fusion_PRI:1 ===
+2026-10-27 02:28:08 | INFO    | Unit fusion_PRI:1 selesai (done) | progres 80/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:08 | INFO    | === Unit 81/88: fusion_PRI:2 ===
+2026-10-27 02:28:08 | INFO    | Unit fusion_PRI:2 selesai (done) | progres 81/88 unit selesai | 4.0 menit sejak mulai
+2026-10-27 02:28:08 | INFO    | === Unit 82/88: fusion_PRI:3 ===
+2026-10-27 02:28:08 | INFO    | Unit fusion_PRI:3 selesai (done) | progres 82/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:08 | INFO    | === Unit 83/88: fusion_PRI:4 ===
+2026-10-27 02:28:09 | INFO    | Unit fusion_PRI:4 selesai (done) | progres 83/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:09 | INFO    | === Unit 84/88: fusion_ENS:0 ===
+2026-10-27 02:28:09 | INFO    | Unit fusion_ENS:0 selesai (done) | progres 84/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:09 | INFO    | === Unit 85/88: fusion_ENS:1 ===
+2026-10-27 02:28:09 | INFO    | Unit fusion_ENS:1 selesai (done) | progres 85/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:09 | INFO    | === Unit 86/88: fusion_ENS:2 ===
+2026-10-27 02:28:09 | INFO    | Unit fusion_ENS:2 selesai (done) | progres 86/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:09 | INFO    | === Unit 87/88: fusion_ENS:3 ===
+2026-10-27 02:28:09 | INFO    | Unit fusion_ENS:3 selesai (done) | progres 87/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:09 | INFO    | === Unit 88/88: fusion_ENS:4 ===
+2026-10-27 02:28:10 | INFO    | Unit fusion_ENS:4 selesai (done) | progres 88/88 unit selesai | 4.1 menit sejak mulai
+2026-10-27 02:28:13 | INFO    | RINGKASAN: 88/88 unit done | 4.1 menit | selesai
+2026-10-27 02:28:13 | INFO    | Auto-sleep Windows dikembalikan normal.

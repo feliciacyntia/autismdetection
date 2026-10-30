@@ -1,0 +1,17 @@
+2026-10-27 03:15:41 | INFO    | === Unit 89/168: dinov2_head:0 ===
+2026-10-27 03:15:41 | INFO    | dinov2_head:0 | epoch 1/200 | 0.0 s | train 0.7727 | val 0.7711 (halus 0.7711) | AUC val 0.463 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:41 | INFO    | ESTIMASI dinov2_head: ±0.0 s/epoch -> maks ±0 menit untuk 5 fold
+2026-10-27 03:15:41 | INFO    | dinov2_head:0 | epoch 2/200 | 0.0 s | train 0.6963 | val 0.7680 (halus 0.7695) | AUC val 0.451 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:41 | INFO    | dinov2_head:0 | epoch 3/200 | 0.0 s | train 0.5820 | val 0.7590 (halus 0.7660) | AUC val 0.486 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:41 | INFO    | dinov2_head:0 | epoch 4/200 | 0.0 s | train 0.5404 | val 0.7849 (halus 0.7706) | AUC val 0.506 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 5/200 | 0.0 s | train 0.4848 | val 0.7954 (halus 0.7798) | AUC val 0.475 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 6/200 | 0.0 s | train 0.4680 | val 0.8092 (halus 0.7965) | AUC val 0.478 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 7/200 | 0.0 s | train 0.4397 | val 0.8918 (halus 0.8321) | AUC val 0.420 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 8/200 | 0.0 s | train 0.3535 | val 0.9117 (halus 0.8709) | AUC val 0.439 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 9/200 | 0.0 s | train 0.3005 | val 0.9295 (halus 0.9110) | AUC val 0.427 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 10/200 | 0.0 s | train 0.3060 | val 0.9282 (halus 0.9231) | AUC val 0.459 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 11/200 | 0.0 s | train 0.2549 | val 0.9278 (halus 0.9285) | AUC val 0.480 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 12/200 | 0.0 s | train 0.2479 | val 1.0192 (halus 0.9584) | AUC val 0.459 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0 | epoch 13/200 | 0.0 s | train 0.1938 | val 1.0983 (halus 1.0151) | AUC val 0.451 | best 3 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:0: sudah belajar = False (train 0.773->0.194 | val halus terbaik 0.7660 vs konstan 0.7322 | AUC val 0.486)
+2026-10-27 03:15:42 | INFO    | Unit dinov2_head:0 selesai (done) | progres 89/168 unit selesai | 36.1 menit sejak mulai

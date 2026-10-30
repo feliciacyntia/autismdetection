@@ -1,0 +1,22 @@
+2026-10-27 03:32:15 | INFO    | === Unit 97/168: convnextv2_t:3 ===
+2026-10-27 03:32:32 | INFO    | convnextv2_t:3 | epoch 1/40 | 16.1 s | train 0.7908 | val 0.7311 (halus 0.7311) | AUC val 0.529 | best 1 | VRAM 599 MiB
+2026-10-27 03:32:48 | INFO    | convnextv2_t:3 | epoch 2/40 | 16.1 s | train 0.7841 | val 0.7278 (halus 0.7295) | AUC val 0.529 | best 2 | VRAM 599 MiB
+2026-10-27 03:33:05 | INFO    | convnextv2_t:3 | epoch 3/40 | 16.1 s | train 0.7560 | val 0.9330 (halus 0.7973) | AUC val 0.643 | best 2 | VRAM 599 MiB
+2026-10-27 03:33:21 | INFO    | convnextv2_t:3 | epoch 4/40 | 16.1 s | train 0.7690 | val 0.7192 (halus 0.7934) | AUC val 0.553 | best 2 | VRAM 599 MiB
+2026-10-27 03:33:37 | INFO    | convnextv2_t:3 | epoch 5/40 | 16.1 s | train 0.7263 | val 0.7309 (halus 0.7944) | AUC val 0.480 | best 2 | VRAM 599 MiB
+2026-10-27 03:33:55 | INFO    | convnextv2_t:3 | epoch 6/40 | 17.0 s | train 0.7645 | val 0.7201 (halus 0.7234) | AUC val 0.506 | best 6 | VRAM 662 MiB
+2026-10-27 03:34:12 | INFO    | convnextv2_t:3 | epoch 7/40 | 17.0 s | train 0.7240 | val 0.7216 (halus 0.7242) | AUC val 0.533 | best 6 | VRAM 662 MiB
+2026-10-27 03:34:29 | INFO    | convnextv2_t:3 | epoch 8/40 | 17.0 s | train 0.7237 | val 0.7208 (halus 0.7208) | AUC val 0.537 | best 8 | VRAM 662 MiB
+2026-10-27 03:34:46 | INFO    | convnextv2_t:3 | epoch 9/40 | 16.9 s | train 0.7279 | val 0.7197 (halus 0.7207) | AUC val 0.514 | best 9 | VRAM 662 MiB
+2026-10-27 03:35:03 | INFO    | convnextv2_t:3 | epoch 10/40 | 17.0 s | train 0.7402 | val 0.7242 (halus 0.7216) | AUC val 0.537 | best 9 | VRAM 662 MiB
+2026-10-27 03:35:21 | INFO    | convnextv2_t:3 | epoch 11/40 | 17.0 s | train 0.7216 | val 0.7206 (halus 0.7215) | AUC val 0.486 | best 9 | VRAM 662 MiB
+2026-10-27 03:35:38 | INFO    | convnextv2_t:3 | epoch 12/40 | 17.0 s | train 0.7239 | val 0.7215 (halus 0.7221) | AUC val 0.522 | best 9 | VRAM 662 MiB
+2026-10-27 03:35:55 | INFO    | convnextv2_t:3 | epoch 13/40 | 17.0 s | train 0.7255 | val 0.7224 (halus 0.7215) | AUC val 0.522 | best 9 | VRAM 662 MiB
+2026-10-27 03:36:12 | INFO    | convnextv2_t:3 | epoch 14/40 | 17.0 s | train 0.7234 | val 0.7214 (halus 0.7217) | AUC val 0.514 | best 9 | VRAM 662 MiB
+2026-10-27 03:36:30 | INFO    | convnextv2_t:3 | epoch 15/40 | 17.0 s | train 0.7160 | val 0.7203 (halus 0.7214) | AUC val 0.537 | best 9 | VRAM 662 MiB
+2026-10-27 03:36:47 | INFO    | convnextv2_t:3 | epoch 16/40 | 17.0 s | train 0.7211 | val 0.7323 (halus 0.7247) | AUC val 0.533 | best 9 | VRAM 662 MiB
+2026-10-27 03:37:04 | INFO    | convnextv2_t:3 | epoch 17/40 | 17.0 s | train 0.7164 | val 0.7299 (halus 0.7275) | AUC val 0.514 | best 9 | VRAM 662 MiB
+2026-10-27 03:37:21 | INFO    | convnextv2_t:3 | epoch 18/40 | 17.0 s | train 0.7184 | val 0.7645 (halus 0.7422) | AUC val 0.525 | best 9 | VRAM 662 MiB
+2026-10-27 03:37:38 | INFO    | convnextv2_t:3 | epoch 19/40 | 17.0 s | train 0.7211 | val 0.7203 (halus 0.7382) | AUC val 0.529 | best 9 | VRAM 662 MiB
+2026-10-27 03:37:58 | INFO    | convnextv2_t:3: sudah belajar = False (train 0.791->0.721 | val halus terbaik 0.7207 vs konstan 0.7201 | AUC val 0.514)
+2026-10-27 03:37:58 | INFO    | Unit convnextv2_t:3 selesai (done) | progres 97/168 unit selesai | 58.3 menit sejak mulai

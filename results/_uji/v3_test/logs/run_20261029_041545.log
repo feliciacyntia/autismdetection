@@ -1,0 +1,7 @@
+2026-10-29 04:15:45 | INFO    | v3 tabel | hasil C:\ta_local\results\v3_test | config_hash 4521259311445664-test | sha256 config 4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54
+2026-10-29 04:15:45 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-29 04:15:46 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-29 04:15:46 | INFO    | E1+E3: 20 unit, 18 sudah selesai, 2 dijalankan
+2026-10-29 04:16:02 | INFO    | [1/2] e1_pheno_tabpfn_s0:0 selesai 16.2 s | 0.3 menit berjalan | sisa ±0 menit
+2026-10-29 04:16:54 | INFO    | [2/2] e1_roi_tabpfn_s0:0 selesai 51.6 s | 1.1 menit berjalan | sisa ±0 menit
+2026-10-29 04:16:54 | INFO    | Auto-sleep Windows dikembalikan normal.

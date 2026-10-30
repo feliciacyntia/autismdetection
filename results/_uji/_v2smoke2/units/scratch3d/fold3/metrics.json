@@ -1,0 +1,59 @@
+{
+ "val": {
+  "n": 32,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.3191489361702128,
+  "auc": 0.5862745098039215,
+  "sensitivity": 1.0,
+  "specificity": 0.0
+ },
+ "test": {
+  "n": 43,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.31746031746031744,
+  "auc": 0.5228260869565218,
+  "sensitivity": 1.0,
+  "specificity": 0.0
+ },
+ "info": {
+  "best_epoch": 2,
+  "epochs_run": 2,
+  "best_val_loss": 0.749253511428833,
+  "const_val_loss": 0.72011717159099,
+  "val_auc_best_epoch": 0.5862745098039215,
+  "learned": false,
+  "seconds": 14.477526187896729,
+  "vram_peak_mib": 1021.2548828125,
+  "params_total": 1791121,
+  "params_trainable": 1791121,
+  "s_per_epoch": 7.238763093948364,
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 0.7213264964520931,
+    "val_loss": 0.7750175595283508,
+    "val_auc": 0.5450980392156862,
+    "val_crit": 0.7750175595283508,
+    "seconds": 7.248184442520142,
+    "vram_mib": 1021.2548828125,
+    "lr": [
+     0.001
+    ]
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.7269275039434433,
+    "val_loss": 0.7234894633293152,
+    "val_auc": 0.5862745098039215,
+    "val_crit": 0.749253511428833,
+    "seconds": 7.229341745376587,
+    "vram_mib": 1020.2548828125,
+    "lr": [
+     0.001
+    ]
+   }
+  ],
+  "trainable_modules": "semua (dari nol / head)",
+  "kind": "scratch3d"
+ }
+}

@@ -1,0 +1,7 @@
+model,basis,ComBat,AUC inner val,BA fold,BA pooled [95% CI],F1m fold,F1m pooled [95% CI],AUC fold,AUC pooled [95% CI],Sens fold,Sens pooled [95% CI],Spes fold,Spes pooled [95% CI],status
+roi_logreg,logreg,tidak,0.579,0.525 ± 0.041,"0.529 [0.460, 0.599]",0.521 ± 0.043,"0.529 [0.460, 0.598]",0.551 ± 0.022,"0.553 [0.475, 0.636]",0.509 ± 0.138,"0.516 [0.418, 0.613]",0.542 ± 0.121,"0.543 [0.448, 0.637]",
+roi_xgb,xgb,tidak,,,,,,,,,,,,belum ada
+roi_tabm,tabm,tidak,,,,,,,,,,,,belum ada
+roi_logreg_cb,logreg,ya,0.595,0.546 ± 0.043,"0.550 [0.481, 0.615]",0.543 ± 0.044,"0.550 [0.480, 0.614]",0.539 ± 0.033,"0.546 [0.470, 0.624]",0.539 ± 0.135,"0.547 [0.449, 0.644]",0.552 ± 0.084,"0.552 [0.453, 0.645]",
+roi_xgb_cb,xgb,ya,,,,,,,,,,,,belum ada
+roi_tabm_cb,tabm,ya,,,,,,,,,,,,belum ada

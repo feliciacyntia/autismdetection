@@ -1,0 +1,15 @@
+2026-10-27 03:28:29 | INFO    | === Unit 96/168: convnextv2_t:2 ===
+2026-10-27 03:28:47 | INFO    | convnextv2_t:2 | epoch 1/40 | 16.3 s | train 0.7862 | val 0.7469 (halus 0.7469) | AUC val 0.408 | best 1 | VRAM 599 MiB
+2026-10-27 03:29:03 | INFO    | convnextv2_t:2 | epoch 2/40 | 16.3 s | train 0.7595 | val 0.7408 (halus 0.7439) | AUC val 0.404 | best 2 | VRAM 599 MiB
+2026-10-27 03:29:20 | INFO    | convnextv2_t:2 | epoch 3/40 | 16.3 s | train 0.7846 | val 0.7573 (halus 0.7483) | AUC val 0.380 | best 2 | VRAM 599 MiB
+2026-10-27 03:29:36 | INFO    | convnextv2_t:2 | epoch 4/40 | 16.3 s | train 0.7631 | val 0.7583 (halus 0.7521) | AUC val 0.408 | best 2 | VRAM 599 MiB
+2026-10-27 03:29:53 | INFO    | convnextv2_t:2 | epoch 5/40 | 16.3 s | train 0.7634 | val 0.7350 (halus 0.7502) | AUC val 0.420 | best 2 | VRAM 599 MiB
+2026-10-27 03:30:10 | INFO    | convnextv2_t:2 | epoch 6/40 | 17.2 s | train 0.7506 | val 0.7440 (halus 0.7457) | AUC val 0.425 | best 2 | VRAM 664 MiB
+2026-10-27 03:30:28 | INFO    | convnextv2_t:2 | epoch 7/40 | 17.2 s | train 0.7410 | val 0.7536 (halus 0.7442) | AUC val 0.380 | best 2 | VRAM 663 MiB
+2026-10-27 03:30:45 | INFO    | convnextv2_t:2 | epoch 8/40 | 17.2 s | train 0.7385 | val 0.7419 (halus 0.7465) | AUC val 0.388 | best 2 | VRAM 664 MiB
+2026-10-27 03:31:03 | INFO    | convnextv2_t:2 | epoch 9/40 | 17.2 s | train 0.7239 | val 0.7460 (halus 0.7472) | AUC val 0.384 | best 2 | VRAM 664 MiB
+2026-10-27 03:31:20 | INFO    | convnextv2_t:2 | epoch 10/40 | 17.2 s | train 0.7294 | val 0.7452 (halus 0.7444) | AUC val 0.357 | best 2 | VRAM 664 MiB
+2026-10-27 03:31:37 | INFO    | convnextv2_t:2 | epoch 11/40 | 17.2 s | train 0.7533 | val 0.7602 (halus 0.7504) | AUC val 0.369 | best 2 | VRAM 663 MiB
+2026-10-27 03:31:55 | INFO    | convnextv2_t:2 | epoch 12/40 | 17.2 s | train 0.7609 | val 0.7422 (halus 0.7492) | AUC val 0.416 | best 2 | VRAM 664 MiB
+2026-10-27 03:32:15 | INFO    | convnextv2_t:2: sudah belajar = False (train 0.786->0.761 | val halus terbaik 0.7439 vs konstan 0.7322 | AUC val 0.404)
+2026-10-27 03:32:15 | INFO    | Unit convnextv2_t:2 selesai (done) | progres 96/168 unit selesai | 52.6 menit sejak mulai

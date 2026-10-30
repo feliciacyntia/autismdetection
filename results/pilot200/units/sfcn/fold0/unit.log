@@ -1,0 +1,19 @@
+2026-10-27 00:49:53 | INFO    | === Unit 32/57: sfcn:0 ===
+2026-10-27 00:49:55 | INFO    | sfcn:0 | epoch 1/60 | 0.2 s | val loss 0.7312 | best epoch 1 | VRAM puncak 142 MiB
+2026-10-27 00:49:55 | INFO    | ESTIMASI sfcn: ±0.2 s/epoch -> maks ±1 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:49:55 | INFO    | sfcn:0 | epoch 2/60 | 0.2 s | val loss 0.7313 | best epoch 1 | VRAM puncak 142 MiB
+2026-10-27 00:49:55 | INFO    | sfcn:0 | epoch 3/60 | 0.2 s | val loss 0.7313 | best epoch 1 | VRAM puncak 142 MiB
+2026-10-27 00:49:55 | INFO    | sfcn:0 | epoch 4/60 | 0.2 s | val loss 0.7312 | best epoch 4 | VRAM puncak 142 MiB
+2026-10-27 00:49:56 | INFO    | sfcn:0 | epoch 5/60 | 0.2 s | val loss 0.7311 | best epoch 5 | VRAM puncak 142 MiB
+2026-10-27 00:49:56 | INFO    | sfcn:0 | epoch 6/60 | 0.2 s | val loss 0.7308 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:56 | INFO    | sfcn:0 | epoch 7/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:57 | INFO    | sfcn:0 | epoch 8/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:57 | INFO    | sfcn:0 | epoch 9/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:57 | INFO    | sfcn:0 | epoch 10/60 | 0.2 s | val loss 0.7310 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:57 | INFO    | sfcn:0 | epoch 11/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:58 | INFO    | sfcn:0 | epoch 12/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:58 | INFO    | sfcn:0 | epoch 13/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:58 | INFO    | sfcn:0 | epoch 14/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:58 | INFO    | sfcn:0 | epoch 15/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:59 | INFO    | sfcn:0 | epoch 16/60 | 0.2 s | val loss 0.7311 | best epoch 6 | VRAM puncak 142 MiB
+2026-10-27 00:49:59 | INFO    | Unit sfcn:0 selesai (done) | progres 32/57 unit selesai | 7.7 menit sejak mulai

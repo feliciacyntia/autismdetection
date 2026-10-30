@@ -1,0 +1,16 @@
+2026-10-29 04:17:09 | INFO    | v3 tabel | hasil C:\ta_local\results\v3_test | config_hash 4521259311445664-test | sha256 config 4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54
+2026-10-29 04:17:09 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-29 04:17:10 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-29 04:17:10 | INFO    | E1+E3: 20 unit, 20 sudah selesai, 0 dijalankan
+2026-10-29 04:17:10 | INFO    | LOSO fenotipik: terpilih full:tabm -> tipe tabm (setting E1)
+2026-10-29 04:17:10 | INFO    | LOSO roi: terpilih v3:e1_roi_catboost -> tipe catboost (setting E1)
+2026-10-29 04:17:10 | INFO    | LOSO: 36 unit, 0 sudah selesai, 36 dijalankan
+2026-10-29 04:17:18 | INFO    | [1/36] loso_pheno_tabm_s0:0 selesai 7.8 s | 0.1 menit berjalan | sisa ±5 menit
+2026-10-29 04:17:22 | INFO    | [2/36] loso_pheno_tabm_s0:1 selesai 3.3 s | 0.2 menit berjalan | sisa ±3 menit
+2026-10-29 04:17:25 | INFO    | [3/36] loso_pheno_tabm_s0:2 selesai 3.8 s | 0.3 menit berjalan | sisa ±3 menit
+2026-10-29 04:17:32 | INFO    | [4/36] loso_pheno_tabm_s0:3 selesai 7.0 s | 0.4 menit berjalan | sisa ±3 menit
+2026-10-29 04:17:32 | WARNING | Stop-file ditemukan: berhenti setelah langkah yang sedang berjalan selesai.
+2026-10-29 04:17:32 | WARNING | Berhenti rapi sebelum loso_pheno_tabm_s0:4 (stop-file C:\ta_local\results\v3_test\STOP); lanjutkan dengan --resume.
+2026-10-29 04:17:32 | INFO    | RINGKASAN: {'done': 24}
+2026-10-29 04:17:32 | INFO    | Auto-sleep Windows dikembalikan normal.
+exit1 3

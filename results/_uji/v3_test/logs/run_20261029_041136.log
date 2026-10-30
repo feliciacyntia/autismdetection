@@ -1,0 +1,93 @@
+2026-10-29 04:11:36 | INFO    | v3 tabel | hasil C:\ta_local\results\v3_test | config_hash 4521259311445664-test | sha256 config 4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54
+2026-10-29 04:11:36 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-29 04:11:38 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-29 04:11:38 | INFO    | E1+E3: 20 unit, 0 sudah selesai, 20 dijalankan
+2026-10-29 04:11:44 | INFO    | [1/20] e1_pheno_logreg_cv_s0:0 selesai 6.0 s | 0.1 menit berjalan | sisa ±2 menit
+2026-10-29 04:12:01 | INFO    | [2/20] e1_pheno_tabm_s0:0 selesai 17.3 s | 0.4 menit berjalan | sisa ±3 menit
+2026-10-29 04:12:03 | INFO    | [3/20] e1_pheno_catboost_s0:0 selesai 2.0 s | 0.4 menit berjalan | sisa ±2 menit
+2026-10-29 04:12:17 | ERROR   | Unit e1_pheno_tabpfn_s0:0 GAGAL (dicatat, lanjut)
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\shutil.py", line 646, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ta_local\\results\\v3_test\\tmplab4k6hl\\out.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 390, in run_list
+    self.exec_unit(u)
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 366, in exec_unit
+    self.run_cv_unit(u["unit"], u["feat"], u["model"], self.hp(u["model"]), u["fold"], u["s"])
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 256, in run_cv_unit
+    res, info = self.jobs_fit(feat, model, hp, jobs, seed)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 233, in jobs_fit
+    outs = self.tabpfn_batch(flat)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 210, in tabpfn_batch
+    with tempfile.TemporaryDirectory(dir=self.rdir) as td:
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 820, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\shutil.py", line 648, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 905, in onexc
+    _os.unlink(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ta_local\\results\\v3_test\\tmplab4k6hl\\out.npz'
+2026-10-29 04:12:21 | INFO    | [5/20] e1_roi_logreg_cv_s0:0 selesai 4.2 s | 0.7 menit berjalan | sisa ±2 menit
+2026-10-29 04:12:38 | INFO    | [6/20] e1_roi_tabm_s0:0 selesai 16.8 s | 1.0 menit berjalan | sisa ±2 menit
+2026-10-29 04:12:49 | INFO    | [7/20] e1_roi_catboost_s0:0 selesai 11.2 s | 1.2 menit berjalan | sisa ±2 menit
+2026-10-29 04:13:40 | ERROR   | Unit e1_roi_tabpfn_s0:0 GAGAL (dicatat, lanjut)
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\shutil.py", line 646, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ta_local\\results\\v3_test\\tmphsib73vo\\out.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 390, in run_list
+    self.exec_unit(u)
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 366, in exec_unit
+    self.run_cv_unit(u["unit"], u["feat"], u["model"], self.hp(u["model"]), u["fold"], u["s"])
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 256, in run_cv_unit
+    res, info = self.jobs_fit(feat, model, hp, jobs, seed)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 233, in jobs_fit
+    outs = self.tabpfn_batch(flat)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Documents\TUGAS AKHIR\src\run_v3_tabular.py", line 210, in tabpfn_batch
+    with tempfile.TemporaryDirectory(dir=self.rdir) as td:
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Program Files\Python312\Lib\shutil.py", line 820, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\shutil.py", line 648, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Program Files\Python312\Lib\tempfile.py", line 905, in onexc
+    _os.unlink(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ta_local\\results\\v3_test\\tmphsib73vo\\out.npz'
+2026-10-29 04:13:40 | INFO    | [9/20] e3tune_pheno_logreg:0 selesai 0.3 s | 2.0 menit berjalan | sisa ±2 menit
+2026-10-29 04:13:41 | INFO    | [10/20] e3_pheno_logreg_s0:0 selesai 0.1 s | 2.0 menit berjalan | sisa ±2 menit
+2026-10-29 04:14:16 | INFO    | [11/20] e3tune_pheno_tabm:0 selesai 35.2 s | 2.6 menit berjalan | sisa ±2 menit
+2026-10-29 04:14:25 | INFO    | [12/20] e3_pheno_tabm_s0:0 selesai 9.6 s | 2.8 menit berjalan | sisa ±2 menit
+2026-10-29 04:14:27 | INFO    | [13/20] e3tune_pheno_catboost:0 selesai 1.4 s | 2.8 menit berjalan | sisa ±2 menit
+2026-10-29 04:14:27 | INFO    | [14/20] e3_pheno_catboost_s0:0 selesai 0.8 s | 2.8 menit berjalan | sisa ±1 menit
+2026-10-29 04:14:28 | INFO    | [15/20] e3tune_roi_logreg:0 selesai 0.3 s | 2.8 menit berjalan | sisa ±1 menit
+2026-10-29 04:14:28 | INFO    | [16/20] e3_roi_logreg_s0:0 selesai 0.3 s | 2.8 menit berjalan | sisa ±1 menit
+2026-10-29 04:14:55 | INFO    | [17/20] e3tune_roi_tabm:0 selesai 26.6 s | 3.3 menit berjalan | sisa ±1 menit
+2026-10-29 04:15:12 | INFO    | [18/20] e3_roi_tabm_s0:0 selesai 17.7 s | 3.6 menit berjalan | sisa ±0 menit
+2026-10-29 04:15:28 | INFO    | [19/20] e3tune_roi_catboost:0 selesai 15.7 s | 3.8 menit berjalan | sisa ±0 menit
+2026-10-29 04:15:32 | INFO    | [20/20] e3_roi_catboost_s0:0 selesai 4.3 s | 3.9 menit berjalan | sisa ±0 menit
+2026-10-29 04:15:32 | INFO    | Auto-sleep Windows dikembalikan normal.

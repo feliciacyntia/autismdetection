@@ -1,0 +1,4 @@
+2026-10-27 00:18:29 | INFO    | === Unit 14/28: dinov2_s:0 ===
+2026-10-27 00:18:31 | INFO    | dinov2_s:0 | epoch 1/1 | 0.1 s | val loss 0.7559 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:18:31 | INFO    | ESTIMASI dinov2_s: ±0.1 s/epoch -> maks ±0 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:18:31 | INFO    | Unit dinov2_s:0 selesai (done) | progres 14/28 unit selesai | 2.7 menit sejak mulai

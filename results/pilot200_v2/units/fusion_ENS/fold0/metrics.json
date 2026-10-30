@@ -1,0 +1,19 @@
+{
+ "test": {
+  "ENS_mean_top3": {
+   "n": 41,
+   "balanced_accuracy": 0.5607142857142857,
+   "f1_macro": 0.5607142857142857,
+   "auc": 0.5523809523809524,
+   "sensitivity": 0.55,
+   "specificity": 0.5714285714285714
+  }
+ },
+ "members": [
+  "roi_tabm_cb",
+  "roi_logreg_cb",
+  "roi_logreg"
+ ],
+ "stack_train": "inner_val",
+ "note": "stacking pheno+ROI dilatih pada OOF inner CV (160 subjek/fold); dengan citra dilatih pada inner holdout (\u00b132 subjek/fold) karena model citra tidak dilatih ulang per inner fold"
+}

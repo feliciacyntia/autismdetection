@@ -1,0 +1,17 @@
+2026-10-27 03:15:26 | INFO    | === Unit 81/168: sfcn_head:3 ===
+2026-10-27 03:15:26 | INFO    | sfcn_head:3 | epoch 1/200 | 0.0 s | train 0.7224 | val 0.7122 (halus 0.7122) | AUC val 0.580 | best 1 | VRAM 17 MiB
+2026-10-27 03:15:26 | INFO    | sfcn_head:3 | epoch 2/200 | 0.0 s | train 0.7254 | val 0.7069 (halus 0.7096) | AUC val 0.522 | best 2 | VRAM 17 MiB
+2026-10-27 03:15:26 | INFO    | sfcn_head:3 | epoch 3/200 | 0.0 s | train 0.7137 | val 0.7097 (halus 0.7096) | AUC val 0.525 | best 2 | VRAM 17 MiB
+2026-10-27 03:15:26 | INFO    | sfcn_head:3 | epoch 4/200 | 0.0 s | train 0.7072 | val 0.7120 (halus 0.7095) | AUC val 0.533 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 5/200 | 0.0 s | train 0.6969 | val 0.7131 (halus 0.7116) | AUC val 0.529 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 6/200 | 0.0 s | train 0.7006 | val 0.7144 (halus 0.7132) | AUC val 0.510 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 7/200 | 0.0 s | train 0.6982 | val 0.7180 (halus 0.7152) | AUC val 0.490 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 8/200 | 0.0 s | train 0.7037 | val 0.7173 (halus 0.7166) | AUC val 0.486 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 9/200 | 0.0 s | train 0.6819 | val 0.7205 (halus 0.7186) | AUC val 0.463 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 10/200 | 0.0 s | train 0.6906 | val 0.7228 (halus 0.7202) | AUC val 0.451 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 11/200 | 0.0 s | train 0.6846 | val 0.7259 (halus 0.7231) | AUC val 0.439 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 12/200 | 0.0 s | train 0.6851 | val 0.7279 (halus 0.7255) | AUC val 0.455 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 13/200 | 0.0 s | train 0.6739 | val 0.7297 (halus 0.7278) | AUC val 0.431 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3 | epoch 14/200 | 0.0 s | train 0.6841 | val 0.7334 (halus 0.7303) | AUC val 0.427 | best 4 | VRAM 17 MiB
+2026-10-27 03:15:27 | INFO    | sfcn_head:3: sudah belajar = True (train 0.722->0.684 | val halus terbaik 0.7095 vs konstan 0.7201 | AUC val 0.533)
+2026-10-27 03:15:27 | INFO    | Unit sfcn_head:3 selesai (done) | progres 81/168 unit selesai | 35.8 menit sejak mulai

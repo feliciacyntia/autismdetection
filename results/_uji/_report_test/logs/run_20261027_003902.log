@@ -1,0 +1,15 @@
+2026-10-27 00:39:02 | INFO    | 06 06-pilot-v1 | subset pilot200 | hasil C:\ta_local\results\_report_test | config_hash 1797fe5bf1d67157-ep3
+2026-10-27 00:39:02 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 00:39:03 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 00:39:03 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:39:03 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:39:03 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 00:39:03 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 00:39:06 | WARNING | Unit berstatus running dari run sebelumnya (crash/putus): ['effnet_b0:0'] -> dilanjutkan dari checkpoint.
+2026-10-27 00:39:06 | INFO    | === Unit 21/21: effnet_b0:0 ===
+2026-10-27 00:39:13 | INFO    | Volume dimuat ke RAM: 200 subjek (3.3 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:39:15 | INFO    | Resume dari checkpoint epoch 2 (best epoch 2, val loss 0.7301)
+2026-10-27 00:39:23 | INFO    | effnet_b0:0 | epoch 3/3 | 8.7 s | val loss 0.7314 | best epoch 2 | VRAM puncak 483 MiB
+2026-10-27 00:39:27 | INFO    | Unit effnet_b0:0 selesai (done) | progres 21/21 unit selesai | 0.3 menit sejak mulai
+2026-10-27 00:39:27 | INFO    | RINGKASAN: 21/21 unit done | 0.3 menit | selesai
+2026-10-27 00:39:27 | INFO    | Auto-sleep Windows dikembalikan normal.

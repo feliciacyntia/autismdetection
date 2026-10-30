@@ -1,0 +1,34 @@
+{
+ "test": {
+  "F1_mean_prob": {
+   "n": 41,
+   "balanced_accuracy": 0.5619047619047619,
+   "f1_macro": 0.5607142857142857,
+   "auc": 0.6428571428571429,
+   "sensitivity": 0.6,
+   "specificity": 0.5238095238095238
+  },
+  "F1_stack_logreg": {
+   "n": 41,
+   "balanced_accuracy": 0.6083333333333334,
+   "f1_macro": 0.6076555023923444,
+   "auc": 0.6380952380952382,
+   "sensitivity": 0.55,
+   "specificity": 0.6666666666666666
+  },
+  "F2_pca16_logreg": {
+   "n": 41,
+   "balanced_accuracy": 0.5119047619047619,
+   "f1_macro": 0.5119047619047619,
+   "auc": 0.5047619047619049,
+   "sensitivity": 0.5,
+   "specificity": 0.5238095238095238
+  }
+ },
+ "members": [
+  "mlp_tab",
+  "roi_tabm_cb"
+ ],
+ "stack_train": "inner_oof",
+ "note": "stacking pheno+ROI dilatih pada OOF inner CV (160 subjek/fold); dengan citra dilatih pada inner holdout (\u00b132 subjek/fold) karena model citra tidak dilatih ulang per inner fold"
+}

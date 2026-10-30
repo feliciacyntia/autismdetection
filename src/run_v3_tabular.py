@@ -12,6 +12,7 @@ import datetime
 import hashlib
 import json
 import logging
+import os
 import subprocess
 import sys
 import tempfile
@@ -28,9 +29,9 @@ import run_pilot as rp  # noqa: E402
 
 LOG = logging.getLogger("pilot")
 PROJECT = Path(__file__).resolve().parents[1]
-CFG_PATH = Path(r"C:\ta_local\results\v3\locked_config_v3.json")
-FULL = Path(r"C:\ta_local\results\full_v2")
-TABPFN_PY = PROJECT / ".venv-tabpfn" / "Scripts" / "python.exe"
+CFG_PATH = pc.RESULTS_ROOT / "v3" / "locked_config_v3.json"     # RESULTS_ROOT = env TA06_RESULTS_ROOT (default C:\ta_local\results)
+FULL = pc.RESULTS_ROOT / "full_v2"
+TABPFN_PY = Path(os.environ.get("TA06_TABPFN_PY", PROJECT / ".venv-tabpfn" / ("Scripts/python.exe" if os.name == "nt" else "bin/python")))
 FEATS = ["pheno", "roi"]
 E1_MODELS = ["logreg_cv", "tabm", "catboost", "tabpfn"]
 E3_MODELS = ["logreg", "tabm", "catboost"]
@@ -108,7 +109,7 @@ class V3:
         if not lock.exists() or lock.read_text(encoding="utf-8").split()[0] != self.file_hash:
             raise SystemExit(f"Config BELUM dikunci / berubah setelah dikunci: sha256 {self.file_hash} tidak cocok dengan {lock}")
         self.hash = self.file_hash[:16] + ("-test" if a.test else "")
-        self.rdir = Path(a.results_dir or (r"C:\ta_local\results\v3_test" if a.test else r"C:\ta_local\results\v3"))
+        self.rdir = Path(a.results_dir) if a.results_dir else pc.RESULTS_ROOT / ("v3_test" if a.test else "v3")
         self.rdir.mkdir(parents=True, exist_ok=True)
         self.folds = [0] if a.test else [0, 1, 2, 3, 4]
         self.seeds = [0] if a.test else self.cfg["seed"]["neural_multi_seed"]

@@ -1,0 +1,10 @@
+{
+ "best_params": {
+  "C": 50.61576888752309
+ },
+ "best_inner_auc": 0.583518489911863,
+ "n_trials": 3,
+ "fold": 0,
+ "feat": "pheno",
+ "model": "logreg"
+}

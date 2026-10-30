@@ -1,0 +1,14 @@
+2026-10-27 03:15:42 | INFO    | === Unit 90/168: dinov2_head:1 ===
+2026-10-27 03:15:42 | INFO    | dinov2_head:1 | epoch 1/200 | 0.0 s | train 0.7484 | val 0.7235 (halus 0.7235) | AUC val 0.482 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:1 | epoch 2/200 | 0.0 s | train 0.6366 | val 0.8170 (halus 0.7703) | AUC val 0.346 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:1 | epoch 3/200 | 0.0 s | train 0.5636 | val 0.7755 (halus 0.7720) | AUC val 0.467 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:1 | epoch 4/200 | 0.0 s | train 0.5871 | val 0.8057 (halus 0.7994) | AUC val 0.452 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:42 | INFO    | dinov2_head:1 | epoch 5/200 | 0.0 s | train 0.5136 | val 0.8549 (halus 0.8120) | AUC val 0.404 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1 | epoch 6/200 | 0.0 s | train 0.3928 | val 0.8933 (halus 0.8513) | AUC val 0.419 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1 | epoch 7/200 | 0.0 s | train 0.4290 | val 0.8421 (halus 0.8634) | AUC val 0.526 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1 | epoch 8/200 | 0.0 s | train 0.4860 | val 0.8432 (halus 0.8595) | AUC val 0.557 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1 | epoch 9/200 | 0.0 s | train 0.3557 | val 0.9477 (halus 0.8777) | AUC val 0.485 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1 | epoch 10/200 | 0.0 s | train 0.3079 | val 1.0356 (halus 0.9422) | AUC val 0.423 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1 | epoch 11/200 | 0.0 s | train 0.2748 | val 0.9831 (halus 0.9888) | AUC val 0.456 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:1: sudah belajar = False (train 0.748->0.275 | val halus terbaik 0.7235 vs konstan 0.7093 | AUC val 0.482)
+2026-10-27 03:15:43 | INFO    | Unit dinov2_head:1 selesai (done) | progres 90/168 unit selesai | 36.1 menit sejak mulai

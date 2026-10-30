@@ -1,0 +1,28 @@
+2026-10-27 03:15:46 | INFO    | === Unit 94/168: convnextv2_t:0 ===
+2026-10-27 03:16:01 | INFO    | convnextv2_t:0 | epoch 1/40 | 13.9 s | train 0.8260 | val 0.7404 (halus 0.7404) | AUC val 0.478 | best 1 | VRAM 599 MiB
+2026-10-27 03:16:01 | INFO    | ESTIMASI convnextv2_t: ±13.9 s/epoch -> maks ±46 menit untuk 5 fold
+2026-10-27 03:16:15 | INFO    | convnextv2_t:0 | epoch 2/40 | 14.0 s | train 0.7919 | val 0.8664 (halus 0.8034) | AUC val 0.494 | best 1 | VRAM 599 MiB
+2026-10-27 03:16:30 | INFO    | convnextv2_t:0 | epoch 3/40 | 14.7 s | train 0.8352 | val 0.7346 (halus 0.7805) | AUC val 0.447 | best 1 | VRAM 599 MiB
+2026-10-27 03:16:46 | INFO    | convnextv2_t:0 | epoch 4/40 | 16.1 s | train 0.7537 | val 0.7347 (halus 0.7786) | AUC val 0.435 | best 1 | VRAM 599 MiB
+2026-10-27 03:17:03 | INFO    | convnextv2_t:0 | epoch 5/40 | 16.2 s | train 0.7384 | val 0.7490 (halus 0.7394) | AUC val 0.422 | best 5 | VRAM 599 MiB
+2026-10-27 03:17:20 | INFO    | convnextv2_t:0 | epoch 6/40 | 17.1 s | train 0.7381 | val 0.7399 (halus 0.7412) | AUC val 0.447 | best 5 | VRAM 664 MiB
+2026-10-27 03:17:37 | INFO    | convnextv2_t:0 | epoch 7/40 | 17.1 s | train 0.7391 | val 0.7355 (halus 0.7414) | AUC val 0.424 | best 5 | VRAM 663 MiB
+2026-10-27 03:17:55 | INFO    | convnextv2_t:0 | epoch 8/40 | 17.2 s | train 0.7369 | val 0.7376 (halus 0.7377) | AUC val 0.427 | best 8 | VRAM 664 MiB
+2026-10-27 03:18:12 | INFO    | convnextv2_t:0 | epoch 9/40 | 17.2 s | train 0.7298 | val 0.7498 (halus 0.7409) | AUC val 0.429 | best 8 | VRAM 664 MiB
+2026-10-27 03:18:30 | INFO    | convnextv2_t:0 | epoch 10/40 | 17.2 s | train 0.7467 | val 0.7363 (halus 0.7412) | AUC val 0.473 | best 8 | VRAM 664 MiB
+2026-10-27 03:18:47 | INFO    | convnextv2_t:0 | epoch 11/40 | 17.3 s | train 0.7530 | val 0.7474 (halus 0.7445) | AUC val 0.494 | best 8 | VRAM 663 MiB
+2026-10-27 03:19:05 | INFO    | convnextv2_t:0 | epoch 12/40 | 17.2 s | train 0.7389 | val 0.7366 (halus 0.7401) | AUC val 0.408 | best 8 | VRAM 664 MiB
+2026-10-27 03:19:22 | INFO    | convnextv2_t:0 | epoch 13/40 | 17.2 s | train 0.7286 | val 0.7395 (halus 0.7412) | AUC val 0.420 | best 8 | VRAM 664 MiB
+2026-10-27 03:19:40 | INFO    | convnextv2_t:0 | epoch 14/40 | 17.2 s | train 0.7314 | val 0.7342 (halus 0.7368) | AUC val 0.471 | best 14 | VRAM 664 MiB
+2026-10-27 03:19:57 | INFO    | convnextv2_t:0 | epoch 15/40 | 17.2 s | train 0.7523 | val 0.7392 (halus 0.7376) | AUC val 0.439 | best 14 | VRAM 663 MiB
+2026-10-27 03:20:14 | INFO    | convnextv2_t:0 | epoch 16/40 | 17.2 s | train 0.7340 | val 0.7539 (halus 0.7424) | AUC val 0.435 | best 14 | VRAM 664 MiB
+2026-10-27 03:20:32 | INFO    | convnextv2_t:0 | epoch 17/40 | 17.2 s | train 0.7625 | val 0.7479 (halus 0.7470) | AUC val 0.416 | best 14 | VRAM 664 MiB
+2026-10-27 03:20:49 | INFO    | convnextv2_t:0 | epoch 18/40 | 17.2 s | train 0.7212 | val 0.7584 (halus 0.7534) | AUC val 0.443 | best 14 | VRAM 664 MiB
+2026-10-27 03:21:07 | INFO    | convnextv2_t:0 | epoch 19/40 | 17.2 s | train 0.7463 | val 0.7461 (halus 0.7508) | AUC val 0.424 | best 14 | VRAM 663 MiB
+2026-10-27 03:21:24 | INFO    | convnextv2_t:0 | epoch 20/40 | 17.2 s | train 0.7275 | val 0.7483 (halus 0.7509) | AUC val 0.416 | best 14 | VRAM 664 MiB
+2026-10-27 03:21:42 | INFO    | convnextv2_t:0 | epoch 21/40 | 17.2 s | train 0.7106 | val 0.7748 (halus 0.7564) | AUC val 0.433 | best 14 | VRAM 664 MiB
+2026-10-27 03:21:59 | INFO    | convnextv2_t:0 | epoch 22/40 | 17.2 s | train 0.7127 | val 0.7649 (halus 0.7627) | AUC val 0.439 | best 14 | VRAM 664 MiB
+2026-10-27 03:22:16 | INFO    | convnextv2_t:0 | epoch 23/40 | 17.2 s | train 0.7072 | val 0.7545 (halus 0.7647) | AUC val 0.439 | best 14 | VRAM 663 MiB
+2026-10-27 03:22:34 | INFO    | convnextv2_t:0 | epoch 24/40 | 17.2 s | train 0.7079 | val 0.7562 (halus 0.7585) | AUC val 0.435 | best 14 | VRAM 664 MiB
+2026-10-27 03:22:54 | INFO    | convnextv2_t:0: sudah belajar = False (train 0.826->0.708 | val halus terbaik 0.7368 vs konstan 0.7322 | AUC val 0.471)
+2026-10-27 03:22:54 | INFO    | Unit convnextv2_t:0 selesai (done) | progres 94/168 unit selesai | 43.3 menit sejak mulai

@@ -1,0 +1,16 @@
+2026-10-27 02:48:47 | INFO    | === Unit 57/168: resnet18:0 ===
+2026-10-27 02:48:51 | INFO    | resnet18:0 | epoch 1/40 | 3.0 s | train 0.7508 | val 0.7323 (halus 0.7323) | AUC val 0.396 | best 1 | VRAM 344 MiB
+2026-10-27 02:48:51 | INFO    | ESTIMASI resnet18: ±3.0 s/epoch -> maks ±10 menit untuk 5 fold
+2026-10-27 02:48:54 | INFO    | resnet18:0 | epoch 2/40 | 2.9 s | train 0.7426 | val 0.7319 (halus 0.7321) | AUC val 0.416 | best 2 | VRAM 344 MiB
+2026-10-27 02:48:57 | INFO    | resnet18:0 | epoch 3/40 | 3.0 s | train 0.7384 | val 0.7327 (halus 0.7323) | AUC val 0.388 | best 2 | VRAM 344 MiB
+2026-10-27 02:49:00 | INFO    | resnet18:0 | epoch 4/40 | 3.1 s | train 0.7423 | val 0.7334 (halus 0.7327) | AUC val 0.410 | best 2 | VRAM 344 MiB
+2026-10-27 02:49:03 | INFO    | resnet18:0 | epoch 5/40 | 3.0 s | train 0.7368 | val 0.7358 (halus 0.7340) | AUC val 0.463 | best 2 | VRAM 344 MiB
+2026-10-27 02:49:07 | INFO    | resnet18:0 | epoch 6/40 | 3.6 s | train 0.7362 | val 0.7319 (halus 0.7337) | AUC val 0.459 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:11 | INFO    | resnet18:0 | epoch 7/40 | 3.6 s | train 0.7399 | val 0.7352 (halus 0.7343) | AUC val 0.459 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:15 | INFO    | resnet18:0 | epoch 8/40 | 3.7 s | train 0.7298 | val 0.7327 (halus 0.7333) | AUC val 0.427 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:19 | INFO    | resnet18:0 | epoch 9/40 | 3.6 s | train 0.7388 | val 0.7323 (halus 0.7334) | AUC val 0.451 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:23 | INFO    | resnet18:0 | epoch 10/40 | 3.7 s | train 0.7337 | val 0.7336 (halus 0.7329) | AUC val 0.449 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:26 | INFO    | resnet18:0 | epoch 11/40 | 3.6 s | train 0.7361 | val 0.7325 (halus 0.7328) | AUC val 0.439 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:30 | INFO    | resnet18:0 | epoch 12/40 | 3.6 s | train 0.7257 | val 0.7328 (halus 0.7330) | AUC val 0.447 | best 2 | VRAM 457 MiB
+2026-10-27 02:49:33 | INFO    | resnet18:0: sudah belajar = True (train 0.751->0.726 | val halus terbaik 0.7321 vs konstan 0.7322 | AUC val 0.416)
+2026-10-27 02:49:33 | INFO    | Unit resnet18:0 selesai (done) | progres 57/168 unit selesai | 9.9 menit sejak mulai

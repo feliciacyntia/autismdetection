@@ -1,0 +1,13 @@
+2026-10-27 00:42:54 | INFO    | === Unit 21/57: effnet_b0:0 ===
+2026-10-27 00:42:56 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 00:42:59 | INFO    | Volume dimuat ke RAM: 200 subjek (3.5 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:43:08 | INFO    | effnet_b0:0 | epoch 1/30 | 6.9 s | val loss 0.7327 | best epoch 1 | VRAM puncak 482 MiB
+2026-10-27 00:43:08 | INFO    | ESTIMASI effnet_b0: ±6.9 s/epoch -> maks ±17 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:43:13 | INFO    | effnet_b0:0 | epoch 2/30 | 4.5 s | val loss 0.7291 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:17 | INFO    | effnet_b0:0 | epoch 3/30 | 4.5 s | val loss 0.7330 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:22 | INFO    | effnet_b0:0 | epoch 4/30 | 4.5 s | val loss 0.7360 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:27 | INFO    | effnet_b0:0 | epoch 5/30 | 4.6 s | val loss 0.7474 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:31 | INFO    | effnet_b0:0 | epoch 6/30 | 4.6 s | val loss 0.7640 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:36 | INFO    | effnet_b0:0 | epoch 7/30 | 4.6 s | val loss 0.7752 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:41 | INFO    | effnet_b0:0 | epoch 8/30 | 4.7 s | val loss 0.8247 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:43:45 | INFO    | Unit effnet_b0:0 selesai (done) | progres 21/57 unit selesai | 1.5 menit sejak mulai

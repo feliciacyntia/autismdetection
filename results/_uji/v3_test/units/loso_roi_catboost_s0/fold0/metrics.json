@@ -1,0 +1,33 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 32,
+  "balanced_accuracy": 0.40625,
+  "f1_macro": 0.3552492046659597,
+  "auc": 0.53125,
+  "sensitivity": 0.6875,
+  "specificity": 0.125
+ },
+ "info": {
+  "feat": "roi",
+  "model": "catboost",
+  "site": "CALTECH",
+  "seed": 42,
+  "hp": {
+   "iterations": 1000,
+   "depth": 4,
+   "learning_rate": 0.03,
+   "l2_leaf_reg": 3,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 32
+ }
+}

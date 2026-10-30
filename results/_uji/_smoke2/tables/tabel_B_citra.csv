@@ -1,0 +1,6 @@
+model,kelompok,status,AUC inner val,BA fold,BA pooled [95% CI],F1m fold,F1m pooled [95% CI],AUC fold,AUC pooled [95% CI],Sens fold,Sens pooled [95% CI],Spes fold,Spes pooled [95% CI],params (latih/total),VRAM puncak (MiB),s/epoch,waktu total (menit),epoch terbaik (median)
+effnet_b0,CNN klasik,belum ada,,,,,,,,,,,,,,,,
+resnet18,CNN klasik,belum ada,,,,,,,,,,,,,,,,
+dinov2_s,foundation model,done,0.481,0.500 ± 0.000,"0.505 [0.451, 0.562]",0.342 ± 0.016,"0.465 [0.396, 0.533]",0.481 ± 0.104,"0.522 [0.444, 0.601]",0.200 ± 0.447,"0.211 [0.129, 0.297]",0.800 ± 0.447,"0.800 [0.723, 0.872]",100097/100097,21.0,0.0,0.0,1.0
+convnextv2_t,arsitektur modern,belum ada,,,,,,,,,,,,,,,,
+sfcn,CNN klasik (pretrained otak),done,0.513,0.500 ± 0.000,"0.486 [0.432, 0.541]",0.319 ± 0.014,"0.421 [0.357, 0.487]",0.520 ± 0.050,"0.484 [0.407, 0.565]",0.800 ± 0.447,"0.800 [0.714, 0.882]",0.200 ± 0.447,"0.171 [0.105, 0.248]",1795265/1795265,142.0,0.6,0.0,1.0

@@ -1,0 +1,97 @@
+{
+ "test": {
+  "F1_mean_prob": {
+   "n": 38,
+   "balanced_accuracy": 0.5454545454545454,
+   "f1_macro": 0.5447498238195913,
+   "auc": 0.5454545454545455,
+   "sensitivity": 0.5,
+   "specificity": 0.5909090909090909
+  },
+  "F1_stack_logreg": {
+   "n": 38,
+   "balanced_accuracy": 0.5710227272727273,
+   "f1_macro": 0.525,
+   "auc": 0.4545454545454546,
+   "sensitivity": 0.1875,
+   "specificity": 0.9545454545454546
+  },
+  "F2_pca16_lgbm": {
+   "n": 38,
+   "balanced_accuracy": 0.5142045454545454,
+   "f1_macro": 0.5142045454545454,
+   "auc": 0.5795454545454546,
+   "sensitivity": 0.4375,
+   "specificity": 0.5909090909090909
+  },
+  "F2_pca16_logreg": {
+   "n": 38,
+   "balanced_accuracy": 0.53125,
+   "f1_macro": 0.525,
+   "auc": 0.4829545454545454,
+   "sensitivity": 0.5625,
+   "specificity": 0.5
+  },
+  "F2_pca16_mlp": {
+   "n": 38,
+   "balanced_accuracy": 0.4914772727272727,
+   "f1_macro": 0.49119097956307256,
+   "auc": 0.48295454545454547,
+   "sensitivity": 0.4375,
+   "specificity": 0.5454545454545454
+  },
+  "F2_pca8_lgbm": {
+   "n": 38,
+   "balanced_accuracy": 0.6306818181818181,
+   "f1_macro": 0.6274509803921569,
+   "auc": 0.6392045454545454,
+   "sensitivity": 0.625,
+   "specificity": 0.6363636363636364
+  },
+  "F2_pca8_logreg": {
+   "n": 38,
+   "balanced_accuracy": 0.4232954545454546,
+   "f1_macro": 0.41944444444444445,
+   "auc": 0.42613636363636365,
+   "sensitivity": 0.4375,
+   "specificity": 0.4090909090909091
+  },
+  "F2_pca8_mlp": {
+   "n": 38,
+   "balanced_accuracy": 0.4914772727272727,
+   "f1_macro": 0.49119097956307256,
+   "auc": 0.46875,
+   "sensitivity": 0.4375,
+   "specificity": 0.5454545454545454
+  },
+  "F2_raw128_lgbm": {
+   "n": 38,
+   "balanced_accuracy": 0.5227272727272727,
+   "f1_macro": 0.5210084033613445,
+   "auc": 0.5568181818181819,
+   "sensitivity": 0.5,
+   "specificity": 0.5454545454545454
+  },
+  "F2_raw128_logreg": {
+   "n": 38,
+   "balanced_accuracy": 0.4232954545454546,
+   "f1_macro": 0.41944444444444445,
+   "auc": 0.4488636363636363,
+   "sensitivity": 0.4375,
+   "specificity": 0.4090909090909091
+  },
+  "F2_raw128_mlp": {
+   "n": 38,
+   "balanced_accuracy": 0.45170454545454547,
+   "f1_macro": 0.4492753623188406,
+   "auc": 0.4204545454545454,
+   "sensitivity": 0.3125,
+   "specificity": 0.5909090909090909
+  }
+ },
+ "selection": {
+  "img": "sfcn",
+  "pheno": "logreg"
+ },
+ "note": "head fusion dilatih pada inner holdout (20% train) tiap fold; penyederhanaan pilot"
+}

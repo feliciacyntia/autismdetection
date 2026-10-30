@@ -1,0 +1,99 @@
+2026-10-27 00:15:44 | INFO    | 06 06-pilot-v1 | subset pilot200 | hasil C:\ta_local\results\_smoke2 | config_hash 1797fe5bf1d67157-ep1
+2026-10-27 00:15:44 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 00:15:46 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 00:15:46 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:15:46 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:15:46 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 00:15:46 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 00:15:51 | INFO    | === Unit 1/28: logreg:0 ===
+2026-10-27 00:15:51 | INFO    | Unit logreg:0 selesai (done) | progres 1/28 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:15:51 | INFO    | === Unit 2/28: logreg:1 ===
+2026-10-27 00:15:51 | INFO    | Unit logreg:1 selesai (done) | progres 2/28 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:15:51 | INFO    | === Unit 3/28: logreg:2 ===
+2026-10-27 00:15:51 | INFO    | Unit logreg:2 selesai (done) | progres 3/28 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:15:51 | INFO    | === Unit 4/28: logreg:3 ===
+2026-10-27 00:15:52 | INFO    | Unit logreg:3 selesai (done) | progres 4/28 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:15:52 | INFO    | === Unit 5/28: logreg:4 ===
+2026-10-27 00:15:52 | INFO    | Unit logreg:4 selesai (done) | progres 5/28 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:15:52 | INFO    | === Unit 6/28: resnet18:0 ===
+2026-10-27 00:16:11 | INFO    | Volume dimuat ke RAM: 200 subjek (3.1 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:16:35 | INFO    | resnet18:0 | epoch 1/1 | 19.5 s | val loss 0.7349 | best epoch 1 | VRAM puncak 490 MiB
+2026-10-27 00:16:35 | INFO    | ESTIMASI resnet18: ±19.5 s/epoch -> maks ±2 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:16:46 | INFO    | Unit resnet18:0 selesai (done) | progres 6/28 unit selesai | 0.9 menit sejak mulai
+2026-10-27 00:16:46 | INFO    | === Unit 7/28: cache_sfcn ===
+2026-10-27 00:16:46 | INFO    | Cache sfcn: 200/200 subjek perlu dihitung
+2026-10-27 00:16:51 | INFO    | Cache sfcn: 25/200 (5 s)
+2026-10-27 00:16:57 | INFO    | Cache sfcn: 50/200 (11 s)
+2026-10-27 00:17:02 | INFO    | Cache sfcn: 75/200 (16 s)
+2026-10-27 00:17:07 | INFO    | Cache sfcn: 100/200 (22 s)
+2026-10-27 00:17:13 | INFO    | Cache sfcn: 125/200 (27 s)
+2026-10-27 00:17:18 | INFO    | Cache sfcn: 150/200 (32 s)
+2026-10-27 00:17:24 | INFO    | Cache sfcn: 175/200 (38 s)
+2026-10-27 00:17:29 | INFO    | Cache sfcn: 200/200 (43 s)
+2026-10-27 00:17:29 | INFO    | Unit cache_sfcn selesai (done) | progres 7/28 unit selesai | 1.6 menit sejak mulai
+2026-10-27 00:17:29 | INFO    | === Unit 8/28: sfcn:0 ===
+2026-10-27 00:17:32 | INFO    | sfcn:0 | epoch 1/1 | 0.7 s | val loss 0.7312 | best epoch 1 | VRAM puncak 142 MiB
+2026-10-27 00:17:32 | INFO    | ESTIMASI sfcn: ±0.7 s/epoch -> maks ±0 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:17:32 | INFO    | Unit sfcn:0 selesai (done) | progres 8/28 unit selesai | 1.7 menit sejak mulai
+2026-10-27 00:17:32 | INFO    | === Unit 9/28: sfcn:1 ===
+2026-10-27 00:17:33 | INFO    | sfcn:1 | epoch 1/1 | 0.6 s | val loss 0.7099 | best epoch 1 | VRAM puncak 82 MiB
+2026-10-27 00:17:33 | INFO    | Unit sfcn:1 selesai (done) | progres 9/28 unit selesai | 1.7 menit sejak mulai
+2026-10-27 00:17:33 | INFO    | === Unit 10/28: sfcn:2 ===
+2026-10-27 00:17:34 | INFO    | sfcn:2 | epoch 1/1 | 0.5 s | val loss 0.7320 | best epoch 1 | VRAM puncak 142 MiB
+2026-10-27 00:17:34 | INFO    | Unit sfcn:2 selesai (done) | progres 10/28 unit selesai | 1.7 menit sejak mulai
+2026-10-27 00:17:34 | INFO    | === Unit 11/28: sfcn:3 ===
+2026-10-27 00:17:35 | INFO    | sfcn:3 | epoch 1/1 | 0.5 s | val loss 0.7204 | best epoch 1 | VRAM puncak 116 MiB
+2026-10-27 00:17:36 | INFO    | Unit sfcn:3 selesai (done) | progres 11/28 unit selesai | 1.7 menit sejak mulai
+2026-10-27 00:17:36 | INFO    | === Unit 12/28: sfcn:4 ===
+2026-10-27 00:17:36 | INFO    | sfcn:4 | epoch 1/1 | 0.6 s | val loss 0.7342 | best epoch 1 | VRAM puncak 82 MiB
+2026-10-27 00:17:37 | INFO    | Unit sfcn:4 selesai (done) | progres 12/28 unit selesai | 1.8 menit sejak mulai
+2026-10-27 00:17:37 | INFO    | === Unit 13/28: cache_dinov2_s ===
+2026-10-27 00:17:37 | INFO    | Cache dinov2_s: 200/200 subjek perlu dihitung
+2026-10-27 00:17:38 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 00:18:02 | INFO    | Cache dinov2_s: 25/200 (25 s)
+2026-10-27 00:18:05 | INFO    | Cache dinov2_s: 50/200 (29 s)
+2026-10-27 00:18:09 | INFO    | Cache dinov2_s: 75/200 (32 s)
+2026-10-27 00:18:13 | INFO    | Cache dinov2_s: 100/200 (36 s)
+2026-10-27 00:18:17 | INFO    | Cache dinov2_s: 125/200 (40 s)
+2026-10-27 00:18:21 | INFO    | Cache dinov2_s: 150/200 (44 s)
+2026-10-27 00:18:25 | INFO    | Cache dinov2_s: 175/200 (48 s)
+2026-10-27 00:18:29 | INFO    | Cache dinov2_s: 200/200 (52 s)
+2026-10-27 00:18:29 | INFO    | Unit cache_dinov2_s selesai (done) | progres 13/28 unit selesai | 2.6 menit sejak mulai
+2026-10-27 00:18:29 | INFO    | === Unit 14/28: dinov2_s:0 ===
+2026-10-27 00:18:31 | INFO    | dinov2_s:0 | epoch 1/1 | 0.1 s | val loss 0.7559 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:18:31 | INFO    | ESTIMASI dinov2_s: ±0.1 s/epoch -> maks ±0 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:18:31 | INFO    | Unit dinov2_s:0 selesai (done) | progres 14/28 unit selesai | 2.7 menit sejak mulai
+2026-10-27 00:18:31 | INFO    | === Unit 15/28: dinov2_s:1 ===
+2026-10-27 00:18:31 | INFO    | dinov2_s:1 | epoch 1/1 | 0.0 s | val loss 0.7780 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:18:31 | INFO    | Unit dinov2_s:1 selesai (done) | progres 15/28 unit selesai | 2.7 menit sejak mulai
+2026-10-27 00:18:31 | INFO    | === Unit 16/28: dinov2_s:2 ===
+2026-10-27 00:18:31 | INFO    | dinov2_s:2 | epoch 1/1 | 0.0 s | val loss 0.7346 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:18:31 | INFO    | Unit dinov2_s:2 selesai (done) | progres 16/28 unit selesai | 2.7 menit sejak mulai
+2026-10-27 00:18:31 | INFO    | === Unit 17/28: dinov2_s:3 ===
+2026-10-27 00:18:31 | INFO    | dinov2_s:3 | epoch 1/1 | 0.1 s | val loss 0.7198 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:18:32 | INFO    | Unit dinov2_s:3 selesai (done) | progres 17/28 unit selesai | 2.7 menit sejak mulai
+2026-10-27 00:18:32 | INFO    | === Unit 18/28: dinov2_s:4 ===
+2026-10-27 00:18:32 | INFO    | dinov2_s:4 | epoch 1/1 | 0.1 s | val loss 0.7422 | best epoch 1 | VRAM puncak 21 MiB
+2026-10-27 00:18:32 | INFO    | Unit dinov2_s:4 selesai (done) | progres 18/28 unit selesai | 2.7 menit sejak mulai
+2026-10-27 00:18:32 | INFO    | === Unit 19/28: fusion_S4:0 ===
+2026-10-27 00:18:35 | INFO    | Unit fusion_S4:0 selesai (done) | progres 19/28 unit selesai | 2.7 menit sejak mulai
+2026-10-27 00:18:35 | INFO    | === Unit 20/28: fusion_S4:1 ===
+2026-10-27 00:18:36 | INFO    | Unit fusion_S4:1 selesai (done) | progres 20/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:36 | INFO    | === Unit 21/28: fusion_S4:2 ===
+2026-10-27 00:18:37 | INFO    | Unit fusion_S4:2 selesai (done) | progres 21/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:37 | INFO    | === Unit 22/28: fusion_S4:3 ===
+2026-10-27 00:18:37 | INFO    | Unit fusion_S4:3 selesai (done) | progres 22/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:37 | INFO    | === Unit 23/28: fusion_S4:4 ===
+2026-10-27 00:18:38 | INFO    | Unit fusion_S4:4 selesai (done) | progres 23/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:38 | INFO    | === Unit 24/28: fusion_S5:0 ===
+2026-10-27 00:18:39 | INFO    | Unit fusion_S5:0 selesai (done) | progres 24/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:39 | INFO    | === Unit 25/28: fusion_S5:1 ===
+2026-10-27 00:18:40 | INFO    | Unit fusion_S5:1 selesai (done) | progres 25/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:40 | INFO    | === Unit 26/28: fusion_S5:2 ===
+2026-10-27 00:18:41 | INFO    | Unit fusion_S5:2 selesai (done) | progres 26/28 unit selesai | 2.8 menit sejak mulai
+2026-10-27 00:18:41 | INFO    | === Unit 27/28: fusion_S5:3 ===
+2026-10-27 00:18:42 | INFO    | Unit fusion_S5:3 selesai (done) | progres 27/28 unit selesai | 2.9 menit sejak mulai
+2026-10-27 00:18:42 | INFO    | === Unit 28/28: fusion_S5:4 ===
+2026-10-27 00:18:43 | INFO    | Unit fusion_S5:4 selesai (done) | progres 28/28 unit selesai | 2.9 menit sejak mulai
+2026-10-27 00:18:43 | INFO    | RINGKASAN: 28/28 unit done | 2.9 menit | selesai
+2026-10-27 00:18:43 | INFO    | Auto-sleep Windows dikembalikan normal.

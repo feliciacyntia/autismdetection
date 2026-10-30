@@ -1,0 +1,7 @@
+2026-10-27 00:27:34 | INFO    | === Unit 1/1: effnet_b0:1 ===
+2026-10-27 00:27:44 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 00:27:48 | INFO    | Volume dimuat ke RAM: 200 subjek (3.5 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:28:19 | INFO    | effnet_b0:1 | epoch 1/4 | 26.3 s | val loss 0.7193 | best epoch 1 | VRAM puncak 465 MiB
+2026-10-27 00:28:39 | INFO    | effnet_b0:1 | epoch 2/4 | 19.5 s | val loss 0.7240 | best epoch 1 | VRAM puncak 465 MiB
+2026-10-27 00:28:39 | WARNING | Stop-file ditemukan: berhenti setelah langkah yang sedang berjalan selesai.
+2026-10-27 00:28:39 | WARNING | Berhenti rapi di effnet_b0:1 (stop-file C:\ta_local\results\_resume_test\STOP); lanjutkan dengan --resume.

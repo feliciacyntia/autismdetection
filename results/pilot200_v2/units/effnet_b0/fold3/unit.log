@@ -1,0 +1,15 @@
+2026-10-27 02:46:32 | INFO    | === Unit 55/168: effnet_b0:3 ===
+2026-10-27 02:46:37 | INFO    | effnet_b0:3 | epoch 1/40 | 3.6 s | train 0.7392 | val 0.7209 (halus 0.7209) | AUC val 0.537 | best 1 | VRAM 423 MiB
+2026-10-27 02:46:41 | INFO    | effnet_b0:3 | epoch 2/40 | 3.6 s | train 0.7419 | val 0.7195 (halus 0.7202) | AUC val 0.537 | best 2 | VRAM 423 MiB
+2026-10-27 02:46:44 | INFO    | effnet_b0:3 | epoch 3/40 | 3.6 s | train 0.7202 | val 0.7995 (halus 0.7466) | AUC val 0.525 | best 2 | VRAM 423 MiB
+2026-10-27 02:46:48 | INFO    | effnet_b0:3 | epoch 4/40 | 3.6 s | train 0.7526 | val 0.7204 (halus 0.7465) | AUC val 0.580 | best 2 | VRAM 423 MiB
+2026-10-27 02:46:52 | INFO    | effnet_b0:3 | epoch 5/40 | 3.6 s | train 0.7397 | val 0.7218 (halus 0.7472) | AUC val 0.527 | best 2 | VRAM 423 MiB
+2026-10-27 02:46:56 | INFO    | effnet_b0:3 | epoch 6/40 | 3.8 s | train 0.7249 | val 0.7337 (halus 0.7253) | AUC val 0.557 | best 2 | VRAM 438 MiB
+2026-10-27 02:46:59 | INFO    | effnet_b0:3 | epoch 7/40 | 3.8 s | train 0.7249 | val 0.7202 (halus 0.7252) | AUC val 0.549 | best 2 | VRAM 438 MiB
+2026-10-27 02:47:03 | INFO    | effnet_b0:3 | epoch 8/40 | 3.8 s | train 0.7151 | val 0.7268 (halus 0.7269) | AUC val 0.531 | best 2 | VRAM 438 MiB
+2026-10-27 02:47:07 | INFO    | effnet_b0:3 | epoch 9/40 | 3.8 s | train 0.7304 | val 0.7218 (halus 0.7229) | AUC val 0.498 | best 2 | VRAM 438 MiB
+2026-10-27 02:47:11 | INFO    | effnet_b0:3 | epoch 10/40 | 3.8 s | train 0.7429 | val 0.7210 (halus 0.7232) | AUC val 0.490 | best 2 | VRAM 438 MiB
+2026-10-27 02:47:15 | INFO    | effnet_b0:3 | epoch 11/40 | 3.8 s | train 0.7153 | val 0.7226 (halus 0.7218) | AUC val 0.482 | best 2 | VRAM 438 MiB
+2026-10-27 02:47:19 | INFO    | effnet_b0:3 | epoch 12/40 | 3.8 s | train 0.7228 | val 0.7214 (halus 0.7216) | AUC val 0.482 | best 2 | VRAM 438 MiB
+2026-10-27 02:47:23 | INFO    | effnet_b0:3: sudah belajar = False (train 0.739->0.723 | val halus terbaik 0.7202 vs konstan 0.7201 | AUC val 0.537)
+2026-10-27 02:47:23 | INFO    | Unit effnet_b0:3 selesai (done) | progres 55/168 unit selesai | 7.8 menit sejak mulai

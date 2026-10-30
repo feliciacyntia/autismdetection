@@ -1,0 +1,48 @@
+{
+ "val": {
+  "n": 32,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.3191489361702128,
+  "auc": 0.5725490196078431,
+  "sensitivity": 1.0,
+  "specificity": 0.0
+ },
+ "test": {
+  "n": 43,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.31746031746031744,
+  "auc": 0.508695652173913,
+  "sensitivity": 1.0,
+  "specificity": 0.0
+ },
+ "info": {
+  "best_epoch": 1,
+  "epochs_run": 1,
+  "best_val_loss": 0.7203613519668579,
+  "seconds": 0.537102222442627,
+  "vram_peak_mib": 115.63330078125,
+  "params_total": 1795265,
+  "params_trainable": 1795265,
+  "s_per_epoch": 0.537102222442627,
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 0.7231669649481773,
+    "val_loss": 0.7203613519668579,
+    "seconds": 0.537102222442627,
+    "vram_mib": 115.63330078125
+   }
+  ],
+  "trainable_modules": [
+   "conv_4",
+   "conv_5",
+   "head"
+  ],
+  "frozen": [
+   "conv_0",
+   "conv_1",
+   "conv_2",
+   "conv_3"
+  ]
+ }
+}

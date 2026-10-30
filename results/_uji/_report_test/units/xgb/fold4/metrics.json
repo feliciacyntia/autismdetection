@@ -1,0 +1,30 @@
+{
+ "val": {
+  "n": 33,
+  "balanced_accuracy": 0.49444444444444446,
+  "f1_macro": 0.47619047619047616,
+  "auc": 0.5481481481481482,
+  "sensitivity": 0.26666666666666666,
+  "specificity": 0.7222222222222222
+ },
+ "test": {
+  "n": 37,
+  "balanced_accuracy": 0.6535087719298246,
+  "f1_macro": 0.6391597899474869,
+  "auc": 0.7076023391812866,
+  "sensitivity": 0.47368421052631576,
+  "specificity": 0.8333333333333334
+ },
+ "info": {
+  "n_features_in": 4,
+  "n_features_out": 5,
+  "best_iteration": 14,
+  "seconds": 0.06391763687133789,
+  "features": [
+   "AGE_AT_SCAN",
+   "SEX",
+   "FIQ",
+   "volume_mask_ml"
+  ]
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "val": {
+  "n": 33,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.34,
+  "auc": 0.661764705882353,
+  "sensitivity": 0.0,
+  "specificity": 1.0
+ },
+ "test": {
+  "n": 38,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.36666666666666664,
+  "auc": 0.45738636363636365,
+  "sensitivity": 0.0,
+  "specificity": 1.0
+ },
+ "info": {
+  "best_epoch": 4,
+  "epochs_run": 10,
+  "best_val_loss": 0.7074159979820251,
+  "seconds": 195.39128065109253,
+  "vram_peak_mib": 808.13037109375,
+  "params_total": 27965057,
+  "params_trainable": 15586817,
+  "s_per_epoch": 19.539128065109253,
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 1.1342958701559558,
+    "val_loss": 0.7137710452079773,
+    "seconds": 19.436808586120605,
+    "vram_mib": 808.13037109375
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.7394102087387672,
+    "val_loss": 0.7263482213020325,
+    "seconds": 19.50973868370056,
+    "vram_mib": 807.22998046875
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.721516250188534,
+    "val_loss": 0.7097485661506653,
+    "seconds": 19.575966835021973,
+    "vram_mib": 807.22412109375
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.7083350282448989,
+    "val_loss": 0.7074159979820251,
+    "seconds": 19.474586725234985,
+    "vram_mib": 807.22998046875
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.7251814026098985,
+    "val_loss": 0.7165225148200989,
+    "seconds": 19.502129316329956,
+    "vram_mib": 807.93701171875
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.7251710231487568,
+    "val_loss": 0.710032045841217,
+    "seconds": 19.62475347518921,
+    "vram_mib": 808.05029296875
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.7033866937343891,
+    "val_loss": 0.7104695439338684,
+    "seconds": 19.56675910949707,
+    "vram_mib": 807.52001953125
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.7173956760993371,
+    "val_loss": 0.7138316035270691,
+    "seconds": 19.55345392227173,
+    "vram_mib": 807.03662109375
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.7137955142901494,
+    "val_loss": 0.7149419784545898,
+    "seconds": 19.57194185256958,
+    "vram_mib": 807.32666015625
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.7220525750747093,
+    "val_loss": 0.7104225158691406,
+    "seconds": 19.57514214515686,
+    "vram_mib": 808.12451171875
+   }
+  ],
+  "trainable_modules": [
+   "stages.3",
+   "head"
+  ],
+  "frozen": "selain train_modules"
+ }
+}
