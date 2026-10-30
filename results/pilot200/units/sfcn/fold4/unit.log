@@ -1,0 +1,13 @@
+2026-10-27 00:50:20 | INFO    | === Unit 36/57: sfcn:4 ===
+2026-10-27 00:50:20 | INFO    | sfcn:4 | epoch 1/60 | 0.2 s | val loss 0.7342 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:20 | INFO    | sfcn:4 | epoch 2/60 | 0.2 s | val loss 0.7345 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:20 | INFO    | sfcn:4 | epoch 3/60 | 0.2 s | val loss 0.7352 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:21 | INFO    | sfcn:4 | epoch 4/60 | 0.3 s | val loss 0.7361 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:21 | INFO    | sfcn:4 | epoch 5/60 | 0.2 s | val loss 0.7347 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:21 | INFO    | sfcn:4 | epoch 6/60 | 0.2 s | val loss 0.7360 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:22 | INFO    | sfcn:4 | epoch 7/60 | 0.2 s | val loss 0.7425 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:22 | INFO    | sfcn:4 | epoch 8/60 | 0.2 s | val loss 0.7406 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:22 | INFO    | sfcn:4 | epoch 9/60 | 0.2 s | val loss 0.7435 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:22 | INFO    | sfcn:4 | epoch 10/60 | 0.2 s | val loss 0.7535 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:23 | INFO    | sfcn:4 | epoch 11/60 | 0.2 s | val loss 0.8406 | best epoch 1 | VRAM puncak 83 MiB
+2026-10-27 00:50:23 | INFO    | Unit sfcn:4 selesai (done) | progres 36/57 unit selesai | 8.2 menit sejak mulai

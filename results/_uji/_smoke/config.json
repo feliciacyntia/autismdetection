@@ -1,0 +1,244 @@
+{
+ "config_hash": "1797fe5bf1d67157-ep2",
+ "config": {
+  "pilot_version": "06-pilot-v1",
+  "seed": 42,
+  "inner_val_frac": 0.2,
+  "preproc_config_fp": "682404ae0f5d2624",
+  "pheno_features": [
+   "AGE_AT_SCAN",
+   "SEX",
+   "FIQ",
+   "volume_mask_ml"
+  ],
+  "missing_max_gap_pp": 10.0,
+  "threshold": 0.5,
+  "bootstrap_n": 2000,
+  "slices": {
+   "fractions": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+   ],
+   "planes": [
+    "sag",
+    "cor",
+    "ax"
+   ],
+   "size": 224,
+   "channels": "3 slice bersebelahan (p-1, p, p+1) sebagai RGB",
+   "intensity": "x01 = clip((z+3)/6, 0, 1) di dalam mask, 0 di luar; lalu normalisasi mean/std ImageNet"
+  },
+  "augment": {
+   "rot_deg": 5.0,
+   "shift_vox": 3.0,
+   "int_scale": 0.1,
+   "int_shift": 0.1
+  },
+  "models": {
+   "logreg": {
+    "kind": "pheno",
+    "group": "CNN/ML klasik",
+    "C": 1.0
+   },
+   "xgb": {
+    "kind": "pheno",
+    "group": "CNN/ML klasik",
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "min_child_weight": 1,
+    "early_stopping_rounds": 30
+   },
+   "mlp_tab": {
+    "kind": "pheno",
+    "group": "CNN/ML klasik",
+    "hidden": [
+     64,
+     32
+    ],
+    "dropout": 0.2,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "epochs": 2,
+    "patience": 40,
+    "batch": 32
+   },
+   "tabm": {
+    "kind": "pheno",
+    "group": "arsitektur modern",
+    "d_block": 128,
+    "n_blocks": 2,
+    "k": 32,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "epochs": 2,
+    "patience": 40,
+    "batch": 32
+   },
+   "effnet_b0": {
+    "kind": "2d",
+    "group": "CNN klasik",
+    "timm": "efficientnet_b0.ra_in1k",
+    "train_modules": [
+     "blocks.5",
+     "blocks.6",
+     "conv_head",
+     "bn2"
+    ],
+    "epochs": 2,
+    "patience": 6,
+    "batch": 4,
+    "lr_head": 0.001,
+    "lr_backbone": 0.0001,
+    "wd": 0.0001,
+    "budget_min": 90
+   },
+   "resnet18": {
+    "kind": "2d",
+    "group": "CNN klasik",
+    "timm": "resnet18.a1_in1k",
+    "train_modules": [
+     "layer3",
+     "layer4"
+    ],
+    "epochs": 2,
+    "patience": 6,
+    "batch": 4,
+    "lr_head": 0.001,
+    "lr_backbone": 0.0001,
+    "wd": 0.0001,
+    "budget_min": 75
+   },
+   "sfcn": {
+    "kind": "sfcn",
+    "group": "CNN klasik (pretrained otak)",
+    "weights": "sfcn/run_20190719_00_epoch_best_mae.p",
+    "weights_sha256": "f9197c92486a8dba7fd87bb9f2ecc4f42f7c9628b9150d1b95c8a5ac10721ad3",
+    "frozen": [
+     "conv_0",
+     "conv_1",
+     "conv_2",
+     "conv_3"
+    ],
+    "train_modules": [
+     "conv_4",
+     "conv_5",
+     "head"
+    ],
+    "input": "upsample x2 (trilinear) -> crop MNI 160x192x160 (offset UKB 11,13,11) -> flip sumbu x (RAS->LAS UKB) -> intensitas (z - min_mask) di mask, dibagi rerata volume",
+    "bn": "BatchNorm blok dilatih tetap eval (statistik UKB)",
+    "epochs": 2,
+    "patience": 10,
+    "batch": 8,
+    "lr_head": 0.001,
+    "lr_backbone": 0.0001,
+    "wd": 0.0001,
+    "budget_min": 60
+   },
+   "dinov2_s": {
+    "kind": "dino",
+    "group": "foundation model",
+    "timm": "vit_small_patch14_dinov2.lvd142m",
+    "img_size": 224,
+    "feature": "concat(CLS, mean patch) = 768-d per slice",
+    "epochs": 2,
+    "patience": 30,
+    "batch": 16,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "budget_min": 30
+   },
+   "convnextv2_t": {
+    "kind": "2d",
+    "group": "arsitektur modern",
+    "timm": "convnextv2_tiny.fcmae_ft_in22k_in1k",
+    "train_modules": [
+     "stages.3",
+     "head"
+    ],
+    "optional": true,
+    "epochs": 2,
+    "patience": 6,
+    "batch": 2,
+    "lr_head": 0.001,
+    "lr_backbone": 5e-05,
+    "wd": 0.0001,
+    "budget_min": 120
+   }
+  },
+  "deferred": {
+   "tabpfn_v2": "semua versi tabpfn v2 (2.0.x-2.2.x) menuntut scikit-learn<1.7; env dikunci 1.7.0 -> env terpisah",
+   "dinov3_vits16": "repo HF facebook/dinov3-vits16-pretrain-lvd1689m gated (manual, butuh login + persetujuan)",
+   "brainiac": "bobot ada (Dropbox, lisensi akademik) tetapi daftar data pretraining (ABIDE?) belum terverifikasi",
+   "cnn3d_se_scratch": "ditunda (rencana)",
+   "S6": "ditunda (rencana)",
+   "inner_cv_full": "untuk run data penuh"
+  },
+  "modality": {
+   "pheno": [
+    "logreg",
+    "xgb",
+    "mlp_tab",
+    "tabm"
+   ],
+   "img25d": [
+    "effnet_b0",
+    "resnet18",
+    "dinov2_s",
+    "convnextv2_t"
+   ],
+   "img3d": [
+    "sfcn"
+   ]
+  },
+  "fusion": {
+   "selection": "AUC pooled inner validation lima fold",
+   "pca_dims": [
+    8,
+    16
+   ],
+   "heads": [
+    "logreg",
+    "mlp",
+    "lgbm"
+   ],
+   "note": "head fusion dilatih pada inner holdout (20% train) tiap fold; penyederhanaan pilot"
+  },
+  "order": [
+   "logreg",
+   "xgb",
+   "mlp_tab",
+   "tabm",
+   "effnet_b0",
+   "resnet18",
+   "sfcn",
+   "dinov2_s",
+   "FUSION",
+   "convnextv2_t"
+  ],
+  "subset": "pilot200",
+  "data_hashes": {
+   "folds.csv": "48f8e8bf9b8df9b7ce96808dda4f2c450c084ac7de22fad46ff89cfe0fe285b8",
+   "subset_20pct.csv": "da48e17a11ad2a63b81fa997f364d3715a5da1e8955cb4b021da3e71e61b24b0",
+   "qc_decisions.csv": "d0b3b4026234502f3071243729f1e9358246430a1c3b68787428b9ebea25deb0"
+  },
+  "versions": {
+   "python": "3.12.3",
+   "numpy": "2.1.1",
+   "pandas": "2.3.1",
+   "scikit-learn": "1.7.0",
+   "torch": "2.5.1+cu121",
+   "torchvision": "0.20.1+cu121",
+   "timm": "1.0.22",
+   "xgboost": "3.4.1",
+   "lightgbm": "4.7.0",
+   "tabm": "0.0.3"
+  }
+ },
+ "created": "2026-10-27T00:13:54"
+}

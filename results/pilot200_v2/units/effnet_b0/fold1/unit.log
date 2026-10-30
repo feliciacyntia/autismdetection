@@ -1,0 +1,17 @@
+2026-10-27 02:44:45 | INFO    | === Unit 53/168: effnet_b0:1 ===
+2026-10-27 02:44:50 | INFO    | effnet_b0:1 | epoch 1/40 | 3.7 s | train 0.7271 | val 0.7266 (halus 0.7266) | AUC val 0.450 | best 1 | VRAM 423 MiB
+2026-10-27 02:44:54 | INFO    | effnet_b0:1 | epoch 2/40 | 3.7 s | train 0.7513 | val 0.7129 (halus 0.7198) | AUC val 0.439 | best 2 | VRAM 423 MiB
+2026-10-27 02:44:57 | INFO    | effnet_b0:1 | epoch 3/40 | 3.7 s | train 0.7149 | val 0.7127 (halus 0.7174) | AUC val 0.360 | best 3 | VRAM 423 MiB
+2026-10-27 02:45:01 | INFO    | effnet_b0:1 | epoch 4/40 | 3.7 s | train 0.7198 | val 0.7109 (halus 0.7122) | AUC val 0.392 | best 4 | VRAM 423 MiB
+2026-10-27 02:45:05 | INFO    | effnet_b0:1 | epoch 5/40 | 3.7 s | train 0.7111 | val 0.7277 (halus 0.7171) | AUC val 0.358 | best 4 | VRAM 423 MiB
+2026-10-27 02:45:09 | INFO    | effnet_b0:1 | epoch 6/40 | 3.9 s | train 0.7466 | val 0.7213 (halus 0.7200) | AUC val 0.351 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:13 | INFO    | effnet_b0:1 | epoch 7/40 | 3.9 s | train 0.7248 | val 0.7145 (halus 0.7212) | AUC val 0.364 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:17 | INFO    | effnet_b0:1 | epoch 8/40 | 3.9 s | train 0.7199 | val 0.7136 (halus 0.7165) | AUC val 0.349 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:21 | INFO    | effnet_b0:1 | epoch 9/40 | 3.9 s | train 0.7165 | val 0.7160 (halus 0.7147) | AUC val 0.371 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:25 | INFO    | effnet_b0:1 | epoch 10/40 | 3.9 s | train 0.7149 | val 0.7140 (halus 0.7145) | AUC val 0.375 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:29 | INFO    | effnet_b0:1 | epoch 11/40 | 3.9 s | train 0.7151 | val 0.7126 (halus 0.7142) | AUC val 0.364 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:33 | INFO    | effnet_b0:1 | epoch 12/40 | 3.9 s | train 0.7179 | val 0.7125 (halus 0.7131) | AUC val 0.364 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:37 | INFO    | effnet_b0:1 | epoch 13/40 | 3.9 s | train 0.7095 | val 0.7120 (halus 0.7124) | AUC val 0.360 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:41 | INFO    | effnet_b0:1 | epoch 14/40 | 3.9 s | train 0.7045 | val 0.7146 (halus 0.7131) | AUC val 0.353 | best 4 | VRAM 438 MiB
+2026-10-27 02:45:45 | INFO    | effnet_b0:1: sudah belajar = False (train 0.727->0.704 | val halus terbaik 0.7122 vs konstan 0.7093 | AUC val 0.392)
+2026-10-27 02:45:45 | INFO    | Unit effnet_b0:1 selesai (done) | progres 53/168 unit selesai | 6.1 menit sejak mulai

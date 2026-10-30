@@ -1,0 +1,5 @@
+2026-10-27 00:15:52 | INFO    | === Unit 6/28: resnet18:0 ===
+2026-10-27 00:16:11 | INFO    | Volume dimuat ke RAM: 200 subjek (3.1 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:16:35 | INFO    | resnet18:0 | epoch 1/1 | 19.5 s | val loss 0.7349 | best epoch 1 | VRAM puncak 490 MiB
+2026-10-27 00:16:35 | INFO    | ESTIMASI resnet18: ±19.5 s/epoch -> maks ±2 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:16:46 | INFO    | Unit resnet18:0 selesai (done) | progres 6/28 unit selesai | 0.9 menit sejak mulai

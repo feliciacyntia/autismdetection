@@ -1,5 +1,4 @@
 dataset/all_anat_T1w/
-dataset/fenotipik/
 .venv/
 venv/
 __pycache__/
@@ -37,3 +36,8 @@ data/smri_preproc/.gitattributes
 data/smri_preproc/README.md
 data/smri_preproc/SHA256SUMS
 data/smri_preproc/.cache/
+
+# --- ikut terunduh dari HF feliciacyntia/abide1-asd-results ke root repo ---
+pretrained/
+results/**/*.npy
+.cache/

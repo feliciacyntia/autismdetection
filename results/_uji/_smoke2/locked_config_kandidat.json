@@ -1,0 +1,69 @@
+{
+ "config_hash_pilot": "1797fe5bf1d67157-ep1",
+ "kandidat_data_penuh": {
+  "pheno": [
+   "logreg"
+  ],
+  "img25d": [
+   "dinov2_s"
+  ],
+  "img3d": [
+   "sfcn"
+  ]
+ },
+ "fusion": {
+  "F1": "F1_stack_logreg",
+  "F2": "F2_pca16_logreg",
+  "pca_dims": [
+   8,
+   16
+  ]
+ },
+ "hyperparameter": {
+  "logreg": {
+   "kind": "pheno",
+   "group": "CNN/ML klasik",
+   "C": 1.0
+  },
+  "dinov2_s": {
+   "kind": "dino",
+   "group": "foundation model",
+   "timm": "vit_small_patch14_dinov2.lvd142m",
+   "img_size": 224,
+   "feature": "concat(CLS, mean patch) = 768-d per slice",
+   "epochs": 1,
+   "patience": 30,
+   "batch": 16,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "budget_min": 30
+  },
+  "sfcn": {
+   "kind": "sfcn",
+   "group": "CNN klasik (pretrained otak)",
+   "weights": "sfcn/run_20190719_00_epoch_best_mae.p",
+   "weights_sha256": "f9197c92486a8dba7fd87bb9f2ecc4f42f7c9628b9150d1b95c8a5ac10721ad3",
+   "frozen": [
+    "conv_0",
+    "conv_1",
+    "conv_2",
+    "conv_3"
+   ],
+   "train_modules": [
+    "conv_4",
+    "conv_5",
+    "head"
+   ],
+   "input": "upsample x2 (trilinear) -> crop MNI 160x192x160 (offset UKB 11,13,11) -> flip sumbu x (RAS->LAS UKB) -> intensitas (z - min_mask) di mask, dibagi rerata volume",
+   "bn": "BatchNorm blok dilatih tetap eval (statistik UKB)",
+   "epochs": 1,
+   "patience": 10,
+   "batch": 8,
+   "lr_head": 0.001,
+   "lr_backbone": 0.0001,
+   "wd": 0.0001,
+   "budget_min": 60
+  }
+ },
+ "catatan": "pilot n=200 (inner holdout tunggal); data penuh memakai inner CV penuh"
+}

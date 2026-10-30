@@ -1,0 +1,6 @@
+unit,model,fold,status,last_epoch,max_epochs,best_epoch,best_val_loss,seconds,vram_peak_mib,params_total,params_trainable,error,config_hash,updated
+logreg:0,logreg,0,done,,,,,0.1878261566162109,,7.0,,,1797fe5bf1d67157-ep2,2026-10-27T00:14:00
+xgb:0,xgb,0,done,,,,,0.7817270755767822,,,,,1797fe5bf1d67157-ep2,2026-10-27T00:14:00
+mlp_tab:0,mlp_tab,0,done,,,1.0,0.7340105772018433,2.6043004989624023,,2561.0,,,1797fe5bf1d67157-ep2,2026-10-27T00:14:03
+tabm:0,tabm,0,done,,,1.0,0.729332685470581,0.113919973373413,,41952.0,,,1797fe5bf1d67157-ep2,2026-10-27T00:14:03
+effnet_b0:0,effnet_b0,0,done,2.0,2.0,2.0,0.7303845286369324,46.629849672317505,482.43505859375,4171645.0,3319837.0,,1797fe5bf1d67157-ep2,2026-10-27T00:15:25

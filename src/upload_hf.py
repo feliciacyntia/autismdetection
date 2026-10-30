@@ -54,10 +54,21 @@ def stage():
                 link(f, STAGE / d / f.name)
     for f in (SRC / "templates").iterdir():
         link(f, STAGE / "templates" / f.name)
+    # bukti uji reproducibility & output config lama (HD-BET non-deterministik): hanya subjek dev
+    for sub in ("repro", "_superseded"):
+        for f in (SRC / sub).rglob("*"):
+            r = f.relative_to(SRC)
+            if f.is_file() and not any(p.split("_")[0].split(".")[0].isdigit() and int(p.split("_")[0].split(".")[0]) in test_ids
+                                       for p in [x.replace("repro_", "") for x in r.parts]):
+                link(f, STAGE / r)
     shutil.copy2(PROJECT / "src" / "hf_dataset_card.md", STAGE / "README.md")
     # verifikasi: tidak ada subjek test, jumlah file benar
     files = [f for f in STAGE.rglob("*") if f.is_file() and ".cache" not in f.parts]
-    leak = [f for f in files if f.parent.name in PER_SUBJ and int(f.name.split("_")[0].split(".")[0]) in test_ids]
+
+    def sid(p):
+        h = p.replace("repro_", "").split("_")[0].split(".")[0]
+        return int(h) if h.isdigit() and len(h) == 5 else None
+    leak = [f for f in files if any(sid(p) in test_ids for p in f.relative_to(STAGE).parts)]
     assert not leak, f"subjek test ikut: {leak[:3]}"
     for d, pats in PER_SUBJ.items():
         n = len(list((STAGE / d).iterdir()))

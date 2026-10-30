@@ -1,0 +1,11 @@
+2026-10-27 00:14:03 | INFO    | === Unit 5/5: effnet_b0:0 ===
+2026-10-27 00:14:05 | INFO    | Loading pretrained weights from Hugging Face hub (timm/efficientnet_b0.ra_in1k)
+2026-10-27 00:14:06 | INFO    | HTTP Request: HEAD https://huggingface.co/timm/efficientnet_b0.ra_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-10-27 00:14:06 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 00:14:07 | INFO    | HTTP Request: GET https://huggingface.co/api/models/timm/efficientnet_b0.ra_in1k/xet-read-token/1b5383e5f79cc0f7fc067e372f8f26a5fa73f26a "HTTP/1.1 200 OK"
+2026-10-27 00:14:14 | INFO    | [timm/efficientnet_b0.ra_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2026-10-27 00:14:17 | INFO    | Volume dimuat ke RAM: 200 subjek (2.7 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:14:49 | INFO    | effnet_b0:0 | epoch 1/2 | 27.9 s | val loss 0.7327 | best epoch 1 | VRAM puncak 482 MiB
+2026-10-27 00:14:49 | INFO    | ESTIMASI effnet_b0: ±27.9 s/epoch -> maks ±5 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:15:08 | INFO    | effnet_b0:0 | epoch 2/2 | 18.7 s | val loss 0.7304 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:15:25 | INFO    | Unit effnet_b0:0 selesai (done) | progres 5/5 unit selesai | 1.4 menit sejak mulai

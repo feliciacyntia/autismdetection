@@ -1,0 +1,33 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 39,
+  "balanced_accuracy": 0.4920634920634921,
+  "f1_macro": 0.48684210526315785,
+  "auc": 0.4814814814814815,
+  "sensitivity": 0.5555555555555556,
+  "specificity": 0.42857142857142855
+ },
+ "info": {
+  "feat": "roi",
+  "model": "catboost",
+  "site": "TRINITY",
+  "seed": 54,
+  "hp": {
+   "iterations": 1000,
+   "depth": 4,
+   "learning_rate": 0.03,
+   "l2_leaf_reg": 3,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 39
+ }
+}

@@ -1,0 +1,10 @@
+2026-10-27 00:59:50 | INFO    | === Unit 56/57: convnextv2_t:3 ===
+2026-10-27 01:00:10 | INFO    | convnextv2_t:3 | epoch 1/30 | 18.9 s | val loss 0.7284 | best epoch 1 | VRAM puncak 808 MiB
+2026-10-27 01:00:30 | INFO    | convnextv2_t:3 | epoch 2/30 | 19.0 s | val loss 0.7184 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:00:49 | INFO    | convnextv2_t:3 | epoch 3/30 | 19.0 s | val loss 0.8264 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:01:08 | INFO    | convnextv2_t:3 | epoch 4/30 | 19.0 s | val loss 0.7198 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:01:28 | INFO    | convnextv2_t:3 | epoch 5/30 | 19.0 s | val loss 0.7222 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:01:47 | INFO    | convnextv2_t:3 | epoch 6/30 | 19.0 s | val loss 0.7210 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:02:06 | INFO    | convnextv2_t:3 | epoch 7/30 | 19.0 s | val loss 0.7239 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:02:25 | INFO    | convnextv2_t:3 | epoch 8/30 | 19.0 s | val loss 0.7192 | best epoch 2 | VRAM puncak 808 MiB
+2026-10-27 01:02:45 | INFO    | Unit convnextv2_t:3 selesai (done) | progres 56/57 unit selesai | 20.5 menit sejak mulai

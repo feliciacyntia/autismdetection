@@ -1,0 +1,15 @@
+2026-10-27 03:15:43 | INFO    | === Unit 91/168: dinov2_head:2 ===
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 1/200 | 0.0 s | train 0.7755 | val 0.7634 (halus 0.7634) | AUC val 0.482 | best 1 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 2/200 | 0.0 s | train 0.6772 | val 0.7624 (halus 0.7629) | AUC val 0.431 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 3/200 | 0.0 s | train 0.6465 | val 0.7742 (halus 0.7667) | AUC val 0.475 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 4/200 | 0.0 s | train 0.5803 | val 0.8164 (halus 0.7843) | AUC val 0.416 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 5/200 | 0.0 s | train 0.5091 | val 0.8399 (halus 0.8101) | AUC val 0.451 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 6/200 | 0.0 s | train 0.5004 | val 0.8394 (halus 0.8319) | AUC val 0.482 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 7/200 | 0.0 s | train 0.4694 | val 0.8698 (halus 0.8497) | AUC val 0.451 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:43 | INFO    | dinov2_head:2 | epoch 8/200 | 0.0 s | train 0.3960 | val 0.9239 (halus 0.8777) | AUC val 0.404 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:44 | INFO    | dinov2_head:2 | epoch 9/200 | 0.0 s | train 0.3380 | val 0.8959 (halus 0.8965) | AUC val 0.455 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:44 | INFO    | dinov2_head:2 | epoch 10/200 | 0.0 s | train 0.3768 | val 0.8835 (halus 0.9011) | AUC val 0.478 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:44 | INFO    | dinov2_head:2 | epoch 11/200 | 0.0 s | train 0.2526 | val 0.9137 (halus 0.8977) | AUC val 0.463 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:44 | INFO    | dinov2_head:2 | epoch 12/200 | 0.0 s | train 0.2561 | val 0.9938 (halus 0.9303) | AUC val 0.443 | best 2 | VRAM 19 MiB
+2026-10-27 03:15:44 | INFO    | dinov2_head:2: sudah belajar = False (train 0.776->0.256 | val halus terbaik 0.7629 vs konstan 0.7322 | AUC val 0.431)
+2026-10-27 03:15:44 | INFO    | Unit dinov2_head:2 selesai (done) | progres 91/168 unit selesai | 36.1 menit sejak mulai

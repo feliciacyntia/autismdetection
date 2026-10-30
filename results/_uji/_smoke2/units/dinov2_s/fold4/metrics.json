@@ -1,0 +1,39 @@
+{
+ "val": {
+  "n": 33,
+  "balanced_accuracy": 0.4722222222222222,
+  "f1_macro": 0.34,
+  "auc": 0.25555555555555554,
+  "sensitivity": 0.0,
+  "specificity": 0.9444444444444444
+ },
+ "test": {
+  "n": 37,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.32727272727272727,
+  "auc": 0.6023391812865497,
+  "sensitivity": 0.0,
+  "specificity": 1.0
+ },
+ "info": {
+  "best_epoch": 1,
+  "epochs_run": 1,
+  "best_val_loss": 0.7422361969947815,
+  "seconds": 0.05269169807434082,
+  "vram_peak_mib": 20.88037109375,
+  "params_total": 100097,
+  "params_trainable": 100097,
+  "s_per_epoch": 0.05269169807434082,
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 0.7550843689176772,
+    "val_loss": 0.7422361969947815,
+    "seconds": 0.05269169807434082,
+    "vram_mib": 20.88037109375
+   }
+  ],
+  "trainable_modules": null,
+  "frozen": "selain train_modules"
+ }
+}

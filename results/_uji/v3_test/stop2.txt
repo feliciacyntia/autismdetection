@@ -1,0 +1,41 @@
+2026-10-29 04:17:34 | INFO    | v3 tabel | hasil C:\ta_local\results\v3_test | config_hash 4521259311445664-test | sha256 config 4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54
+2026-10-29 04:17:34 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-29 04:17:35 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-29 04:17:35 | INFO    | E1+E3: 20 unit, 20 sudah selesai, 0 dijalankan
+2026-10-29 04:17:35 | INFO    | LOSO fenotipik: terpilih full:tabm -> tipe tabm (setting E1)
+2026-10-29 04:17:35 | INFO    | LOSO roi: terpilih v3:e1_roi_catboost -> tipe catboost (setting E1)
+2026-10-29 04:17:35 | INFO    | LOSO: 36 unit, 4 sudah selesai, 32 dijalankan
+2026-10-29 04:17:42 | INFO    | [1/32] loso_pheno_tabm_s0:4 selesai 6.8 s | 0.1 menit berjalan | sisa ±4 menit
+2026-10-29 04:17:45 | INFO    | [2/32] loso_pheno_tabm_s0:5 selesai 3.2 s | 0.2 menit berjalan | sisa ±3 menit
+2026-10-29 04:17:49 | INFO    | [3/32] loso_pheno_tabm_s0:6 selesai 3.4 s | 0.2 menit berjalan | sisa ±2 menit
+2026-10-29 04:17:52 | INFO    | [4/32] loso_pheno_tabm_s0:7 selesai 3.3 s | 0.3 menit berjalan | sisa ±2 menit
+2026-10-29 04:17:55 | INFO    | [5/32] loso_pheno_tabm_s0:8 selesai 3.2 s | 0.3 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:00 | INFO    | [6/32] loso_pheno_tabm_s0:9 selesai 4.9 s | 0.4 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:03 | INFO    | [7/32] loso_pheno_tabm_s0:10 selesai 3.3 s | 0.5 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:07 | INFO    | [8/32] loso_pheno_tabm_s0:11 selesai 3.4 s | 0.5 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:18 | INFO    | [9/32] loso_pheno_tabm_s0:12 selesai 10.9 s | 0.7 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:23 | INFO    | [10/32] loso_pheno_tabm_s0:13 selesai 5.1 s | 0.8 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:26 | INFO    | [11/32] loso_pheno_tabm_s0:14 selesai 3.6 s | 0.9 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:30 | INFO    | [12/32] loso_pheno_tabm_s0:15 selesai 3.6 s | 0.9 menit berjalan | sisa ±2 menit
+2026-10-29 04:18:33 | INFO    | [13/32] loso_pheno_tabm_s0:16 selesai 3.0 s | 1.0 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:36 | INFO    | [14/32] loso_pheno_tabm_s0:17 selesai 3.4 s | 1.0 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:39 | INFO    | [15/32] loso_roi_catboost_s0:0 selesai 3.1 s | 1.1 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:42 | INFO    | [16/32] loso_roi_catboost_s0:1 selesai 2.4 s | 1.1 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:44 | INFO    | [17/32] loso_roi_catboost_s0:2 selesai 1.9 s | 1.1 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:45 | INFO    | [18/32] loso_roi_catboost_s0:3 selesai 0.7 s | 1.2 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:46 | INFO    | [19/32] loso_roi_catboost_s0:4 selesai 1.1 s | 1.2 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:48 | INFO    | [20/32] loso_roi_catboost_s0:5 selesai 2.4 s | 1.2 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:49 | INFO    | [21/32] loso_roi_catboost_s0:6 selesai 0.9 s | 1.2 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:51 | INFO    | [22/32] loso_roi_catboost_s0:7 selesai 2.4 s | 1.3 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:53 | INFO    | [23/32] loso_roi_catboost_s0:8 selesai 2.0 s | 1.3 menit berjalan | sisa ±1 menit
+2026-10-29 04:18:56 | INFO    | [24/32] loso_roi_catboost_s0:9 selesai 2.3 s | 1.3 menit berjalan | sisa ±0 menit
+2026-10-29 04:18:56 | INFO    | [25/32] loso_roi_catboost_s0:10 selesai 0.6 s | 1.4 menit berjalan | sisa ±0 menit
+2026-10-29 04:18:58 | INFO    | [26/32] loso_roi_catboost_s0:11 selesai 1.9 s | 1.4 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:01 | INFO    | [27/32] loso_roi_catboost_s0:12 selesai 2.4 s | 1.4 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:02 | INFO    | [28/32] loso_roi_catboost_s0:13 selesai 1.3 s | 1.4 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:04 | INFO    | [29/32] loso_roi_catboost_s0:14 selesai 1.8 s | 1.5 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:06 | INFO    | [30/32] loso_roi_catboost_s0:15 selesai 2.6 s | 1.5 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:07 | INFO    | [31/32] loso_roi_catboost_s0:16 selesai 1.0 s | 1.5 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:08 | INFO    | [32/32] loso_roi_catboost_s0:17 selesai 1.0 s | 1.6 menit berjalan | sisa ±0 menit
+2026-10-29 04:19:08 | INFO    | RINGKASAN: {'done': 56}
+2026-10-29 04:19:08 | INFO    | Auto-sleep Windows dikembalikan normal.

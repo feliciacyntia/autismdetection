@@ -1,0 +1,21 @@
+skenario,SITE_ID,n,BA,AUC
+S1 fenotipik (xgb),CALTECH,8,0.625,0.781
+S1 fenotipik (xgb),CMU,5,0.667,0.5
+S1 fenotipik (xgb),KKI,8,0.7,0.867
+S1 fenotipik (xgb),LEUVEN_1,6,0.667,0.556
+S1 fenotipik (xgb),LEUVEN_2,7,0.375,0.208
+S1 fenotipik (xgb),MAX_MUN,10,0.5,0.542
+S1 fenotipik (xgb),NYU,37,0.543,0.561
+S1 fenotipik (xgb),OHSU,6,0.667,0.833
+S1 fenotipik (xgb),OLIN,6,0.5,0.556
+S1 fenotipik (xgb),PITT,11,0.467,0.6
+S1 fenotipik (xgb),SBL,6,0.167,0.0
+S1 fenotipik (xgb),SDSU,6,0.5,0.625
+S1 fenotipik (xgb),STANFORD,5,0.833,0.833
+S1 fenotipik (xgb),TRINITY,9,0.3,0.2
+S1 fenotipik (xgb),UCLA_1,13,0.381,0.357
+S1 fenotipik (xgb),UCLA_2,4,0.25,0.0
+S1 fenotipik (xgb),UM_1,18,0.604,0.617
+S1 fenotipik (xgb),UM_2,7,0.667,0.75
+S1 fenotipik (xgb),USM,18,0.506,0.61
+S1 fenotipik (xgb),YALE,10,0.5,0.56

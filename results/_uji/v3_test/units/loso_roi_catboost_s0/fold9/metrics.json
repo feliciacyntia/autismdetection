@@ -1,0 +1,33 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 48,
+  "balanced_accuracy": 0.6460869565217391,
+  "f1_macro": 0.6456795484151108,
+  "auc": 0.711304347826087,
+  "sensitivity": 0.64,
+  "specificity": 0.6521739130434783
+ },
+ "info": {
+  "feat": "roi",
+  "model": "catboost",
+  "site": "PITT",
+  "seed": 51,
+  "hp": {
+   "iterations": 1000,
+   "depth": 4,
+   "learning_rate": 0.03,
+   "l2_leaf_reg": 3,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 48
+ }
+}

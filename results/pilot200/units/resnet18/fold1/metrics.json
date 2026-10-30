@@ -1,0 +1,91 @@
+{
+ "val": {
+  "n": 33,
+  "balanced_accuracy": 0.46875,
+  "f1_macro": 0.3125,
+  "auc": 0.4742647058823529,
+  "sensitivity": 0.9375,
+  "specificity": 0.0
+ },
+ "test": {
+  "n": 38,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.2962962962962963,
+  "auc": 0.5198863636363636,
+  "sensitivity": 1.0,
+  "specificity": 0.0
+ },
+ "info": {
+  "best_epoch": 2,
+  "epochs_run": 8,
+  "best_val_loss": 0.709204375743866,
+  "seconds": 33.4519624710083,
+  "vram_peak_mib": 471.0927734375,
+  "params_total": 11242305,
+  "params_trainable": 10559233,
+  "s_per_epoch": 4.181495308876038,
+  "history": [
+   {
+    "epoch": 1,
+    "train_loss": 0.7310180799527601,
+    "val_loss": 0.7203968167304993,
+    "seconds": 4.102754354476929,
+    "vram_mib": 468.9814453125
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.7286912383455219,
+    "val_loss": 0.709204375743866,
+    "seconds": 4.090008974075317,
+    "vram_mib": 469.7255859375
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.7113872314944412,
+    "val_loss": 0.7093028426170349,
+    "seconds": 4.094010591506958,
+    "vram_mib": 469.4951171875
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.7121929417956959,
+    "val_loss": 0.7097470760345459,
+    "seconds": 4.237071990966797,
+    "vram_mib": 470.0517578125
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.7107935692324783,
+    "val_loss": 0.7096353769302368,
+    "seconds": 4.198412895202637,
+    "vram_mib": 468.8916015625
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.7118134372162096,
+    "val_loss": 0.7097033262252808,
+    "seconds": 4.277231931686401,
+    "vram_mib": 471.0927734375
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.7138653831048445,
+    "val_loss": 0.709741473197937,
+    "seconds": 4.238685846328735,
+    "vram_mib": 469.1259765625
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.711771441228462,
+    "val_loss": 0.7097650766372681,
+    "seconds": 4.213785886764526,
+    "vram_mib": 470.3798828125
+   }
+  ],
+  "trainable_modules": [
+   "layer3",
+   "layer4"
+  ],
+  "frozen": "selain train_modules"
+ }
+}

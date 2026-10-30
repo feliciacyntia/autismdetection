@@ -1,0 +1,12 @@
+2026-10-27 00:17:37 | INFO    | === Unit 13/28: cache_dinov2_s ===
+2026-10-27 00:17:37 | INFO    | Cache dinov2_s: 200/200 subjek perlu dihitung
+2026-10-27 00:17:38 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 00:18:02 | INFO    | Cache dinov2_s: 25/200 (25 s)
+2026-10-27 00:18:05 | INFO    | Cache dinov2_s: 50/200 (29 s)
+2026-10-27 00:18:09 | INFO    | Cache dinov2_s: 75/200 (32 s)
+2026-10-27 00:18:13 | INFO    | Cache dinov2_s: 100/200 (36 s)
+2026-10-27 00:18:17 | INFO    | Cache dinov2_s: 125/200 (40 s)
+2026-10-27 00:18:21 | INFO    | Cache dinov2_s: 150/200 (44 s)
+2026-10-27 00:18:25 | INFO    | Cache dinov2_s: 175/200 (48 s)
+2026-10-27 00:18:29 | INFO    | Cache dinov2_s: 200/200 (52 s)
+2026-10-27 00:18:29 | INFO    | Unit cache_dinov2_s selesai (done) | progres 13/28 unit selesai | 2.6 menit sejak mulai

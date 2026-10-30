@@ -1,0 +1,57 @@
+2026-10-27 00:37:41 | INFO    | 06 06-pilot-v1 | subset pilot200 | hasil C:\ta_local\results\_report_test | config_hash 1797fe5bf1d67157-ep3
+2026-10-27 00:37:41 | INFO    | Auto-sleep Windows ditahan selama batch (aktif=True).
+2026-10-27 00:37:42 | INFO    | Kohort pilot200: 200 subjek (ASD 95) | fold [0, 1, 2, 3, 4] | exclude QC [] | override [(50404, 'volume_mask_ml')] | fitur fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml']
+2026-10-27 00:37:42 | INFO    | Missing AGE_AT_SCAN     ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:37:42 | INFO    | Missing SEX             ASD 0.0% | TD 0.0% | selisih 0.0 pp | dipakai True
+2026-10-27 00:37:42 | INFO    | Missing FIQ             ASD 5.3% | TD 7.6% | selisih 2.4 pp | dipakai True
+2026-10-27 00:37:42 | INFO    | Missing volume_mask_ml  ASD 1.1% | TD 0.0% | selisih 1.1 pp | dipakai True
+2026-10-27 00:37:46 | INFO    | === Unit 1/21: logreg:0 ===
+2026-10-27 00:37:46 | INFO    | Unit logreg:0 selesai (done) | progres 1/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 2/21: logreg:1 ===
+2026-10-27 00:37:46 | INFO    | Unit logreg:1 selesai (done) | progres 2/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 3/21: logreg:2 ===
+2026-10-27 00:37:46 | INFO    | Unit logreg:2 selesai (done) | progres 3/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 4/21: logreg:3 ===
+2026-10-27 00:37:46 | INFO    | Unit logreg:3 selesai (done) | progres 4/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 5/21: logreg:4 ===
+2026-10-27 00:37:46 | INFO    | Unit logreg:4 selesai (done) | progres 5/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 6/21: xgb:0 ===
+2026-10-27 00:37:46 | INFO    | Unit xgb:0 selesai (done) | progres 6/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 7/21: xgb:1 ===
+2026-10-27 00:37:46 | INFO    | Unit xgb:1 selesai (done) | progres 7/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 8/21: xgb:2 ===
+2026-10-27 00:37:46 | INFO    | Unit xgb:2 selesai (done) | progres 8/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:46 | INFO    | === Unit 9/21: xgb:3 ===
+2026-10-27 00:37:47 | INFO    | Unit xgb:3 selesai (done) | progres 9/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:47 | INFO    | === Unit 10/21: xgb:4 ===
+2026-10-27 00:37:47 | INFO    | Unit xgb:4 selesai (done) | progres 10/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:47 | INFO    | === Unit 11/21: mlp_tab:0 ===
+2026-10-27 00:37:48 | INFO    | Unit mlp_tab:0 selesai (done) | progres 11/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:48 | INFO    | === Unit 12/21: mlp_tab:1 ===
+2026-10-27 00:37:48 | INFO    | Unit mlp_tab:1 selesai (done) | progres 12/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:48 | INFO    | === Unit 13/21: mlp_tab:2 ===
+2026-10-27 00:37:48 | INFO    | Unit mlp_tab:2 selesai (done) | progres 13/21 unit selesai | 0.0 menit sejak mulai
+2026-10-27 00:37:48 | INFO    | === Unit 14/21: mlp_tab:3 ===
+2026-10-27 00:37:49 | INFO    | Unit mlp_tab:3 selesai (done) | progres 14/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:37:49 | INFO    | === Unit 15/21: mlp_tab:4 ===
+2026-10-27 00:37:49 | INFO    | Unit mlp_tab:4 selesai (done) | progres 15/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:37:49 | INFO    | === Unit 16/21: tabm:0 ===
+2026-10-27 00:37:49 | INFO    | Unit tabm:0 selesai (done) | progres 16/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:37:49 | INFO    | === Unit 17/21: tabm:1 ===
+2026-10-27 00:37:49 | INFO    | Unit tabm:1 selesai (done) | progres 17/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:37:49 | INFO    | === Unit 18/21: tabm:2 ===
+2026-10-27 00:37:49 | INFO    | Unit tabm:2 selesai (done) | progres 18/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:37:49 | INFO    | === Unit 19/21: tabm:3 ===
+2026-10-27 00:37:49 | INFO    | Unit tabm:3 selesai (done) | progres 19/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:37:49 | INFO    | === Unit 20/21: tabm:4 ===
+2026-10-27 00:37:49 | INFO    | Unit tabm:4 selesai (done) | progres 20/21 unit selesai | 0.1 menit sejak mulai
+2026-10-27 00:38:22 | INFO    | Tabel A disimpan: C:\ta_local\results\_report_test\tables\tabel_A_fenotipik.csv | lanjut ke model citra.
+2026-10-27 00:38:22 | INFO    | === Unit 21/21: effnet_b0:0 ===
+2026-10-27 00:38:25 | INFO    | Volume dimuat ke RAM: 200 subjek (1.8 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:38:36 | INFO    | effnet_b0:0 | epoch 1/3 | 8.8 s | val loss 0.7327 | best epoch 1 | VRAM puncak 482 MiB
+2026-10-27 00:38:36 | INFO    | ESTIMASI effnet_b0: ±8.8 s/epoch -> maks ±2 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:38:41 | INFO    | effnet_b0:0 | epoch 2/3 | 4.5 s | val loss 0.7301 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:38:41 | WARNING | Stop-file ditemukan: berhenti setelah langkah yang sedang berjalan selesai.
+2026-10-27 00:38:41 | WARNING | Berhenti rapi di effnet_b0:0 (stop-file C:\ta_local\results\_report_test\STOP); lanjutkan dengan --resume.
+2026-10-27 00:38:41 | INFO    | RINGKASAN: 20/21 unit done | 0.9 menit | dihentikan
+2026-10-27 00:38:41 | INFO    | Auto-sleep Windows dikembalikan normal.

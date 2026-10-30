@@ -1,0 +1,51 @@
+{
+ "config_hash_pilot": "1797fe5bf1d67157-ep3",
+ "kandidat_data_penuh": {
+  "pheno": [
+   "xgb",
+   "tabm",
+   "logreg"
+  ],
+  "img25d": [],
+  "img3d": []
+ },
+ "fusion": {
+  "F1": "F1_stack_logreg",
+  "F2": "F2_pca16_logreg",
+  "pca_dims": [
+   8,
+   16
+  ]
+ },
+ "hyperparameter": {
+  "xgb": {
+   "kind": "pheno",
+   "group": "CNN/ML klasik",
+   "n_estimators": 500,
+   "max_depth": 3,
+   "learning_rate": 0.05,
+   "subsample": 0.8,
+   "min_child_weight": 1,
+   "early_stopping_rounds": 30
+  },
+  "tabm": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 3,
+   "patience": 40,
+   "batch": 32
+  },
+  "logreg": {
+   "kind": "pheno",
+   "group": "CNN/ML klasik",
+   "C": 1.0
+  }
+ },
+ "catatan": "pilot n=200 (inner holdout tunggal); data penuh memakai inner CV penuh"
+}

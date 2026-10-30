@@ -1,0 +1,15 @@
+2026-10-27 02:45:45 | INFO    | === Unit 54/168: effnet_b0:2 ===
+2026-10-27 02:45:46 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 02:45:50 | INFO    | effnet_b0:2 | epoch 1/40 | 3.6 s | train 0.7547 | val 0.7312 (halus 0.7312) | AUC val 0.514 | best 1 | VRAM 440 MiB
+2026-10-27 02:45:53 | INFO    | effnet_b0:2 | epoch 2/40 | 3.6 s | train 0.7599 | val 0.7705 (halus 0.7508) | AUC val 0.392 | best 1 | VRAM 440 MiB
+2026-10-27 02:45:57 | INFO    | effnet_b0:2 | epoch 3/40 | 3.6 s | train 0.7463 | val 0.7314 (halus 0.7444) | AUC val 0.463 | best 1 | VRAM 440 MiB
+2026-10-27 02:46:01 | INFO    | effnet_b0:2 | epoch 4/40 | 3.6 s | train 0.7432 | val 0.7982 (halus 0.7667) | AUC val 0.457 | best 1 | VRAM 440 MiB
+2026-10-27 02:46:05 | INFO    | effnet_b0:2 | epoch 5/40 | 3.6 s | train 0.7897 | val 0.7327 (halus 0.7541) | AUC val 0.518 | best 1 | VRAM 440 MiB
+2026-10-27 02:46:09 | INFO    | effnet_b0:2 | epoch 6/40 | 3.9 s | train 0.7408 | val 0.7337 (halus 0.7548) | AUC val 0.463 | best 1 | VRAM 456 MiB
+2026-10-27 02:46:12 | INFO    | effnet_b0:2 | epoch 7/40 | 3.8 s | train 0.7298 | val 0.7352 (halus 0.7339) | AUC val 0.467 | best 1 | VRAM 456 MiB
+2026-10-27 02:46:16 | INFO    | effnet_b0:2 | epoch 8/40 | 3.9 s | train 0.7399 | val 0.7424 (halus 0.7371) | AUC val 0.453 | best 1 | VRAM 456 MiB
+2026-10-27 02:46:20 | INFO    | effnet_b0:2 | epoch 9/40 | 3.9 s | train 0.7262 | val 0.7372 (halus 0.7383) | AUC val 0.453 | best 1 | VRAM 456 MiB
+2026-10-27 02:46:24 | INFO    | effnet_b0:2 | epoch 10/40 | 3.9 s | train 0.7190 | val 0.7366 (halus 0.7388) | AUC val 0.461 | best 1 | VRAM 456 MiB
+2026-10-27 02:46:28 | INFO    | effnet_b0:2 | epoch 11/40 | 3.9 s | train 0.7420 | val 0.7336 (halus 0.7358) | AUC val 0.467 | best 1 | VRAM 456 MiB
+2026-10-27 02:46:32 | INFO    | effnet_b0:2: sudah belajar = False (train 0.755->0.742 | val halus terbaik 0.7312 vs konstan 0.7322 | AUC val 0.514)
+2026-10-27 02:46:32 | INFO    | Unit effnet_b0:2 selesai (done) | progres 54/168 unit selesai | 6.9 menit sejak mulai

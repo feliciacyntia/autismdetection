@@ -1,0 +1,33 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 155,
+  "balanced_accuracy": 0.5577510176390774,
+  "f1_macro": 0.5483682983682984,
+  "auc": 0.5781886024423338,
+  "sensitivity": 0.6268656716417911,
+  "specificity": 0.48863636363636365
+ },
+ "info": {
+  "feat": "roi",
+  "model": "catboost",
+  "site": "NYU",
+  "seed": 48,
+  "hp": {
+   "iterations": 1000,
+   "depth": 4,
+   "learning_rate": 0.03,
+   "l2_leaf_reg": 3,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 155
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "subset": "pilot200",
+ "unit": null,
+ "unit_index": 47,
+ "units_total": 57,
+ "units_done": 57,
+ "epoch": null,
+ "last_message": "run selesai",
+ "updated": "2026-10-27T01:14:53",
+ "max_epochs": 30,
+ "epoch_s": 19.5,
+ "eta_unit_min": 4.6
+}

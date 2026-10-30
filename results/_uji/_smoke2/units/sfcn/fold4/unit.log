@@ -1,0 +1,3 @@
+2026-10-27 00:17:36 | INFO    | === Unit 12/28: sfcn:4 ===
+2026-10-27 00:17:36 | INFO    | sfcn:4 | epoch 1/1 | 0.6 s | val loss 0.7342 | best epoch 1 | VRAM puncak 82 MiB
+2026-10-27 00:17:37 | INFO    | Unit sfcn:4 selesai (done) | progres 12/28 unit selesai | 1.8 menit sejak mulai

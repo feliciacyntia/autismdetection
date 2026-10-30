@@ -1,0 +1,9 @@
+2026-10-27 00:44:24 | INFO    | === Unit 23/57: effnet_b0:2 ===
+2026-10-27 00:44:30 | INFO    | effnet_b0:2 | epoch 1/30 | 4.8 s | val loss 0.7313 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:44:35 | INFO    | effnet_b0:2 | epoch 2/30 | 4.8 s | val loss 0.7400 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:44:39 | INFO    | effnet_b0:2 | epoch 3/30 | 4.8 s | val loss 0.7338 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:44:44 | INFO    | effnet_b0:2 | epoch 4/30 | 4.8 s | val loss 0.7472 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:44:49 | INFO    | effnet_b0:2 | epoch 5/30 | 4.8 s | val loss 0.7593 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:44:54 | INFO    | effnet_b0:2 | epoch 6/30 | 4.8 s | val loss 0.7857 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:44:59 | INFO    | effnet_b0:2 | epoch 7/30 | 4.8 s | val loss 1.0464 | best epoch 1 | VRAM puncak 483 MiB
+2026-10-27 00:45:03 | INFO    | Unit effnet_b0:2 selesai (done) | progres 23/57 unit selesai | 2.8 menit sejak mulai

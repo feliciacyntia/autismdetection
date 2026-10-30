@@ -1,0 +1,6 @@
+model,kelompok,status
+effnet_b0,CNN klasik,belum ada
+resnet18,CNN klasik,belum ada
+dinov2_s,foundation model,belum ada
+convnextv2_t,arsitektur modern,belum ada
+sfcn,CNN klasik (pretrained otak),belum ada

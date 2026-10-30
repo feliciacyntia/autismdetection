@@ -54,9 +54,12 @@ Preprocessing **tidak perlu diulang** (±3 hari); cukup clone repo + unduh citra
 clone bersih: 853 subjek termuat, split identik dengan full_v2, volume (853, 96, 112, 96) termuat, hash config terkunci cocok.
 ```powershell
 git clone https://github.com/feliciacyntia/autismdetection.git; Set-Location autismdetection
-# 1) citra (5,2 GB) masuk ke data\smri_preproc\ repo ini (file QC dari GitHub sudah ada di sana)
+# 1) citra hasil preprocessing (5,3 GB) masuk ke data\smri_preproc\ repo ini (file QC dari GitHub sudah ada di sana)
 pip install huggingface_hub
 hf download feliciacyntia/abide1-smri-prepro --repo-type dataset --local-dir data\smri_preproc
+# 1b) OPSIONAL (6,8 GB): checkpoint model .pt, cache embedding .npy, atlas ROI -> langsung masuk ke results\ dan pretrained\
+#     perlu hanya untuk memuat model yang sudah dilatih / ekstrak embedding / hitung ulang fitur ROI
+hf download feliciacyntia/abide1-asd-results --local-dir . --include "results/*" "pretrained/*"
 # 2) environment modeling (Python 3.12.3, GPU CUDA 12.1) — lihat komentar di requirements-model.txt untuk TabPFN
 python -m venv .venv-model
 .\.venv-model\Scripts\pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
@@ -64,8 +67,15 @@ python -m venv .venv-model
 # 3) arahkan kode ke data & hasil di repo (default kode = C:\ta_local\...)
 $env:TA06_IMAGE_ROOT   = "$PWD\data\smri_preproc"
 $env:TA06_RESULTS_ROOT = "$PWD\results"
+$env:TA06_PRETRAINED   = "$PWD\pretrained"
 $env:PYTHONIOENCODING  = "utf-8"
 ```
+| Isi | Di mana |
+|---|---|
+| kode, notebook (+ HTML), fenotipik (asli ABIDE & bersih), `folds.csv`, split inner, QC, log per subjek, audit, config terkunci, prediksi per subjek, tabel, gambar, log semua run (termasuk run uji di `results/_uji/`) | GitHub (repo ini) |
+| citra hasil preprocessing 853 dev (`vol`, `mask`, `nii`, `mask_native`, `xfm`, `qc_figures`, `templates`) + `repro/` + `_superseded/` | HF dataset `feliciacyntia/abide1-smri-prepro` |
+| checkpoint `.pt` (pilot, pilot_v2, bnfix, full_v2), cache embedding `.npy` pilot, atlas Harvard-Oxford grid 2 mm | HF model `feliciacyntia/abide1-asd-results` |
+| MRI mentah ABIDE, citra 149 subjek test, venv, file antara `data/work/` | tidak dibagikan |
 Hasil pembanding sudah ada di `results\` (prediksi per subjek, tabel, split) — tidak perlu melatih ulang untuk membandingkan.
 Untuk eksperimen baru pakai `--results-dir` folder baru, kunci config-nya dulu, dan bandingkan dengan
 `results/full_v2` (fusion fenotipik+ROI: acc 0,628 / AUC 0,664) memakai prediksi pada subjek yang sama.

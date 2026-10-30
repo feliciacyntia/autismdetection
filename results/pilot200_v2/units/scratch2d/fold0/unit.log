@@ -1,0 +1,29 @@
+2026-10-27 02:53:31 | INFO    | === Unit 62/168: scratch2d:0 ===
+2026-10-27 02:53:34 | INFO    | scratch2d:0 | epoch 1/60 | 3.7 s | train 0.7733 | val 0.7374 (halus 0.7374) | AUC val 0.576 | best 1 | VRAM 511 MiB
+2026-10-27 02:53:34 | INFO    | ESTIMASI scratch2d: ±3.7 s/epoch -> maks ±19 menit untuk 5 fold
+2026-10-27 02:53:38 | INFO    | scratch2d:0 | epoch 2/60 | 3.6 s | train 0.7376 | val 0.7311 (halus 0.7342) | AUC val 0.373 | best 2 | VRAM 511 MiB
+2026-10-27 02:53:42 | INFO    | scratch2d:0 | epoch 3/60 | 3.7 s | train 0.7300 | val 0.7413 (halus 0.7366) | AUC val 0.494 | best 2 | VRAM 511 MiB
+2026-10-27 02:53:46 | INFO    | scratch2d:0 | epoch 4/60 | 3.7 s | train 0.7415 | val 0.7324 (halus 0.7349) | AUC val 0.502 | best 2 | VRAM 511 MiB
+2026-10-27 02:53:49 | INFO    | scratch2d:0 | epoch 5/60 | 3.5 s | train 0.7448 | val 0.7313 (halus 0.7350) | AUC val 0.496 | best 2 | VRAM 511 MiB
+2026-10-27 02:53:53 | INFO    | scratch2d:0 | epoch 6/60 | 3.5 s | train 0.7539 | val 0.7356 (halus 0.7331) | AUC val 0.641 | best 6 | VRAM 511 MiB
+2026-10-27 02:53:56 | INFO    | scratch2d:0 | epoch 7/60 | 3.6 s | train 0.7509 | val 0.7329 (halus 0.7333) | AUC val 0.367 | best 6 | VRAM 511 MiB
+2026-10-27 02:54:00 | INFO    | scratch2d:0 | epoch 8/60 | 3.7 s | train 0.7329 | val 0.7331 (halus 0.7338) | AUC val 0.510 | best 6 | VRAM 511 MiB
+2026-10-27 02:54:04 | INFO    | scratch2d:0 | epoch 9/60 | 3.7 s | train 0.7350 | val 0.7311 (halus 0.7324) | AUC val 0.510 | best 9 | VRAM 511 MiB
+2026-10-27 02:54:08 | INFO    | scratch2d:0 | epoch 10/60 | 3.7 s | train 0.7401 | val 0.7313 (halus 0.7318) | AUC val 0.504 | best 10 | VRAM 511 MiB
+2026-10-27 02:54:11 | INFO    | scratch2d:0 | epoch 11/60 | 3.7 s | train 0.7364 | val 0.7449 (halus 0.7358) | AUC val 0.524 | best 10 | VRAM 511 MiB
+2026-10-27 02:54:15 | INFO    | scratch2d:0 | epoch 12/60 | 3.7 s | train 0.7467 | val 0.7397 (halus 0.7386) | AUC val 0.557 | best 10 | VRAM 511 MiB
+2026-10-27 02:54:19 | INFO    | scratch2d:0 | epoch 13/60 | 3.5 s | train 0.7360 | val 0.7288 (halus 0.7378) | AUC val 0.502 | best 10 | VRAM 511 MiB
+2026-10-27 02:54:23 | INFO    | scratch2d:0 | epoch 14/60 | 3.8 s | train 0.7399 | val 0.7324 (halus 0.7336) | AUC val 0.475 | best 10 | VRAM 511 MiB
+2026-10-27 02:54:26 | INFO    | scratch2d:0 | epoch 15/60 | 3.7 s | train 0.7386 | val 0.7313 (halus 0.7308) | AUC val 0.459 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:30 | INFO    | scratch2d:0 | epoch 16/60 | 3.6 s | train 0.7379 | val 0.7368 (halus 0.7335) | AUC val 0.402 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:34 | INFO    | scratch2d:0 | epoch 17/60 | 3.7 s | train 0.7318 | val 0.7409 (halus 0.7363) | AUC val 0.571 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:38 | INFO    | scratch2d:0 | epoch 18/60 | 3.8 s | train 0.7769 | val 0.7321 (halus 0.7366) | AUC val 0.498 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:41 | INFO    | scratch2d:0 | epoch 19/60 | 3.5 s | train 0.7490 | val 0.7309 (halus 0.7346) | AUC val 0.576 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:45 | INFO    | scratch2d:0 | epoch 20/60 | 3.7 s | train 0.7484 | val 0.7336 (halus 0.7322) | AUC val 0.606 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:49 | INFO    | scratch2d:0 | epoch 21/60 | 3.6 s | train 0.7315 | val 0.7308 (halus 0.7317) | AUC val 0.573 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:52 | INFO    | scratch2d:0 | epoch 22/60 | 3.8 s | train 0.7321 | val 0.7305 (halus 0.7316) | AUC val 0.592 | best 15 | VRAM 511 MiB
+2026-10-27 02:54:56 | INFO    | scratch2d:0 | epoch 23/60 | 3.7 s | train 0.7358 | val 0.7324 (halus 0.7312) | AUC val 0.575 | best 15 | VRAM 511 MiB
+2026-10-27 02:55:00 | INFO    | scratch2d:0 | epoch 24/60 | 3.7 s | train 0.7392 | val 0.7312 (halus 0.7314) | AUC val 0.573 | best 15 | VRAM 511 MiB
+2026-10-27 02:55:04 | INFO    | scratch2d:0 | epoch 25/60 | 3.8 s | train 0.7330 | val 0.7311 (halus 0.7316) | AUC val 0.561 | best 15 | VRAM 511 MiB
+2026-10-27 02:55:05 | INFO    | scratch2d:0: sudah belajar = True (train 0.773->0.733 | val halus terbaik 0.7308 vs konstan 0.7322 | AUC val 0.459)
+2026-10-27 02:55:05 | INFO    | Unit scratch2d:0 selesai (done) | progres 62/168 unit selesai | 15.5 menit sejak mulai

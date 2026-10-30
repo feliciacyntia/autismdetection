@@ -1,0 +1,5 @@
+model,kelompok,status,AUC inner val,BA fold,BA pooled [95% CI],F1m fold,F1m pooled [95% CI],AUC fold,AUC pooled [95% CI],Sens fold,Sens pooled [95% CI],Spes fold,Spes pooled [95% CI],params (latih/total)
+logreg,CNN/ML klasik,done,0.493,0.584 ± 0.088,"0.584 [0.515, 0.649]",0.582 ± 0.090,"0.584 [0.514, 0.649]",0.577 ± 0.084,"0.580 [0.497, 0.659]",0.557 ± 0.143,"0.558 [0.451, 0.657]",0.611 ± 0.106,"0.610 [0.516, 0.703]",-/7
+xgb,CNN/ML klasik,belum ada,,,,,,,,,,,,
+mlp_tab,CNN/ML klasik,belum ada,,,,,,,,,,,,
+tabm,arsitektur modern,belum ada,,,,,,,,,,,,

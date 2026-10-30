@@ -1,0 +1,7 @@
+2026-10-27 03:15:09 | INFO    | === Unit 72/168: cache_sfcn64 ===
+2026-10-27 03:15:13 | INFO    | Cache sfcn64: 50/200
+2026-10-27 03:15:16 | INFO    | Cache sfcn64: 100/200
+2026-10-27 03:15:20 | INFO    | Cache sfcn64: 150/200
+2026-10-27 03:15:23 | INFO    | Cache sfcn64: 200/200
+2026-10-27 03:15:23 | INFO    | Cek kewajaran SFCN (brain age vs AGE_AT_SCAN, tanpa label diagnosis): {'semua': {'n': 200, 'pearson_r': -0.08423642831872784, 'spearman_r': -0.06193895433768998}, 'usia>=18': {'n': 67, 'pearson_r': -0.13139805108403535, 'spearman_r': -0.16470236614053146}}
+2026-10-27 03:15:23 | INFO    | Unit cache_sfcn64 selesai (done) | progres 72/168 unit selesai | 35.7 menit sejak mulai

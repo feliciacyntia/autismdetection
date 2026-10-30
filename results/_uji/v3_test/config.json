@@ -1,0 +1,230 @@
+{
+ "config_hash": "4521259311445664-test",
+ "config_sha256": "4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54",
+ "config": {
+  "versi": "v3-tabular",
+  "dibuat": "2026-10-29",
+  "cakupan": "E1 (fenotipik & ROI: LogReg, TabM, CatBoost, TabPFN v2) + E3 (tuning Optuna model tabel, ensemble, threshold, konfounder, LOSO). E2 (DAFT) dan morfometri FreeSurfer DITUNDA.",
+  "tetap_tidak_diubah": {
+   "preprocessing_fingerprint": "682404ae0f5d2624",
+   "folds": "data/folds.csv; split inner (inner_train/inner_val) = splits.json full_v2 (config_hash 560c89845312e371), diverifikasi identik",
+   "kohort": "853 subjek dev; 149 test held-out tidak dibaca",
+   "pembanding_utama": {
+    "run": "C:\\ta_local\\results\\full_v2",
+    "model": "fusion_PR F1_stack_logreg",
+    "acc": 0.628,
+    "auc": 0.664
+   },
+   "dilarang_jadi_fitur": [
+    "SITE_ID",
+    "DX_GROUP",
+    "ADOS*",
+    "ADI_R*",
+    "SRS*",
+    "SCQ*",
+    "AQ*",
+    "DSM*"
+   ],
+   "kovariat_harmonisasi": [
+    "AGE_AT_SCAN",
+    "SEX"
+   ],
+   "seleksi": "model, hyperparameter, anggota ensemble, threshold: HANYA dari inner CV / inner validation; skor test fold hanya dilaporkan"
+  },
+  "fitur": {
+   "pheno": {
+    "kolom": "pheno_features full_v2 (AGE_AT_SCAN, SEX, FIQ, volume_mask_ml)",
+    "preprocessing": "pheno_preprocessor full_v2 (fit di data latih)"
+   },
+   "roi": {
+    "sumber": "full_v2/cache/roi/roi_features.csv (Harvard-Oxford mean & SD intensitas, 222 fitur)",
+    "preprocessing": "imputasi median -> ComBat (kovariat usia+SEX, tanpa diagnosis) -> StandardScaler, semua fit di data latih; situs tak terlihat tidak diharmonisasi & dicatat"
+   }
+  },
+  "protokol_unit": "per fold luar: T = inner_train + inner_val. OOF inner CV 5-fold (StratifiedKFold, random_state = 42 + fold) pada T -> prob. inner untuk seleksi/stacking/Youden; model akhir fit pada T -> test fold. Preprocessing di-fit ulang di tiap bagian latih.",
+  "seed": {
+   "basis": 42,
+   "neural_multi_seed": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "seed_efektif": "42 + fold + 1000 * s",
+   "model_deterministik": "seed s=0 saja"
+  },
+  "E1": {
+   "logreg_cv": {
+    "C_grid": [
+     0.0001,
+     0.000316,
+     0.001,
+     0.00316,
+     0.01,
+     0.0316,
+     0.1,
+     0.316,
+     1.0,
+     3.16,
+     10.0,
+     31.6,
+     100.0
+    ],
+    "pemilihan_C": "inner CV 3-fold stratified pada data latih fit tsb (preprocessing di-fit per split), skor AUC; seri -> C terkecil",
+    "class_weight": "balanced",
+    "max_iter": 5000
+   },
+   "tabm": {
+    "hp": "sama dengan full_v2: d_block 128, n_blocks 2, k 32, dropout 0.1, lr 0.001, wd 0.0001, epochs 400, patience 40, batch 32",
+    "early_stopping": "20% data latih (stratified, seed)",
+    "multi_seed": true
+   },
+   "catboost": {
+    "iterations": 1000,
+    "depth": 4,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 3,
+    "auto_class_weights": "Balanced",
+    "early_stopping_rounds": 50,
+    "early_stopping_data": "20% data latih (stratified, seed)",
+    "thread_count": 4
+   },
+   "tabpfn": {
+    "paket": "tabpfn==2.2.1 di .venv-tabpfn (terpisah)",
+    "bobot": "Prior-Labs/TabPFN-v2-clf tabpfn-v2-classifier-finetuned-zk73skhh.ckpt (lisensi Prior Labs: Apache-2.0 + atribusi)",
+    "n_estimators": 8,
+    "random_state": 0,
+    "device": "cuda bila tersedia, else cpu",
+    "input": "fitur setelah preprocessing yang sama (fit di data latih)"
+   }
+  },
+  "E3_tuning": {
+   "model": [
+    "logreg",
+    "tabm",
+    "catboost"
+   ],
+   "fitur": [
+    "pheno",
+    "roi"
+   ],
+   "alat": "Optuna TPESampler(seed = 42 + fold)",
+   "trial": 30,
+   "skor": "rerata AUC inner CV 3-fold (StratifiedKFold random_state = 42 + fold) pada T; preprocessing di-fit per split",
+   "ruang": {
+    "logreg": {
+     "C": "log-uniform [1e-4, 1e2]"
+    },
+    "tabm": {
+     "d_block": [
+      64,
+      128,
+      256
+     ],
+     "n_blocks": [
+      1,
+      2,
+      3
+     ],
+     "dropout": "uniform [0, 0.3]",
+     "lr": "log-uniform [3e-4, 3e-3]",
+     "wd": "log-uniform [1e-5, 1e-3]",
+     "tetap": "k 32, epochs 400, patience 40, batch 32"
+    },
+    "catboost": {
+     "depth": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "learning_rate": "log-uniform [0.01, 0.1]",
+     "l2_leaf_reg": "log-uniform [1, 10]",
+     "iterations": "int [300, 1500]",
+     "tetap": "Balanced, early_stopping 50"
+    }
+   },
+   "tuning_tabm": "objektif memakai seed s=0; model akhir (OOF + test) memakai 5 seed dengan parameter terbaik",
+   "setelah_tuning": "parameter terbaik dipakai untuk OOF inner CV 5-fold + fit akhir pada T (protokol_unit). Catatan: OOF untuk seleksi memakai parameter yang dipilih pada T yang sama (bias optimistis kecil pada seleksi; test fold tidak terlibat)."
+  },
+  "E3_ensemble": {
+   "kandidat_per_modalitas": {
+    "fenotipik": "E1 {logreg_cv, tabm, catboost, tabpfn} + E3 tuned {logreg, tabm, catboost} + full_v2 {logreg, mlp_tab, tabm}",
+    "roi": "E1 + E3 tuned (fitur roi) + full_v2 {roi_logreg_cb, roi_tabm_cb}",
+    "citra_2_5d": "full_v2 {effnet_b0, resnet18, scratch2d} (tidak dilatih ulang)",
+    "citra_3d": "full_v2 {scratch3d} (tidak dilatih ulang)"
+   },
+   "skor_seleksi": "AUC pooled inner: model tabel = part inner_oof (OOF inner CV pada T); citra = part inner_val (inner holdout). Multi-seed dirata-rata dulu per model.",
+   "aturan_masuk": "per modalitas ambil 1 model dengan skor seleksi tertinggi; modalitas masuk ensemble bila skor seleksinya >= 0.55",
+   "ensemble": {
+    "ENS_utama": "rerata probabilitas anggota terpilih",
+    "ENS_stack": "stacking LogReg C=1 class_weight balanced pada logit prob.; dilatih pada inner_oof bila semua anggota tabel, else pada inner_val (cabang citra = inner holdout, seperti full_v2)",
+    "ENS_tabel": "rerata probabilitas model fenotipik + ROI terpilih saja (pembanding tetap, tanpa citra)"
+   },
+   "threshold": {
+    "utama": 0.5,
+    "pelengkap": "Youden per fold dari prob. inner (tabel: part inner_val; rerata: rerata prob. inner_val anggota; stacking: cross_val_predict 5-fold pada set latih stacker); seri -> terdekat 0.5"
+   }
+  },
+  "evaluasi": {
+   "metrik": [
+    "accuracy",
+    "balanced_accuracy",
+    "f1_macro",
+    "auc",
+    "sensitivity",
+    "specificity"
+   ],
+   "ringkasan": "per fold mean +- SD, pooled OOF test, 95% CI bootstrap 2000x seed 42",
+   "uji_vs_full_v2": {
+    "auc": "DeLong berpasangan (prob. pooled OOF test, 853 subjek sama)",
+    "accuracy": "McNemar eksak (threshold 0.5)",
+    "koreksi": "Holm, terpisah untuk keluarga DeLong dan McNemar, mencakup semua model v3 yang dilaporkan"
+   },
+   "konfounder": {
+    "model": "ENS_utama, ENS_tabel, model fenotipik & ROI terpilih",
+    "uji": "Spearman prob. test vs AGE_AT_SCAN, FIQ, volume_mask_ml (semua subjek & per label); Kruskal-Wallis prob. vs SITE_ID"
+   },
+   "loso": {
+    "subjek": "dev dengan loso_eligible = True (812, 20 site)",
+    "model": "model fenotipik & ROI terpilih + ENS_tabel",
+    "hyperparameter": "tipe model terpilih dengan setting E1 (tuning tidak diulang per site; logreg C tetap via inner CV); TabM 5 seed",
+    "harmonisasi": "ComBat fit di site latih; site uji tak terlihat -> tidak diharmonisasi, dicatat",
+    "laporan": "pooled + per site; dibandingkan dengan 5-fold"
+   },
+   "figur": [
+    "confusion matrix",
+    "ROC",
+    "tabel ablasi fenotipik / ROI / citra / ensemble"
+   ]
+  },
+  "operasional": {
+   "hasil": "C:\\ta_local\\results\\v3",
+   "checkpoint": "per unit (eksperimen, fitur, model, seed, fold)",
+   "resume": "--resume",
+   "stop": "file STOP / --stop-at HH:MM / Ctrl+C sekali",
+   "cegah_sleep": true,
+   "ram_guard_gib": 4,
+   "full_v2": "hanya dibaca"
+  },
+  "dicatat": "semua unit termasuk yang gagal (status.csv + log)",
+  "ditunda": [
+   "E2 DAFT/FiLM/concat",
+   "morfometri FreeSurfer PCP",
+   "TabICL",
+   "BrainIAC"
+  ],
+  "tidak_dikerjakan": [
+   "AnatCL",
+   "Swin/ViT 3D",
+   "SAM-Med3D",
+   "DINOv2/v3",
+   "model 2.5D ImageNet tambahan",
+   "rs-fMRI",
+   "dataset baru"
+  ]
+ },
+ "test": true,
+ "created": "2026-10-29T04:11:36"
+}

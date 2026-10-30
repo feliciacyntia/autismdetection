@@ -1,0 +1,26 @@
+{
+ "fenotipik": {
+  "model": "full:tabm",
+  "skor": 0.6210496162129328,
+  "bagian": "inner_oof",
+  "masuk": true
+ },
+ "roi": {
+  "model": "v3:e1_roi_catboost",
+  "skor": 0.6416496233204754,
+  "bagian": "inner_oof",
+  "masuk": true
+ },
+ "citra_2_5d": {
+  "model": "full:effnet_b0",
+  "skor": 0.5768212431237468,
+  "bagian": "inner_val",
+  "masuk": true
+ },
+ "citra_3d": {
+  "model": "full:scratch3d",
+  "skor": 0.5871249121724677,
+  "bagian": "inner_val",
+  "masuk": true
+ }
+}

@@ -1,0 +1,4 @@
+2026-10-27 00:17:29 | INFO    | === Unit 8/28: sfcn:0 ===
+2026-10-27 00:17:32 | INFO    | sfcn:0 | epoch 1/1 | 0.7 s | val loss 0.7312 | best epoch 1 | VRAM puncak 142 MiB
+2026-10-27 00:17:32 | INFO    | ESTIMASI sfcn: ±0.7 s/epoch -> maks ±0 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:17:32 | INFO    | Unit sfcn:0 selesai (done) | progres 8/28 unit selesai | 1.7 menit sejak mulai

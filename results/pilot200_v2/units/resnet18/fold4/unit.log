@@ -1,0 +1,18 @@
+2026-10-27 02:52:30 | INFO    | === Unit 61/168: resnet18:4 ===
+2026-10-27 02:52:34 | INFO    | resnet18:4 | epoch 1/40 | 3.1 s | train 0.7400 | val 0.7355 (halus 0.7355) | AUC val 0.596 | best 1 | VRAM 336 MiB
+2026-10-27 02:52:37 | INFO    | resnet18:4 | epoch 2/40 | 3.1 s | train 0.7456 | val 0.7346 (halus 0.7351) | AUC val 0.633 | best 2 | VRAM 336 MiB
+2026-10-27 02:52:40 | INFO    | resnet18:4 | epoch 3/40 | 3.1 s | train 0.7387 | val 0.7358 (halus 0.7353) | AUC val 0.643 | best 2 | VRAM 336 MiB
+2026-10-27 02:52:44 | INFO    | resnet18:4 | epoch 4/40 | 3.1 s | train 0.7416 | val 0.7341 (halus 0.7348) | AUC val 0.563 | best 4 | VRAM 336 MiB
+2026-10-27 02:52:47 | INFO    | resnet18:4 | epoch 5/40 | 3.3 s | train 0.7426 | val 0.7341 (halus 0.7347) | AUC val 0.511 | best 5 | VRAM 336 MiB
+2026-10-27 02:52:51 | INFO    | resnet18:4 | epoch 6/40 | 3.9 s | train 0.7695 | val 0.7370 (halus 0.7351) | AUC val 0.611 | best 5 | VRAM 448 MiB
+2026-10-27 02:52:55 | INFO    | resnet18:4 | epoch 7/40 | 3.9 s | train 0.7375 | val 0.7342 (halus 0.7351) | AUC val 0.526 | best 5 | VRAM 448 MiB
+2026-10-27 02:52:59 | INFO    | resnet18:4 | epoch 8/40 | 3.8 s | train 0.7418 | val 0.7350 (halus 0.7354) | AUC val 0.465 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:03 | INFO    | resnet18:4 | epoch 9/40 | 3.8 s | train 0.7439 | val 0.7354 (halus 0.7349) | AUC val 0.478 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:07 | INFO    | resnet18:4 | epoch 10/40 | 3.8 s | train 0.7442 | val 0.7347 (halus 0.7350) | AUC val 0.441 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:11 | INFO    | resnet18:4 | epoch 11/40 | 4.0 s | train 0.7371 | val 0.7355 (halus 0.7352) | AUC val 0.459 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:15 | INFO    | resnet18:4 | epoch 12/40 | 3.8 s | train 0.7370 | val 0.7367 (halus 0.7356) | AUC val 0.433 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:19 | INFO    | resnet18:4 | epoch 13/40 | 3.7 s | train 0.7337 | val 0.7363 (halus 0.7362) | AUC val 0.435 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:23 | INFO    | resnet18:4 | epoch 14/40 | 3.9 s | train 0.7347 | val 0.7363 (halus 0.7364) | AUC val 0.430 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:27 | INFO    | resnet18:4 | epoch 15/40 | 3.9 s | train 0.7395 | val 0.7354 (halus 0.7360) | AUC val 0.400 | best 5 | VRAM 448 MiB
+2026-10-27 02:53:30 | INFO    | resnet18:4: sudah belajar = False (train 0.740->0.739 | val halus terbaik 0.7347 vs konstan 0.7345 | AUC val 0.511)
+2026-10-27 02:53:30 | INFO    | Unit resnet18:4 selesai (done) | progres 61/168 unit selesai | 13.9 menit sejak mulai

@@ -1,0 +1,33 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 44,
+  "balanced_accuracy": 0.5163398692810457,
+  "f1_macro": 0.4989648033126294,
+  "auc": 0.4901960784313726,
+  "sensitivity": 0.5882352941176471,
+  "specificity": 0.4444444444444444
+ },
+ "info": {
+  "feat": "roi",
+  "model": "catboost",
+  "site": "MAX_MUN",
+  "seed": 47,
+  "hp": {
+   "iterations": 1000,
+   "depth": 4,
+   "learning_rate": 0.03,
+   "l2_leaf_reg": 3,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 44
+ }
+}

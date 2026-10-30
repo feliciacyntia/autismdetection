@@ -1,0 +1,97 @@
+{
+ "test": {
+  "F1_mean_prob": {
+   "n": 37,
+   "balanced_accuracy": 0.7324561403508771,
+   "f1_macro": 0.7279411764705883,
+   "auc": 0.7251461988304093,
+   "sensitivity": 0.631578947368421,
+   "specificity": 0.8333333333333334
+  },
+  "F1_stack_logreg": {
+   "n": 37,
+   "balanced_accuracy": 0.5,
+   "f1_macro": 0.32727272727272727,
+   "auc": 0.26900584795321636,
+   "sensitivity": 0.0,
+   "specificity": 1.0
+  },
+  "F2_pca16_lgbm": {
+   "n": 37,
+   "balanced_accuracy": 0.6228070175438596,
+   "f1_macro": 0.6213450292397661,
+   "auc": 0.584795321637427,
+   "sensitivity": 0.5789473684210527,
+   "specificity": 0.6666666666666666
+  },
+  "F2_pca16_logreg": {
+   "n": 37,
+   "balanced_accuracy": 0.4327485380116959,
+   "f1_macro": 0.43243243243243246,
+   "auc": 0.4473684210526316,
+   "sensitivity": 0.42105263157894735,
+   "specificity": 0.4444444444444444
+  },
+  "F2_pca16_mlp": {
+   "n": 37,
+   "balanced_accuracy": 0.4342105263157895,
+   "f1_macro": 0.4307692307692308,
+   "auc": 0.47076023391812866,
+   "sensitivity": 0.3684210526315789,
+   "specificity": 0.5
+  },
+  "F2_pca8_lgbm": {
+   "n": 37,
+   "balanced_accuracy": 0.49122807017543857,
+   "f1_macro": 0.47261815453863465,
+   "auc": 0.4181286549707603,
+   "sensitivity": 0.3157894736842105,
+   "specificity": 0.6666666666666666
+  },
+  "F2_pca8_logreg": {
+   "n": 37,
+   "balanced_accuracy": 0.35526315789473684,
+   "f1_macro": 0.3392857142857143,
+   "auc": 0.3508771929824561,
+   "sensitivity": 0.21052631578947367,
+   "specificity": 0.5
+  },
+  "F2_pca8_mlp": {
+   "n": 37,
+   "balanced_accuracy": 0.43567251461988304,
+   "f1_macro": 0.42572062084257206,
+   "auc": 0.4269005847953216,
+   "sensitivity": 0.3157894736842105,
+   "specificity": 0.5555555555555556
+  },
+  "F2_raw128_lgbm": {
+   "n": 37,
+   "balanced_accuracy": 0.4619883040935673,
+   "f1_macro": 0.45588235294117646,
+   "auc": 0.4546783625730994,
+   "sensitivity": 0.3684210526315789,
+   "specificity": 0.5555555555555556
+  },
+  "F2_raw128_logreg": {
+   "n": 37,
+   "balanced_accuracy": 0.5146198830409356,
+   "f1_macro": 0.513157894736842,
+   "auc": 0.4298245614035088,
+   "sensitivity": 0.47368421052631576,
+   "specificity": 0.5555555555555556
+  },
+  "F2_raw128_mlp": {
+   "n": 37,
+   "balanced_accuracy": 0.5160818713450293,
+   "f1_macro": 0.5102941176470588,
+   "auc": 0.4766081871345029,
+   "sensitivity": 0.42105263157894735,
+   "specificity": 0.6111111111111112
+  }
+ },
+ "selection": {
+  "img": "dinov2_s",
+  "pheno": "logreg"
+ },
+ "note": "head fusion dilatih pada inner holdout (20% train) tiap fold; penyederhanaan pilot"
+}

@@ -1,0 +1,12 @@
+2026-10-27 00:46:28 | INFO    | === Unit 26/57: resnet18:0 ===
+2026-10-27 00:46:33 | INFO    | resnet18:0 | epoch 1/30 | 4.0 s | val loss 0.7349 | best epoch 1 | VRAM puncak 487 MiB
+2026-10-27 00:46:33 | INFO    | ESTIMASI resnet18: ±4.0 s/epoch -> maks ±10 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:46:38 | INFO    | resnet18:0 | epoch 2/30 | 4.0 s | val loss 0.7334 | best epoch 2 | VRAM puncak 487 MiB
+2026-10-27 00:46:42 | INFO    | resnet18:0 | epoch 3/30 | 4.0 s | val loss 0.7316 | best epoch 3 | VRAM puncak 486 MiB
+2026-10-27 00:46:46 | INFO    | resnet18:0 | epoch 4/30 | 4.0 s | val loss 0.7322 | best epoch 3 | VRAM puncak 487 MiB
+2026-10-27 00:46:50 | INFO    | resnet18:0 | epoch 5/30 | 4.0 s | val loss 0.7318 | best epoch 3 | VRAM puncak 488 MiB
+2026-10-27 00:46:54 | INFO    | resnet18:0 | epoch 6/30 | 4.0 s | val loss 0.7320 | best epoch 3 | VRAM puncak 487 MiB
+2026-10-27 00:46:59 | INFO    | resnet18:0 | epoch 7/30 | 4.0 s | val loss 0.7323 | best epoch 3 | VRAM puncak 487 MiB
+2026-10-27 00:47:03 | INFO    | resnet18:0 | epoch 8/30 | 4.0 s | val loss 0.7319 | best epoch 3 | VRAM puncak 487 MiB
+2026-10-27 00:47:07 | INFO    | resnet18:0 | epoch 9/30 | 4.0 s | val loss 0.7322 | best epoch 3 | VRAM puncak 486 MiB
+2026-10-27 00:47:10 | INFO    | Unit resnet18:0 selesai (done) | progres 26/57 unit selesai | 4.9 menit sejak mulai

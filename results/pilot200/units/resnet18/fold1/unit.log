@@ -1,0 +1,10 @@
+2026-10-27 00:47:10 | INFO    | === Unit 27/57: resnet18:1 ===
+2026-10-27 00:47:15 | INFO    | resnet18:1 | epoch 1/30 | 4.1 s | val loss 0.7204 | best epoch 1 | VRAM puncak 469 MiB
+2026-10-27 00:47:19 | INFO    | resnet18:1 | epoch 2/30 | 4.1 s | val loss 0.7092 | best epoch 2 | VRAM puncak 470 MiB
+2026-10-27 00:47:24 | INFO    | resnet18:1 | epoch 3/30 | 4.1 s | val loss 0.7093 | best epoch 2 | VRAM puncak 469 MiB
+2026-10-27 00:47:28 | INFO    | resnet18:1 | epoch 4/30 | 4.2 s | val loss 0.7097 | best epoch 2 | VRAM puncak 470 MiB
+2026-10-27 00:47:32 | INFO    | resnet18:1 | epoch 5/30 | 4.2 s | val loss 0.7096 | best epoch 2 | VRAM puncak 469 MiB
+2026-10-27 00:47:37 | INFO    | resnet18:1 | epoch 6/30 | 4.3 s | val loss 0.7097 | best epoch 2 | VRAM puncak 471 MiB
+2026-10-27 00:47:41 | INFO    | resnet18:1 | epoch 7/30 | 4.2 s | val loss 0.7097 | best epoch 2 | VRAM puncak 469 MiB
+2026-10-27 00:47:46 | INFO    | resnet18:1 | epoch 8/30 | 4.2 s | val loss 0.7098 | best epoch 2 | VRAM puncak 470 MiB
+2026-10-27 00:47:49 | INFO    | Unit resnet18:1 selesai (done) | progres 27/57 unit selesai | 5.6 menit sejak mulai

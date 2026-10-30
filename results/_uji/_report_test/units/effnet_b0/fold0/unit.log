@@ -1,0 +1,12 @@
+2026-10-27 00:38:22 | INFO    | === Unit 21/21: effnet_b0:0 ===
+2026-10-27 00:38:25 | INFO    | Volume dimuat ke RAM: 200 subjek (1.8 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:38:36 | INFO    | effnet_b0:0 | epoch 1/3 | 8.8 s | val loss 0.7327 | best epoch 1 | VRAM puncak 482 MiB
+2026-10-27 00:38:36 | INFO    | ESTIMASI effnet_b0: ±8.8 s/epoch -> maks ±2 menit untuk 5 fold (early stopping biasanya lebih cepat)
+2026-10-27 00:38:41 | INFO    | effnet_b0:0 | epoch 2/3 | 4.5 s | val loss 0.7301 | best epoch 2 | VRAM puncak 482 MiB
+2026-10-27 00:38:41 | WARNING | Stop-file ditemukan: berhenti setelah langkah yang sedang berjalan selesai.
+2026-10-27 00:38:41 | WARNING | Berhenti rapi di effnet_b0:0 (stop-file C:\ta_local\results\_report_test\STOP); lanjutkan dengan --resume.
+2026-10-27 00:39:06 | INFO    | === Unit 21/21: effnet_b0:0 ===
+2026-10-27 00:39:13 | INFO    | Volume dimuat ke RAM: 200 subjek (3.3 s) | posisi slice {'sag': [34, 41, 48, 55, 62], 'cor': [38, 47, 56, 64, 73], 'ax': [23, 31, 38, 46, 54]}
+2026-10-27 00:39:15 | INFO    | Resume dari checkpoint epoch 2 (best epoch 2, val loss 0.7301)
+2026-10-27 00:39:23 | INFO    | effnet_b0:0 | epoch 3/3 | 8.7 s | val loss 0.7314 | best epoch 2 | VRAM puncak 483 MiB
+2026-10-27 00:39:27 | INFO    | Unit effnet_b0:0 selesai (done) | progres 21/21 unit selesai | 0.3 menit sejak mulai

@@ -1,0 +1,11 @@
+2026-10-27 00:49:40 | INFO    | === Unit 31/57: cache_sfcn ===
+2026-10-27 00:49:40 | INFO    | Cache sfcn: 200/200 subjek perlu dihitung
+2026-10-27 00:49:42 | INFO    | Cache sfcn: 25/200 (2 s)
+2026-10-27 00:49:43 | INFO    | Cache sfcn: 50/200 (4 s)
+2026-10-27 00:49:45 | INFO    | Cache sfcn: 75/200 (5 s)
+2026-10-27 00:49:47 | INFO    | Cache sfcn: 100/200 (7 s)
+2026-10-27 00:49:48 | INFO    | Cache sfcn: 125/200 (9 s)
+2026-10-27 00:49:50 | INFO    | Cache sfcn: 150/200 (10 s)
+2026-10-27 00:49:52 | INFO    | Cache sfcn: 175/200 (12 s)
+2026-10-27 00:49:53 | INFO    | Cache sfcn: 200/200 (13 s)
+2026-10-27 00:49:53 | INFO    | Unit cache_sfcn selesai (done) | progres 31/57 unit selesai | 7.7 menit sejak mulai
