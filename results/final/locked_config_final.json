@@ -1,0 +1,29 @@
+{
+ "versi": "final-sMRI-fenotipik",
+ "dikunci": "2026-10-30",
+ "keputusan": "Pemilik TA menyetujui evaluasi test SEKARANG untuk model sMRI + fenotipik (pilihan di chat 2026-10-30). Eksperimen rs-fMRI berikutnya dibandingkan di CV dev; bila dites di 149 test, dilaporkan terpisah sebagai analisis tambahan (post-hoc).",
+ "model_final": {
+  "nama": "ENS_utama v3",
+  "definisi": "rerata probabilitas anggota terpilih (aturan locked_config_v3: 1 model per modalitas dengan skor inner tertinggi, masuk bila >= 0.55)",
+  "anggota": ["v3:e3_pheno_tabm", "v3:e3_roi_logreg", "full:effnet_b0", "full:scratch3d"],
+  "sumber_seleksi": "results/v3/report/selection_final.json (sha256 013dbcb59732131ec46db059fb6613ac8429540ba0deca04a0c50bd54fe81b91), skor inner saja"
+ },
+ "cara_prediksi_test": {
+  "model": "model yang sudah dilatih per fold CV (5 fold); TabM juga 5 seed. Tidak ada pelatihan ulang dengan hyperparameter baru.",
+  "agregasi": "prob. test anggota = rerata 5 model fold (dan seed); prob. model final = rerata prob. anggota",
+  "tabel_v3": "fit ulang deterministik model akhir tiap fold (T = inner_train + inner_val, hyperparameter terbaik Optuna fold tsb, seed sama) — dibuktikan dengan mereproduksi prediksi fold-CV yang tersimpan",
+  "citra": "bobot best.pt tiap fold full_v2; kalibrasi BN dari inner_train tanpa augmentasi bila bn_recal (scratch3d); 2.5D tanpa jitter",
+  "fitur_ROI_test": "diekstrak dengan fungsi & atlas yang sama (deterministik, tanpa parameter yang dipelajari); ComBat/scaler dari data latih fold"
+ },
+ "toleransi_reproduksi": 0.001,
+ "threshold": {"utama": 0.5, "pelengkap": "Youden = rerata threshold Youden 5 fold dari prob. inner (bukan test)"},
+ "pembanding": {
+  "full_v2_fusion_PR": "hasil utama full_v2 (fenotipik + ROI, stacking LogReg), diprediksi dengan cara yang sama",
+  "ENS_tabel": ["v3:e3_pheno_tabm", "v3:e3_roi_logreg"],
+  "uji": "DeLong (AUC) & McNemar (accuracy) model final vs fusion PR — sekunder/deskriptif, n = 149"
+ },
+ "metrik": ["accuracy", "balanced_accuracy", "f1_macro", "auc", "sensitivity", "specificity"],
+ "ci": "bootstrap 2000x seed 42",
+ "sekali": "skrip menolak jalan bila results/final/heldout_predictions.csv sudah ada; prediksi test disimpan sebelum label test dipakai",
+ "sumber": {"full_v2_config_hash": "560c89845312e371", "v3_config_sha256": "4521259311445664a2f7ce07722ae7b8633c0acb878b17dc0eb9948bc2842c54", "preprocessing_fingerprint": "682404ae0f5d2624"}
+}

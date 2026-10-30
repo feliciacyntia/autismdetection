@@ -1,0 +1,27 @@
+2026-10-30 15:07:48 | INFO    | EVALUASI FINAL | config sha256 9f5dc684391a32dfaea0075d731247667fa686670eec0402fbcbae1c05aa85b3
+2026-10-30 15:07:48 | INFO    | dev 853 | test held-out 149 | override [(50404, 'volume_mask_ml')]
+2026-10-30 15:07:58 | INFO    | ROI test: 149 subjek x 222 fitur (reproduksi 5 subjek dev: identik)
+2026-10-30 15:08:00 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-30 15:10:30 | INFO    | anggota v3:e3_pheno_tabm selesai (2.5 menit)
+2026-10-30 15:10:31 | INFO    | anggota v3:e3_roi_logreg selesai (2.5 menit)
+2026-10-30 15:10:51 | INFO    | effnet_b0 fold 0: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:11:03 | INFO    | effnet_b0 fold 1: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:11:15 | INFO    | effnet_b0 fold 2: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:11:30 | INFO    | effnet_b0 fold 3: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:11:48 | INFO    | effnet_b0 fold 4: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:11:48 | INFO    | anggota full:effnet_b0 selesai (3.8 menit)
+2026-10-30 15:12:29 | INFO    | scratch3d fold 0: reproduksi fold-CV max|Δ| 8.33e-17
+2026-10-30 15:13:09 | INFO    | scratch3d fold 1: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:13:46 | INFO    | scratch3d fold 2: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:14:28 | INFO    | scratch3d fold 3: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:15:12 | INFO    | scratch3d fold 4: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:15:12 | INFO    | anggota full:scratch3d selesai (7.2 menit)
+2026-10-30 15:18:27 | INFO    | Reproduksi prediksi fold-CV (max|Δ|):
+anggota
+full:effnet_b0                     5.551115e-17
+full:scratch3d                     8.326673e-17
+full_v2:mlp_tab (fusion PR)        1.110223e-16
+full_v2:roi_tabm_cb (fusion PR)    1.110223e-16
+v3:e3_pheno_tabm                   1.110223e-16
+v3:e3_roi_logreg                   1.110223e-16
+2026-10-30 15:18:27 | INFO    | Prediksi test disimpan; menghitung metrik dengan label test (sekali).

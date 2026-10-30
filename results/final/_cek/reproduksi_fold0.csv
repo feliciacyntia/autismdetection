@@ -1,0 +1,11 @@
+anggota,fold,seed,max|Δ| prediksi fold-CV
+v3:e3_pheno_tabm,0,0,5.551115123125783e-17
+v3:e3_pheno_tabm,0,1,5.551115123125783e-17
+v3:e3_pheno_tabm,0,2,5.551115123125783e-17
+v3:e3_pheno_tabm,0,3,5.551115123125783e-17
+v3:e3_pheno_tabm,0,4,5.551115123125783e-17
+v3:e3_roi_logreg,0,0,5.551115123125783e-17
+full:effnet_b0,0,0,5.551115123125783e-17
+full:scratch3d,0,0,8.326672684688674e-17
+full_v2:mlp_tab (fusion PR),0,0,1.1102230246251565e-16
+full_v2:roi_tabm_cb (fusion PR),0,0,1.1102230246251565e-16

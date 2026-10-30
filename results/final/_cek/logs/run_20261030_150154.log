@@ -1,0 +1,18 @@
+2026-10-30 15:01:54 | INFO    | EVALUASI FINAL | config sha256 9f5dc684391a32dfaea0075d731247667fa686670eec0402fbcbae1c05aa85b3
+2026-10-30 15:01:54 | INFO    | dev 853 | test held-out 149 | override [(50404, 'volume_mask_ml')]
+2026-10-30 15:01:56 | INFO    | Kohort 853 subjek | ROI 222 fitur | fenotipik ['AGE_AT_SCAN', 'SEX', 'FIQ', 'volume_mask_ml'] | LOSO 812 subjek / 18 site
+2026-10-30 15:02:37 | INFO    | anggota v3:e3_pheno_tabm selesai (0.7 menit)
+2026-10-30 15:02:38 | INFO    | anggota v3:e3_roi_logreg selesai (0.7 menit)
+2026-10-30 15:03:03 | INFO    | effnet_b0 fold 0: reproduksi fold-CV max|Δ| 5.55e-17
+2026-10-30 15:03:03 | INFO    | anggota full:effnet_b0 selesai (1.1 menit)
+2026-10-30 15:03:41 | INFO    | scratch3d fold 0: reproduksi fold-CV max|Δ| 8.33e-17
+2026-10-30 15:03:41 | INFO    | anggota full:scratch3d selesai (1.7 menit)
+2026-10-30 15:04:22 | INFO    | Reproduksi prediksi fold-CV (max|Δ|):
+anggota
+full:effnet_b0                     5.551115e-17
+full:scratch3d                     8.326673e-17
+full_v2:mlp_tab (fusion PR)        1.110223e-16
+full_v2:roi_tabm_cb (fusion PR)    1.110223e-16
+v3:e3_pheno_tabm                   5.551115e-17
+v3:e3_roi_logreg                   5.551115e-17
+2026-10-30 15:04:22 | INFO    | CEK selesai (2.4 menit): LULUS

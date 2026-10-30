@@ -4,17 +4,20 @@ Tugas akhir: klasifikasi Autism Spectrum Disorder (ASD) vs Typically Developing 
 struktural T1w dan data fenotipik. Repo ini berisi kode, notebook, protokol split, dokumentasi QC, dan seluruh hasil
 eksperimen. **Data citra hasil preprocessing ada di Hugging Face** (terlalu besar untuk GitHub), lihat bagian Data.
 
-## Status (29-10-2026)
+## Status (30-10-2026)
+Alur lengkap, keputusan, dan semua hasil: **[docs/ALUR_PENGERJAAN.md](docs/ALUR_PENGERJAAN.md)**.
+
 | Tahap | Status |
 |---|---|
 | EDA, merge, cleaning fenotipik (notebook 01–04) | selesai |
 | Audit fold & split (05a), preprocessing fenotipik (05b) | selesai |
 | Preprocessing sMRI 05c, 1.002 subjek + audit konsistensi | selesai, lulus audit |
 | Pilot 200 subjek (uji coba) + bugfix BN + threshold Youden | selesai (notebook 06–08) |
-| **Run data penuh full_v2** (853 dev, config terkunci) | selesai — hasil utama saat ini |
-| v3 tabel: LogReg/TabM/CatBoost/TabPFN, tuning Optuna, LOSO | run selesai (288 unit); analisis & laporan menyusul |
+| **Run data penuh full_v2** (853 dev, config terkunci) | selesai |
+| v3 tabel: LogReg/TabM/CatBoost/TabPFN, tuning Optuna, LOSO | selesai (288 unit) + analisis (`results/v3/report/`) |
 | E2 fusion DL (DAFT/FiLM), morfometri FreeSurfer | ditunda |
-| Evaluasi akhir 149 subjek test held-out | **belum** (menunggu config final disetujui) |
+| **Evaluasi akhir 149 subjek test held-out** (sekali, config final terkunci) | **selesai** — `results/final/` |
+| rs-fMRI (time series) | rencana berikutnya; test sudah dipakai → dilaporkan post-hoc |
 
 ### Hasil utama full_v2 (853 subjek dev, 5-fold CV, threshold 0,5, pooled + 95 % CI bootstrap)
 | Model | Accuracy | BA [95 % CI] | F1 macro | AUC |
@@ -28,6 +31,19 @@ eksperimen. **Data citra hasil preprocessing ada di Hugging Face** (terlalu besa
 
 Fusion utama signifikan lebih baik dari baseline LogReg (McNemar, Holm p = 0,040). Rincian: `results/full_v2/report/`,
 notebook `06_modeling_report.ipynb`, ringkasan `07_ringkasan_insight.ipynb`.
+
+### Model final & hasil test held-out (149 subjek, dijalankan sekali)
+Model final = ensemble rata-rata probabilitas TabM fenotipik + LogReg ROI + EfficientNet-B0 2.5D + CNN 3D (anggota dipilih
+dari skor inner validation, v3).
+
+| Model | Accuracy CV dev (853) | AUC CV dev | **Accuracy TEST** [95 % CI] | **AUC TEST** [95 % CI] |
+|---|---|---|---|---|
+| **Model final (ENS_utama)** | 0,660 | 0,692 | **0,597** [0,517–0,678] | **0,657** [0,566–0,745] |
+| Ensemble tabel (fenotipik + ROI) | 0,657 | 0,686 | 0,604 [0,523–0,685] | 0,658 [0,565–0,746] |
+| Fusion full_v2 | 0,628 | 0,664 | 0,604 [0,523–0,685] | 0,644 [0,549–0,731] |
+
+Di test, model final tidak berbeda dari fusion full_v2 (DeLong p = 0,48; McNemar p = 1,0). Rincian: `results/final/ringkasan_final.md`.
+
 
 ## Data
 - **Fenotipik**: `dataset/cleaned_dataset/cleaned_master_dataset.csv` (+ `data_dictionary.csv`, `cleaning_log.csv`), `data/pheno_clean.csv`.

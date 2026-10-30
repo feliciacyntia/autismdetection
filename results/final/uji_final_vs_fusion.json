@@ -1,0 +1,11 @@
+{
+ "AUC model final": 0.6572463768115943,
+ "AUC fusion PR": 0.6436594202898551,
+ "p DeLong": 0.48391502141530385,
+ "Acc model final": 0.5973154362416108,
+ "Acc fusion PR": 0.6040268456375839,
+ "hanya fusion PR benar": 11,
+ "hanya model final benar": 10,
+ "p McNemar": 1.0,
+ "catatan": "uji sekunder deskriptif (n = 149); hipotesis utama = performa model final di test"
+}
