@@ -17,8 +17,8 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import pilot_common as pc  # noqa: E402
 
-RD = Path(r"C:\ta_local\results\full_v2")
-PILOT, PILOT_BNFIX = Path(r"C:\ta_local\results\pilot200_v2"), Path(r"C:\ta_local\results\pilot200_v2_bnfix")
+RD = pc.RESULTS_ROOT / "full_v2"                                   # env TA06_RESULTS_ROOT (default C:\ta_local\results)
+PILOT, PILOT_BNFIX = pc.RESULTS_ROOT / "pilot200_v2", pc.RESULTS_ROOT / "pilot200_v2_bnfix"
 BASE = [("fenotipik", "logreg"), ("fenotipik", "mlp_tab"), ("fenotipik", "tabm"),
         ("ROI", "roi_logreg_cb"), ("ROI", "roi_tabm_cb"),
         ("citra 2.5D pretrained", "effnet_b0"), ("citra 2.5D pretrained", "resnet18"),

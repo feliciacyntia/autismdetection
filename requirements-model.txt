@@ -1,0 +1,38 @@
+# Dependensi MODELING (setelah preprocessing) — versi persis yang dipakai untuk pilot, full_v2, dan v3.
+# Python 3.12.3. Preprocessing sMRI TIDAK perlu diulang (hasilnya di Hugging Face); requirements-kaggle.txt hanya untuk preprocessing.
+#
+# Instal (Windows / Linux, GPU CUDA 12.1):
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements-model.txt
+# TabPFN v2 dipasang di venv TERPISAH (butuh scikit-learn < 1.7):
+#   python -m venv .venv-tabpfn
+#   .venv-tabpfn: pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121 ; pip install tabpfn==2.2.1 numpy==2.1.1 pandas==2.3.1
+
+numpy==2.1.1
+scipy==1.15.3
+pandas==2.3.1
+scikit-learn==1.7.0
+statsmodels==0.15.0
+matplotlib==3.10.3
+psutil==6.1.0
+nibabel==5.4.2
+nilearn==0.13.1
+
+# model
+timm==1.0.22
+safetensors==0.7.0
+tabm==0.0.3
+rtdl_num_embeddings==0.0.12
+catboost==1.2.10
+optuna==5.0.0
+xgboost==3.4.1
+lightgbm==4.7.0
+neuroCombat==0.2.12
+neuroHarmonize==2.4.5
+
+# data & notebook
+huggingface_hub==1.17.0
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.2
+ipykernel==6.29.5
