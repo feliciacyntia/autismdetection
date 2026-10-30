@@ -31,3 +31,9 @@ ckpt/
 run.lock
 STOP
 *.tmp
+
+# --- ikut terunduh dari Hugging Face ke data/smri_preproc/ (jangan di-commit) ---
+data/smri_preproc/.gitattributes
+data/smri_preproc/README.md
+data/smri_preproc/SHA256SUMS
+data/smri_preproc/.cache/

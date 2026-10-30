@@ -39,29 +39,47 @@ notebook `06_modeling_report.ipynb`, ringkasan `07_ringkasan_insight.ipynb`.
   (5,2 GB) — `vol/{SUB_ID}.npy` float32 (1, 96, 112, 96) = input model, `mask/` uint8, `nii/` (volume + mask sebagai
   NIfTI, isi sama dengan .npy), `mask_native/`, `xfm/` (affine ANTs), `qc_figures/`, `templates/` (MNI152), `SHA256SUMS`.
   Hugging Face hanya berisi file besar; daftar subjek/label/fold, QC, dan log per subjek ada di repo ini (tanpa duplikat).
-  Unduh: `hf download feliciacyntia/abide1-smri-prepro --repo-type dataset --local-dir C:\ta_local\data\smri_preproc`.
-  Letakkan isinya di `C:\ta_local\data\smri_preproc\` (lokasi default kode) atau set env var `TA06_IMAGE_ROOT` ke folder tsb.
+  Unduh **ke dalam `data/smri_preproc/` repo ini** (digabung dengan file QC GitHub di folder yang sama) — lihat "Setup".
 - **Tidak disertakan**: citra mentah ABIDE (unduh sendiri dari ABIDE/INDI setelah menyetujui ketentuannya) dan
-  **149 subjek test held-out** (disimpan pemilik TA untuk evaluasi akhir sekali).
+  **citra 149 subjek test held-out** (disimpan pemilik TA untuk evaluasi akhir sekali). Label diagnosis test tetap terlihat
+  di `data/folds.csv` / tabel fenotipik karena fenotipik ABIDE memang publik — jadi pengamannya adalah aturan:
+  **baris `split == "test"` tidak boleh dipakai untuk melatih, memilih, atau mengevaluasi model.**
 
 ## Preprocessing sMRI (05c-v2.1, fingerprint `682404ae0f5d2624`)
 Reorient → N4 → HD-BET (GPU, deterministik) → registrasi afin ANTs ke MNI152 1 mm → 2 mm → crop 96 × 112 × 96 → z-score di mask.
 Kode: `src/smri_preprocessing.py`, `src/run_05c.py`; notebook `05c_preprocessing_smri.ipynb`.
 
-## Menjalankan
+## Setup untuk melanjutkan modeling (tanpa preprocessing ulang)
+Preprocessing **tidak perlu diulang** (±3 hari); cukup clone repo + unduh citra dari Hugging Face. Diuji 30-10-2026 pada
+clone bersih: 853 subjek termuat, split identik dengan full_v2, volume (853, 96, 112, 96) termuat, hash config terkunci cocok.
 ```powershell
-# environment utama (Python 3.12.3, torch 2.5.1+cu121)
-python -m venv .venv-model; .\.venv-model\Scripts\pip install -r requirements-kaggle.txt -c constraints-model.txt
-# TabPFN (venv terpisah, tabpfn 2.2.1 = bobot v2)
-python -m venv .venv-tabpfn; .\.venv-tabpfn\Scripts\pip install -r constraints-tabpfn.txt
+git clone https://github.com/feliciacyntia/autismdetection.git; Set-Location autismdetection
+# 1) citra (5,2 GB) masuk ke data\smri_preproc\ repo ini (file QC dari GitHub sudah ada di sana)
+pip install huggingface_hub
+hf download feliciacyntia/abide1-smri-prepro --repo-type dataset --local-dir data\smri_preproc
+# 2) environment modeling (Python 3.12.3, GPU CUDA 12.1) — lihat komentar di requirements-model.txt untuk TabPFN
+python -m venv .venv-model
+.\.venv-model\Scripts\pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+.\.venv-model\Scripts\pip install -r requirements-model.txt
+# 3) arahkan kode ke data & hasil di repo (default kode = C:\ta_local\...)
+$env:TA06_IMAGE_ROOT   = "$PWD\data\smri_preproc"
+$env:TA06_RESULTS_ROOT = "$PWD\results"
+$env:PYTHONIOENCODING  = "utf-8"
+```
+Hasil pembanding sudah ada di `results\` (prediksi per subjek, tabel, split) — tidak perlu melatih ulang untuk membandingkan.
+Untuk eksperimen baru pakai `--results-dir` folder baru, kunci config-nya dulu, dan bandingkan dengan
+`results/full_v2` (fusion fenotipik+ROI: acc 0,628 / AUC 0,664) memakai prediksi pada subjek yang sama.
 
+## Menjalankan (perintah yang dipakai pemilik TA)
+```powershell
 # run data penuh (config terkunci) dan analisis
-.\.venv-model\Scripts\python.exe src\run_pilot_v2.py --subset all --locked results\pilot200_v2\locked_config_kandidat.json --budget-scale 5 --results-dir C:\ta_local\results\full_v2
+.\.venv-model\Scripts\python.exe src\run_pilot_v2.py --subset all --locked results\pilot200_v2\locked_config_kandidat.json --budget-scale 5 --results-dir $env:TA06_RESULTS_ROOT\full_v2_ulang
 .\.venv-model\Scripts\python.exe src\analysis_full_v2.py
 # v3 tabel (config: results\v3\locked_config_v3.json + .sha256)
-.\.venv-model\Scripts\python.exe src\run_v3_tabular.py
+.\.venv-model\Scripts\python.exe src\run_v3_tabular.py --results-dir $env:TA06_RESULTS_ROOT\v3_ulang
 ```
-Semua runner: `--resume`, file `STOP` di folder hasil atau `--stop-at HH:MM` untuk berhenti rapi, cegah sleep, guard RAM 4 GiB.
+Semua runner: `--resume`, file `STOP` di folder hasil atau `--stop-at HH:MM` untuk berhenti rapi, cegah sleep,
+guard RAM (butuh ≥ 4 GiB RAM bebas saat mulai). `requirements-kaggle.txt` hanya untuk preprocessing.
 
 ## Aturan eksperimen (wajib dijaga)
 - Semua yang dipelajari (scaling, imputasi, ComBat, PCA, seleksi fitur, SMOTE) di-fit **hanya di data latih tiap fold**.
