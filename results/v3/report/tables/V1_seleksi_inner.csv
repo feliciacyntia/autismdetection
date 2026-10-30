@@ -1,0 +1,24 @@
+modalitas,model,skor_seleksi,bagian
+citra_2_5d,full_v2 · effnet_b0,0.5768,inner_val
+citra_2_5d,full_v2 · resnet18,0.5329,inner_val
+citra_2_5d,full_v2 · scratch2d,0.5032,inner_val
+citra_3d,full_v2 · scratch3d,0.5871,inner_val
+fenotipik,E3 · fenotipik · TabM (5 seed),0.6251,inner_oof
+fenotipik,E1 · fenotipik · TabPFN v2,0.6233,inner_oof
+fenotipik,E1 · fenotipik · TabM (5 seed),0.6217,inner_oof
+fenotipik,full_v2 · tabm,0.621,inner_oof
+fenotipik,full_v2 · mlp_tab,0.6203,inner_oof
+fenotipik,full_v2 · logreg,0.6011,inner_oof
+fenotipik,E1 · fenotipik · CatBoost,0.6002,inner_oof
+fenotipik,E1 · fenotipik · LogReg (C dari inner CV),0.5984,inner_oof
+fenotipik,E3 · fenotipik · CatBoost,0.5981,inner_oof
+fenotipik,E3 · fenotipik · LogReg,0.598,inner_oof
+roi,E3 · ROI · LogReg,0.6255,inner_oof
+roi,E3 · ROI · TabM (5 seed),0.6202,inner_oof
+roi,E1 · ROI · TabM (5 seed),0.6193,inner_oof
+roi,E1 · ROI · LogReg (C dari inner CV),0.6101,inner_oof
+roi,E1 · ROI · TabPFN v2,0.6094,inner_oof
+roi,full_v2 · roi_tabm_cb,0.6056,inner_oof
+roi,E1 · ROI · CatBoost,0.5965,inner_oof
+roi,E3 · ROI · CatBoost,0.5961,inner_oof
+roi,full_v2 · roi_logreg_cb,0.5856,inner_oof

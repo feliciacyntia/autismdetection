@@ -1,0 +1,38 @@
+{
+ "seleksi": {
+  "fenotipik": {
+   "model": "v3:e3_pheno_tabm",
+   "skor": 0.6250945662377823,
+   "bagian": "inner_oof",
+   "masuk": true
+  },
+  "roi": {
+   "model": "v3:e3_roi_logreg",
+   "skor": 0.6254531586503949,
+   "bagian": "inner_oof",
+   "masuk": true
+  },
+  "citra_2_5d": {
+   "model": "full:effnet_b0",
+   "skor": 0.5768212431237468,
+   "bagian": "inner_val",
+   "masuk": true
+  },
+  "citra_3d": {
+   "model": "full:scratch3d",
+   "skor": 0.5871249121724677,
+   "bagian": "inner_val",
+   "masuk": true
+  }
+ },
+ "ENS_utama": [
+  "v3:e3_pheno_tabm",
+  "v3:e3_roi_logreg",
+  "full:effnet_b0",
+  "full:scratch3d"
+ ],
+ "ENS_tabel": [
+  "v3:e3_pheno_tabm",
+  "v3:e3_roi_logreg"
+ ]
+}
