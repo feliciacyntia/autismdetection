@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 155,
+  "balanced_accuracy": 0.564196065128901,
+  "f1_macro": 0.5267978290366351,
+  "auc": 0.6344979647218453,
+  "sensitivity": 0.7761194029850746,
+  "specificity": 0.3522727272727273
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "NYU",
+  "seed": 48,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 155
+ }
+}

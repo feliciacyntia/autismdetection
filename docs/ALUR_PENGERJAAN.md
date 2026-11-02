@@ -2,7 +2,7 @@
 
 Dokumen ini merangkum seluruh pengerjaan dari data mentah sampai evaluasi akhir: apa yang dilakukan di tiap tahap,
 keputusan yang diambil (dan alasannya), output yang dihasilkan, serta di mana file-nya disimpan.
-Terakhir diperbarui: 30-10-2026.
+Terakhir diperbarui: 02-11-2026.
 
 ---
 
@@ -16,6 +16,7 @@ Terakhir diperbarui: 30-10-2026.
 | **Model final** | ensemble rata-rata probabilitas: TabM fenotipik + LogReg ROI + EfficientNet-B0 2.5D + CNN 3D (dipilih dari skor inner validation) |
 | **Hasil CV dev (853)** | accuracy **0,660** [0,628–0,691], AUC **0,692** [0,656–0,727] |
 | **Hasil TEST (149)** | accuracy **0,597** [0,517–0,678], BA 0,592, AUC **0,657** [0,566–0,745] (threshold 0,5); sensitivitas 0,522 / spesifisitas 0,662 |
+| **Eksperimen lanjutan (CV dev)** | morfometri FreeSurfer: sendiri AUC 0,608; ditambahkan ke ensemble AUC 0,697 / accuracy 0,652 (tidak berbeda dari model final, p DeLong 0,61) → **model final tidak berubah** |
 | **Pesan utama** | sinyal ASD di T1w + fenotipik lemah tapi nyata (±60–66 % accuracy dengan validasi bersih multi-site); efek site jauh lebih besar dari efek diagnosis; menggabungkan modalitas lebih membantu daripada mengganti/men-tuning model |
 
 ---
@@ -35,6 +36,7 @@ flowchart TD
     H --> I[v3 model tabel + Optuna + ensemble + LOSO]
     I --> J[Config final dikunci]
     J --> K[Evaluasi SEKALI di 149 test held-out]
+    K --> L[v4 morfometri FreeSurfer<br/>CV dev saja, tidak menggantikan hasil test]
 ```
 
 Prinsip yang dijaga di semua tahap: **(1)** semua yang dipelajari (imputasi, scaling, ComBat, PCA, seleksi, tuning) di-fit
@@ -176,6 +178,33 @@ Confusion matrix model final (0,5): TN 53, FP 27, FN 33, TP 36.
 - **Output**: `results/final/` — `ringkasan_final.md`, `metrik_test.csv`, `cv_vs_test.csv`, `uji_final_vs_fusion.json`,
   `metrik_test_per_site.csv`, `heldout_predictions.csv`, `reproduksi_fold_cv.csv`, `test_roc_cm.png`, log run.
 
+### 2.9 v4 — morfometri FreeSurfer PCP (eksperimen lanjutan, CV dev saja)
+Dijalankan **setelah** evaluasi final, jadi hasilnya tidak menggantikan angka test; 149 subjek test tidak dipakai di sini.
+Config dikunci sebelum run: `results/v4/locked_config_v4.json` (sha256 `463af761…`); 288 unit (±3,7 jam), tidak ada yang gagal.
+- **Data**: `aseg.stats`, `lh/rh.aparc.stats` FreeSurfer 5.1 dari ABIDE PCP → 245 fitur (volume global & subkortikal; ketebalan, luas, volume GM 34 region Desikan per belahan).
+- **QC** (tanpa label diagnosis): 982 dari 1.002 subjek lolos (dev 835 dari 853). Gagal QC/tidak tersedia = fitur kosong, subjek tetap di kohort.
+  Uji kewajaran lulus: ketebalan menurun dengan usia (ρ = −0,64), ICV laki-laki > perempuan. Tiga subjek OHSU/USM memakai format versi lain tanpa ICV → gagal QC.
+- **Varian & model**: mentah / relatif ICV / relatif ICV + ComBat × LogReg, TabM, CatBoost, TabPFN + tuning Optuna (protokol sama dengan v3).
+- **Seleksi (skor inner)**: TabPFN pada relatif ICV + ComBat (AUC inner 0,605).
+
+| Komponen (CV dev, 853) | Accuracy [95 % CI] | AUC [95 % CI] |
+|---|---|---|
+| Morfometri (terpilih) | 0,571 [0,537–0,603] | 0,608 [0,569–0,643] |
+| ROI (terpilih v3) | 0,593 [0,560–0,625] | 0,635 [0,598–0,671] |
+| Fenotipik (terpilih v3) | 0,596 [0,562–0,628] | 0,627 [0,588–0,664] |
+| Fenotipik + morfometri | 0,628 [0,596–0,660] | 0,665 [0,628–0,700] |
+| Fenotipik + ROI | 0,657 [0,624–0,688] | 0,686 [0,650–0,723] |
+| Fenotipik + ROI + morfometri | 0,642 [0,611–0,674] | 0,693 [0,658–0,727] |
+| **Model final (ENS_utama v3)** | **0,660 [0,628–0,691]** | **0,692 [0,656–0,727]** |
+| ENS_v4 (model final + morfometri) | 0,652 [0,620–0,682] | 0,697 [0,661–0,732] |
+
+- **ENS_v4 vs model final**: AUC +0,006 (p DeLong 0,61), accuracy −0,008 (p McNemar 0,62) → **tidak berbeda; morfometri tidak menambah informasi yang berarti.** Model final tetap.
+- **LOSO (18 site)**: morfometri accuracy 0,544 / AUC 0,584 (5-fold pada subjek sama: 0,574 / 0,608). Penurunan AUC −0,024 lebih kecil dari ROI (−0,070: 0,638 → 0,568), walau nilai akhirnya hanya sedikit di atas ROI.
+- **Konfounder**: prediksi morfometri tidak berkorelasi dengan FIQ (ρ +0,00; model final −0,33) dan tidak berbeda antar-site (Kruskal p = 0,78; model final p = 0,012). Sinyalnya lemah, tetapi tidak bersumber dari IQ atau site.
+- **Dicatat**: model TabPFN mentah punya AUC fold test lebih tinggi (0,628), tetapi skor inner-nya lebih rendah sehingga tidak dipilih (test fold tidak dipakai untuk seleksi).
+- **E2 fusion DL (DAFT/FiLM/concat) tidak dijalankan**: keputusan pemilik TA 02-11-2026 sebelum ada hasil apa pun (peluang kecil karena CNN 3D sendiri AUC 0,567; biaya ±32 jam GPU). Rancangan & kode disimpan (`src/fusion3d.py`, config v4).
+- **Output**: `results/v4/report/` (`ringkasan_v4.md`, tabel M1–M6, `M_roc.png`), `data/freesurfer_pcp/` (`morfometri.csv`, QC, log unduhan), notebook 07.
+
 ---
 
 ## 3. Insight utama
@@ -191,9 +220,12 @@ Confusion matrix model final (0,5): TN 53, FP 27, FN 33, TP 36.
 7. Bug teknis (BatchNorm, non-determinisme registrasi/HD-BET) bisa mengubah kesimpulan — sanity check & uji reproducibility wajib.
 8. **Hasil test independen** (accuracy 0,597, AUC 0,657) mengonfirmasi sinyal nyata di atas acak, tetapi sedikit di bawah CV;
    ensemble 4 modalitas tidak lebih baik dari fusion fenotipik + ROI yang lebih sederhana di test.
+9. **Morfometri FreeSurfer tidak menaikkan performa** (ensemble AUC 0,697 vs 0,692, p = 0,61). Sinyalnya lemah tetapi tidak terkait FIQ/site, dan
+   penurunan AUC-nya ke site baru lebih kecil dari ROI berbasis intensitas.
 
 ## 4. Keterbatasan
-- Registrasi hanya afin (bukan non-linear) → fitur ROI berbasis intensitas, bukan volume/ketebalan.
+- Registrasi hanya afin (bukan non-linear) → fitur ROI berbasis intensitas, bukan volume/ketebalan. Morfometri FreeSurfer (v4) memakai pipeline PCP, bukan preprocessing 05c.
+- Morfometri hanya dievaluasi di CV dev; fusion DL (E2) tidak diuji.
 - Stacking cabang citra dilatih pada inner holdout (±136 subjek/fold), bukan OOF inner CV.
 - Konfounder FIQ dan site belum dihilangkan; label test publik (fenotipik ABIDE) sehingga pengaman test berupa prosedur.
 - n test 149 → CI lebar (±0,08); uji di test bersifat deskriptif.
@@ -203,11 +235,12 @@ Confusion matrix model final (0,5): TN 53, FP 27, FN 33, TP 36.
 
 | Isi | Lokasi |
 |---|---|
-| Kode | `src/` (preprocessing `smri_preprocessing.py`/`run_05c.py`; modeling `run_pilot_v2.py`, `run_v3_tabular.py`; analisis `analysis_full_v2.py`, `analysis_v3.py`; evaluasi akhir `final_eval.py`) |
+| Kode | `src/` (preprocessing `smri_preprocessing.py`/`run_05c.py`; modeling `run_pilot_v2.py`, `run_v3_tabular.py`; analisis `analysis_full_v2.py`, `analysis_v3.py`, `analysis_v4.py`; evaluasi akhir `final_eval.py`; morfometri `fetch_freesurfer.py`, `parse_freesurfer.py`, `run_v4.py`) |
 | Notebook & laporan | `notebook/01–08` (+ HTML 06/07/08) — 06 = laporan teknis (pilot, Bagian B data penuh, Bagian C v3, lampiran audit), 07 = ringkasan untuk dosen |
 | Data tabel | `dataset/cleaned_dataset/`, `data/folds.csv`, `data/pheno_clean.csv`, `data/smri_preproc/` (QC, status, log, audit) |
 | Citra hasil preprocessing | HF dataset `feliciacyntia/abide1-smri-prepro` (lokal: `C:\ta_local\data\smri_preproc`) |
-| Hasil | `results/pilot200*`, `results/full_v2/`, `results/v3/`, `results/final/` (config terkunci, prediksi, tabel, gambar) |
+| Hasil | `results/pilot200*`, `results/full_v2/`, `results/v3/`, `results/final/` (config terkunci, prediksi, tabel, gambar), `results/v4/` (morfometri) |
+| Morfometri | `data/freesurfer_pcp/morfometri.csv`, `qc_morfometri.csv`, `sanity_morfometri.json` (statistik per subjek: unduh ulang dengan `src/fetch_freesurfer.py`) |
 | Checkpoint model | HF model `feliciacyntia/abide1-asd-results` (upload oleh pemilik TA) |
 
 ## 6. Reproduksi

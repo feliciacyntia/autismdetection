@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 32,
+  "balanced_accuracy": 0.59375,
+  "f1_macro": 0.5835835835835836,
+  "auc": 0.6796875,
+  "sensitivity": 0.4375,
+  "specificity": 0.75
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "CALTECH",
+  "seed": 42,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 32
+ }
+}

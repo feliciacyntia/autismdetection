@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 48,
+  "balanced_accuracy": 0.5460869565217391,
+  "f1_macro": 0.5384615384615384,
+  "auc": 0.6556521739130435,
+  "sensitivity": 0.44,
+  "specificity": 0.6521739130434783
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "PITT",
+  "seed": 51,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 48
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 26,
+  "balanced_accuracy": 0.5,
+  "f1_macro": 0.390990990990991,
+  "auc": 0.42603550295857984,
+  "sensitivity": 0.07692307692307693,
+  "specificity": 0.9230769230769231
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "SBL",
+  "seed": 52,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 26
+ }
+}

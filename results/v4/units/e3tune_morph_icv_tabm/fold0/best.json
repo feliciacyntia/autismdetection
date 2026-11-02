@@ -1,0 +1,14 @@
+{
+ "best_params": {
+  "d_block": 256,
+  "n_blocks": 1,
+  "dropout": 0.048614856897060355,
+  "lr": 0.001437149511522101,
+  "wd": 5.564065319041345e-05
+ },
+ "best_inner_auc": 0.5643114449507822,
+ "n_trials": 30,
+ "fold": 0,
+ "feat": "morph_icv",
+ "model": "tabm"
+}

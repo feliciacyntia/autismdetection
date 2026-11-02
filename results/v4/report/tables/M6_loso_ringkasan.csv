@@ -1,0 +1,2 @@
+model LOSO,padanan 5-fold,n subjek,n site,Accuracy LOSO [95% CI],BA LOSO [95% CI],AUC LOSO [95% CI],Accuracy 5-fold (subjek sama),BA 5-fold (subjek sama),AUC 5-fold (subjek sama)
+loso_morph_cb_tabpfn,E1 · morfometri relatif ICV + ComBat · TabPFN v2,812,18,"0.544 [0.510, 0.580]","0.545 [0.510, 0.581]","0.584 [0.544, 0.624]",0.574,0.57,0.608

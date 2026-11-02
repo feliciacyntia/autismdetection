@@ -1,0 +1,32 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.5210830479452055,
+  "f1_macro": 0.520540569644107,
+  "auc": 0.5646404109589042,
+  "sensitivity": 0.453125,
+  "specificity": 0.589041095890411
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.594224924012158,
+  "f1_macro": 0.5937682905835773,
+  "auc": 0.5827576678640508,
+  "sensitivity": 0.5714285714285714,
+  "specificity": 0.6170212765957447
+ },
+ "info": {
+  "feat": "morph_raw",
+  "model": "catboost",
+  "seed": 43,
+  "hp": {
+   "iterations": 365,
+   "depth": 3,
+   "learning_rate": 0.014037517347520697,
+   "l2_leaf_reg": 1.2914773721079575,
+   "early_stopping_rounds": 50
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

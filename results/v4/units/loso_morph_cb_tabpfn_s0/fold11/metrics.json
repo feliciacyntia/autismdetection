@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 23,
+  "balanced_accuracy": 0.26515151515151514,
+  "f1_macro": 0.25523809523809526,
+  "auc": 0.3068181818181818,
+  "sensitivity": 0.16666666666666666,
+  "specificity": 0.36363636363636365
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "STANFORD",
+  "seed": 53,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 23
+ }
+}

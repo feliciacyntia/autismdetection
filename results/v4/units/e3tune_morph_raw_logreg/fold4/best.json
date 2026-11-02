@@ -1,0 +1,10 @@
+{
+ "best_params": {
+  "C": 0.10461050690303104
+ },
+ "best_inner_auc": 0.6222191546661758,
+ "n_trials": 30,
+ "fold": 4,
+ "feat": "morph_raw",
+ "model": "logreg"
+}

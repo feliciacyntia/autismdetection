@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 55,
+  "balanced_accuracy": 0.46169354838709675,
+  "f1_macro": 0.4613306315433975,
+  "auc": 0.5,
+  "sensitivity": 0.5483870967741935,
+  "specificity": 0.375
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "UCLA_1",
+  "seed": 55,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 55
+ }
+}

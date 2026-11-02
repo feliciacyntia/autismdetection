@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 25,
+  "balanced_accuracy": 0.5480769230769231,
+  "f1_macro": 0.5098039215686274,
+  "auc": 0.6217948717948718,
+  "sensitivity": 0.25,
+  "specificity": 0.8461538461538461
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "OLIN",
+  "seed": 50,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 25
+ }
+}

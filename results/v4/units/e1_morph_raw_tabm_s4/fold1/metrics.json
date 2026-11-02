@@ -1,0 +1,38 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.5572559931506849,
+  "f1_macro": 0.5567299396031061,
+  "auc": 0.5800513698630138,
+  "sensitivity": 0.484375,
+  "specificity": 0.6301369863013698
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.5073224647692732,
+  "f1_macro": 0.495679012345679,
+  "auc": 0.5540204476374688,
+  "sensitivity": 0.6103896103896104,
+  "specificity": 0.40425531914893614
+ },
+ "info": {
+  "feat": "morph_raw",
+  "model": "tabm",
+  "seed": 4043,
+  "hp": {
+   "kind": "pheno",
+   "group": "arsitektur modern",
+   "d_block": 128,
+   "n_blocks": 2,
+   "k": 32,
+   "dropout": 0.1,
+   "lr": 0.001,
+   "wd": 0.0001,
+   "epochs": 400,
+   "patience": 40,
+   "batch": 32
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

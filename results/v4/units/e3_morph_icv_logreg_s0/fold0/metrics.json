@@ -1,0 +1,28 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.5376712328767124,
+  "f1_macro": 0.5376827896512936,
+  "auc": 0.569777397260274,
+  "sensitivity": 0.5,
+  "specificity": 0.5753424657534246
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.5162337662337662,
+  "f1_macro": 0.5140215716486902,
+  "auc": 0.5618955512572533,
+  "sensitivity": 0.5324675324675324,
+  "specificity": 0.5
+ },
+ "info": {
+  "feat": "morph_icv",
+  "model": "logreg",
+  "seed": 42,
+  "hp": {
+   "C": 0.2251905440757262
+  },
+  "C": [],
+  "combat_unseen": 0
+ }
+}

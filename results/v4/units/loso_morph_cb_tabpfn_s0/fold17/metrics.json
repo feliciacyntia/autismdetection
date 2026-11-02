@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 45,
+  "balanced_accuracy": 0.6205533596837944,
+  "f1_macro": 0.6192135390741662,
+  "auc": 0.7430830039525691,
+  "sensitivity": 0.5454545454545454,
+  "specificity": 0.6956521739130435
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "YALE",
+  "seed": 59,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 45
+ }
+}

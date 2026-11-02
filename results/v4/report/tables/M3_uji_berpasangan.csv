@@ -1,0 +1,51 @@
+model,pembanding,AUC model,AUC pembanding,ΔAUC,p DeLong,Acc model,Acc pembanding,ΔAcc,hanya pembanding benar,hanya model benar,p McNemar,p DeLong (Holm),p McNemar (Holm),"signifikan (Holm < 0,05)"
+E1 · morfometri mentah · LogReg (C dari inner CV),ENS_utama v3 (model final),0.583,0.692,-0.108,0.0,0.555,0.66,-0.106,218,128,0.0,0.0001,0.0001,ya
+E1 · morfometri mentah · LogReg (C dari inner CV),full_v2 · fusion PR (F1_stack_logreg),0.583,0.664,-0.081,0.0012,0.555,0.628,-0.074,212,149,0.0011,0.0223,0.0206,ya
+E1 · morfometri mentah · TabM (5 seed),ENS_utama v3 (model final),0.599,0.692,-0.093,0.0,0.558,0.66,-0.102,203,116,0.0,0.0004,0.0001,ya
+E1 · morfometri mentah · TabM (5 seed),full_v2 · fusion PR (F1_stack_logreg),0.599,0.664,-0.066,0.0037,0.558,0.628,-0.07,203,143,0.0015,0.0522,0.0266,ya
+E1 · morfometri mentah · CatBoost,ENS_utama v3 (model final),0.578,0.692,-0.113,0.0,0.559,0.66,-0.101,210,124,0.0,0.0,0.0001,ya
+E1 · morfometri mentah · CatBoost,full_v2 · fusion PR (F1_stack_logreg),0.578,0.664,-0.086,0.0004,0.559,0.628,-0.069,212,153,0.0024,0.0086,0.04,ya
+E1 · morfometri mentah · TabPFN v2,ENS_utama v3 (model final),0.628,0.692,-0.064,0.005,0.586,0.66,-0.074,203,140,0.0008,0.0648,0.0182,ya
+E1 · morfometri mentah · TabPFN v2,full_v2 · fusion PR (F1_stack_logreg),0.628,0.664,-0.036,0.1356,0.586,0.628,-0.042,189,153,0.0583,0.9494,0.5243,tidak
+E1 · morfometri relatif ICV · LogReg (C dari inner CV),ENS_utama v3 (model final),0.568,0.692,-0.124,0.0,0.543,0.66,-0.117,226,126,0.0,0.0,0.0,ya
+E1 · morfometri relatif ICV · LogReg (C dari inner CV),full_v2 · fusion PR (F1_stack_logreg),0.568,0.664,-0.096,0.0002,0.543,0.628,-0.086,226,153,0.0002,0.0049,0.0056,ya
+E1 · morfometri relatif ICV · TabM (5 seed),ENS_utama v3 (model final),0.576,0.692,-0.116,0.0,0.538,0.66,-0.122,213,109,0.0,0.0,0.0,ya
+E1 · morfometri relatif ICV · TabM (5 seed),full_v2 · fusion PR (F1_stack_logreg),0.576,0.664,-0.088,0.0003,0.538,0.628,-0.09,223,146,0.0001,0.007,0.0022,ya
+E1 · morfometri relatif ICV · CatBoost,ENS_utama v3 (model final),0.525,0.692,-0.166,0.0,0.522,0.66,-0.138,235,117,0.0,0.0,0.0,ya
+E1 · morfometri relatif ICV · CatBoost,full_v2 · fusion PR (F1_stack_logreg),0.525,0.664,-0.139,0.0,0.522,0.628,-0.107,236,145,0.0,0.0,0.0001,ya
+E1 · morfometri relatif ICV · TabPFN v2,ENS_utama v3 (model final),0.604,0.692,-0.087,0.0002,0.58,0.66,-0.08,212,144,0.0004,0.006,0.0096,ya
+E1 · morfometri relatif ICV · TabPFN v2,full_v2 · fusion PR (F1_stack_logreg),0.604,0.664,-0.06,0.019,0.58,0.628,-0.048,206,165,0.0377,0.2093,0.3769,tidak
+E1 · morfometri relatif ICV + ComBat · LogReg (C dari inner CV),ENS_utama v3 (model final),0.584,0.692,-0.107,0.0,0.563,0.66,-0.097,214,131,0.0,0.0002,0.0003,ya
+E1 · morfometri relatif ICV + ComBat · LogReg (C dari inner CV),full_v2 · fusion PR (F1_stack_logreg),0.584,0.664,-0.08,0.0015,0.563,0.628,-0.066,214,158,0.0043,0.025,0.06,ya
+E1 · morfometri relatif ICV + ComBat · TabM (5 seed),ENS_utama v3 (model final),0.589,0.692,-0.102,0.0,0.562,0.66,-0.098,196,112,0.0,0.0001,0.0001,ya
+E1 · morfometri relatif ICV + ComBat · TabM (5 seed),full_v2 · fusion PR (F1_stack_logreg),0.589,0.664,-0.075,0.0012,0.562,0.628,-0.067,200,143,0.0024,0.0223,0.04,ya
+E1 · morfometri relatif ICV + ComBat · CatBoost,ENS_utama v3 (model final),0.576,0.692,-0.116,0.0,0.571,0.66,-0.089,204,128,0.0,0.0,0.0011,ya
+E1 · morfometri relatif ICV + ComBat · CatBoost,full_v2 · fusion PR (F1_stack_logreg),0.576,0.664,-0.088,0.0003,0.571,0.628,-0.057,203,154,0.011,0.0073,0.1207,ya
+E1 · morfometri relatif ICV + ComBat · TabPFN v2,ENS_utama v3 (model final),0.608,0.692,-0.084,0.0003,0.571,0.66,-0.089,205,129,0.0,0.0073,0.0012,ya
+E1 · morfometri relatif ICV + ComBat · TabPFN v2,full_v2 · fusion PR (F1_stack_logreg),0.608,0.664,-0.057,0.0215,0.571,0.628,-0.057,193,144,0.0088,0.2146,0.106,tidak
+E3 · morfometri mentah · LogReg,ENS_utama v3 (model final),0.585,0.692,-0.107,0.0,0.553,0.66,-0.107,219,128,0.0,0.0001,0.0,ya
+E3 · morfometri mentah · LogReg,full_v2 · fusion PR (F1_stack_logreg),0.585,0.664,-0.079,0.0015,0.553,0.628,-0.075,214,150,0.0009,0.025,0.0196,ya
+E3 · morfometri mentah · TabM (5 seed),ENS_utama v3 (model final),0.61,0.692,-0.082,0.0001,0.569,0.66,-0.091,190,112,0.0,0.0033,0.0003,ya
+E3 · morfometri mentah · TabM (5 seed),full_v2 · fusion PR (F1_stack_logreg),0.61,0.664,-0.055,0.0157,0.569,0.628,-0.06,194,143,0.0064,0.1886,0.0828,tidak
+E3 · morfometri mentah · CatBoost,ENS_utama v3 (model final),0.575,0.692,-0.116,0.0,0.551,0.66,-0.109,220,127,0.0,0.0,0.0,ya
+E3 · morfometri mentah · CatBoost,full_v2 · fusion PR (F1_stack_logreg),0.575,0.664,-0.089,0.0002,0.551,0.628,-0.077,213,147,0.0006,0.0055,0.0143,ya
+E3 · morfometri relatif ICV · LogReg,ENS_utama v3 (model final),0.57,0.692,-0.121,0.0,0.547,0.66,-0.113,224,128,0.0,0.0,0.0,ya
+E3 · morfometri relatif ICV · LogReg,full_v2 · fusion PR (F1_stack_logreg),0.57,0.664,-0.094,0.0002,0.547,0.628,-0.081,224,155,0.0005,0.0063,0.0116,ya
+E3 · morfometri relatif ICV · TabM (5 seed),ENS_utama v3 (model final),0.585,0.692,-0.107,0.0,0.553,0.66,-0.107,201,110,0.0,0.0,0.0,ya
+E3 · morfometri relatif ICV · TabM (5 seed),full_v2 · fusion PR (F1_stack_logreg),0.585,0.664,-0.079,0.001,0.553,0.628,-0.075,210,146,0.0008,0.019,0.0182,ya
+E3 · morfometri relatif ICV · CatBoost,ENS_utama v3 (model final),0.532,0.692,-0.16,0.0,0.543,0.66,-0.117,208,108,0.0,0.0,0.0,ya
+E3 · morfometri relatif ICV · CatBoost,full_v2 · fusion PR (F1_stack_logreg),0.532,0.664,-0.132,0.0,0.543,0.628,-0.086,212,139,0.0001,0.0,0.0032,ya
+E3 · morfometri relatif ICV + ComBat · LogReg,ENS_utama v3 (model final),0.58,0.692,-0.112,0.0,0.553,0.66,-0.107,220,129,0.0,0.0001,0.0001,ya
+E3 · morfometri relatif ICV + ComBat · LogReg,full_v2 · fusion PR (F1_stack_logreg),0.58,0.664,-0.084,0.0008,0.553,0.628,-0.075,217,153,0.001,0.0171,0.0206,ya
+E3 · morfometri relatif ICV + ComBat · TabM (5 seed),ENS_utama v3 (model final),0.594,0.692,-0.098,0.0,0.563,0.66,-0.097,203,120,0.0,0.0002,0.0002,ya
+E3 · morfometri relatif ICV + ComBat · TabM (5 seed),full_v2 · fusion PR (F1_stack_logreg),0.594,0.664,-0.07,0.0028,0.563,0.628,-0.066,204,148,0.0033,0.042,0.0497,ya
+E3 · morfometri relatif ICV + ComBat · CatBoost,ENS_utama v3 (model final),0.579,0.692,-0.113,0.0,0.54,0.66,-0.12,224,122,0.0,0.0,0.0,ya
+E3 · morfometri relatif ICV + ComBat · CatBoost,full_v2 · fusion PR (F1_stack_logreg),0.579,0.664,-0.085,0.0005,0.54,0.628,-0.088,220,145,0.0001,0.0107,0.003,ya
+ENS_v4 (ENS_utama v3 + morfometri),ENS_utama v3 (model final),0.697,0.692,0.006,0.6075,0.652,0.66,-0.008,78,71,0.6232,1.0,1.0,tidak
+ENS_v4 (ENS_utama v3 + morfometri),full_v2 · fusion PR (F1_stack_logreg),0.697,0.664,0.033,0.0382,0.652,0.628,0.023,96,116,0.1918,0.3438,1.0,tidak
+fenotipik + morfometri,ENS_utama v3 (model final),0.665,0.692,-0.027,0.1485,0.628,0.66,-0.032,140,113,0.1019,0.9494,0.8155,tidak
+fenotipik + morfometri,full_v2 · fusion PR (F1_stack_logreg),0.665,0.664,0.001,0.9761,0.628,0.628,0.0,120,120,1.0,1.0,1.0,tidak
+fenotipik + ROI + morfometri,ENS_utama v3 (model final),0.693,0.692,0.001,0.9291,0.642,0.66,-0.018,108,93,0.3234,1.0,1.0,tidak
+fenotipik + ROI + morfometri,full_v2 · fusion PR (F1_stack_logreg),0.693,0.664,0.029,0.0655,0.642,0.628,0.014,98,110,0.4457,0.524,1.0,tidak
+E1 · morfometri relatif ICV + ComBat · TabPFN v2,E3 · ROI · LogReg,0.608,0.635,-0.027,0.2511,0.571,0.593,-0.022,190,171,0.3435,1.0,1.0,tidak
+E1 · morfometri relatif ICV + ComBat · TabPFN v2,E3 · fenotipik · TabM (5 seed),0.608,0.627,-0.019,0.46,0.571,0.596,-0.025,203,182,0.3081,1.0,1.0,tidak

@@ -1,0 +1,22 @@
+{
+ "n_total": 1002,
+ "n_lolos": 982,
+ "n_dev": 853,
+ "n_dev_lolos": 835,
+ "icv_median_dev": 1309945.603206,
+ "icv_mad_dev": 269294.5109002679,
+ "r_spearman_usia_vs_ketebalan_dev": -0.6374877647670958,
+ "icv_median_laki_dev": 1348391.114462,
+ "icv_median_perempuan_dev": 1198566.8732805,
+ "n_fitur": 245,
+ "gagal_per_alasan": {
+  "icv<1.2xgm": 12,
+  "versi_aseg_beda_tanpa_ICV": 3,
+  "region_hilang_rh": 2,
+  "region_hilang_lh": 1,
+  "file_tidak_tersedia": 1,
+  "icv_z_robust>4; icv<1.2xgm": 1
+ },
+ "uji_usia_ketebalan_lulus": true,
+ "uji_icv_lk_gt_pr_lulus": true
+}

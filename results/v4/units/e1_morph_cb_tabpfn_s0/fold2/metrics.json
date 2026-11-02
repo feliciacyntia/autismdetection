@@ -1,0 +1,31 @@
+{
+ "val": {
+  "n": 137,
+  "balanced_accuracy": 0.592985842985843,
+  "f1_macro": 0.5929887106357694,
+  "auc": 0.6136851136851137,
+  "sensitivity": 0.5238095238095238,
+  "specificity": 0.6621621621621622
+ },
+ "test": {
+  "n": 171,
+  "balanced_accuracy": 0.5172650041107153,
+  "f1_macro": 0.515681127383255,
+  "auc": 0.5887229377911757,
+  "sensitivity": 0.43902439024390244,
+  "specificity": 0.5955056179775281
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "seed": 44,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 0,
+  "tabpfn": {
+   "tabpfn": "2.2.1",
+   "torch": "2.5.1+cu121",
+   "device": "cuda"
+  }
+ }
+}

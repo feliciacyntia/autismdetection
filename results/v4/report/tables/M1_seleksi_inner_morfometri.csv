@@ -1,0 +1,22 @@
+model,skor_seleksi
+E1 · morfometri relatif ICV + ComBat · TabPFN v2,0.6047
+E1 · morfometri mentah · TabPFN v2,0.5994
+E1 · morfometri relatif ICV + ComBat · LogReg (C dari inner CV),0.5985
+E3 · morfometri relatif ICV + ComBat · LogReg,0.5975
+E3 · morfometri mentah · LogReg,0.5948
+E3 · morfometri relatif ICV + ComBat · TabM (5 seed),0.5948
+E1 · morfometri mentah · TabM (5 seed),0.5929
+E3 · morfometri mentah · TabM (5 seed),0.5925
+E1 · morfometri relatif ICV + ComBat · TabM (5 seed),0.5916
+E1 · morfometri relatif ICV · TabPFN v2,0.5866
+E3 · morfometri relatif ICV · LogReg,0.5844
+E1 · morfometri mentah · LogReg (C dari inner CV),0.5714
+E1 · morfometri relatif ICV + ComBat · CatBoost,0.5706
+E1 · morfometri relatif ICV · LogReg (C dari inner CV),0.5671
+E3 · morfometri mentah · CatBoost,0.563
+E1 · morfometri relatif ICV · TabM (5 seed),0.5586
+E3 · morfometri relatif ICV · TabM (5 seed),0.5581
+E1 · morfometri mentah · CatBoost,0.5562
+E3 · morfometri relatif ICV + ComBat · CatBoost,0.5553
+E3 · morfometri relatif ICV · CatBoost,0.5243
+E1 · morfometri relatif ICV · CatBoost,0.5218

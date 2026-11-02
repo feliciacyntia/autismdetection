@@ -4,7 +4,7 @@ Tugas akhir: klasifikasi Autism Spectrum Disorder (ASD) vs Typically Developing 
 struktural T1w dan data fenotipik. Repo ini berisi kode, notebook, protokol split, dokumentasi QC, dan seluruh hasil
 eksperimen. **Data citra hasil preprocessing ada di Hugging Face** (terlalu besar untuk GitHub), lihat bagian Data.
 
-## Status (30-10-2026)
+## Status (02-11-2026)
 Alur lengkap, keputusan, dan semua hasil: **[docs/ALUR_PENGERJAAN.md](docs/ALUR_PENGERJAAN.md)**.
 
 | Tahap | Status |
@@ -15,8 +15,9 @@ Alur lengkap, keputusan, dan semua hasil: **[docs/ALUR_PENGERJAAN.md](docs/ALUR_
 | Pilot 200 subjek (uji coba) + bugfix BN + threshold Youden | selesai (notebook 06–08) |
 | **Run data penuh full_v2** (853 dev, config terkunci) | selesai |
 | v3 tabel: LogReg/TabM/CatBoost/TabPFN, tuning Optuna, LOSO | selesai (288 unit) + analisis (`results/v3/report/`) |
-| E2 fusion DL (DAFT/FiLM), morfometri FreeSurfer | ditunda |
 | **Evaluasi akhir 149 subjek test held-out** (sekali, config final terkunci) | **selesai** — `results/final/` |
+| v4 morfometri FreeSurfer (CV dev saja) | selesai (288 unit); tidak menaikkan performa, model final tetap — `results/v4/report/` |
+| E2 fusion DL (DAFT/FiLM) | tidak dijalankan (keputusan 02-11-2026, sebelum ada hasil) |
 | rs-fMRI (time series) | rencana berikutnya; test sudah dipakai → dilaporkan post-hoc |
 
 ### Hasil utama full_v2 (853 subjek dev, 5-fold CV, threshold 0,5, pooled + 95 % CI bootstrap)
@@ -43,6 +44,9 @@ dari skor inner validation, v3).
 | Fusion full_v2 | 0,628 | 0,664 | 0,604 [0,523–0,685] | 0,644 [0,549–0,731] |
 
 Di test, model final tidak berbeda dari fusion full_v2 (DeLong p = 0,48; McNemar p = 1,0). Rincian: `results/final/ringkasan_final.md`.
+
+Eksperimen lanjutan morfometri FreeSurfer (CV dev): ditambahkan ke model final, AUC 0,697 vs 0,692 (p DeLong = 0,61) dan accuracy 0,652 vs 0,660
+(p McNemar = 0,62) → tidak berbeda. Rincian: `results/v4/report/ringkasan_v4.md`.
 
 
 ## Data

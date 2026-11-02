@@ -41,3 +41,6 @@ data/smri_preproc/.cache/
 pretrained/
 results/**/*.npy
 .cache/
+
+# statistik FreeSurfer per subjek: unduh ulang dengan src/fetch_freesurfer.py (morfometri.csv & QC tetap ikut)
+data/freesurfer_pcp/[0-9]*/

@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 30,
+  "balanced_accuracy": 0.755656108597285,
+  "f1_macro": 0.7321428571428572,
+  "auc": 0.8506787330316743,
+  "sensitivity": 0.9230769230769231,
+  "specificity": 0.5882352941176471
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "LEUVEN_2",
+  "seed": 46,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 30
+ }
+}

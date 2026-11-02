@@ -1,0 +1,27 @@
+{
+ "val": {
+  "n": 0,
+  "balanced_accuracy": NaN,
+  "f1_macro": NaN,
+  "auc": NaN,
+  "sensitivity": NaN,
+  "specificity": NaN
+ },
+ "test": {
+  "n": 39,
+  "balanced_accuracy": 0.42063492063492064,
+  "f1_macro": 0.4041666666666667,
+  "auc": 0.42063492063492064,
+  "sensitivity": 0.2222222222222222,
+  "specificity": 0.6190476190476191
+ },
+ "info": {
+  "feat": "morph_cb",
+  "model": "tabpfn",
+  "site": "TRINITY",
+  "seed": 54,
+  "hp": {},
+  "C": [],
+  "combat_unseen": 39
+ }
+}
